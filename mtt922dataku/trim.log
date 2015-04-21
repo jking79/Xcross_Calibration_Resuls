@@ -1,0 +1,212 @@
+[11:09:22.706]     INFO: *** Welcome to pxar ***
+[11:09:22.706]     INFO: *** Today: 2015/04/21
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C0.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C1.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C2.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C3.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C4.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C5.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C6.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C7.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C8.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C9.dat
+[11:09:22.706]     INFO:       reading data/crosscalibrate/dacParameters_C10.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/dacParameters_C11.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/dacParameters_C12.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/dacParameters_C13.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/dacParameters_C14.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/dacParameters_C15.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/tbmParameters_C0a.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/tbmParameters_C0b.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/defaultMaskFile.dat
+[11:09:22.707]     INFO:       reading data/crosscalibrate/trimParameters_C0.dat
+[11:09:22.714]     INFO:       reading data/crosscalibrate/trimParameters_C1.dat
+[11:09:22.720]     INFO:       reading data/crosscalibrate/trimParameters_C2.dat
+[11:09:22.727]     INFO:       reading data/crosscalibrate/trimParameters_C3.dat
+[11:09:22.733]     INFO:       reading data/crosscalibrate/trimParameters_C4.dat
+[11:09:22.740]     INFO:       reading data/crosscalibrate/trimParameters_C5.dat
+[11:09:22.747]     INFO:       reading data/crosscalibrate/trimParameters_C6.dat
+[11:09:22.753]     INFO:       reading data/crosscalibrate/trimParameters_C7.dat
+[11:09:22.760]     INFO:       reading data/crosscalibrate/trimParameters_C8.dat
+[11:09:22.766]     INFO:       reading data/crosscalibrate/trimParameters_C9.dat
+[11:09:22.773]     INFO:       reading data/crosscalibrate/trimParameters_C10.dat
+[11:09:22.779]     INFO:       reading data/crosscalibrate/trimParameters_C11.dat
+[11:09:22.786]     INFO:       reading data/crosscalibrate/trimParameters_C12.dat
+[11:09:22.792]     INFO:       reading data/crosscalibrate/trimParameters_C13.dat
+[11:09:22.799]     INFO:       reading data/crosscalibrate/trimParameters_C14.dat
+[11:09:22.805]     INFO:       reading data/crosscalibrate/trimParameters_C15.dat
+[11:09:22.812]     INFO:       reading data/crosscalibrate/tbParameters.dat
+[11:09:22.812]     INFO:         clk: 4
+[11:09:22.812]     INFO:         ctr: 4
+[11:09:22.812]     INFO:         sda: 19
+[11:09:22.812]     INFO:         tin: 9
+[11:09:22.812]     INFO:         level: 15
+[11:09:22.812]     INFO:         triggerdelay: 0
+[11:09:22.812]    QUIET: Instanciating API for pxar crosscalibrate
+[11:09:22.812]     INFO: Log level: INFO
+[11:09:22.826]    QUIET: Connection to board DTB_WRPRHI opened.
+[11:09:22.829]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[11:09:22.832]     INFO: RPC call hashes of host and DTB match: 413001178
+[11:09:24.443]     INFO: DUT info: 
+[11:09:24.443]     INFO: The DUT currently contains the following objects:
+[11:09:24.443]     INFO:  2 TBM Cores (2 ON)
+[11:09:24.443]     INFO: 	TBM Core alpha (0): 7 registers set
+[11:09:24.443]     INFO: 	TBM Core beta  (1): 7 registers set
+[11:09:24.443]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[11:09:24.443]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.443]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.444]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.444]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.444]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.444]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.444]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:24.444]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:09:25.054]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH_C0.dat
+[11:09:25.054]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[11:09:25.113]     INFO:       reading data/crosscalibrate/readbackCal_C0.dat
+[11:09:25.113]     INFO:       reading data/crosscalibrate/readbackCal_C1.dat
+[11:09:25.113]     INFO:       reading data/crosscalibrate/readbackCal_C2.dat
+[11:09:25.113]     INFO:       reading data/crosscalibrate/readbackCal_C3.dat
+[11:09:25.113]     INFO:       reading data/crosscalibrate/readbackCal_C4.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C5.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C6.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C7.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C8.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C9.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C10.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C11.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C12.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C13.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C14.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/readbackCal_C15.dat
+[11:09:25.114]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH_C0.dat
+[11:09:25.114]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[11:09:25.140]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH_C0.dat
+[11:09:25.140]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[11:09:31.558]     INFO: ######################################################################
+[11:09:31.558]     INFO: PixTestTrim::doTest()
+[11:09:31.558]     INFO: ######################################################################
+[11:09:31.560]     INFO:    ----------------------------------------------------------------------
+[11:09:31.560]     INFO:    PixTestTrim::trimTest() ntrig = 10, vcal = 40
+[11:09:31.560]     INFO:    ----------------------------------------------------------------------
+[11:09:31.677]     INFO: ---> VthrComp thr map (minimal VthrComp)
+[11:09:31.677]     INFO: ---> dac: vthrcomp name: TrimThr0 ntrig: 5 dacrange: 0 .. 159 hits flags = 16 (plus default)
+[11:09:31.714]     INFO:   dacScan step  from 0 .. 39
+[11:09:58.309]     INFO: Test took 26595ms.
+[11:09:58.456]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:09:58.460]     INFO:   dacScan step  from 40 .. 79
+[11:10:33.318]     INFO: Test took 34857ms.
+[11:10:34.008]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:10:34.289]     INFO:   dacScan step  from 80 .. 119
+[11:11:05.121]     INFO: Test took 30832ms.
+[11:11:05.601]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:11:05.753]     INFO:   dacScan step  from 120 .. 159
+[11:11:33.192]     INFO: Test took 27439ms.
+[11:11:33.321]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:12:10.879]     INFO: ROC 0 VthrComp = 44
+[11:12:10.879]     INFO: ROC 1 VthrComp = 38
+[11:12:10.879]     INFO: ROC 2 VthrComp = 36
+[11:12:10.879]     INFO: ROC 3 VthrComp = 27
+[11:12:10.879]     INFO: ROC 4 VthrComp = 29
+[11:12:10.879]     INFO: ROC 5 VthrComp = 51
+[11:12:10.879]     INFO: ROC 6 VthrComp = 49
+[11:12:10.880]     INFO: ROC 7 VthrComp = 40
+[11:12:10.880]     INFO: ROC 8 VthrComp = 40
+[11:12:10.880]     INFO: ROC 9 VthrComp = 39
+[11:12:10.880]     INFO: ROC 10 VthrComp = 41
+[11:12:10.880]     INFO: ROC 11 VthrComp = 38
+[11:12:10.880]     INFO: ROC 12 VthrComp = 38
+[11:12:10.880]     INFO: ROC 13 VthrComp = 40
+[11:12:10.880]     INFO: ROC 14 VthrComp = 44
+[11:12:10.881]     INFO: ROC 15 VthrComp = 38
+[11:12:10.881]     INFO: ---> Vcal thr map (pixel with maximum Vcal thr)
+[11:12:10.881]     INFO: ---> dac: vcal name: TrimThr1 ntrig: 5 dacrange: 0 .. 159 hits flags = 16 (plus default)
+[11:14:25.446]     INFO: Test took 134536ms.
+[11:14:27.854]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:15:19.220]     INFO:    roc 0 with ID = 0  has maximal Vcal 63.4347 for pixel 20/79 mean/min/max = 49.9808/36.4973/63.4644
+[11:15:19.221]     INFO:    roc 1 with ID = 1  has maximal Vcal 70.8663 for pixel 25/70 mean/min/max = 51.1694/31.2398/71.099
+[11:15:19.221]     INFO:    roc 2 with ID = 2  has maximal Vcal 70.4377 for pixel 0/34 mean/min/max = 50.6066/30.7489/70.4644
+[11:15:19.221]     INFO:    roc 3 with ID = 3  has maximal Vcal 71.3303 for pixel 10/71 mean/min/max = 52.402/33.4005/71.4036
+[11:15:19.222]     INFO:    roc 4 with ID = 4  has maximal Vcal 79.7364 for pixel 1/34 mean/min/max = 55.2616/30.3438/80.1794
+[11:15:19.222]     INFO:    roc 5 with ID = 5  has maximal Vcal 60.9233 for pixel 12/79 mean/min/max = 48.1156/35.2057/61.0255
+[11:15:19.223]     INFO:    roc 6 with ID = 6  has maximal Vcal 61.4625 for pixel 0/79 mean/min/max = 48.4591/35.2502/61.6681
+[11:15:19.223]     INFO:    roc 7 with ID = 7  has maximal Vcal 66.5072 for pixel 4/72 mean/min/max = 50.8633/35.199/66.5275
+[11:15:19.224]     INFO:    roc 8 with ID = 8  has maximal Vcal 70.6684 for pixel 6/55 mean/min/max = 52.4461/34.1312/70.761
+[11:15:19.224]     INFO:    roc 9 with ID = 9  has maximal Vcal 69.5089 for pixel 12/69 mean/min/max = 51.197/32.6093/69.7848
+[11:15:19.225]     INFO:    roc 10 with ID = 10  has maximal Vcal 68.044 for pixel 11/75 mean/min/max = 51.1771/34.2543/68.1
+[11:15:19.225]     INFO:    roc 11 with ID = 11  has maximal Vcal 67.0927 for pixel 14/75 mean/min/max = 49.8658/32.5393/67.1922
+[11:15:19.226]     INFO:    roc 12 with ID = 12  has maximal Vcal 69.7783 for pixel 18/23 mean/min/max = 50.3813/30.8966/69.8659
+[11:15:19.226]     INFO:    roc 13 with ID = 13  has maximal Vcal 69.7783 for pixel 17/70 mean/min/max = 51.7397/33.6743/69.805
+[11:15:19.227]     INFO:    roc 14 with ID = 14  has maximal Vcal 60.1277 for pixel 7/73 mean/min/max = 48.9395/37.5856/60.2935
+[11:15:19.227]     INFO:    roc 15 with ID = 15  has maximal Vcal 67.059 for pixel 4/55 mean/min/max = 49.6821/32.2446/67.1196
+[11:15:19.228]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[11:16:46.765]     INFO: Test took 87537ms.
+[11:16:49.691]     INFO: ---> dac: vcal name: TrimThr2 ntrig: 10 dacrange: 0 .. 199 hits flags = 16 (plus default)
+[11:21:47.431]     INFO: Test took 297712ms.
+[11:21:53.320]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:22:47.623]     INFO: ---> TrimStepCorr4 extremal thresholds: 12.639782 .. 67.480305
+[11:22:47.735]     INFO: ---> dac: vcal name: trimStepCorr4 ntrig: 4 dacrange: 2 .. 77 hits flags = 16 (plus default)
+[11:23:39.436]     INFO: Test took 51672ms.
+[11:23:40.233]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:24:16.570]     INFO: ---> TrimStepCorr2 extremal thresholds: 21.650803 .. 52.117555
+[11:24:16.681]     INFO: ---> dac: vcal name: trimStepCorr2 ntrig: 4 dacrange: 11 .. 62 hits flags = 16 (plus default)
+[11:24:51.942]     INFO: Test took 35233ms.
+[11:24:52.465]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:25:24.245]     INFO: ---> TrimStepCorr1a extremal thresholds: 26.225490 .. 47.983067
+[11:25:24.356]     INFO: ---> dac: vcal name: trimStepCorr1a ntrig: 4 dacrange: 16 .. 57 hits flags = 16 (plus default)
+[11:25:53.097]     INFO: Test took 28713ms.
+[11:25:53.507]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:26:23.506]     INFO: ---> TrimStepCorr1b extremal thresholds: 28.783104 .. 47.341637
+[11:26:23.618]     INFO: ---> dac: vcal name: trimStepCorr1b ntrig: 4 dacrange: 18 .. 57 hits flags = 16 (plus default)
+[11:26:51.493]     INFO: Test took 27848ms.
+[11:26:51.905]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:27:21.963]     INFO: ---> TrimThrFinal extremal thresholds: 20 .. 60
+[11:27:21.963]     INFO: ---> dac: vcal name: TrimThrFinal ntrig: 10 dacrange: 20 .. 60 hits flags = 16 (plus default)
+[11:28:15.978]     INFO: Test took 53986ms.
+[11:28:16.828]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:28:44.140]     INFO: PixTestTrim::trimTest() done
+[11:28:44.140]     INFO: vtrim:      96 103  99  94 107  93 105  90 113 113 103  95  84 114 107 104 
+[11:28:44.140]     INFO: vthrcomp:   44  38  36  27  29  51  49  40  40  39  41  38  38  40  44  38 
+[11:28:44.140]     INFO: vcal mean:  40.07  40.17  40.03  40.12  40.12  39.96  40.03  40.14  40.03  40.01  40.03  40.06  39.98  40.09  40.04  40.06 
+[11:28:44.140]     INFO: vcal RMS:    1.07   1.26   1.32   1.18   1.33   1.13   1.15   1.12   1.22   1.22   1.31   1.20   1.52   1.27   1.06   1.33 
+[11:28:44.140]     INFO: bits mean:   8.50   9.61  10.31   9.06   9.20  10.06   9.88   8.99   9.82   9.61   9.56  10.12   9.42  10.32   9.67  10.34 
+[11:28:44.140]     INFO: bits RMS:    2.77   2.81   2.53   2.62   2.72   2.67   2.67   2.61   2.26   2.69   2.48   2.57   3.00   2.16   2.30   2.54 
+[11:28:44.198]     INFO:    ----------------------------------------------------------------------
+[11:28:44.198]     INFO:    PixTestTrim::trimBitTest() ntrig = 10, vtrims = 255 240 150 100
+[11:28:44.198]     INFO:    ----------------------------------------------------------------------
+[11:28:44.203]     INFO: ---> dac: Vcal name: TrimBitsThr0 ntrig: 10 dacrange: 0 .. 199 hits flags = 16 (plus default)
+[11:33:37.559]     INFO: Test took 293328ms.
+[11:33:43.064]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:34:39.262]     INFO: ---> dac: Vcal name: TrimThr_trim14 ntrig: 10 dacrange: 0 .. 115 hits flags = 16 (plus default)
+[11:37:18.679]     INFO: Test took 159389ms.
+[11:37:21.301]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:38:03.671]     INFO: ---> dac: Vcal name: TrimThr_trim13 ntrig: 10 dacrange: 0 .. 100 hits flags = 16 (plus default)
+[11:40:19.244]     INFO: Test took 135545ms.
+[11:40:21.528]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:40:59.966]     INFO: ---> dac: Vcal name: TrimThr_trim11 ntrig: 10 dacrange: 0 .. 91 hits flags = 16 (plus default)
+[11:43:03.766]     INFO: Test took 123771ms.
+[11:43:05.804]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:43:42.572]     INFO: ---> dac: Vcal name: TrimThr_trim7 ntrig: 10 dacrange: 0 .. 87 hits flags = 16 (plus default)
+[11:45:43.643]     INFO: Test took 121043ms.
+[11:45:45.646]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[11:46:21.343]     INFO: PixTestTrim::trimBitTest() done 
+[11:46:21.354]     INFO: PixTestTrim::doTest() done, duration: 2209 seconds
+[11:47:52.243]    QUIET: Connection to board 58 closed.
