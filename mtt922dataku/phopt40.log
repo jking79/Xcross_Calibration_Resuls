@@ -1,0 +1,559 @@
+[12:40:03.228]     INFO: *** Welcome to pxar ***
+[12:40:03.228]     INFO: *** Today: 2015/04/21
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C0.dat
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C1.dat
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C2.dat
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C3.dat
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C4.dat
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C5.dat
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C6.dat
+[12:40:03.228]     INFO:       reading data/crosscalibrate/dacParameters40_C7.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C8.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C9.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C10.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C11.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C12.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C13.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C14.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/dacParameters40_C15.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/tbmParameters_C0a.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/tbmParameters_C0b.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/defaultMaskFile.dat
+[12:40:03.229]     INFO:       reading data/crosscalibrate/trimParameters40_C0.dat
+[12:40:03.236]     INFO:       reading data/crosscalibrate/trimParameters40_C1.dat
+[12:40:03.242]     INFO:       reading data/crosscalibrate/trimParameters40_C2.dat
+[12:40:03.249]     INFO:       reading data/crosscalibrate/trimParameters40_C3.dat
+[12:40:03.256]     INFO:       reading data/crosscalibrate/trimParameters40_C4.dat
+[12:40:03.262]     INFO:       reading data/crosscalibrate/trimParameters40_C5.dat
+[12:40:03.269]     INFO:       reading data/crosscalibrate/trimParameters40_C6.dat
+[12:40:03.275]     INFO:       reading data/crosscalibrate/trimParameters40_C7.dat
+[12:40:03.282]     INFO:       reading data/crosscalibrate/trimParameters40_C8.dat
+[12:40:03.288]     INFO:       reading data/crosscalibrate/trimParameters40_C9.dat
+[12:40:03.295]     INFO:       reading data/crosscalibrate/trimParameters40_C10.dat
+[12:40:03.301]     INFO:       reading data/crosscalibrate/trimParameters40_C11.dat
+[12:40:03.308]     INFO:       reading data/crosscalibrate/trimParameters40_C12.dat
+[12:40:03.314]     INFO:       reading data/crosscalibrate/trimParameters40_C13.dat
+[12:40:03.320]     INFO:       reading data/crosscalibrate/trimParameters40_C14.dat
+[12:40:03.327]     INFO:       reading data/crosscalibrate/trimParameters40_C15.dat
+[12:40:03.334]     INFO:       reading data/crosscalibrate/tbParameters.dat
+[12:40:03.334]     INFO:         clk: 4
+[12:40:03.334]     INFO:         ctr: 4
+[12:40:03.334]     INFO:         sda: 19
+[12:40:03.334]     INFO:         tin: 9
+[12:40:03.334]     INFO:         level: 15
+[12:40:03.334]     INFO:         triggerdelay: 0
+[12:40:03.334]    QUIET: Instanciating API for pxar crosscalibrate
+[12:40:03.334]     INFO: Log level: INFO
+[12:40:03.347]    QUIET: Connection to board DTB_WRPRHI opened.
+[12:40:03.352]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[12:40:03.355]     INFO: RPC call hashes of host and DTB match: 413001178
+[12:40:04.966]     INFO: DUT info: 
+[12:40:04.966]     INFO: The DUT currently contains the following objects:
+[12:40:04.966]     INFO:  2 TBM Cores (2 ON)
+[12:40:04.966]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:04.966]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:04.966]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[12:40:04.966]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:04.966]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:40:05.574]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C0.dat
+[12:40:05.574]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH40_C0.dat for reading PH calibration constants
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C0.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C1.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C2.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C3.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C4.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C5.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C6.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C7.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C8.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C9.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C10.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C11.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C12.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C13.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C14.dat
+[12:40:05.628]     INFO:       reading data/crosscalibrate/readbackCal_C15.dat
+[12:40:05.629]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C0.dat
+[12:40:05.629]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH40_C0.dat for reading PH calibration constants
+[12:40:05.660]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C0.dat
+[12:40:05.660]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH40_C0.dat for reading PH calibration constants
+[12:40:09.174]     INFO: ######################################################################
+[12:40:09.174]     INFO: PixTestPhOptimization::doTest() Ntrig = 10
+[12:40:09.174]     INFO: ######################################################################
+[12:40:12.752]     INFO: Test took 3576ms.
+[12:40:12.792]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:40:16.539]     INFO: Test took 3545ms.
+[12:40:16.704]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:40:20.269]     INFO: Test took 3547ms.
+[12:40:20.441]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:40:24.000]     INFO: Test took 3544ms.
+[12:40:24.171]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:40:27.753]     INFO: Test took 3567ms.
+[12:40:27.922]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:40:27.934]     INFO: The DUT currently contains the following objects:
+[12:40:27.934]     INFO:  2 TBM Cores (2 ON)
+[12:40:27.934]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:27.934]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:27.934]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:27.934]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.934]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.934]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.934]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.934]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.934]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.934]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.934]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:27.935]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.034]     INFO: Test took 1099ms.
+[12:40:29.035]     INFO: The DUT currently contains the following objects:
+[12:40:29.035]     INFO:  2 TBM Cores (2 ON)
+[12:40:29.035]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:29.035]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:29.036]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:29.036]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:29.036]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.137]     INFO: Test took 1101ms.
+[12:40:30.138]     INFO: The DUT currently contains the following objects:
+[12:40:30.138]     INFO:  2 TBM Cores (2 ON)
+[12:40:30.138]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:30.138]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:30.138]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:30.138]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:30.138]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.239]     INFO: Test took 1101ms.
+[12:40:31.240]     INFO: The DUT currently contains the following objects:
+[12:40:31.240]     INFO:  2 TBM Cores (2 ON)
+[12:40:31.240]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:31.240]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:31.240]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:31.240]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:31.241]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.342]     INFO: Test took 1101ms.
+[12:40:32.343]     INFO: The DUT currently contains the following objects:
+[12:40:32.343]     INFO:  2 TBM Cores (2 ON)
+[12:40:32.343]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:32.343]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:32.343]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:32.343]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:32.343]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.444]     INFO: Test took 1101ms.
+[12:40:33.445]     INFO: The DUT currently contains the following objects:
+[12:40:33.445]     INFO:  2 TBM Cores (2 ON)
+[12:40:33.445]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:33.445]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:33.445]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:33.445]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:33.445]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.546]     INFO: Test took 1101ms.
+[12:40:34.547]     INFO: The DUT currently contains the following objects:
+[12:40:34.547]     INFO:  2 TBM Cores (2 ON)
+[12:40:34.547]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:34.547]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:34.548]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:34.548]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:34.548]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.649]     INFO: Test took 1101ms.
+[12:40:35.650]     INFO: The DUT currently contains the following objects:
+[12:40:35.650]     INFO:  2 TBM Cores (2 ON)
+[12:40:35.650]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:35.650]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:35.650]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:35.650]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:35.650]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.751]     INFO: Test took 1101ms.
+[12:40:36.752]     INFO: The DUT currently contains the following objects:
+[12:40:36.752]     INFO:  2 TBM Cores (2 ON)
+[12:40:36.752]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:36.752]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:36.752]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:36.752]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:36.753]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.853]     INFO: Test took 1100ms.
+[12:40:37.854]     INFO: The DUT currently contains the following objects:
+[12:40:37.854]     INFO:  2 TBM Cores (2 ON)
+[12:40:37.854]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:37.854]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:37.854]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:37.854]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.854]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.855]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.855]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.855]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:37.855]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.955]     INFO: Test took 1100ms.
+[12:40:38.956]     INFO: The DUT currently contains the following objects:
+[12:40:38.956]     INFO:  2 TBM Cores (2 ON)
+[12:40:38.956]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:38.956]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:38.956]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:38.956]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:38.956]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.057]     INFO: Test took 1101ms.
+[12:40:40.058]     INFO: The DUT currently contains the following objects:
+[12:40:40.058]     INFO:  2 TBM Cores (2 ON)
+[12:40:40.058]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:40.058]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:40.058]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:40.058]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:40.058]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.159]     INFO: Test took 1101ms.
+[12:40:41.160]     INFO: The DUT currently contains the following objects:
+[12:40:41.160]     INFO:  2 TBM Cores (2 ON)
+[12:40:41.160]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:41.160]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:41.160]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:41.160]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.160]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.160]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.160]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.160]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.160]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.160]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:41.161]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.261]     INFO: Test took 1100ms.
+[12:40:42.262]     INFO: The DUT currently contains the following objects:
+[12:40:42.262]     INFO:  2 TBM Cores (2 ON)
+[12:40:42.262]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:42.262]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:42.262]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:42.262]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.262]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.262]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.262]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.262]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.262]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.262]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:42.263]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.363]     INFO: Test took 1100ms.
+[12:40:43.364]     INFO: The DUT currently contains the following objects:
+[12:40:43.364]     INFO:  2 TBM Cores (2 ON)
+[12:40:43.364]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:43.364]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:43.364]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:43.364]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:43.364]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.465]     INFO: Test took 1101ms.
+[12:40:44.466]     INFO: The DUT currently contains the following objects:
+[12:40:44.466]     INFO:  2 TBM Cores (2 ON)
+[12:40:44.466]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:40:44.466]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:40:44.466]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[12:40:44.466]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.466]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.467]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.467]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:44.467]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[12:40:45.567]     INFO: Test took 1100ms.
+[12:40:45.572]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:44:10.881]     INFO: Test took 205309ms.
+[12:44:14.326]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:47:37.571]     INFO: Test took 203245ms.
+[12:47:41.288]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.299]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.311]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.322]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.333]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.344]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.355]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.366]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.378]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.389]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.400]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.412]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.423]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.434]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.445]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:41.456]     INFO: safety margin for low PH: adding 0, margin is now 20
+[12:47:45.098]     INFO: Test took 3562ms.
+[12:47:49.001]     INFO: Test took 3509ms.
+[12:47:52.925]     INFO: Test took 3550ms.
+[12:47:53.323]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:47:54.251]     INFO: Test took 929ms.
+[12:47:54.255]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:47:55.371]     INFO: Test took 1117ms.
+[12:47:55.375]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:47:56.490]     INFO: Test took 1115ms.
+[12:47:56.494]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:47:57.610]     INFO: Test took 1116ms.
+[12:47:57.614]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:47:58.730]     INFO: Test took 1116ms.
+[12:47:58.734]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:47:59.849]     INFO: Test took 1115ms.
+[12:47:59.853]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:00.969]     INFO: Test took 1116ms.
+[12:48:00.973]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:02.088]     INFO: Test took 1115ms.
+[12:48:02.092]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:03.207]     INFO: Test took 1115ms.
+[12:48:03.211]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:04.326]     INFO: Test took 1115ms.
+[12:48:04.330]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:05.445]     INFO: Test took 1115ms.
+[12:48:05.449]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:06.564]     INFO: Test took 1115ms.
+[12:48:06.568]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:07.684]     INFO: Test took 1116ms.
+[12:48:07.688]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:08.803]     INFO: Test took 1115ms.
+[12:48:08.807]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:09.923]     INFO: Test took 1116ms.
+[12:48:09.927]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:11.042]     INFO: Test took 1115ms.
+[12:48:11.046]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:12.161]     INFO: Test took 1116ms.
+[12:48:12.165]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:13.280]     INFO: Test took 1116ms.
+[12:48:13.284]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:14.399]     INFO: Test took 1116ms.
+[12:48:14.402]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:15.518]     INFO: Test took 1116ms.
+[12:48:15.521]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:16.637]     INFO: Test took 1116ms.
+[12:48:16.640]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:17.756]     INFO: Test took 1116ms.
+[12:48:17.759]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:18.875]     INFO: Test took 1116ms.
+[12:48:18.878]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:19.994]     INFO: Test took 1116ms.
+[12:48:19.997]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:21.113]     INFO: Test took 1116ms.
+[12:48:21.116]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:22.232]     INFO: Test took 1116ms.
+[12:48:22.235]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:23.350]     INFO: Test took 1116ms.
+[12:48:23.354]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:24.469]     INFO: Test took 1116ms.
+[12:48:24.473]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:25.588]     INFO: Test took 1115ms.
+[12:48:25.592]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:26.707]     INFO: Test took 1115ms.
+[12:48:26.711]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:27.826]     INFO: Test took 1115ms.
+[12:48:27.830]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[12:48:28.946]     INFO: Test took 1116ms.
+[12:48:36.651]     INFO: PixTestPhOptimization::doTest() done, duration: 507 seconds
+[12:48:36.651]     INFO: PH scale (per ROC):    61  60  60  53  52  53  52  59  57  58  63  56  62  64  64  57
+[12:48:36.651]     INFO: PH offset (per ROC):  173 186 194 214 198 191 194 172 195 200 178 198 188 188 178 191
+[12:48:43.637]    QUIET: Connection to board 58 closed.
