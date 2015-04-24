@@ -1,0 +1,117 @@
+[11:07:59.145]     INFO: *** Welcome to pxar ***
+[11:07:59.145]     INFO: *** Today: 2015/04/23
+[11:07:59.145]     INFO:       reading data/mtt922//dacParameters40_C0.dat
+[11:07:59.158]     INFO:       reading data/mtt922//dacParameters40_C1.dat
+[11:07:59.165]     INFO:       reading data/mtt922//dacParameters40_C2.dat
+[11:07:59.166]     INFO:       reading data/mtt922//dacParameters40_C3.dat
+[11:07:59.174]     INFO:       reading data/mtt922//dacParameters40_C4.dat
+[11:07:59.174]     INFO:       reading data/mtt922//dacParameters40_C5.dat
+[11:07:59.174]     INFO:       reading data/mtt922//dacParameters40_C6.dat
+[11:07:59.174]     INFO:       reading data/mtt922//dacParameters40_C7.dat
+[11:07:59.175]     INFO:       reading data/mtt922//dacParameters40_C8.dat
+[11:07:59.175]     INFO:       reading data/mtt922//dacParameters40_C9.dat
+[11:07:59.175]     INFO:       reading data/mtt922//dacParameters40_C10.dat
+[11:07:59.175]     INFO:       reading data/mtt922//dacParameters40_C11.dat
+[11:07:59.176]     INFO:       reading data/mtt922//dacParameters40_C12.dat
+[11:07:59.176]     INFO:       reading data/mtt922//dacParameters40_C13.dat
+[11:07:59.176]     INFO:       reading data/mtt922//dacParameters40_C14.dat
+[11:07:59.179]     INFO:       reading data/mtt922//dacParameters40_C15.dat
+[11:07:59.179]     INFO:       reading data/mtt922//tbmParameters_C0a.dat
+[11:07:59.180]     INFO:       reading data/mtt922//tbmParameters_C0b.dat
+[11:07:59.180]     INFO:       reading data/mtt922//defaultMaskFile.dat
+[11:07:59.180]     INFO:       reading data/mtt922//trimParameters40_C0.dat
+[11:07:59.191]     INFO:       reading data/mtt922//trimParameters40_C1.dat
+[11:07:59.198]     INFO:       reading data/mtt922//trimParameters40_C2.dat
+[11:07:59.205]     INFO:       reading data/mtt922//trimParameters40_C3.dat
+[11:07:59.212]     INFO:       reading data/mtt922//trimParameters40_C4.dat
+[11:07:59.219]     INFO:       reading data/mtt922//trimParameters40_C5.dat
+[11:07:59.226]     INFO:       reading data/mtt922//trimParameters40_C6.dat
+[11:07:59.233]     INFO:       reading data/mtt922//trimParameters40_C7.dat
+[11:07:59.240]     INFO:       reading data/mtt922//trimParameters40_C8.dat
+[11:07:59.247]     INFO:       reading data/mtt922//trimParameters40_C9.dat
+[11:07:59.254]     INFO:       reading data/mtt922//trimParameters40_C10.dat
+[11:07:59.271]     INFO:       reading data/mtt922//trimParameters40_C11.dat
+[11:07:59.277]     INFO:       reading data/mtt922//trimParameters40_C12.dat
+[11:07:59.284]     INFO:       reading data/mtt922//trimParameters40_C13.dat
+[11:07:59.292]     INFO:       reading data/mtt922//trimParameters40_C14.dat
+[11:07:59.299]     INFO:       reading data/mtt922//trimParameters40_C15.dat
+[11:07:59.306]     INFO:       reading data/mtt922//tbParameters.dat
+[11:07:59.306]     INFO:         clk: 4
+[11:07:59.306]     INFO:         ctr: 4
+[11:07:59.306]     INFO:         sda: 19
+[11:07:59.306]     INFO:         tin: 9
+[11:07:59.306]     INFO:         level: 15
+[11:07:59.306]     INFO:         triggerdelay: 0
+[11:07:59.307]    QUIET: Instanciating API for pxar crosscalibrate
+[11:07:59.307]     INFO: Log level: INFO
+[11:07:59.320]    QUIET: Connection to board DTB_WRPRHI opened.
+[11:07:59.323]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[11:07:59.327]     INFO: RPC call hashes of host and DTB match: 413001178
+[11:08:01.002]     INFO: DUT info: 
+[11:08:01.002]     INFO: The DUT currently contains the following objects:
+[11:08:01.002]     INFO:  2 TBM Cores (2 ON)
+[11:08:01.002]     INFO: 	TBM Core alpha (0): 7 registers set
+[11:08:01.002]     INFO: 	TBM Core beta  (1): 7 registers set
+[11:08:01.002]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[11:08:01.002]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.002]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[11:08:01.824]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C0.dat
+[11:08:01.841]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C1.dat
+[11:08:01.856]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C2.dat
+[11:08:01.872]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C3.dat
+[11:08:01.888]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C4.dat
+[11:08:01.904]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C5.dat
+[11:08:01.919]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C6.dat
+[11:08:01.935]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C7.dat
+[11:08:01.950]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C8.dat
+[11:08:01.967]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C9.dat
+[11:08:01.982]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C10.dat
+[11:08:01.998]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C11.dat
+[11:08:02.013]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C12.dat
+[11:08:02.029]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C13.dat
+[11:08:02.045]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C14.dat
+[11:08:02.060]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C15.dat
+[11:08:02.114]     INFO:       reading data/mtt922//readbackCal_C0.dat
+[11:08:02.114]     INFO:       reading data/mtt922//readbackCal_C1.dat
+[11:08:02.115]     INFO:       reading data/mtt922//readbackCal_C2.dat
+[11:08:02.115]     INFO:       reading data/mtt922//readbackCal_C3.dat
+[11:08:02.126]     INFO:       reading data/mtt922//readbackCal_C4.dat
+[11:08:02.126]     INFO:       reading data/mtt922//readbackCal_C5.dat
+[11:08:02.126]     INFO:       reading data/mtt922//readbackCal_C6.dat
+[11:08:02.126]     INFO:       reading data/mtt922//readbackCal_C7.dat
+[11:08:02.126]     INFO:       reading data/mtt922//readbackCal_C8.dat
+[11:08:02.127]     INFO:       reading data/mtt922//readbackCal_C9.dat
+[11:08:02.127]     INFO:       reading data/mtt922//readbackCal_C10.dat
+[11:08:02.127]     INFO:       reading data/mtt922//readbackCal_C11.dat
+[11:08:02.127]     INFO:       reading data/mtt922//readbackCal_C12.dat
+[11:08:02.128]     INFO:       reading data/mtt922//readbackCal_C13.dat
+[11:08:02.128]     INFO:       reading data/mtt922//readbackCal_C14.dat
+[11:08:02.128]     INFO:       reading data/mtt922//readbackCal_C15.dat
+[11:08:03.667]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[11:08:04.671]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[11:08:12.703]    ERROR: <PixMonitorFrame.cc/Update:L124> digital current reading unphysical
+[11:08:17.707]    QUIET: Connection to board 58 closed.

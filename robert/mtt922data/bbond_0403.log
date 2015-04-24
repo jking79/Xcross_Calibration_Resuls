@@ -1,0 +1,120 @@
+[16:10:53.419]     INFO: *** Welcome to pxar ***
+[16:10:53.419]     INFO: *** Today: 2015/04/03
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C0.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C1.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C2.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C3.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C4.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C5.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C6.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C7.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C8.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C9.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C10.dat
+[16:10:53.419]     INFO:       reading data/mtt922//dacParameters_C11.dat
+[16:10:53.420]     INFO:       reading data/mtt922//dacParameters_C12.dat
+[16:10:53.420]     INFO:       reading data/mtt922//dacParameters_C13.dat
+[16:10:53.420]     INFO:       reading data/mtt922//dacParameters_C14.dat
+[16:10:53.420]     INFO:       reading data/mtt922//dacParameters_C15.dat
+[16:10:53.420]     INFO:       reading data/mtt922//tbmParameters_C0a.dat
+[16:10:53.420]     INFO:       reading data/mtt922//tbmParameters_C0b.dat
+[16:10:53.420]     INFO:       reading data/mtt922//defaultMaskFile.dat
+[16:10:53.420]     INFO:       reading data/mtt922//trimParameters_C0.dat
+[16:10:53.427]     INFO:       reading data/mtt922//trimParameters_C1.dat
+[16:10:53.434]     INFO:       reading data/mtt922//trimParameters_C2.dat
+[16:10:53.440]     INFO:       reading data/mtt922//trimParameters_C3.dat
+[16:10:53.447]     INFO:       reading data/mtt922//trimParameters_C4.dat
+[16:10:53.454]     INFO:       reading data/mtt922//trimParameters_C5.dat
+[16:10:53.460]     INFO:       reading data/mtt922//trimParameters_C6.dat
+[16:10:53.467]     INFO:       reading data/mtt922//trimParameters_C7.dat
+[16:10:53.474]     INFO:       reading data/mtt922//trimParameters_C8.dat
+[16:10:53.480]     INFO:       reading data/mtt922//trimParameters_C9.dat
+[16:10:53.487]     INFO:       reading data/mtt922//trimParameters_C10.dat
+[16:10:53.494]     INFO:       reading data/mtt922//trimParameters_C11.dat
+[16:10:53.500]     INFO:       reading data/mtt922//trimParameters_C12.dat
+[16:10:53.507]     INFO:       reading data/mtt922//trimParameters_C13.dat
+[16:10:53.513]     INFO:       reading data/mtt922//trimParameters_C14.dat
+[16:10:53.520]     INFO:       reading data/mtt922//trimParameters_C15.dat
+[16:10:53.526]     INFO:       reading data/mtt922//tbParameters.dat
+[16:10:53.527]     INFO:         clk: 4
+[16:10:53.527]     INFO:         ctr: 4
+[16:10:53.527]     INFO:         sda: 19
+[16:10:53.527]     INFO:         tin: 9
+[16:10:53.527]     INFO:         level: 15
+[16:10:53.527]     INFO:         triggerdelay: 0
+[16:10:53.527]    QUIET: Instanciating API for pxar crosscalibrate
+[16:10:53.527]     INFO: Log level: INFO
+[16:10:53.540]    QUIET: Connection to board DTB_WRPRHI opened.
+[16:10:53.543]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[16:10:53.547]     INFO: RPC call hashes of host and DTB match: 413001178
+[16:10:55.157]     INFO: DUT info: 
+[16:10:55.157]     INFO: The DUT currently contains the following objects:
+[16:10:55.157]     INFO:  2 TBM Cores (2 ON)
+[16:10:55.158]     INFO: 	TBM Core alpha (0): 7 registers set
+[16:10:55.158]     INFO: 	TBM Core beta  (1): 7 registers set
+[16:10:55.158]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[16:10:55.158]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.158]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:10:55.755]     INFO:       reading data/mtt922//phCalibrationFitTanH_C0.dat
+[16:10:55.755]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/mtt922//phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[16:10:55.809]     INFO:       reading data/mtt922//readbackCal_C0.dat
+[16:10:55.809]     INFO:       reading data/mtt922//readbackCal_C1.dat
+[16:10:55.809]     INFO:       reading data/mtt922//readbackCal_C2.dat
+[16:10:55.809]     INFO:       reading data/mtt922//readbackCal_C3.dat
+[16:10:55.809]     INFO:       reading data/mtt922//readbackCal_C4.dat
+[16:10:55.809]     INFO:       reading data/mtt922//readbackCal_C5.dat
+[16:10:55.809]     INFO:       reading data/mtt922//readbackCal_C6.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C7.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C8.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C9.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C10.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C11.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C12.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C13.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C14.dat
+[16:10:55.810]     INFO:       reading data/mtt922//readbackCal_C15.dat
+[16:10:55.810]     INFO:       reading data/mtt922//phCalibrationFitTanH_C0.dat
+[16:10:55.810]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/mtt922//phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[16:10:55.847]     INFO:       reading data/mtt922//phCalibrationFitTanH_C0.dat
+[16:10:55.847]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/mtt922//phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[16:10:59.029]     INFO: ######################################################################
+[16:10:59.029]     INFO: PixTestBBMap::doTest() Ntrig = 5, VcalS = 250 (high range)
+[16:10:59.029]     INFO: ######################################################################
+[16:10:59.033]     INFO: ---> dac: VthrComp name: calSMap ntrig: 5 dacrange: 0 .. 149 hits flags = 2 (plus default)
+[16:10:59.075]     INFO:   dacScan step  from 0 .. 49
+[16:11:33.515]     INFO: Test took 34439ms.
+[16:11:33.842]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:11:33.906]     INFO:   dacScan step  from 50 .. 99
+[16:12:20.182]     INFO: Test took 46276ms.
+[16:12:21.122]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:12:21.539]     INFO:   dacScan step  from 100 .. 149
+[16:12:56.498]     INFO: Test took 34959ms.
+[16:12:56.791]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:13:36.421]     INFO: PixTestBBMap::doTest() done, duration: 157 seconds
+[16:13:36.421]     INFO: number of dead bumps (per ROC):     3    1    0    1    0    1    0    0    0    2    0    2    3    2    2    3
+[16:13:36.421]     INFO: separation cut       (per ROC):    87   76   70   73   73  102  103   82   82   73   93   80   78   78   89   73
+[16:18:23.939]    QUIET: Connection to board 58 closed.

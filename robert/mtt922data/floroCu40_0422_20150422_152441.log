@@ -1,0 +1,170 @@
+[15:24:38.514]     INFO: *** Welcome to pxar ***
+[15:24:38.514]     INFO: *** Today: 2015/04/22
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C0.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C1.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C2.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C3.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C4.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C5.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C6.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C7.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C8.dat
+[15:24:38.514]     INFO:       reading data/mtt922//dacParameters40_C9.dat
+[15:24:38.515]     INFO:       reading data/mtt922//dacParameters40_C10.dat
+[15:24:38.515]     INFO:       reading data/mtt922//dacParameters40_C11.dat
+[15:24:38.515]     INFO:       reading data/mtt922//dacParameters40_C12.dat
+[15:24:38.515]     INFO:       reading data/mtt922//dacParameters40_C13.dat
+[15:24:38.515]     INFO:       reading data/mtt922//dacParameters40_C14.dat
+[15:24:38.515]     INFO:       reading data/mtt922//dacParameters40_C15.dat
+[15:24:38.515]     INFO:       reading data/mtt922//tbmParameters_C0a.dat
+[15:24:38.515]     INFO:       reading data/mtt922//tbmParameters_C0b.dat
+[15:24:38.515]     INFO:       reading data/mtt922//defaultMaskFile.dat
+[15:24:38.515]     INFO:       reading data/mtt922//trimParameters40_C0.dat
+[15:24:38.522]     INFO:       reading data/mtt922//trimParameters40_C1.dat
+[15:24:38.529]     INFO:       reading data/mtt922//trimParameters40_C2.dat
+[15:24:38.535]     INFO:       reading data/mtt922//trimParameters40_C3.dat
+[15:24:38.542]     INFO:       reading data/mtt922//trimParameters40_C4.dat
+[15:24:38.548]     INFO:       reading data/mtt922//trimParameters40_C5.dat
+[15:24:38.555]     INFO:       reading data/mtt922//trimParameters40_C6.dat
+[15:24:38.562]     INFO:       reading data/mtt922//trimParameters40_C7.dat
+[15:24:38.568]     INFO:       reading data/mtt922//trimParameters40_C8.dat
+[15:24:38.575]     INFO:       reading data/mtt922//trimParameters40_C9.dat
+[15:24:38.581]     INFO:       reading data/mtt922//trimParameters40_C10.dat
+[15:24:38.588]     INFO:       reading data/mtt922//trimParameters40_C11.dat
+[15:24:38.594]     INFO:       reading data/mtt922//trimParameters40_C12.dat
+[15:24:38.601]     INFO:       reading data/mtt922//trimParameters40_C13.dat
+[15:24:38.607]     INFO:       reading data/mtt922//trimParameters40_C14.dat
+[15:24:38.614]     INFO:       reading data/mtt922//trimParameters40_C15.dat
+[15:24:38.621]     INFO:       reading data/mtt922//tbParameters.dat
+[15:24:38.621]     INFO:         clk: 4
+[15:24:38.621]     INFO:         ctr: 4
+[15:24:38.621]     INFO:         sda: 19
+[15:24:38.621]     INFO:         tin: 9
+[15:24:38.621]     INFO:         level: 15
+[15:24:38.621]     INFO:         triggerdelay: 0
+[15:24:38.621]    QUIET: Instanciating API for pxar crosscalibrate
+[15:24:38.621]     INFO: Log level: INFO
+[15:24:38.634]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:24:38.638]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:24:38.641]     INFO: RPC call hashes of host and DTB match: 413001178
+[15:24:40.251]     INFO: DUT info: 
+[15:24:40.251]     INFO: The DUT currently contains the following objects:
+[15:24:40.252]     INFO:  2 TBM Cores (2 ON)
+[15:24:40.252]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:24:40.252]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:24:40.252]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[15:24:40.252]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.252]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:24:40.844]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C0.dat
+[15:24:40.861]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C1.dat
+[15:24:40.877]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C2.dat
+[15:24:40.893]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C3.dat
+[15:24:40.909]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C4.dat
+[15:24:40.925]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C5.dat
+[15:24:40.941]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C6.dat
+[15:24:40.957]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C7.dat
+[15:24:40.972]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C8.dat
+[15:24:40.989]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C9.dat
+[15:24:41.005]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C10.dat
+[15:24:41.020]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C11.dat
+[15:24:41.036]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C12.dat
+[15:24:41.052]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C13.dat
+[15:24:41.067]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C14.dat
+[15:24:41.083]     INFO:       reading data/mtt922//phCalibrationFitTanH40_C15.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C0.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C1.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C2.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C3.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C4.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C5.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C6.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C7.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C8.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C9.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C10.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C11.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C12.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C13.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C14.dat
+[15:24:41.137]     INFO:       reading data/mtt922//readbackCal_C15.dat
+[15:25:12.175]     INFO: ######################################################################
+[15:25:12.175]     INFO: PixTestXray::doTest()
+[15:25:12.175]     INFO: ######################################################################
+[15:25:12.175]     INFO:    ----------------------------------------------------------------------
+[15:25:12.175]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 300
+[15:25:12.175]     INFO:    ----------------------------------------------------------------------
+[15:25:12.177]     INFO:       reading data/mtt922//defaultMaskFile.dat
+[15:25:12.177]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[15:25:13.155]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[15:25:14.336]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 300 seconds,  fEventsMax = 30000000
+[15:25:31.459]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[15:25:50.433]     INFO: Resuming triggers.
+[15:26:07.565]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[15:26:12.178]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (39) !=  TBM ID (40)
+[15:26:12.179]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:26:12.179]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:26:12.179]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:26:12.179]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:26:12.179]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:26:12.179]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:26:12.179]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:26:12.179]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:26:27.588]     INFO: Resuming triggers.
+[15:26:44.730]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[15:27:04.723]     INFO: Resuming triggers.
+[15:27:21.868]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[15:27:40.654]     INFO: Resuming triggers.
+[15:27:57.780]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[15:28:17.824]     INFO: Resuming triggers.
+[15:28:35.012]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[15:28:55.025]     INFO: Resuming triggers.
+[15:29:12.155]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[15:29:31.088]     INFO: Resuming triggers.
+[15:29:48.218]     INFO: run duration 137 seconds, buffer almost full (81%), pausing triggers.
+[15:30:08.384]     INFO: Resuming triggers.
+[15:30:25.511]     INFO: run duration 154 seconds, buffer almost full (81%), pausing triggers.
+[15:30:45.599]     INFO: Resuming triggers.
+[15:31:02.741]     INFO: run duration 171 seconds, buffer almost full (81%), pausing triggers.
+[15:31:20.286]     INFO: Resuming triggers.
+[15:31:37.412]     INFO: run duration 188 seconds, buffer almost full (81%), pausing triggers.
+[15:31:56.132]     INFO: Resuming triggers.
+[15:32:13.263]     INFO: run duration 205 seconds, buffer almost full (81%), pausing triggers.
+[15:32:33.325]     INFO: Resuming triggers.
+[15:32:50.452]     INFO: run duration 222 seconds, buffer almost full (81%), pausing triggers.
+[15:33:10.507]     INFO: Resuming triggers.
+[15:33:27.634]     INFO: run duration 239 seconds, buffer almost full (81%), pausing triggers.
+[15:33:47.708]     INFO: Resuming triggers.
+[15:34:04.839]     INFO: run duration 256 seconds, buffer almost full (81%), pausing triggers.
+[15:34:24.837]     INFO: Resuming triggers.
+[15:34:41.966]     INFO: run duration 274 seconds, buffer almost full (81%), pausing triggers.
+[15:35:00.705]     INFO: Resuming triggers.
+[15:35:17.836]     INFO: run duration 291 seconds, buffer almost full (81%), pausing triggers.
+[15:35:36.820]     INFO: Resuming triggers.
+[15:35:45.583]     INFO: data taking finished, elapsed time: 300 seconds.
+[15:35:56.159]     INFO: PixTest::       pg_setup set to default.
+[15:35:56.188]     INFO: PixTestXray::doPhRun() done
+[15:35:56.188]     INFO: PixTestXray::doTest() done 
