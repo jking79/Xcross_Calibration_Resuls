@@ -1,0 +1,1957 @@
+[14:50:23.425]     INFO: *** Welcome to pxar ***
+[14:50:23.425]     INFO: *** Today: 2015/05/12
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C0.dat
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C1.dat
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C2.dat
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C3.dat
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C4.dat
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C5.dat
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C6.dat
+[14:50:23.425]     INFO:       reading data/mtt922/dacParameters40_C7.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C8.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C9.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C10.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C11.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C12.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C13.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C14.dat
+[14:50:23.426]     INFO:       reading data/mtt922/dacParameters40_C15.dat
+[14:50:23.426]     INFO:       reading data/mtt922/tbmParameters_C0a.dat
+[14:50:23.426]     INFO:       reading data/mtt922/tbmParameters_C0b.dat
+[14:50:23.426]     INFO:       reading data/mtt922/defaultMaskFile.dat
+[14:50:23.426]     INFO:       reading data/mtt922/trimParameters40_C0.dat
+[14:50:23.433]     INFO:       reading data/mtt922/trimParameters40_C1.dat
+[14:50:23.440]     INFO:       reading data/mtt922/trimParameters40_C2.dat
+[14:50:23.447]     INFO:       reading data/mtt922/trimParameters40_C3.dat
+[14:50:23.453]     INFO:       reading data/mtt922/trimParameters40_C4.dat
+[14:50:23.460]     INFO:       reading data/mtt922/trimParameters40_C5.dat
+[14:50:23.467]     INFO:       reading data/mtt922/trimParameters40_C6.dat
+[14:50:23.473]     INFO:       reading data/mtt922/trimParameters40_C7.dat
+[14:50:23.480]     INFO:       reading data/mtt922/trimParameters40_C8.dat
+[14:50:23.486]     INFO:       reading data/mtt922/trimParameters40_C9.dat
+[14:50:23.493]     INFO:       reading data/mtt922/trimParameters40_C10.dat
+[14:50:23.499]     INFO:       reading data/mtt922/trimParameters40_C11.dat
+[14:50:23.506]     INFO:       reading data/mtt922/trimParameters40_C12.dat
+[14:50:23.512]     INFO:       reading data/mtt922/trimParameters40_C13.dat
+[14:50:23.519]     INFO:       reading data/mtt922/trimParameters40_C14.dat
+[14:50:23.525]     INFO:       reading data/mtt922/trimParameters40_C15.dat
+[14:50:23.532]     INFO:       reading data/mtt922/tbParameters.dat
+[14:50:23.532]     INFO:         clk: 4
+[14:50:23.532]     INFO:         ctr: 4
+[14:50:23.532]     INFO:         sda: 19
+[14:50:23.532]     INFO:         tin: 9
+[14:50:23.532]     INFO:         level: 15
+[14:50:23.532]     INFO:         triggerdelay: 0
+[14:50:23.532]    QUIET: Instanciating API for pxar help-24-g9397791
+[14:50:23.532]     INFO: Log level: INFO
+[14:50:23.547]    QUIET: Connection to board DTB_WRPRHI opened.
+[14:50:23.551]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[14:50:23.554]     INFO: RPC call hashes of host and DTB match: 413001178
+[14:50:25.165]     INFO: DUT info: 
+[14:50:25.165]     INFO: The DUT currently contains the following objects:
+[14:50:25.165]     INFO:  2 TBM Cores (2 ON)
+[14:50:25.165]     INFO: 	TBM Core alpha (0): 7 registers set
+[14:50:25.165]     INFO: 	TBM Core beta  (1): 7 registers set
+[14:50:25.165]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[14:50:25.165]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.165]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:50:25.776]     INFO:       reading data/mtt922/phCalibrationFitErr40_C0.dat
+[14:50:25.792]     INFO:       reading data/mtt922/phCalibrationFitErr40_C1.dat
+[14:50:25.807]     INFO:       reading data/mtt922/phCalibrationFitErr40_C2.dat
+[14:50:25.823]     INFO:       reading data/mtt922/phCalibrationFitErr40_C3.dat
+[14:50:25.838]     INFO:       reading data/mtt922/phCalibrationFitErr40_C4.dat
+[14:50:25.854]     INFO:       reading data/mtt922/phCalibrationFitErr40_C5.dat
+[14:50:25.870]     INFO:       reading data/mtt922/phCalibrationFitErr40_C6.dat
+[14:50:25.885]     INFO:       reading data/mtt922/phCalibrationFitErr40_C7.dat
+[14:50:25.900]     INFO:       reading data/mtt922/phCalibrationFitErr40_C8.dat
+[14:50:25.917]     INFO:       reading data/mtt922/phCalibrationFitErr40_C9.dat
+[14:50:25.932]     INFO:       reading data/mtt922/phCalibrationFitErr40_C10.dat
+[14:50:25.948]     INFO:       reading data/mtt922/phCalibrationFitErr40_C11.dat
+[14:50:25.963]     INFO:       reading data/mtt922/phCalibrationFitErr40_C12.dat
+[14:50:25.978]     INFO:       reading data/mtt922/phCalibrationFitErr40_C13.dat
+[14:50:25.994]     INFO:       reading data/mtt922/phCalibrationFitErr40_C14.dat
+[14:50:26.009]     INFO:       reading data/mtt922/phCalibrationFitErr40_C15.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C0.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C1.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C2.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C3.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C4.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C5.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C6.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C7.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C8.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C9.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C10.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C11.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C12.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C13.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C14.dat
+[14:50:26.062]     INFO:       reading data/mtt922/readbackCal_C15.dat
+[14:50:40.498]     INFO: ######################################################################
+[14:50:40.498]     INFO: PixTestXray::doTest()
+[14:50:40.498]     INFO: ######################################################################
+[14:50:40.498]     INFO:    ----------------------------------------------------------------------
+[14:50:40.498]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 600
+[14:50:40.498]     INFO:    ----------------------------------------------------------------------
+[14:50:40.500]     INFO:       reading data/mtt922/defaultMaskFile.dat
+[14:50:40.500]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[14:50:41.477]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[14:50:42.657]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 600 seconds,  fEventsMax = 60000000
+[14:50:59.783]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[14:51:18.919]     INFO: Resuming triggers.
+[14:51:36.046]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[14:51:40.306]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (11) != Token Chain Length (8)
+[14:51:40.306]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (4) !=  TBM ID (162)
+[14:51:40.306]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:51:40.306]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (163) !=  TBM ID (5)
+[14:51:40.306]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:40.306]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:40.306]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:41.023]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:51:41.023]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:51:41.023]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:41.023]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:41.023]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:41.023]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:42.111]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[14:51:42.111]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:51:42.111]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:51:42.111]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:42.111]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:42.111]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:42.111]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:42.111]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:42.111]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:42.639]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[14:51:42.639]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:51:42.639]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:51:42.639]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:51:42.639]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:51:42.639]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:42.639]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:42.640]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:42.640]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:42.640]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:43.221]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[14:51:43.221]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:51:43.221]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:43.222]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:43.791]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:51:43.791]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:51:43.791]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:51:43.791]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:51:43.792]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:51:43.792]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:51:43.792]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:43.792]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:43.792]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:52.426]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:51:52.426]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:51:52.426]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:52.426]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:52.426]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:52.426]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:52.973]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[14:51:52.973]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:51:52.973]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:51:52.973]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:51:52.973]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:52.973]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:52.973]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:51:52.973]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:51:54.270]     INFO: Resuming triggers.
+[14:52:11.397]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[14:52:12.723]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:52:12.723]  WARNING: ROC 6: Readback start marker after 9 readouts!
+[14:52:12.723]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:52:12.723]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:12.723]  WARNING: ROC 6: Readback start marker after 7 readouts!
+[14:52:12.724]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:15.116]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:52:15.116]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:15.116]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:52:15.116]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:15.116]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:15.116]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:15.116]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:15.716]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:52:15.716]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:52:15.716]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:52:15.716]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:52:15.716]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:52:15.716]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:52:15.716]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:15.717]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:24.541]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:52:24.541]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:25.131]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:25.131]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:25.131]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:25.131]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:25.131]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:25.131]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:26.907]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:26.907]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[14:52:26.907]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:26.907]  WARNING: ROC 2: Readback start marker after 32 readouts!
+[14:52:27.494]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:27.494]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:27.494]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:27.494]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:27.494]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:27.494]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:31.267]     INFO: Resuming triggers.
+[14:52:48.395]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[14:52:55.690]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:52:55.690]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:52:55.690]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:55.690]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:56.286]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:52:56.286]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:52:56.286]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:52:56.286]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:56.286]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:56.286]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:52:56.286]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:56.287]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:56.881]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:56.881]  WARNING: ROC 4: Readback start marker after 10 readouts!
+[14:52:56.881]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:56.881]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:56.881]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:56.881]  WARNING: ROC 4: Readback start marker after 6 readouts!
+[14:52:56.881]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:56.881]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:57.472]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[14:52:57.472]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:52:57.472]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:52:57.472]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[14:52:57.472]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[14:52:57.472]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[14:52:57.472]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[14:52:57.472]  WARNING: ROC 3: Readback start marker after 32 readouts!
+[14:52:57.472]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[14:52:58.066]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:58.066]  WARNING: ROC 1: Readback start marker after 6 readouts!
+[14:52:58.066]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:52:58.066]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:58.066]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:58.066]  WARNING: ROC 1: Readback start marker after 10 readouts!
+[14:52:58.066]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:58.675]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:58.675]  WARNING: ROC 0: Readback start marker after 12 readouts!
+[14:52:58.675]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:52:58.675]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:58.675]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:52:58.675]  WARNING: ROC 0: Readback start marker after 4 readouts!
+[14:52:58.675]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:52:58.675]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:08.241]     INFO: Resuming triggers.
+[14:53:25.370]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[14:53:29.387]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:53:29.387]  WARNING: ROC 6: Readback start marker after 3 readouts!
+[14:53:29.387]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:53:29.387]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:29.387]  WARNING: ROC 6: Readback start marker after 13 readouts!
+[14:53:29.387]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:29.987]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:53:29.987]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:53:29.987]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:29.987]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:29.987]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:29.987]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:29.987]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:29.987]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:30.586]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:30.586]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:53:30.586]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:53:30.586]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:30.586]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:30.587]  WARNING: ROC 3: Readback start marker after 1 readouts!
+[14:53:30.587]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:30.587]  WARNING: ROC 4: Readback start marker after 32 readouts!
+[14:53:31.174]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[14:53:31.174]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:53:31.174]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:31.174]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:31.774]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:31.774]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:53:31.774]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:31.774]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:31.774]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:31.774]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:31.774]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:32.962]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (166) !=  TBM ID (191)
+[14:53:32.962]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (166) !=  TBM ID (181)
+[14:53:32.962]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:53:32.962]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (192) !=  TBM ID (167)
+[14:53:32.962]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (182) !=  TBM ID (167)
+[14:53:32.962]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:33.549]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (108) !=  TBM ID (109)
+[14:53:33.549]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:53:33.549]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (108) !=  TBM ID (109)
+[14:53:33.549]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:33.549]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:41.765]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:41.765]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:41.765]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:41.765]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:41.765]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:41.765]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:42.962]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:42.962]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:42.962]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:42.962]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:42.962]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:42.962]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:43.554]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:43.554]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:53:43.554]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:43.554]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:43.554]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:43.554]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:44.152]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:53:44.152]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:53:44.152]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:53:44.152]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[14:53:45.179]     INFO: Resuming triggers.
+[14:54:02.308]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[14:54:02.350]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:54:02.350]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:02.350]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (6) !=  TBM ID (175)
+[14:54:02.350]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:02.350]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (176) !=  TBM ID (6)
+[14:54:02.350]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:02.350]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:02.350]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:02.350]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:02.350]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:02.943]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:02.943]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:02.943]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:02.943]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:02.943]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:02.943]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:03.546]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:03.546]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:03.546]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:03.546]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:03.546]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:03.546]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:04.146]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:54:04.146]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[14:54:04.146]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:04.146]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:04.742]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:04.742]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:04.742]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:04.742]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:04.746]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[14:54:05.336]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:05.336]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (227) !=  TBM ID (226)
+[14:54:05.336]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:05.336]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (227) !=  TBM ID (228)
+[14:54:05.336]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:05.336]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:05.935]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (169) !=  TBM ID (170)
+[14:54:05.935]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (169) !=  TBM ID (170)
+[14:54:05.936]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:05.936]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:14.140]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:14.140]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:14.141]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:14.141]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:14.141]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:14.141]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:15.334]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:15.334]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:15.334]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:15.334]  WARNING: ROC 3: Readback start marker after 1 readouts!
+[14:54:15.334]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:15.334]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:15.334]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:15.334]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:15.334]  WARNING: ROC 4: Readback start marker after 32 readouts!
+[14:54:22.097]     INFO: Resuming triggers.
+[14:54:39.226]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[14:54:41.526]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:54:41.526]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:54:41.526]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (45) !=  TBM ID (171)
+[14:54:41.526]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:41.526]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (45)
+[14:54:41.526]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:41.526]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:41.526]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:41.526]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:41.526]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:41.526]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:42.126]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[14:54:42.126]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:54:42.126]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:42.126]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:42.126]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:42.126]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:42.126]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:42.126]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:42.126]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:42.727]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:42.727]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:42.727]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:42.727]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:42.727]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:42.727]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:43.321]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:43.321]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:54:43.321]  WARNING: ROC 1: Readback start marker after 1 readouts!
+[14:54:43.321]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:43.321]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:43.321]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:43.321]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:43.322]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:43.322]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:43.322]  WARNING: ROC 4: Readback start marker after 32 readouts!
+[14:54:44.521]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (10) !=  TBM ID (11)
+[14:54:44.522]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:44.522]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (12) !=  TBM ID (11)
+[14:54:44.522]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (10) !=  TBM ID (11)
+[14:54:44.522]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:54:44.522]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (12) !=  TBM ID (11)
+[14:54:44.522]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:44.522]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:53.925]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:54:53.926]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:54:53.926]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[14:54:53.926]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[14:54:53.926]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[14:54:55.712]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:55.712]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:55.712]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:55.712]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:56.310]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:56.311]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:54:56.311]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:56.311]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:56.909]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (237) !=  TBM ID (238)
+[14:54:56.909]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:56.909]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (237) !=  TBM ID (238)
+[14:54:56.909]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:54:56.909]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:54:56.910]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:54:56.910]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:54:56.910]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:54:56.910]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:54:56.910]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:54:56.910]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[14:54:59.025]     INFO: Resuming triggers.
+[14:55:16.151]     INFO: run duration 137 seconds, buffer almost full (81%), pausing triggers.
+[14:55:20.825]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:55:20.825]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:23.203]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:23.203]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:23.203]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:23.203]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:23.203]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:23.203]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:23.795]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:23.795]  WARNING: ROC 0: Readback start marker after 8 readouts!
+[14:55:23.796]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:55:23.796]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:23.796]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:23.796]  WARNING: ROC 0: Readback start marker after 8 readouts!
+[14:55:23.796]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:24.391]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:55:24.391]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:55:24.391]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:24.391]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[14:55:33.201]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:33.201]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:33.201]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:33.201]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:33.201]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:33.201]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:34.390]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:34.390]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:34.390]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:34.390]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:34.390]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:34.390]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:34.989]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:34.989]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:55:34.989]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:34.989]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:34.989]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:34.989]  WARNING: ROC 4: Readback start marker after 32 readouts!
+[14:55:35.584]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:35.584]  WARNING: ROC 1: Readback start marker after 5 readouts!
+[14:55:35.584]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:35.584]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:35.584]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:35.584]  WARNING: ROC 1: Readback start marker after 11 readouts!
+[14:55:35.584]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:35.584]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:35.941]     INFO: Resuming triggers.
+[14:55:53.083]     INFO: run duration 154 seconds, buffer almost full (81%), pausing triggers.
+[14:55:57.710]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:57.710]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:55:57.710]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:57.710]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:55:57.710]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:55:57.710]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:08.883]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:08.883]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:56:08.883]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:08.883]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:08.883]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:10.076]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[14:56:10.076]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[14:56:10.076]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (117) !=  TBM ID (171)
+[14:56:10.076]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[14:56:10.076]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (117)
+[14:56:10.076]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[14:56:10.076]  WARNING: ROC 1: Readback start marker after 17 readouts!
+[14:56:10.076]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:10.076]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:11.270]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:11.270]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:56:11.270]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:11.270]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:12.845]     INFO: Resuming triggers.
+[14:56:30.005]     INFO: run duration 171 seconds, buffer almost full (81%), pausing triggers.
+[14:56:35.477]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:56:35.478]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:56:35.478]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (5) !=  TBM ID (171)
+[14:56:35.478]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:56:35.478]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (5)
+[14:56:35.478]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:35.478]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:37.274]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:37.274]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:37.278]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:37.278]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:37.278]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:37.278]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:39.652]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (110) !=  TBM ID (111)
+[14:56:39.652]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:56:39.652]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:56:39.652]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:56:39.652]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:56:39.652]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:39.652]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:39.652]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (110) !=  TBM ID (111)
+[14:56:39.652]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:56:39.652]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:56:39.652]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:56:39.653]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:56:39.653]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:56:39.653]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:56:39.653]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:39.653]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:39.653]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:56:39.653]  WARNING: ROC 4: Readback start marker after 31 readouts!
+[14:56:47.857]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:47.858]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (232) !=  TBM ID (175)
+[14:56:47.858]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:56:47.858]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:47.858]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (176) !=  TBM ID (232)
+[14:56:47.858]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:47.858]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:47.858]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:47.858]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:48.473]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:48.473]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:56:48.473]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:48.473]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:48.473]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:56:48.473]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:56:49.816]     INFO: Resuming triggers.
+[14:57:06.947]     INFO: run duration 188 seconds, buffer almost full (81%), pausing triggers.
+[14:57:13.644]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:57:13.644]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:14.703]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:57:14.703]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:57:14.703]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:14.703]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:14.703]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:15.742]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:57:15.742]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:57:15.742]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:15.742]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:15.742]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:15.742]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:17.319]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (84) !=  TBM ID (171)
+[14:57:17.319]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:57:17.319]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (84) !=  TBM ID (85)
+[14:57:17.319]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (85)
+[14:57:17.319]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:17.319]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:17.322]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:17.323]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:24.523]     INFO: Resuming triggers.
+[14:57:41.653]     INFO: run duration 205 seconds, buffer almost full (81%), pausing triggers.
+[14:57:45.075]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[14:57:45.075]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:57:45.075]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:45.075]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:45.075]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:45.075]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:45.075]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:45.075]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:45.075]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:45.075]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:45.665]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:57:45.665]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:57:45.665]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:45.665]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:45.665]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:45.665]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:46.857]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:57:46.857]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:57:46.857]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:46.857]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:55.625]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:57:55.625]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:57:55.625]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (108) !=  TBM ID (171)
+[14:57:55.625]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:57:55.625]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (108)
+[14:57:55.625]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:55.625]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:55.625]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:55.625]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:57.403]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[14:57:57.403]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:57.403]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:57:57.403]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:57.403]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:57.403]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:57.403]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:57.403]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:57.403]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:57.403]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:57.403]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[14:57:57.991]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[14:57:57.991]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:57:57.991]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:57.991]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:58.585]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:57:58.585]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:58.585]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:58.585]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:57:58.585]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:58.585]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:58.585]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:58.585]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:58.585]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:59.178]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (15) !=  TBM ID (31)
+[14:57:59.178]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (32) !=  TBM ID (16)
+[14:57:59.178]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (15) !=  TBM ID (0)
+[14:57:59.178]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:57:59.178]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (1) !=  TBM ID (16)
+[14:57:59.178]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[14:57:59.769]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (213) !=  TBM ID (214)
+[14:57:59.769]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (213) !=  TBM ID (214)
+[14:57:59.769]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:59.769]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:57:59.773]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:01.394]     INFO: Resuming triggers.
+[14:58:18.520]     INFO: run duration 222 seconds, buffer almost full (81%), pausing triggers.
+[14:58:21.687]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:58:21.687]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:23.383]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:58:23.384]  WARNING: ROC 3: Readback start marker after 3 readouts!
+[14:58:23.384]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:58:23.384]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:58:23.384]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:23.384]  WARNING: ROC 3: Readback start marker after 13 readouts!
+[14:58:23.384]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:58:23.384]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:25.096]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:58:25.096]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:58:25.096]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:25.096]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:34.024]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:58:34.024]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[14:58:34.024]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:58:34.024]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:34.024]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:58:34.024]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:58:34.024]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:36.859]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (247) !=  TBM ID (245)
+[14:58:36.859]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (247) !=  TBM ID (245)
+[14:58:36.859]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:58:36.859]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (246) !=  TBM ID (248)
+[14:58:36.859]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (246) !=  TBM ID (248)
+[14:58:36.859]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:58:37.352]     INFO: Resuming triggers.
+[14:58:54.481]     INFO: run duration 239 seconds, buffer almost full (81%), pausing triggers.
+[14:59:02.000]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:59:02.004]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[14:59:02.004]  WARNING: ROC 7: Readback start marker after 32 readouts!
+[14:59:02.592]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:02.592]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:02.592]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:02.592]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:02.592]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:02.592]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:06.160]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (153) !=  TBM ID (154)
+[14:59:06.164]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (153) !=  TBM ID (154)
+[14:59:06.164]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:06.164]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:14.288]     INFO: Resuming triggers.
+[14:59:31.417]     INFO: run duration 256 seconds, buffer almost full (81%), pausing triggers.
+[14:59:34.861]  WARNING: ROC 7: Readback start marker after 9 readouts!
+[14:59:34.861]  WARNING: ROC 7: Readback start marker after 7 readouts!
+[14:59:35.464]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:35.464]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:35.464]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:35.464]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:35.464]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:35.464]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:36.659]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:36.659]  WARNING: ROC 3: Readback start marker after 11 readouts!
+[14:59:36.659]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:36.659]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:36.659]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:36.659]  WARNING: ROC 3: Readback start marker after 5 readouts!
+[14:59:36.659]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:36.659]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:47.225]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:59:47.225]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[14:59:47.225]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:47.225]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:47.825]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:47.825]  WARNING: ROC 5: Readback start marker after 2 readouts!
+[14:59:47.825]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:59:47.825]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:47.825]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:47.825]  WARNING: ROC 5: Readback start marker after 14 readouts!
+[14:59:47.825]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:47.825]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:50.202]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:59:50.202]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:59:50.202]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:59:50.202]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:59:51.203]     INFO: Resuming triggers.
+[15:00:08.348]     INFO: run duration 274 seconds, buffer almost full (81%), pausing triggers.
+[15:00:15.486]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:00:15.486]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:00:15.486]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:00:15.486]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:16.040]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:00:16.040]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:00:16.040]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:00:16.040]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:16.040]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:00:16.040]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:16.597]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:00:16.597]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:00:16.597]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:00:16.597]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:00:16.597]  WARNING: ROC 0: Readback start marker after 31 readouts!
+[15:00:16.597]  WARNING: ROC 1: Readback start marker after 31 readouts!
+[15:00:16.597]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[15:00:16.597]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[15:00:16.597]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:00:16.597]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:00:16.597]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:00:26.870]     INFO: Resuming triggers.
+[15:00:43.999]     INFO: run duration 291 seconds, buffer almost full (81%), pausing triggers.
+[15:00:48.851]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:00:48.851]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:00:48.851]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:48.851]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:49.444]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:00:49.444]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:00:49.445]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:00:49.445]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:49.445]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:50.628]  WARNING: ROC 4: Readback start marker after 1 readouts!
+[15:00:50.628]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:00:50.628]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:00:50.628]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:00:50.628]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:00:50.628]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:00:50.628]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:00:50.628]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:00:53.010]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (167) !=  TBM ID (168)
+[15:00:53.010]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (167) !=  TBM ID (168)
+[15:00:53.010]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:00:53.010]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:01.247]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:01:01.247]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:01:01.247]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:01.247]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:01.247]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:01.247]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:03.034]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:01:03.034]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:01:03.035]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:03.035]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:03.035]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:01:03.035]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:03.035]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:03.830]     INFO: Resuming triggers.
+[15:01:20.957]     INFO: run duration 308 seconds, buffer almost full (81%), pausing triggers.
+[15:01:28.831]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:01:28.831]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:01:28.831]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:28.831]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:31.207]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:01:31.207]  WARNING: ROC 1: Readback start marker after 7 readouts!
+[15:01:31.207]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:01:31.207]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:31.207]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:31.207]  WARNING: ROC 1: Readback start marker after 9 readouts!
+[15:01:31.207]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:31.806]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:01:31.806]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:01:31.806]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:31.806]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:32.404]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:01:32.404]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:01:32.404]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:01:32.404]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:01:32.404]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:32.405]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:40.792]     INFO: Resuming triggers.
+[15:01:57.923]     INFO: run duration 325 seconds, buffer almost full (81%), pausing triggers.
+[15:01:58.356]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (37) !=  TBM ID (38)
+[15:01:58.356]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (37) !=  TBM ID (38)
+[15:01:58.356]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:01:58.356]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:06.611]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:02:06.611]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:02:06.611]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:06.611]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:06.611]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:06.611]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (159) !=  TBM ID (171)
+[15:02:06.612]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:02:06.612]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (159)
+[15:02:06.612]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:06.612]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:06.612]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:07.806]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:02:07.806]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:02:07.806]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:02:07.806]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:07.806]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:07.806]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:07.806]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:07.806]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:07.806]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:07.806]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:08.998]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:02:08.998]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:02:08.998]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:08.998]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:10.189]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (66) !=  TBM ID (67)
+[15:02:10.189]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (66) !=  TBM ID (67)
+[15:02:10.189]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:10.189]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:17.929]     INFO: Resuming triggers.
+[15:02:35.056]     INFO: run duration 342 seconds, buffer almost full (81%), pausing triggers.
+[15:02:39.215]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:02:39.215]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:40.870]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[15:02:40.871]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[15:02:40.871]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:40.871]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (255) !=  TBM ID (171)
+[15:02:40.871]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:02:40.871]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (255)
+[15:02:40.871]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[15:02:40.871]  WARNING: ROC 1: Readback start marker after 17 readouts!
+[15:02:40.871]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:40.871]  WARNING: ROC 4: Readback start marker after 31 readouts!
+[15:02:41.974]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:02:41.974]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:02:41.974]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:41.974]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:42.534]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:02:42.534]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:52.560]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:02:52.561]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:02:52.561]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:02:52.561]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:02:53.734]     INFO: Resuming triggers.
+[15:03:10.865]     INFO: run duration 359 seconds, buffer almost full (81%), pausing triggers.
+[15:03:18.635]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:03:18.635]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:03:18.635]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:18.635]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:18.635]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:18.635]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:21.004]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (186) !=  TBM ID (160)
+[15:03:21.004]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:03:21.004]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (186) !=  TBM ID (160)
+[15:03:21.004]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:03:21.004]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (161) !=  TBM ID (187)
+[15:03:21.004]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (161) !=  TBM ID (187)
+[15:03:21.004]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:21.004]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:29.257]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:03:29.257]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:03:29.260]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:29.260]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:29.857]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:03:29.857]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:03:29.857]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:29.857]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:29.857]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:29.857]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:29.857]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:29.857]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:30.704]     INFO: Resuming triggers.
+[15:03:47.829]     INFO: run duration 376 seconds, buffer almost full (81%), pausing triggers.
+[15:03:50.514]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:03:50.514]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:03:50.514]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:50.514]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:50.514]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:50.514]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:51.115]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[15:03:51.115]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:03:51.115]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:51.115]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:52.307]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (34) !=  TBM ID (47)
+[15:03:52.307]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:03:52.307]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (34) !=  TBM ID (45)
+[15:03:52.307]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:03:52.307]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (48) !=  TBM ID (35)
+[15:03:52.307]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (46) !=  TBM ID (35)
+[15:03:52.307]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:03:52.307]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:01.091]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:01.091]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:04:01.091]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:01.091]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:01.091]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:01.691]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[15:04:01.691]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:01.691]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (40) !=  TBM ID (175)
+[15:04:01.691]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[15:04:01.691]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (176) !=  TBM ID (40)
+[15:04:01.691]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:01.691]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:01.691]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:01.691]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[15:04:01.691]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:01.691]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:01.691]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:02.879]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:04:02.879]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:02.880]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:02.880]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:02.880]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:04.070]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:04:04.070]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:04:04.070]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:04:04.070]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:04.070]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:04:04.073]  WARNING: ROC 0: Readback start marker after 31 readouts!
+[15:04:04.073]  WARNING: ROC 1: Readback start marker after 31 readouts!
+[15:04:04.073]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[15:04:04.073]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[15:04:04.073]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:04:04.073]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:04:07.623]     INFO: Resuming triggers.
+[15:04:24.779]     INFO: run duration 393 seconds, buffer almost full (81%), pausing triggers.
+[15:04:25.536]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:04:25.536]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:04:25.536]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:25.536]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[15:04:26.138]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (115) !=  TBM ID (114)
+[15:04:26.138]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:04:26.139]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:04:26.139]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (115) !=  TBM ID (116)
+[15:04:26.139]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:26.139]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:34.378]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:04:34.378]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:04:34.378]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:34.378]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:34.973]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:34.973]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:34.973]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:34.973]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:34.973]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:34.973]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:35.562]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:35.562]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:35.562]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:35.562]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:35.562]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:35.562]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:36.752]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:04:36.752]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:04:36.752]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:36.752]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:44.664]     INFO: Resuming triggers.
+[15:05:01.793]     INFO: run duration 411 seconds, buffer almost full (81%), pausing triggers.
+[15:05:10.494]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:05:10.494]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:05:12.882]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:05:12.882]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:05:12.882]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:05:12.882]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:05:12.882]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[15:05:12.882]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[15:05:12.882]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:05:12.882]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:05:12.882]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:05:13.482]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:05:13.482]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:05:13.482]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:05:13.482]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:05:13.482]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:05:21.154]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (201) !=  TBM ID (255)
+[15:05:21.154]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:05:21.154]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (256) !=  TBM ID (201)
+[15:05:21.709]     INFO: Resuming triggers.
+[15:05:38.840]     INFO: run duration 428 seconds, buffer almost full (81%), pausing triggers.
+[15:05:47.424]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:05:47.424]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:05:47.424]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:05:47.424]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:05:47.424]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:05:47.424]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:05:47.424]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:05:47.424]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:05:58.692]     INFO: Resuming triggers.
+[15:06:15.822]     INFO: run duration 445 seconds, buffer almost full (81%), pausing triggers.
+[15:06:18.232]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[15:06:18.232]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:06:18.232]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (216) !=  TBM ID (175)
+[15:06:18.232]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[15:06:18.232]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (176) !=  TBM ID (216)
+[15:06:18.232]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:06:18.232]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:18.232]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:18.232]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[15:06:18.232]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:06:18.232]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:18.232]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:35.643]     INFO: Resuming triggers.
+[15:06:52.786]     INFO: run duration 462 seconds, buffer almost full (81%), pausing triggers.
+[15:06:53.114]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:06:53.114]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:06:53.114]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:53.114]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:53.114]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:06:53.114]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:53.114]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:53.709]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:06:53.709]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:06:53.709]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:53.709]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:53.709]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:53.709]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:54.309]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:06:54.309]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:06:54.309]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:54.309]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:54.309]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:55.502]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:06:55.502]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:06:55.505]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:06:55.505]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:04.900]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:07:04.900]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:07:04.900]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:04.900]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:04.900]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:04.900]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:06.110]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:07:06.110]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:07:06.110]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:06.110]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:12.668]     INFO: Resuming triggers.
+[15:07:29.798]     INFO: run duration 479 seconds, buffer almost full (81%), pausing triggers.
+[15:07:31.195]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:07:31.195]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:07:31.195]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:31.195]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:31.195]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:31.789]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[15:07:31.789]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:07:31.789]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:31.789]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:31.789]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:31.789]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:31.789]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:31.789]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:31.789]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:31.789]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:34.185]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (194) !=  TBM ID (195)
+[15:07:34.185]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (194) !=  TBM ID (195)
+[15:07:34.185]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:34.185]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:34.787]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (136) !=  TBM ID (137)
+[15:07:34.787]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (136) !=  TBM ID (137)
+[15:07:34.787]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:34.787]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:44.184]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:07:44.184]  WARNING: ROC 2: Readback start marker after 14 readouts!
+[15:07:44.184]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:07:44.184]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:44.184]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:44.184]  WARNING: ROC 2: Readback start marker after 2 readouts!
+[15:07:44.184]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:44.786]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:07:44.786]  WARNING: ROC 1: Readback start marker after 4 readouts!
+[15:07:44.786]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:07:44.786]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:44.786]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:44.786]  WARNING: ROC 1: Readback start marker after 12 readouts!
+[15:07:44.786]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:44.786]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:46.577]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (165) !=  TBM ID (166)
+[15:07:46.578]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (165) !=  TBM ID (166)
+[15:07:46.578]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:07:46.578]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:07:49.633]     INFO: Resuming triggers.
+[15:08:06.762]     INFO: run duration 496 seconds, buffer almost full (81%), pausing triggers.
+[15:08:06.894]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (15) !=  TBM ID (16)
+[15:08:06.894]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (15) !=  TBM ID (16)
+[15:08:06.894]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:08:06.894]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:08:06.894]  WARNING: ROC 0: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 1: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 0: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 1: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 4: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:08:06.894]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:08:17.470]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:08:17.470]  WARNING: ROC 0: Readback start marker after 1 readouts!
+[15:08:17.470]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:08:17.470]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:17.470]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:17.470]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:08:17.470]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:17.470]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:26.512]     INFO: Resuming triggers.
+[15:08:43.640]     INFO: run duration 513 seconds, buffer almost full (81%), pausing triggers.
+[15:08:52.726]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:08:52.726]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:08:52.726]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:52.726]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:53.314]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:08:53.314]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:08:53.314]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:53.314]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:53.314]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:53.911]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:08:53.911]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:08:53.911]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:53.911]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:53.911]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:08:53.911]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:53.911]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:55.108]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[15:08:55.108]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (1) != Token Chain Length (8)
+[15:08:55.108]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:08:55.108]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:08:55.109]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:08:55.109]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:08:55.109]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:08:55.109]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:55.109]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:55.699]  WARNING: ROC 4: Readback start marker after 1 readouts!
+[15:08:55.699]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:08:55.699]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:08:55.699]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:08:55.699]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:08:55.699]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:08:55.699]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:08:56.303]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:08:56.303]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:08:56.303]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:08:56.303]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:03.424]     INFO: Resuming triggers.
+[15:09:20.553]     INFO: run duration 531 seconds, buffer almost full (81%), pausing triggers.
+[15:09:26.709]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:09:26.709]  WARNING: ROC 6: Readback start marker after 10 readouts!
+[15:09:26.709]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:09:26.709]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:26.709]  WARNING: ROC 6: Readback start marker after 6 readouts!
+[15:09:26.709]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:29.666]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:09:29.666]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:09:29.666]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:09:29.666]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:09:29.670]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:30.853]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (211) !=  TBM ID (212)
+[15:09:30.853]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (211) !=  TBM ID (212)
+[15:09:30.853]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:09:30.853]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:38.496]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:09:38.496]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:40.378]     INFO: Resuming triggers.
+[15:09:57.507]     INFO: run duration 548 seconds, buffer almost full (81%), pausing triggers.
+[15:09:57.620]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:09:57.620]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:09:57.620]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:09:57.620]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:57.620]  WARNING: ROC 6: Readback start marker after 1 readouts!
+[15:09:57.620]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:58.733]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:09:58.733]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:09:58.733]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:09:58.733]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:09:58.733]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:09:58.733]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:00.945]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (226) !=  TBM ID (255)
+[15:10:00.945]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:10:00.945]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (226) !=  TBM ID (253)
+[15:10:00.945]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:10:00.945]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (256) !=  TBM ID (227)
+[15:10:00.945]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (254) !=  TBM ID (227)
+[15:10:00.945]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:10:00.945]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:10:00.945]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:10:00.945]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:10:00.945]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:10:00.945]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:10:00.945]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:00.945]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:00.946]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:11.388]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:11.388]  WARNING: ROC 0: Readback start marker after 10 readouts!
+[15:10:11.388]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:11.388]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:11.388]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:11.388]  WARNING: ROC 0: Readback start marker after 6 readouts!
+[15:10:11.388]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:11.388]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:16.027]     INFO: Resuming triggers.
+[15:10:33.156]     INFO: run duration 565 seconds, buffer almost full (81%), pausing triggers.
+[15:10:39.743]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:39.744]  WARNING: ROC 4: Readback start marker after 7 readouts!
+[15:10:39.744]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:39.744]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:39.744]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:39.744]  WARNING: ROC 4: Readback start marker after 9 readouts!
+[15:10:39.744]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:39.744]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:40.936]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:40.936]  WARNING: ROC 1: Readback start marker after 3 readouts!
+[15:10:40.936]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:10:40.936]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:40.936]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:40.936]  WARNING: ROC 1: Readback start marker after 13 readouts!
+[15:10:40.936]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:50.905]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:50.905]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:50.905]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:50.905]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:50.905]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:50.905]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:51.504]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:10:51.504]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:10:51.504]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:10:51.504]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:51.504]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:51.504]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:10:51.504]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:51.504]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:52.099]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:52.099]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:10:52.099]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:52.099]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:52.099]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:10:52.099]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:10:52.936]     INFO: Resuming triggers.
+[15:11:10.079]     INFO: run duration 582 seconds, buffer almost full (81%), pausing triggers.
+[15:11:14.822]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:11:14.822]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:11:14.822]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:14.822]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:14.822]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:25.968]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (5) != Token Chain Length (8)
+[15:11:25.968]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:11:25.968]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:11:25.968]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:25.968]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:25.968]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:25.968]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:27.649]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (107) !=  TBM ID (126)
+[15:11:27.649]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:11:27.649]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (107) !=  TBM ID (127)
+[15:11:27.649]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:11:27.649]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (127) !=  TBM ID (108)
+[15:11:27.649]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (128) !=  TBM ID (108)
+[15:11:27.649]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:27.649]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:28.819]     INFO: Resuming triggers.
+[15:11:45.949]     INFO: run duration 599 seconds, buffer almost full (81%), pausing triggers.
+[15:11:51.039]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:11:51.043]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:51.595]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:11:51.595]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:11:51.595]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:51.595]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:51.595]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:51.595]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:52.708]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[15:11:52.708]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (3) != Token Chain Length (8)
+[15:11:52.708]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (26) !=  TBM ID (171)
+[15:11:52.708]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (2) != Token Chain Length (8)
+[15:11:52.708]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (172) !=  TBM ID (26)
+[15:11:52.708]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[15:11:52.708]  WARNING: ROC 1: Readback start marker after 17 readouts!
+[15:11:52.708]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:52.708]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:53.256]  WARNING: ROC 4: Readback start marker after 1 readouts!
+[15:11:53.256]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:11:53.256]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:11:53.256]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:11:53.256]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:11:53.256]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:11:53.256]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:11:53.810]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:11:53.810]  WARNING: ROC 0: Readback start marker after 6 readouts!
+[15:11:53.810]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:11:53.810]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:53.810]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:53.810]  WARNING: ROC 0: Readback start marker after 10 readouts!
+[15:11:53.810]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:11:53.810]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:11:54.370]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:11:54.370]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:12:03.198]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:12:03.198]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:12:03.198]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:12:03.198]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:12:03.198]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:12:03.198]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:12:03.761]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:12:03.761]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:12:03.761]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:12:03.761]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:12:03.761]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:12:03.761]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:12:04.494]     INFO: Resuming triggers.
+[15:12:04.956]     INFO: data taking finished, elapsed time: 600 seconds.
+[15:12:05.451]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (7) != Token Chain Length (8)
+[15:12:05.451]  WARNING: ROC 2: Readback start marker after 32 readouts!
+[15:12:05.451]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:12:05.698]     INFO: PixTest::       pg_setup set to default.
+[15:12:05.725]     INFO: PixTestXray::doPhRun() done
+[15:12:05.725]     INFO: PixTestXray::doTest() done 
+[15:14:40.530]    QUIET: Connection to board 58 closed.
