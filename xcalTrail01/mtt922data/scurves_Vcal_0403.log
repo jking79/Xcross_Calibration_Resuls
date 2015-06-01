@@ -1,0 +1,174 @@
+[16:37:30.495]     INFO: *** Welcome to pxar ***
+[16:37:30.495]     INFO: *** Today: 2015/04/03
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C0.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C1.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C2.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C3.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C4.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C5.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C6.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C7.dat
+[16:37:30.495]     INFO:       reading data/mtt922//dacParameters_C8.dat
+[16:37:30.496]     INFO:       reading data/mtt922//dacParameters_C9.dat
+[16:37:30.496]     INFO:       reading data/mtt922//dacParameters_C10.dat
+[16:37:30.496]     INFO:       reading data/mtt922//dacParameters_C11.dat
+[16:37:30.496]     INFO:       reading data/mtt922//dacParameters_C12.dat
+[16:37:30.496]     INFO:       reading data/mtt922//dacParameters_C13.dat
+[16:37:30.496]     INFO:       reading data/mtt922//dacParameters_C14.dat
+[16:37:30.496]     INFO:       reading data/mtt922//dacParameters_C15.dat
+[16:37:30.496]     INFO:       reading data/mtt922//tbmParameters_C0a.dat
+[16:37:30.496]     INFO:       reading data/mtt922//tbmParameters_C0b.dat
+[16:37:30.496]     INFO:       reading data/mtt922//defaultMaskFile.dat
+[16:37:30.496]     INFO:       reading data/mtt922//trimParameters_C0.dat
+[16:37:30.503]     INFO:       reading data/mtt922//trimParameters_C1.dat
+[16:37:30.509]     INFO:       reading data/mtt922//trimParameters_C2.dat
+[16:37:30.516]     INFO:       reading data/mtt922//trimParameters_C3.dat
+[16:37:30.522]     INFO:       reading data/mtt922//trimParameters_C4.dat
+[16:37:30.529]     INFO:       reading data/mtt922//trimParameters_C5.dat
+[16:37:30.535]     INFO:       reading data/mtt922//trimParameters_C6.dat
+[16:37:30.541]     INFO:       reading data/mtt922//trimParameters_C7.dat
+[16:37:30.548]     INFO:       reading data/mtt922//trimParameters_C8.dat
+[16:37:30.554]     INFO:       reading data/mtt922//trimParameters_C9.dat
+[16:37:30.561]     INFO:       reading data/mtt922//trimParameters_C10.dat
+[16:37:30.567]     INFO:       reading data/mtt922//trimParameters_C11.dat
+[16:37:30.574]     INFO:       reading data/mtt922//trimParameters_C12.dat
+[16:37:30.580]     INFO:       reading data/mtt922//trimParameters_C13.dat
+[16:37:30.586]     INFO:       reading data/mtt922//trimParameters_C14.dat
+[16:37:30.593]     INFO:       reading data/mtt922//trimParameters_C15.dat
+[16:37:30.600]     INFO:       reading data/mtt922//tbParameters.dat
+[16:37:30.600]     INFO:         clk: 4
+[16:37:30.600]     INFO:         ctr: 4
+[16:37:30.600]     INFO:         sda: 19
+[16:37:30.600]     INFO:         tin: 9
+[16:37:30.600]     INFO:         level: 15
+[16:37:30.600]     INFO:         triggerdelay: 0
+[16:37:30.600]    QUIET: Instanciating API for pxar crosscalibrate
+[16:37:30.600]     INFO: Log level: INFO
+[16:37:30.613]    QUIET: Connection to board DTB_WRPRHI opened.
+[16:37:30.616]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[16:37:30.620]     INFO: RPC call hashes of host and DTB match: 413001178
+[16:37:32.233]     INFO: DUT info: 
+[16:37:32.233]     INFO: The DUT currently contains the following objects:
+[16:37:32.233]     INFO:  2 TBM Cores (2 ON)
+[16:37:32.233]     INFO: 	TBM Core alpha (0): 7 registers set
+[16:37:32.233]     INFO: 	TBM Core beta  (1): 7 registers set
+[16:37:32.233]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[16:37:32.233]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.233]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:37:32.830]     INFO:       reading data/mtt922//phCalibrationFitTanH_C0.dat
+[16:37:32.830]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/mtt922//phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C0.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C1.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C2.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C3.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C4.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C5.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C6.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C7.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C8.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C9.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C10.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C11.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C12.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C13.dat
+[16:37:32.878]     INFO:       reading data/mtt922//readbackCal_C14.dat
+[16:37:32.879]     INFO:       reading data/mtt922//readbackCal_C15.dat
+[16:37:32.879]     INFO:       reading data/mtt922//phCalibrationFitTanH_C0.dat
+[16:37:32.879]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/mtt922//phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[16:37:32.906]     INFO:       reading data/mtt922//phCalibrationFitTanH_C0.dat
+[16:37:32.906]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/mtt922//phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[16:37:41.661]     INFO: ######################################################################
+[16:37:41.661]     INFO: PixTestScurves::doTest() ntrig = 50
+[16:37:41.661]     INFO: ######################################################################
+[16:37:41.661]     INFO: ---> dac: Vcal name: scurveVcal ntrig: 50 dacrange: 0 .. 200 hits flags = 16 (plus default)
+[16:37:41.696]     INFO:   dacScan step  from 0 .. 9
+[16:38:22.656]     INFO: Test took 40960ms.
+[16:38:22.833]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:38:22.834]     INFO:   dacScan step  from 10 .. 19
+[16:39:03.768]     INFO: Test took 40934ms.
+[16:39:03.947]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:39:03.947]     INFO:   dacScan step  from 20 .. 29
+[16:39:45.542]     INFO: Test took 41595ms.
+[16:39:45.824]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:39:45.830]     INFO:   dacScan step  from 30 .. 39
+[16:40:37.545]     INFO: Test took 51715ms.
+[16:40:38.255]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:40:38.306]     INFO:   dacScan step  from 40 .. 49
+[16:41:43.245]     INFO: Test took 64938ms.
+[16:41:44.436]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:41:44.518]     INFO:   dacScan step  from 50 .. 59
+[16:42:55.054]     INFO: Test took 70536ms.
+[16:42:56.433]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:42:56.525]     INFO:   dacScan step  from 60 .. 69
+[16:44:08.703]     INFO: Test took 72177ms.
+[16:44:10.078]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:44:10.170]     INFO:   dacScan step  from 70 .. 79
+[16:45:21.581]     INFO: Test took 71410ms.
+[16:45:22.973]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:45:23.065]     INFO:   dacScan step  from 80 .. 89
+[16:46:34.574]     INFO: Test took 71509ms.
+[16:46:35.947]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:46:36.039]     INFO:   dacScan step  from 90 .. 99
+[16:47:46.421]     INFO: Test took 70382ms.
+[16:47:47.794]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:47:47.885]     INFO:   dacScan step  from 100 .. 109
+[16:48:59.394]     INFO: Test took 71508ms.
+[16:49:00.768]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:49:00.862]     INFO:   dacScan step  from 110 .. 119
+[16:50:11.435]     INFO: Test took 70573ms.
+[16:50:12.808]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:50:12.900]     INFO:   dacScan step  from 120 .. 129
+[16:51:24.417]     INFO: Test took 71516ms.
+[16:51:25.787]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:51:25.879]     INFO:   dacScan step  from 130 .. 139
+[16:52:37.459]     INFO: Test took 71580ms.
+[16:52:38.830]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:52:38.924]     INFO:   dacScan step  from 140 .. 149
+[16:53:51.168]     INFO: Test took 72244ms.
+[16:53:52.539]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:53:52.631]     INFO:   dacScan step  from 150 .. 159
+[16:55:04.168]     INFO: Test took 71537ms.
+[16:55:05.538]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:55:05.631]     INFO:   dacScan step  from 160 .. 169
+[16:56:16.039]     INFO: Test took 70408ms.
+[16:56:17.436]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:56:17.528]     INFO:   dacScan step  from 170 .. 179
+[16:57:29.081]     INFO: Test took 71553ms.
+[16:57:30.450]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:57:30.542]     INFO:   dacScan step  from 180 .. 189
+[16:58:42.163]     INFO: Test took 71620ms.
+[16:58:43.553]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:58:43.644]     INFO:   dacScan step  from 190 .. 199
+[16:59:54.172]     INFO: Test took 70528ms.
+[16:59:55.559]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:59:55.651]     INFO:   dacScan step  from 200 .. 200
+[17:00:05.464]     INFO: Test took 9813ms.
+[17:00:05.600]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:01:00.055]     INFO: PixTestScurves::scurves() done 
+[17:01:00.055]     INFO: Vcal mean:  44.31  35.14  33.78  28.00  31.43  47.64  48.90  36.44  39.41  36.74  38.09  36.97  36.26  38.38  46.06  34.55 
+[17:01:00.056]     INFO: Vcal RMS:    3.99   4.46   4.40   4.06   4.74   4.26   4.26   4.49   4.70   4.76   4.62   4.41   4.37   4.53   3.30   4.62 
+[17:02:30.531]    QUIET: Connection to board 58 closed.

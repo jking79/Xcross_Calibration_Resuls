@@ -1,0 +1,159 @@
+[16:53:18.354]     INFO: *** Welcome to pxar ***
+[16:53:18.354]     INFO: *** Today: 2015/05/05
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C0.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C1.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C2.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C3.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C4.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C5.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C6.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C7.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C8.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C9.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C10.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C11.dat
+[16:53:18.354]     INFO:       reading data/n00902//dacParameters40_C12.dat
+[16:53:18.355]     INFO:       reading data/n00902//dacParameters40_C13.dat
+[16:53:18.355]     INFO:       reading data/n00902//dacParameters40_C14.dat
+[16:53:18.355]     INFO:       reading data/n00902//dacParameters40_C15.dat
+[16:53:18.355]     INFO:       reading data/n00902//tbmParameters_C0a.dat
+[16:53:18.355]     INFO:       reading data/n00902//tbmParameters_C0b.dat
+[16:53:18.355]     INFO:       reading data/n00902//defaultMaskFile.dat
+[16:53:18.355]     INFO: MASKED Roc 1 col/row: 31 23
+[16:53:18.355]     INFO: MASKED Roc 3 col/row: 41 2
+[16:53:18.355]     INFO: MASKED Roc 5 col/row: 30 36
+[16:53:18.355]     INFO: MASKED Roc 5 col/row: 44 54
+[16:53:18.355]     INFO: MASKED Roc 5 col/row: 49 41
+[16:53:18.355]     INFO: MASKED Roc 10 col/row: 42 33
+[16:53:18.355]     INFO: MASKED Roc 12 col/row: 31 32
+[16:53:18.355]     INFO: MASKED Roc 12 col/row: 43 44
+[16:53:18.355]     INFO: MASKED Roc 12 col/row: 46 4
+[16:53:18.355]     INFO:       reading data/n00902//trimParameters40_C0.dat
+[16:53:18.362]     INFO:   masking Roc 1 col/row: 31 23
+[16:53:18.362]     INFO:       reading data/n00902//trimParameters40_C1.dat
+[16:53:18.368]     INFO:       reading data/n00902//trimParameters40_C2.dat
+[16:53:18.375]     INFO:   masking Roc 3 col/row: 41 2
+[16:53:18.375]     INFO:       reading data/n00902//trimParameters40_C3.dat
+[16:53:18.382]     INFO:       reading data/n00902//trimParameters40_C4.dat
+[16:53:18.388]     INFO:   masking Roc 5 col/row: 30 36
+[16:53:18.388]     INFO:   masking Roc 5 col/row: 44 54
+[16:53:18.388]     INFO:   masking Roc 5 col/row: 49 41
+[16:53:18.388]     INFO:       reading data/n00902//trimParameters40_C5.dat
+[16:53:18.395]     INFO:       reading data/n00902//trimParameters40_C6.dat
+[16:53:18.401]     INFO:       reading data/n00902//trimParameters40_C7.dat
+[16:53:18.408]     INFO:       reading data/n00902//trimParameters40_C8.dat
+[16:53:18.414]     INFO:       reading data/n00902//trimParameters40_C9.dat
+[16:53:18.421]     INFO:   masking Roc 10 col/row: 42 33
+[16:53:18.421]     INFO:       reading data/n00902//trimParameters40_C10.dat
+[16:53:18.427]     INFO:       reading data/n00902//trimParameters40_C11.dat
+[16:53:18.434]     INFO:   masking Roc 12 col/row: 31 32
+[16:53:18.434]     INFO:   masking Roc 12 col/row: 43 44
+[16:53:18.434]     INFO:   masking Roc 12 col/row: 46 4
+[16:53:18.434]     INFO:       reading data/n00902//trimParameters40_C12.dat
+[16:53:18.440]     INFO:       reading data/n00902//trimParameters40_C13.dat
+[16:53:18.447]     INFO:       reading data/n00902//trimParameters40_C14.dat
+[16:53:18.453]     INFO:       reading data/n00902//trimParameters40_C15.dat
+[16:53:18.460]     INFO:       reading data/n00902//tbParameters.dat
+[16:53:18.460]     INFO:         clk: 4
+[16:53:18.460]     INFO:         ctr: 4
+[16:53:18.460]     INFO:         sda: 19
+[16:53:18.460]     INFO:         tin: 9
+[16:53:18.460]     INFO:         level: 15
+[16:53:18.460]     INFO:         triggerdelay: 0
+[16:53:18.460]    QUIET: Instanciating API for pxar help-24-g9397791
+[16:53:18.460]     INFO: Log level: INFO
+[16:53:18.473]    QUIET: Connection to board DTB_WRPRHI opened.
+[16:53:18.477]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[16:53:18.480]     INFO: RPC call hashes of host and DTB match: 413001178
+[16:53:20.090]     INFO: DUT info: 
+[16:53:20.090]     INFO: The DUT currently contains the following objects:
+[16:53:20.090]     INFO:  2 TBM Cores (2 ON)
+[16:53:20.090]     INFO: 	TBM Core alpha (0): 7 registers set
+[16:53:20.090]     INFO: 	TBM Core beta  (1): 7 registers set
+[16:53:20.090]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[16:53:20.090]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.090]     INFO: 	ROC 1: 21 DACs set, Pixels: 1 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 3: 21 DACs set, Pixels: 1 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 5: 21 DACs set, Pixels: 3 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 10: 21 DACs set, Pixels: 1 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 12: 21 DACs set, Pixels: 3 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.091]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[16:53:20.697]     INFO:       reading data/n00902//phCalibrationFitErr40_C0.dat
+[16:53:20.713]     INFO:       reading data/n00902//phCalibrationFitErr40_C1.dat
+[16:53:20.729]     INFO:       reading data/n00902//phCalibrationFitErr40_C2.dat
+[16:53:20.744]     INFO:       reading data/n00902//phCalibrationFitErr40_C3.dat
+[16:53:20.759]     INFO:       reading data/n00902//phCalibrationFitErr40_C4.dat
+[16:53:20.775]     INFO:       reading data/n00902//phCalibrationFitErr40_C5.dat
+[16:53:20.790]     INFO:       reading data/n00902//phCalibrationFitErr40_C6.dat
+[16:53:20.806]     INFO:       reading data/n00902//phCalibrationFitErr40_C7.dat
+[16:53:20.821]     INFO:       reading data/n00902//phCalibrationFitErr40_C8.dat
+[16:53:20.837]     INFO:       reading data/n00902//phCalibrationFitErr40_C9.dat
+[16:53:20.852]     INFO:       reading data/n00902//phCalibrationFitErr40_C10.dat
+[16:53:20.868]     INFO:       reading data/n00902//phCalibrationFitErr40_C11.dat
+[16:53:20.883]     INFO:       reading data/n00902//phCalibrationFitErr40_C12.dat
+[16:53:20.898]     INFO:       reading data/n00902//phCalibrationFitErr40_C13.dat
+[16:53:20.913]     INFO:       reading data/n00902//phCalibrationFitErr40_C14.dat
+[16:53:20.929]     INFO:       reading data/n00902//phCalibrationFitErr40_C15.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C0.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C1.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C2.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C3.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C4.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C5.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C6.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C7.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C8.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C9.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C10.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C11.dat
+[16:53:20.982]     INFO:       reading data/n00902//readbackCal_C12.dat
+[16:53:20.983]     INFO:       reading data/n00902//readbackCal_C13.dat
+[16:53:20.983]     INFO:       reading data/n00902//readbackCal_C14.dat
+[16:53:20.983]     INFO:       reading data/n00902//readbackCal_C15.dat
+[16:53:33.437]     INFO:    ----------------------------------------------------------------------
+[16:53:33.437]     INFO:    PixTestHighRate::xPixelAlive() ntrig = 5, vcal = 200
+[16:53:33.437]     INFO:    ----------------------------------------------------------------------
+[16:53:33.442]     INFO:       reading data/n00902//defaultMaskFile.dat
+[16:53:33.442]     INFO: ROC 1 masking pixel 31/23
+[16:53:33.442]     INFO: ROC 3 masking pixel 41/2
+[16:53:33.442]     INFO: ROC 5 masking pixel 30/36
+[16:53:33.442]     INFO: ROC 5 masking pixel 44/54
+[16:53:33.442]     INFO: ROC 5 masking pixel 49/41
+[16:53:33.442]     INFO: ROC 10 masking pixel 42/33
+[16:53:33.442]     INFO: ROC 12 masking pixel 31/32
+[16:53:33.442]     INFO: ROC 12 masking pixel 43/44
+[16:53:33.442]     INFO: ROC 12 masking pixel 46/4
+[16:53:33.442]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[16:53:37.422]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[16:53:40.364]     INFO: Test took 2746ms.
+[16:53:40.508]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:53:40.765]     INFO: number of dead pixels (per ROC):     0    1    0    1    0    4    0    0    0    0   23    0    4    0    0    0
+[16:53:40.765]     INFO: number of red-efficiency pixels:    18  263  312  227  503  390  195  251  669  323  802  614  761  340  120    1
+[16:53:40.765]     INFO: number of X-ray hits detected:     786 12107 21249 33514 34821 37587 34906 31116 29710 36172 34562 34603 35486 23010 7575  404
+[16:53:40.765]     INFO: number of triggers sent (total per ROC):  20800 20800 20800 20800 20800 20800 20800 20800 20800 20800 20800 20800 20800 20800 20800 20800
+[16:53:40.765]     INFO: number of Vcal hits detected:  20782 20520 20466 20560 20254 20357 20600 20534 20076 20453 19806 20124 19932 20430 20678 20799
+[16:53:40.765]     INFO: Vcal hit fiducial efficiency (%):  99.9 98.7 98.5 99.0 97.4 98.2 99.1 98.8 96.6 98.5 96.0 96.9 96.2 98.4 99.4 100.0
+[16:53:40.765]     INFO: Vcal hit overall efficiency (%):  99.9 98.7 98.4 98.8 97.4 97.9 99.0 98.7 96.5 98.3 95.2 96.8 95.8 98.2 99.4 100.0
+[16:53:40.765]     INFO: X-ray hit rate [MHz/cm2]:  2.3 35.5 62.3 98.2 102.1 110.2 102.3 91.2 87.1 106.0 101.3 101.4 104.0 67.4 22.2 1.2
+[16:53:40.765]     INFO: PixTestHighRate::doXPixelAlive() done
+[16:53:40.807]     INFO: PixTest::       pg_setup set to default.
+[16:54:02.111]    QUIET: Connection to board 58 closed.

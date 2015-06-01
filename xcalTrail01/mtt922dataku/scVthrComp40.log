@@ -1,0 +1,188 @@
+[12:51:01.460]     INFO: *** Welcome to pxar ***
+[12:51:01.460]     INFO: *** Today: 2015/04/21
+[12:51:01.460]     INFO:       reading data/crosscalibrate/dacParameters40_C0.dat
+[12:51:01.460]     INFO:       reading data/crosscalibrate/dacParameters40_C1.dat
+[12:51:01.460]     INFO:       reading data/crosscalibrate/dacParameters40_C2.dat
+[12:51:01.460]     INFO:       reading data/crosscalibrate/dacParameters40_C3.dat
+[12:51:01.460]     INFO:       reading data/crosscalibrate/dacParameters40_C4.dat
+[12:51:01.460]     INFO:       reading data/crosscalibrate/dacParameters40_C5.dat
+[12:51:01.460]     INFO:       reading data/crosscalibrate/dacParameters40_C6.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C7.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C8.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C9.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C10.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C11.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C12.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C13.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C14.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/dacParameters40_C15.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/tbmParameters_C0a.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/tbmParameters_C0b.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/defaultMaskFile.dat
+[12:51:01.461]     INFO:       reading data/crosscalibrate/trimParameters40_C0.dat
+[12:51:01.468]     INFO:       reading data/crosscalibrate/trimParameters40_C1.dat
+[12:51:01.475]     INFO:       reading data/crosscalibrate/trimParameters40_C2.dat
+[12:51:01.482]     INFO:       reading data/crosscalibrate/trimParameters40_C3.dat
+[12:51:01.488]     INFO:       reading data/crosscalibrate/trimParameters40_C4.dat
+[12:51:01.495]     INFO:       reading data/crosscalibrate/trimParameters40_C5.dat
+[12:51:01.502]     INFO:       reading data/crosscalibrate/trimParameters40_C6.dat
+[12:51:01.508]     INFO:       reading data/crosscalibrate/trimParameters40_C7.dat
+[12:51:01.515]     INFO:       reading data/crosscalibrate/trimParameters40_C8.dat
+[12:51:01.521]     INFO:       reading data/crosscalibrate/trimParameters40_C9.dat
+[12:51:01.528]     INFO:       reading data/crosscalibrate/trimParameters40_C10.dat
+[12:51:01.534]     INFO:       reading data/crosscalibrate/trimParameters40_C11.dat
+[12:51:01.541]     INFO:       reading data/crosscalibrate/trimParameters40_C12.dat
+[12:51:01.547]     INFO:       reading data/crosscalibrate/trimParameters40_C13.dat
+[12:51:01.554]     INFO:       reading data/crosscalibrate/trimParameters40_C14.dat
+[12:51:01.560]     INFO:       reading data/crosscalibrate/trimParameters40_C15.dat
+[12:51:01.567]     INFO:       reading data/crosscalibrate/tbParameters.dat
+[12:51:01.567]     INFO:         clk: 4
+[12:51:01.567]     INFO:         ctr: 4
+[12:51:01.567]     INFO:         sda: 19
+[12:51:01.567]     INFO:         tin: 9
+[12:51:01.567]     INFO:         level: 15
+[12:51:01.567]     INFO:         triggerdelay: 0
+[12:51:01.567]    QUIET: Instanciating API for pxar crosscalibrate
+[12:51:01.567]     INFO: Log level: INFO
+[12:51:01.582]    QUIET: Connection to board DTB_WRPRHI opened.
+[12:51:01.586]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[12:51:01.589]     INFO: RPC call hashes of host and DTB match: 413001178
+[12:51:03.200]     INFO: DUT info: 
+[12:51:03.200]     INFO: The DUT currently contains the following objects:
+[12:51:03.200]     INFO:  2 TBM Cores (2 ON)
+[12:51:03.200]     INFO: 	TBM Core alpha (0): 7 registers set
+[12:51:03.200]     INFO: 	TBM Core beta  (1): 7 registers set
+[12:51:03.200]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[12:51:03.201]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.201]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[12:51:03.812]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C0.dat
+[12:51:03.830]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C1.dat
+[12:51:03.845]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C2.dat
+[12:51:03.861]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C3.dat
+[12:51:03.877]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C4.dat
+[12:51:03.893]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C5.dat
+[12:51:03.908]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C6.dat
+[12:51:03.924]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C7.dat
+[12:51:03.940]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C8.dat
+[12:51:03.956]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C9.dat
+[12:51:03.972]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C10.dat
+[12:51:03.987]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C11.dat
+[12:51:04.003]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C12.dat
+[12:51:04.018]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C13.dat
+[12:51:04.034]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C14.dat
+[12:51:04.049]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH40_C15.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C0.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C1.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C2.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C3.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C4.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C5.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C6.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C7.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C8.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C9.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C10.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C11.dat
+[12:51:04.102]     INFO:       reading data/crosscalibrate/readbackCal_C12.dat
+[12:51:04.103]     INFO:       reading data/crosscalibrate/readbackCal_C13.dat
+[12:51:04.103]     INFO:       reading data/crosscalibrate/readbackCal_C14.dat
+[12:51:04.103]     INFO:       reading data/crosscalibrate/readbackCal_C15.dat
+[12:51:12.872]     INFO: ######################################################################
+[12:51:12.872]     INFO: PixTestScurves::doTest() ntrig = 50
+[12:51:12.872]     INFO: ######################################################################
+[12:51:12.872]     INFO: adjusting VCAL to have VthrComp average threshold at default VthrComp
+[12:51:15.783]     INFO: Test took 2905ms.
+[12:51:15.810]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:51:26.653]     INFO: Test took 10822ms.
+[12:51:27.635]     INFO: ---> dac: VthrComp name: scurveVthrComp ntrig: 50 dacrange: 0 .. 200 hits flags = 16 (plus default)
+[12:51:27.667]     INFO:   dacScan step  from 0 .. 9
+[12:52:08.689]     INFO: Test took 41022ms.
+[12:52:08.875]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:52:08.875]     INFO:   dacScan step  from 10 .. 19
+[12:52:49.866]     INFO: Test took 40990ms.
+[12:52:50.046]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:52:50.046]     INFO:   dacScan step  from 20 .. 29
+[12:53:31.229]     INFO: Test took 41183ms.
+[12:53:31.476]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:53:31.478]     INFO:   dacScan step  from 30 .. 39
+[12:54:19.669]     INFO: Test took 48191ms.
+[12:54:20.266]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:54:20.311]     INFO:   dacScan step  from 40 .. 49
+[12:55:24.777]     INFO: Test took 64466ms.
+[12:55:26.018]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:55:26.102]     INFO:   dacScan step  from 50 .. 59
+[12:56:36.901]     INFO: Test took 70799ms.
+[12:56:38.335]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:56:38.429]     INFO:   dacScan step  from 60 .. 69
+[12:57:48.642]     INFO: Test took 70213ms.
+[12:57:49.983]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:57:50.072]     INFO:   dacScan step  from 70 .. 79
+[12:58:53.285]     INFO: Test took 63213ms.
+[12:58:54.407]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:58:54.484]     INFO:   dacScan step  from 80 .. 89
+[12:59:42.102]     INFO: Test took 47618ms.
+[12:59:42.660]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[12:59:42.689]     INFO:   dacScan step  from 90 .. 99
+[13:00:24.382]     INFO: Test took 41692ms.
+[13:00:24.659]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:00:24.665]     INFO:   dacScan step  from 100 .. 109
+[13:01:05.713]     INFO: Test took 41048ms.
+[13:01:05.889]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:01:05.889]     INFO:   dacScan step  from 110 .. 119
+[13:01:46.830]     INFO: Test took 40941ms.
+[13:01:47.002]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:01:47.002]     INFO:   dacScan step  from 120 .. 129
+[13:02:28.124]     INFO: Test took 41122ms.
+[13:02:28.294]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:02:28.294]     INFO:   dacScan step  from 130 .. 139
+[13:03:09.327]     INFO: Test took 41033ms.
+[13:03:09.499]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:03:09.499]     INFO:   dacScan step  from 140 .. 149
+[13:03:51.308]     INFO: Test took 41809ms.
+[13:03:51.479]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:03:51.479]     INFO:   dacScan step  from 150 .. 159
+[13:04:32.480]     INFO: Test took 41001ms.
+[13:04:32.651]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:04:32.651]     INFO:   dacScan step  from 160 .. 169
+[13:05:13.493]     INFO: Test took 40841ms.
+[13:05:13.665]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:05:13.665]     INFO:   dacScan step  from 170 .. 179
+[13:05:54.611]     INFO: Test took 40946ms.
+[13:05:54.782]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:05:54.782]     INFO:   dacScan step  from 180 .. 189
+[13:06:35.711]     INFO: Test took 40929ms.
+[13:06:35.880]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:06:35.881]     INFO:   dacScan step  from 190 .. 199
+[13:07:16.798]     INFO: Test took 40917ms.
+[13:07:16.969]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:07:16.969]     INFO:   dacScan step  from 200 .. 200
+[13:07:23.726]     INFO: Test took 6757ms.
+[13:07:23.745]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[13:07:55.014]     INFO: PixTestScurves::scurves() done 
+[13:07:55.014]     INFO: VthrComp mean:  43.81  36.76  36.38  28.05  28.99  51.89  49.25  40.72  39.35  37.42  41.37  38.54  38.96  40.67  42.30  39.25 
+[13:07:55.014]     INFO: VthrComp RMS:    0.80   0.86   0.94   0.70   0.69   1.10   0.86   0.93   1.02   0.99   1.01   0.89   1.08   0.98   1.01   1.02 
+[16:56:19.091]    QUIET: Connection to board 58 closed.

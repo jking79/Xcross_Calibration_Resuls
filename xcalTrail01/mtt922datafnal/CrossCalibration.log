@@ -1,0 +1,1049 @@
+[14:19:03.325]     INFO: *** Welcome to pxar ***
+[14:19:03.325]     INFO: *** Today: 2015/03/26
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C0.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C1.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C2.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C3.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C4.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C5.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C6.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C7.dat
+[14:19:03.325]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C8.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C9.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C10.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C11.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C12.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C13.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C14.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/dacParameters_C15.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/tbmParameters_C0a.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/tbmParameters_C0b.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/defaultMaskFile.dat
+[14:19:03.326]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C0.dat
+[14:19:03.333]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C1.dat
+[14:19:03.337]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C2.dat
+[14:19:03.342]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C3.dat
+[14:19:03.347]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C4.dat
+[14:19:03.351]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C5.dat
+[14:19:03.356]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C6.dat
+[14:19:03.360]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C7.dat
+[14:19:03.365]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C8.dat
+[14:19:03.370]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C9.dat
+[14:19:03.374]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C10.dat
+[14:19:03.379]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C11.dat
+[14:19:03.383]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C12.dat
+[14:19:03.388]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C13.dat
+[14:19:03.392]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C14.dat
+[14:19:03.397]     INFO:       reading data/M_TT_922_CrossCalibration/trimParameters_C15.dat
+[14:19:03.401]     INFO:       reading data/M_TT_922_CrossCalibration/tbParameters.dat
+[14:19:03.401]     INFO:         clk: 4
+[14:19:03.401]     INFO:         ctr: 4
+[14:19:03.401]     INFO:         sda: 19
+[14:19:03.401]     INFO:         tin: 9
+[14:19:03.402]     INFO:         level: 15
+[14:19:03.402]     INFO:         triggerdelay: 0
+[14:19:03.402]    QUIET: Instanciating API for pxar v1.8.4+16~g1e81fd4
+[14:19:03.402]     INFO: Log level: INFO
+[14:19:03.416]    QUIET: Connection to board DTB_WRMJGK opened.
+[14:19:03.420]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    38
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRMJGK
+MAC address: 40D855118026
+Hostname:    pixelDTB038
+Comment:     
+------------------------------------------------------
+[14:19:03.423]     INFO: RPC call hashes of host and DTB match: 413001178
+[14:19:04.992]     INFO: DUT info: 
+[14:19:04.993]     INFO: The DUT currently contains the following objects:
+[14:19:04.993]     INFO:  2 TBM Cores (2 ON)
+[14:19:04.993]     INFO: 	TBM Core alpha (0): 7 registers set
+[14:19:04.993]     INFO: 	TBM Core beta  (1): 7 registers set
+[14:19:04.993]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[14:19:04.993]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:04.993]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:19:05.593]     INFO:       reading data/M_TT_922_CrossCalibration/phCalibrationFitTanH_C0.dat
+[14:19:05.593]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/M_TT_922_CrossCalibration/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C0.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C1.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C2.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C3.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C4.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C5.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C6.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C7.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C8.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C9.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C10.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C11.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C12.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C13.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C14.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/readbackCal_C15.dat
+[14:19:05.635]     INFO:       reading data/M_TT_922_CrossCalibration/phCalibrationFitTanH_C0.dat
+[14:19:05.635]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/M_TT_922_CrossCalibration/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[14:19:05.666]     INFO:       reading data/M_TT_922_CrossCalibration/phCalibrationFitTanH_C0.dat
+[14:19:05.666]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/M_TT_922_CrossCalibration/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[14:19:08.957]     INFO: ######################################################################
+[14:19:08.957]     INFO: PixTestPretest::doTest()
+[14:19:08.957]     INFO: ######################################################################
+[14:19:08.959]     INFO:    ----------------------------------------------------------------------
+[14:19:08.959]     INFO:    PixTestPretest::programROC() 
+[14:19:08.959]     INFO:    ----------------------------------------------------------------------
+[14:19:26.980]     INFO: PixTestPretest::programROC() done: ROCs are all programmable
+[14:19:26.981]     INFO: IA differences per ROC:  19.3 19.3 15.3 19.3 20.9 18.5 20.1 17.7 19.3 19.3 19.3 20.9 20.9 18.5 21.7 17.7
+[14:19:27.169]     INFO:    ----------------------------------------------------------------------
+[14:19:27.169]     INFO:    PixTestPretest::setVana() target Ia = 24 mA/ROC
+[14:19:27.169]     INFO:    ----------------------------------------------------------------------
+[14:19:31.082]     INFO: PixTestPretest::setVana() done, Module Ia 385.9 mA = 24.1188 mA/ROC
+[14:19:31.105]     INFO:    ----------------------------------------------------------------------
+[14:19:31.106]     INFO:    PixTestPreTest::setTimings()
+[14:19:31.106]     INFO:    ----------------------------------------------------------------------
+[14:19:32.277]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:19:32.277]     INFO:    ----------------------------------------------------------------------
+[14:19:32.278]     INFO:    Default timings are good. No timing scan needed.
+[14:19:32.278]     INFO:    ----------------------------------------------------------------------
+[14:19:32.278]     INFO: Test took 1173 ms.
+[14:19:32.278]     INFO: PixTestPretest::setTimings() done.
+[14:19:32.307]     INFO:    ----------------------------------------------------------------------
+[14:19:32.307]     INFO:    PixTestPretest::findWorkingPixel()
+[14:19:32.307]     INFO:    ----------------------------------------------------------------------
+[14:19:39.339]     INFO: Test took 7028ms.
+[14:19:40.756]     INFO: Found working pixel in all ROCs: col/row = 12/22
+[14:19:40.877]     INFO:    ----------------------------------------------------------------------
+[14:19:40.877]     INFO:    PixTestPretest::setVthrCompCalDel()
+[14:19:40.877]     INFO:    ----------------------------------------------------------------------
+[14:19:47.910]     INFO: Test took 7026ms.
+[14:19:57.010]     INFO: PixTestPretest::setVthrCompCalDel() done
+[14:19:57.011]     INFO: CalDel:      119   132   130   140   143   109   123   118   115   112   114   141   123   121   114   130
+[14:19:57.011]     INFO: VthrComp:     51    51    51    51    51    51    51    51    51    51    51    51    51    51    51    51
+[14:19:57.055]     INFO: PixTestPretest::doTest() done, duration: 48 seconds
+[14:20:16.564]     INFO: ######################################################################
+[14:20:16.564]     INFO: PixTestAlive::doTest()
+[14:20:16.564]     INFO: ######################################################################
+[14:20:16.566]     INFO:    ----------------------------------------------------------------------
+[14:20:16.566]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[14:20:16.566]     INFO:    ----------------------------------------------------------------------
+[14:20:19.861]     INFO: Test took 3292ms.
+[14:20:19.885]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:20:20.157]     INFO: PixTestAlive::aliveTest() done
+[14:20:20.157]     INFO: number of dead pixels (per ROC):     0    0    0    0    2    0    0    0    0    0    1    0    2    0    0    0
+[14:20:20.236]     INFO:    ----------------------------------------------------------------------
+[14:20:20.236]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[14:20:20.236]     INFO:    ----------------------------------------------------------------------
+[14:20:22.833]     INFO: Test took 2595ms.
+[14:20:22.836]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:20:23.101]     INFO: PixTestAlive::maskTest() done
+[14:20:23.101]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[14:20:23.175]     INFO:    ----------------------------------------------------------------------
+[14:20:23.175]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[14:20:23.175]     INFO:    ----------------------------------------------------------------------
+[14:20:26.472]     INFO: Test took 3295ms.
+[14:20:26.497]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:20:26.770]     INFO: PixTestAlive::addressDecodingTest() done
+[14:20:26.771]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[14:20:26.809]     INFO: PixTestAlive::doTest() done, duration: 10 seconds
+[14:20:45.300]     INFO: ######################################################################
+[14:20:45.300]     INFO: PixTestScurves::doTest() ntrig = 50
+[14:20:45.300]     INFO: ######################################################################
+[14:20:45.300]     INFO: adjusting VCAL to have VthrComp average threshold at default VthrComp
+[14:20:48.053]     INFO: Test took 2744ms.
+[14:20:48.074]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:20:58.163]     INFO: Test took 10070ms.
+[14:20:59.150]     INFO: ---> dac: VthrComp name: scurveVthrComp ntrig: 50 dacrange: 0 .. 200 hits flags = 16 (plus default)
+[14:20:59.180]     INFO:   dacScan step  from 0 .. 9
+[14:21:35.464]     INFO: Test took 36283ms.
+[14:21:35.548]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:21:35.548]     INFO:   dacScan step  from 10 .. 19
+[14:22:11.808]     INFO: Test took 36260ms.
+[14:22:11.894]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:22:11.894]     INFO:   dacScan step  from 20 .. 29
+[14:22:48.142]     INFO: Test took 36248ms.
+[14:22:48.223]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:22:48.223]     INFO:   dacScan step  from 30 .. 39
+[14:23:24.725]     INFO: Test took 36502ms.
+[14:23:24.828]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:23:24.830]     INFO:   dacScan step  from 40 .. 49
+[14:24:04.814]     INFO: Test took 39984ms.
+[14:24:05.062]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:24:05.075]     INFO:   dacScan step  from 50 .. 59
+[14:24:55.672]     INFO: Test took 50596ms.
+[14:24:56.207]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:24:56.237]     INFO:   dacScan step  from 60 .. 69
+[14:25:54.580]     INFO: Test took 58342ms.
+[14:25:55.267]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:25:55.301]     INFO:   dacScan step  from 70 .. 79
+[14:26:54.511]     INFO: Test took 59210ms.
+[14:26:55.208]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:26:55.240]     INFO:   dacScan step  from 80 .. 89
+[14:27:51.562]     INFO: Test took 56322ms.
+[14:27:52.183]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:27:52.218]     INFO:   dacScan step  from 90 .. 99
+[14:28:42.432]     INFO: Test took 50214ms.
+[14:28:42.906]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:28:42.929]     INFO:   dacScan step  from 100 .. 109
+[14:29:25.981]     INFO: Test took 43052ms.
+[14:29:26.297]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:29:26.311]     INFO:   dacScan step  from 110 .. 119
+[14:30:04.328]     INFO: Test took 38017ms.
+[14:30:04.504]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:30:04.512]     INFO:   dacScan step  from 120 .. 129
+[14:30:41.199]     INFO: Test took 36687ms.
+[14:30:41.310]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:30:41.313]     INFO:   dacScan step  from 130 .. 139
+[14:31:17.725]     INFO: Test took 36412ms.
+[14:31:17.809]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:31:17.810]     INFO:   dacScan step  from 140 .. 149
+[14:31:54.833]     INFO: Test took 37023ms.
+[14:31:54.915]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:31:54.915]     INFO:   dacScan step  from 150 .. 159
+[14:32:31.161]     INFO: Test took 36246ms.
+[14:32:31.241]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:32:31.241]     INFO:   dacScan step  from 160 .. 169
+[14:33:07.490]     INFO: Test took 36249ms.
+[14:33:07.571]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:33:07.572]     INFO:   dacScan step  from 170 .. 179
+[14:33:43.823]     INFO: Test took 36251ms.
+[14:33:43.902]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:33:43.902]     INFO:   dacScan step  from 180 .. 189
+[14:34:20.150]     INFO: Test took 36248ms.
+[14:34:20.232]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:34:20.232]     INFO:   dacScan step  from 190 .. 199
+[14:34:56.480]     INFO: Test took 36248ms.
+[14:34:56.555]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:34:56.555]     INFO:   dacScan step  from 200 .. 200
+[14:35:02.816]     INFO: Test took 6261ms.
+[14:35:02.832]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:35:24.508]     INFO: PixTestScurves::scurves() done 
+[14:35:24.508]     INFO: VthrComp mean:  46.71  49.04  52.80  61.40  61.93  56.76  57.60  56.80  48.75  50.36  53.02  45.67  50.62  56.73  63.54  45.07 
+[14:35:24.508]     INFO: VthrComp RMS:    4.48   4.78   5.80   8.37  12.25   6.36   6.27   6.29   5.12   5.44   5.60   4.25   4.86   6.06   6.29   4.63 
+[14:35:48.204]     INFO: ---> dac: Vcal name: scurveVcal ntrig: 50 dacrange: 0 .. 200 hits flags = 16 (plus default)
+[14:35:48.216]     INFO:   dacScan step  from 0 .. 9
+[14:36:24.459]     INFO: Test took 36243ms.
+[14:36:24.537]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:36:24.537]     INFO:   dacScan step  from 10 .. 19
+[14:37:00.903]     INFO: Test took 36366ms.
+[14:37:00.985]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:37:00.985]     INFO:   dacScan step  from 20 .. 29
+[14:37:38.241]     INFO: Test took 37256ms.
+[14:37:38.386]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:37:38.390]     INFO:   dacScan step  from 30 .. 39
+[14:38:22.331]     INFO: Test took 43941ms.
+[14:38:22.697]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:38:22.715]     INFO:   dacScan step  from 40 .. 49
+[14:39:18.406]     INFO: Test took 55691ms.
+[14:39:19.016]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:39:19.047]     INFO:   dacScan step  from 50 .. 59
+[14:40:20.201]     INFO: Test took 61154ms.
+[14:40:20.900]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:40:20.933]     INFO:   dacScan step  from 60 .. 69
+[14:41:22.587]     INFO: Test took 61654ms.
+[14:41:23.268]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:41:23.300]     INFO:   dacScan step  from 70 .. 79
+[14:42:24.234]     INFO: Test took 60933ms.
+[14:42:24.916]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:42:24.948]     INFO:   dacScan step  from 80 .. 89
+[14:43:25.882]     INFO: Test took 60934ms.
+[14:43:26.565]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:43:26.597]     INFO:   dacScan step  from 90 .. 99
+[14:44:27.540]     INFO: Test took 60943ms.
+[14:44:28.222]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:44:28.254]     INFO:   dacScan step  from 100 .. 109
+[14:45:29.296]     INFO: Test took 61041ms.
+[14:45:29.986]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:45:30.020]     INFO:   dacScan step  from 110 .. 119
+[14:46:30.535]     INFO: Test took 60515ms.
+[14:46:31.228]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:46:31.267]     INFO:   dacScan step  from 120 .. 129
+[14:47:32.384]     INFO: Test took 61117ms.
+[14:47:33.067]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:47:33.100]     INFO:   dacScan step  from 130 .. 139
+[14:48:34.244]     INFO: Test took 61143ms.
+[14:48:34.930]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:48:34.964]     INFO:   dacScan step  from 140 .. 149
+[14:49:36.157]     INFO: Test took 61193ms.
+[14:49:36.844]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:49:36.882]     INFO:   dacScan step  from 150 .. 159
+[14:50:36.799]     INFO: Test took 59917ms.
+[14:50:37.486]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:50:37.521]     INFO:   dacScan step  from 160 .. 169
+[14:51:37.795]     INFO: Test took 60274ms.
+[14:51:38.492]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:51:38.525]     INFO:   dacScan step  from 170 .. 179
+[14:52:38.694]     INFO: Test took 60169ms.
+[14:52:39.402]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:52:39.437]     INFO:   dacScan step  from 180 .. 189
+[14:53:39.691]     INFO: Test took 60254ms.
+[14:53:40.375]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:53:40.408]     INFO:   dacScan step  from 190 .. 199
+[14:54:40.570]     INFO: Test took 60162ms.
+[14:54:41.260]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:54:41.292]     INFO:   dacScan step  from 200 .. 200
+[14:54:49.988]     INFO: Test took 8695ms.
+[14:54:50.068]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:55:23.423]     INFO: PixTestScurves::scurves() done 
+[14:55:23.423]     INFO: Vcal mean:  44.55  33.65  36.00  29.82  27.69  48.38  48.93  37.77  40.46  37.57  40.93  38.40  33.19  39.91  42.08  36.38 
+[14:55:23.423]     INFO: Vcal RMS:    3.97   4.50   4.58   4.03   5.11   4.35   4.36   4.58   4.70   4.86   4.49   4.45   4.37   4.57   3.84   4.79 
+[14:58:11.108]     INFO: ######################################################################
+[14:58:11.108]     INFO: PixTestTrim::doTest()
+[14:58:11.109]     INFO: ######################################################################
+[14:58:11.110]     INFO:    ----------------------------------------------------------------------
+[14:58:11.110]     INFO:    PixTestTrim::trimTest() ntrig = 10, vcal = 40
+[14:58:11.110]     INFO:    ----------------------------------------------------------------------
+[14:58:11.194]     INFO: ---> VthrComp thr map (minimal VthrComp)
+[14:58:11.194]     INFO: ---> dac: vthrcomp name: TrimThr0 ntrig: 5 dacrange: 0 .. 159 hits flags = 16 (plus default)
+[14:58:11.203]     INFO:   dacScan step  from 0 .. 39
+[14:58:35.695]     INFO: Test took 24491ms.
+[14:58:35.763]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:58:35.764]     INFO:   dacScan step  from 40 .. 79
+[14:59:06.881]     INFO: Test took 31116ms.
+[14:59:07.243]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:59:07.340]     INFO:   dacScan step  from 80 .. 119
+[14:59:36.048]     INFO: Test took 28708ms.
+[14:59:36.333]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:59:36.399]     INFO:   dacScan step  from 120 .. 159
+[15:00:02.015]     INFO: Test took 25615ms.
+[15:00:02.079]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:00:25.075]     INFO: ROC 0 VthrComp = 46
+[15:00:25.076]     INFO: ROC 1 VthrComp = 37
+[15:00:25.076]     INFO: ROC 2 VthrComp = 38
+[15:00:25.076]     INFO: ROC 3 VthrComp = 31
+[15:00:25.076]     INFO: ROC 4 VthrComp = 29
+[15:00:25.077]     INFO: ROC 5 VthrComp = 51
+[15:00:25.077]     INFO: ROC 6 VthrComp = 52
+[15:00:25.077]     INFO: ROC 7 VthrComp = 40
+[15:00:25.077]     INFO: ROC 8 VthrComp = 41
+[15:00:25.078]     INFO: ROC 9 VthrComp = 39
+[15:00:25.078]     INFO: ROC 10 VthrComp = 42
+[15:00:25.078]     INFO: ROC 11 VthrComp = 40
+[15:00:25.078]     INFO: ROC 12 VthrComp = 38
+[15:00:25.079]     INFO: ROC 13 VthrComp = 41
+[15:00:25.079]     INFO: ROC 14 VthrComp = 44
+[15:00:25.079]     INFO: ROC 15 VthrComp = 39
+[15:00:25.079]     INFO: ---> Vcal thr map (pixel with maximum Vcal thr)
+[15:00:25.079]     INFO: ---> dac: vcal name: TrimThr1 ntrig: 5 dacrange: 0 .. 159 hits flags = 16 (plus default)
+[15:02:25.569]     INFO: Test took 120480ms.
+[15:02:26.772]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:02:56.712]     INFO:    roc 0 with ID = 0  has maximal Vcal 63.016 for pixel 24/79 mean/min/max = 50.0464/36.7633/63.3295
+[15:02:56.713]     INFO:    roc 1 with ID = 1  has maximal Vcal 69.683 for pixel 9/73 mean/min/max = 50.5541/31.4232/69.6851
+[15:02:56.713]     INFO:    roc 2 with ID = 2  has maximal Vcal 65.6228 for pixel 20/77 mean/min/max = 49.282/32.8196/65.7445
+[15:02:56.714]     INFO:    roc 3 with ID = 3  has maximal Vcal 64.8471 for pixel 20/76 mean/min/max = 49.2437/33.6211/64.8663
+[15:02:56.714]     INFO:    roc 4 with ID = 4  has maximal Vcal 79.2582 for pixel 11/64 mean/min/max = 54.7238/29.9931/79.4545
+[15:02:56.715]     INFO:    roc 5 with ID = 5  has maximal Vcal 61.2724 for pixel 10/53 mean/min/max = 48.3115/35.3369/61.2861
+[15:02:56.715]     INFO:    roc 6 with ID = 6  has maximal Vcal 61.169 for pixel 6/71 mean/min/max = 48.32/35.4454/61.1946
+[15:02:56.716]     INFO:    roc 7 with ID = 7  has maximal Vcal 64.1989 for pixel 0/68 mean/min/max = 49.8811/35.4015/64.3606
+[15:02:56.716]     INFO:    roc 8 with ID = 8  has maximal Vcal 68.0003 for pixel 3/77 mean/min/max = 51.5552/35.0484/68.062
+[15:02:56.717]     INFO:    roc 9 with ID = 9  has maximal Vcal 68.0918 for pixel 24/77 mean/min/max = 50.3661/32.6112/68.1209
+[15:02:56.717]     INFO:    roc 10 with ID = 10  has maximal Vcal 65.9741 for pixel 6/64 mean/min/max = 50.7847/35.4241/66.1452
+[15:02:56.718]     INFO:    roc 11 with ID = 11  has maximal Vcal 67.6131 for pixel 13/67 mean/min/max = 51.2426/34.8084/67.6769
+[15:02:56.718]     INFO:    roc 12 with ID = 12  has maximal Vcal 66.9091 for pixel 8/67 mean/min/max = 49.0311/30.9023/67.1599
+[15:02:56.719]     INFO:    roc 13 with ID = 13  has maximal Vcal 67.7095 for pixel 40/79 mean/min/max = 51.7001/35.6656/67.7345
+[15:02:56.719]     INFO:    roc 14 with ID = 14  has maximal Vcal 59.0538 for pixel 25/0 mean/min/max = 48.3318/37.6056/59.058
+[15:02:56.720]     INFO:    roc 15 with ID = 15  has maximal Vcal 63.9892 for pixel 22/79 mean/min/max = 48.7243/33.2666/64.182
+[15:02:56.720]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:04:13.745]     INFO: Test took 77025ms.
+[15:04:15.374]     INFO: ---> dac: vcal name: TrimThr2 ntrig: 10 dacrange: 0 .. 199 hits flags = 16 (plus default)
+[15:08:35.827]     INFO: Test took 260437ms.
+[15:08:38.775]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:09:10.396]     INFO: ---> TrimStepCorr4 extremal thresholds: 10.106241 .. 66.441402
+[15:09:10.474]     INFO: ---> dac: vcal name: trimStepCorr4 ntrig: 4 dacrange: 0 .. 76 hits flags = 16 (plus default)
+[15:09:57.722]     INFO: Test took 47238ms.
+[15:09:58.122]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:10:19.972]     INFO: ---> TrimStepCorr2 extremal thresholds: 21.351559 .. 50.891142
+[15:10:20.046]     INFO: ---> dac: vcal name: trimStepCorr2 ntrig: 4 dacrange: 11 .. 60 hits flags = 16 (plus default)
+[15:10:50.938]     INFO: Test took 30883ms.
+[15:10:51.190]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:11:10.543]     INFO: ---> TrimStepCorr1a extremal thresholds: 25.324553 .. 47.026454
+[15:11:10.620]     INFO: ---> dac: vcal name: trimStepCorr1a ntrig: 4 dacrange: 15 .. 57 hits flags = 16 (plus default)
+[15:11:37.504]     INFO: Test took 26875ms.
+[15:11:37.726]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:11:56.500]     INFO: ---> TrimStepCorr1b extremal thresholds: 28.653280 .. 46.499956
+[15:11:56.579]     INFO: ---> dac: vcal name: trimStepCorr1b ntrig: 4 dacrange: 18 .. 56 hits flags = 16 (plus default)
+[15:12:21.355]     INFO: Test took 24767ms.
+[15:12:21.562]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:12:40.169]     INFO: ---> TrimThrFinal extremal thresholds: 20 .. 60
+[15:12:40.170]     INFO: ---> dac: vcal name: TrimThrFinal ntrig: 10 dacrange: 20 .. 60 hits flags = 16 (plus default)
+[15:13:28.523]     INFO: Test took 48339ms.
+[15:13:28.971]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:13:46.401]     INFO: PixTestTrim::trimTest() done
+[15:13:46.401]     INFO: vtrim:     114 105  83 100 105 108 113  89 108 110  90  97  85  99  97  95 
+[15:13:46.401]     INFO: vthrcomp:   46  37  38  31  29  51  52  40  41  39  42  40  38  41  44  39 
+[15:13:46.401]     INFO: vcal mean:  39.94  40.01  39.98  39.99  39.99  39.98  39.97  40.05  40.06  40.05  40.03  40.11  39.92  40.09  40.01  39.98 
+[15:13:46.401]     INFO: vcal RMS:    1.08   1.25   1.22   1.19   1.33   1.16   1.14   1.13   1.13   1.23   1.21   1.11   1.62   1.11   1.05   1.26 
+[15:13:46.401]     INFO: bits mean:   9.39   9.97   9.60  10.44   9.40  10.58  10.29   9.30   9.49   9.80   8.62   9.14  10.18   9.03   9.59  10.17 
+[15:13:46.401]     INFO: bits RMS:    2.38   2.74   2.93   2.42   2.77   2.36   2.47   2.63   2.40   2.75   2.78   2.56   2.86   2.53   2.48   2.74 
+[15:13:46.476]     INFO:    ----------------------------------------------------------------------
+[15:13:46.476]     INFO:    PixTestTrim::trimBitTest() ntrig = 10, vtrims = 255 240 150 100
+[15:13:46.476]     INFO:    ----------------------------------------------------------------------
+[15:13:46.481]     INFO: ---> dac: Vcal name: TrimBitsThr0 ntrig: 10 dacrange: 0 .. 199 hits flags = 16 (plus default)
+[15:17:57.578]     INFO: Test took 251083ms.
+[15:18:00.281]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:18:32.707]     INFO: ---> dac: Vcal name: TrimThr_trim14 ntrig: 10 dacrange: 0 .. 112 hits flags = 16 (plus default)
+[15:20:46.565]     INFO: Test took 133849ms.
+[15:20:47.858]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:21:12.439]     INFO: ---> dac: Vcal name: TrimThr_trim13 ntrig: 10 dacrange: 0 .. 96 hits flags = 16 (plus default)
+[15:23:06.654]     INFO: Test took 114206ms.
+[15:23:07.741]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:23:30.370]     INFO: ---> dac: Vcal name: TrimThr_trim11 ntrig: 10 dacrange: 0 .. 89 hits flags = 16 (plus default)
+[15:25:16.764]     INFO: Test took 106385ms.
+[15:25:17.780]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:25:39.597]     INFO: ---> dac: Vcal name: TrimThr_trim7 ntrig: 10 dacrange: 0 .. 83 hits flags = 16 (plus default)
+[15:27:19.280]     INFO: Test took 99674ms.
+[15:27:20.247]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:27:41.492]     INFO: PixTestTrim::trimBitTest() done 
+[15:27:41.508]     INFO: PixTestTrim::doTest() done, duration: 1770 seconds
+[15:34:03.644]     INFO: ######################################################################
+[15:34:03.644]     INFO: PixTestPhOptimization::doTest() Ntrig = 10
+[15:34:03.644]     INFO: ######################################################################
+[15:34:06.940]     INFO: Test took 3294ms.
+[15:34:06.969]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:34:10.463]     INFO: Test took 3293ms.
+[15:34:10.546]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:34:13.850]     INFO: Test took 3289ms.
+[15:34:13.931]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:34:17.242]     INFO: Test took 3297ms.
+[15:34:17.325]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:34:20.630]     INFO: Test took 3292ms.
+[15:34:20.711]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:34:20.719]     INFO: The DUT currently contains the following objects:
+[15:34:20.719]     INFO:  2 TBM Cores (2 ON)
+[15:34:20.719]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:20.719]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:20.719]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:20.719]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:20.719]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.814]     INFO: Test took 1095ms.
+[15:34:21.815]     INFO: The DUT currently contains the following objects:
+[15:34:21.815]     INFO:  2 TBM Cores (2 ON)
+[15:34:21.815]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:21.815]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:21.815]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:21.815]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.815]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.815]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.815]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.815]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:21.816]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.911]     INFO: Test took 1095ms.
+[15:34:22.912]     INFO: The DUT currently contains the following objects:
+[15:34:22.912]     INFO:  2 TBM Cores (2 ON)
+[15:34:22.912]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:22.912]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:22.912]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:22.912]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.912]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.913]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.913]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.913]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.913]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:22.913]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.008]     INFO: Test took 1095ms.
+[15:34:24.009]     INFO: The DUT currently contains the following objects:
+[15:34:24.009]     INFO:  2 TBM Cores (2 ON)
+[15:34:24.009]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:24.009]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:24.009]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:24.009]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.009]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.010]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.010]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.010]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.010]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:24.010]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.105]     INFO: Test took 1095ms.
+[15:34:25.106]     INFO: The DUT currently contains the following objects:
+[15:34:25.106]     INFO:  2 TBM Cores (2 ON)
+[15:34:25.106]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:25.106]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:25.106]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:25.106]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.106]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.107]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.107]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.107]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.107]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.107]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:25.107]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.202]     INFO: Test took 1095ms.
+[15:34:26.203]     INFO: The DUT currently contains the following objects:
+[15:34:26.203]     INFO:  2 TBM Cores (2 ON)
+[15:34:26.203]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:26.203]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:26.203]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:26.203]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.203]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.204]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.204]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.204]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.204]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:26.204]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.299]     INFO: Test took 1095ms.
+[15:34:27.300]     INFO: The DUT currently contains the following objects:
+[15:34:27.300]     INFO:  2 TBM Cores (2 ON)
+[15:34:27.300]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:27.300]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:27.300]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:27.300]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.300]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.301]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.301]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.301]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:27.301]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.395]     INFO: Test took 1094ms.
+[15:34:28.396]     INFO: The DUT currently contains the following objects:
+[15:34:28.396]     INFO:  2 TBM Cores (2 ON)
+[15:34:28.397]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:28.397]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:28.397]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:28.397]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:28.397]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.492]     INFO: Test took 1095ms.
+[15:34:29.493]     INFO: The DUT currently contains the following objects:
+[15:34:29.493]     INFO:  2 TBM Cores (2 ON)
+[15:34:29.493]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:29.493]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:29.493]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:29.493]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.493]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.494]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.494]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.494]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.494]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:29.494]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.589]     INFO: Test took 1095ms.
+[15:34:30.590]     INFO: The DUT currently contains the following objects:
+[15:34:30.590]     INFO:  2 TBM Cores (2 ON)
+[15:34:30.590]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:30.590]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:30.590]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:30.590]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.590]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.591]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.591]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.591]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.591]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:30.591]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.685]     INFO: Test took 1094ms.
+[15:34:31.687]     INFO: The DUT currently contains the following objects:
+[15:34:31.687]     INFO:  2 TBM Cores (2 ON)
+[15:34:31.687]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:31.687]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:31.687]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:31.687]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:31.687]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.782]     INFO: Test took 1095ms.
+[15:34:32.784]     INFO: The DUT currently contains the following objects:
+[15:34:32.784]     INFO:  2 TBM Cores (2 ON)
+[15:34:32.784]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:32.784]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:32.784]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:32.784]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.784]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.785]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:32.785]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.880]     INFO: Test took 1095ms.
+[15:34:33.882]     INFO: The DUT currently contains the following objects:
+[15:34:33.882]     INFO:  2 TBM Cores (2 ON)
+[15:34:33.882]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:33.882]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:33.882]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:33.882]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.882]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.883]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:33.883]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.977]     INFO: Test took 1094ms.
+[15:34:34.978]     INFO: The DUT currently contains the following objects:
+[15:34:34.978]     INFO:  2 TBM Cores (2 ON)
+[15:34:34.978]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:34.979]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:34.979]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:34.979]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:34.979]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.074]     INFO: Test took 1095ms.
+[15:34:36.075]     INFO: The DUT currently contains the following objects:
+[15:34:36.076]     INFO:  2 TBM Cores (2 ON)
+[15:34:36.076]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:36.076]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:36.076]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:36.076]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:36.076]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.171]     INFO: Test took 1095ms.
+[15:34:37.172]     INFO: The DUT currently contains the following objects:
+[15:34:37.173]     INFO:  2 TBM Cores (2 ON)
+[15:34:37.173]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:34:37.173]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:34:37.173]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:34:37.173]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:37.173]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:34:38.270]     INFO: Test took 1097ms.
+[15:34:38.276]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:37:37.101]     INFO: Test took 178825ms.
+[15:37:38.948]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:37.208]     INFO: Test took 178260ms.
+[15:40:39.146]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.152]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.158]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.164]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.171]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.177]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.183]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.190]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.196]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.202]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.209]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.215]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.221]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.228]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.234]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:39.240]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:40:42.598]     INFO: Test took 3294ms.
+[15:40:46.161]     INFO: Test took 3261ms.
+[15:40:49.756]     INFO: Test took 3292ms.
+[15:40:50.064]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:50.973]     INFO: Test took 909ms.
+[15:40:50.976]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:52.071]     INFO: Test took 1095ms.
+[15:40:52.075]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:53.170]     INFO: Test took 1095ms.
+[15:40:53.173]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:54.269]     INFO: Test took 1096ms.
+[15:40:54.273]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:55.367]     INFO: Test took 1095ms.
+[15:40:55.371]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:56.466]     INFO: Test took 1095ms.
+[15:40:56.470]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:57.565]     INFO: Test took 1095ms.
+[15:40:57.569]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:58.664]     INFO: Test took 1095ms.
+[15:40:58.668]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:40:59.763]     INFO: Test took 1095ms.
+[15:40:59.766]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:00.861]     INFO: Test took 1095ms.
+[15:41:00.866]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:01.960]     INFO: Test took 1094ms.
+[15:41:01.964]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:03.059]     INFO: Test took 1095ms.
+[15:41:03.063]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:04.158]     INFO: Test took 1096ms.
+[15:41:04.162]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:05.256]     INFO: Test took 1094ms.
+[15:41:05.260]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:06.356]     INFO: Test took 1096ms.
+[15:41:06.360]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:07.455]     INFO: Test took 1095ms.
+[15:41:07.459]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:08.553]     INFO: Test took 1094ms.
+[15:41:08.557]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:09.652]     INFO: Test took 1095ms.
+[15:41:09.656]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:10.751]     INFO: Test took 1095ms.
+[15:41:10.755]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:11.849]     INFO: Test took 1095ms.
+[15:41:11.853]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:12.948]     INFO: Test took 1095ms.
+[15:41:12.952]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:14.047]     INFO: Test took 1095ms.
+[15:41:14.051]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:15.146]     INFO: Test took 1095ms.
+[15:41:15.150]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:16.245]     INFO: Test took 1095ms.
+[15:41:16.249]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:17.344]     INFO: Test took 1095ms.
+[15:41:17.348]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:18.443]     INFO: Test took 1095ms.
+[15:41:18.447]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:19.541]     INFO: Test took 1094ms.
+[15:41:19.545]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:20.640]     INFO: Test took 1095ms.
+[15:41:20.644]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:21.739]     INFO: Test took 1095ms.
+[15:41:21.743]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:22.838]     INFO: Test took 1096ms.
+[15:41:22.842]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:23.936]     INFO: Test took 1095ms.
+[15:41:23.941]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:41:25.035]     INFO: Test took 1095ms.
+[15:41:33.922]     INFO: PixTestPhOptimization::doTest() done, duration: 450 seconds
+[15:41:33.923]     INFO: PH scale (per ROC):    61  61  58  54  54  55  52  59  54  59  64  57  63  65  65  58
+[15:41:33.923]     INFO: PH offset (per ROC):  174 186 190 211 197 191 193 170 193 198 178 196 187 185 178 190
+[15:55:03.829]     INFO: ######################################################################
+[15:55:03.829]     INFO: PixTestGainPedestal::doTest() ntrig = 10
+[15:55:03.829]     INFO: ######################################################################
+[15:55:03.847]     INFO: scanning low vcal = 50
+[15:55:08.136]     INFO: Test took 4289ms.
+[15:55:08.214]     INFO: scanning low vcal = 100
+[15:55:12.496]     INFO: Test took 4282ms.
+[15:55:12.579]     INFO: scanning low vcal = 150
+[15:55:16.863]     INFO: Test took 4284ms.
+[15:55:16.945]     INFO: scanning low vcal = 200
+[15:55:21.227]     INFO: Test took 4281ms.
+[15:55:21.306]     INFO: scanning low vcal = 250
+[15:55:25.587]     INFO: Test took 4281ms.
+[15:55:25.672]     INFO: scanning high vcal = 30 (= 210 in low range)
+[15:55:29.960]     INFO: Test took 4288ms.
+[15:55:30.040]     INFO: scanning high vcal = 50 (= 350 in low range)
+[15:55:34.320]     INFO: Test took 4280ms.
+[15:55:34.398]     INFO: scanning high vcal = 70 (= 490 in low range)
+[15:55:38.678]     INFO: Test took 4280ms.
+[15:55:38.761]     INFO: scanning high vcal = 90 (= 630 in low range)
+[15:55:43.043]     INFO: Test took 4282ms.
+[15:55:43.121]     INFO: scanning high vcal = 200 (= 1400 in low range)
+[15:55:47.402]     INFO: Test took 4280ms.
+[15:55:47.759]     INFO: PixTestGainPedestal::measure() done 
+[15:56:17.312]     INFO: PixTestGainPedestal::fit() done
+[15:56:17.312]     INFO: p1 mean:  0.487 0.479 0.433 0.392 0.481 0.489 0.466 0.452 0.451 0.448 0.487 0.445 0.446 0.445 0.506 0.479
+[15:56:17.312]     INFO: p1 RMS:   0.053 0.044 0.048 0.053 0.047 0.040 0.045 0.046 0.045 0.046 0.050 0.058 0.051 0.053 0.045 0.044
+[15:56:17.613]     INFO: PixTestGainPedestal::doTest() done, duration: 73 seconds
+[15:59:16.419]     INFO: ######################################################################
+[15:59:16.419]     INFO: PixTestBBMap::doTest() Ntrig = 5, VcalS = 250 (high range)
+[15:59:16.419]     INFO: ######################################################################
+[15:59:16.423]     INFO: ---> dac: VthrComp name: calSMap ntrig: 5 dacrange: 0 .. 149 hits flags = 2 (plus default)
+[15:59:16.439]     INFO:   dacScan step  from 0 .. 49
+[15:59:49.888]     INFO: Test took 33449ms.
+[15:59:50.128]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:59:50.183]     INFO:   dacScan step  from 50 .. 99
+[16:00:28.258]     INFO: Test took 38075ms.
+[16:00:28.652]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:00:28.746]     INFO:   dacScan step  from 100 .. 149
+[16:00:59.868]     INFO: Test took 31122ms.
+[16:00:59.936]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:01:21.292]     INFO: PixTestBBMap::doTest() done, duration: 124 seconds
+[16:01:21.292]     INFO: number of dead bumps (per ROC):    11    7    5   19   38 4160   60    7    3   72 4159   35   24   21    9   20
+[16:01:21.293]     INFO: separation cut       (per ROC):    47   47   43   35   33   13   53   45   55   40   25   43   45   46   52   42
+[16:04:21.711]     INFO: adjusting VCAL to have VthrComp average threshold at default VthrComp
+[16:04:24.460]     INFO: Test took 2741ms.
+[16:04:24.482]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:04:34.440]     INFO: Test took 9941ms.
+[16:04:35.411]     INFO: ---> dac: Vthrcomp name: scurveVthrcomp ntrig: 50 dacrange: 0 .. 200 hits flags = 16 (plus default)
+[16:04:35.422]     INFO:   dacScan step  from 0 .. 9
+[16:05:11.672]     INFO: Test took 36250ms.
+[16:05:11.750]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:05:11.750]     INFO:   dacScan step  from 10 .. 19
+[16:05:47.998]     INFO: Test took 36248ms.
+[16:05:48.076]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:05:48.076]     INFO:   dacScan step  from 20 .. 29
+[16:06:24.433]     INFO: Test took 36357ms.
+[16:06:24.530]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:06:24.531]     INFO:   dacScan step  from 30 .. 39
+[16:07:05.340]     INFO: Test took 40809ms.
+[16:07:05.628]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:07:05.642]     INFO:   dacScan step  from 40 .. 49
+[16:07:58.942]     INFO: Test took 53300ms.
+[16:07:59.548]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:07:59.576]     INFO:   dacScan step  from 50 .. 59
+[16:09:00.374]     INFO: Test took 60797ms.
+[16:09:01.084]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:09:01.118]     INFO:   dacScan step  from 60 .. 69
+[16:10:01.339]     INFO: Test took 60221ms.
+[16:10:02.030]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:10:02.063]     INFO:   dacScan step  from 70 .. 79
+[16:10:58.693]     INFO: Test took 56630ms.
+[16:10:59.330]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:10:59.357]     INFO:   dacScan step  from 80 .. 89
+[16:11:42.462]     INFO: Test took 43105ms.
+[16:11:42.801]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:11:42.813]     INFO:   dacScan step  from 90 .. 99
+[16:12:20.307]     INFO: Test took 37494ms.
+[16:12:20.471]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:12:20.475]     INFO:   dacScan step  from 100 .. 109
+[16:12:56.838]     INFO: Test took 36363ms.
+[16:12:56.920]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:12:56.920]     INFO:   dacScan step  from 110 .. 119
+[16:13:33.312]     INFO: Test took 36392ms.
+[16:13:33.390]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:13:33.390]     INFO:   dacScan step  from 120 .. 129
+[16:14:09.826]     INFO: Test took 36436ms.
+[16:14:09.904]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:14:09.904]     INFO:   dacScan step  from 130 .. 139
+[16:14:46.273]     INFO: Test took 36369ms.
+[16:14:46.350]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:14:46.350]     INFO:   dacScan step  from 140 .. 149
+[16:15:23.367]     INFO: Test took 37017ms.
+[16:15:23.448]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:15:23.448]     INFO:   dacScan step  from 150 .. 159
+[16:15:59.700]     INFO: Test took 36252ms.
+[16:15:59.777]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:15:59.777]     INFO:   dacScan step  from 160 .. 169
+[16:16:36.025]     INFO: Test took 36247ms.
+[16:16:36.102]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:16:36.102]     INFO:   dacScan step  from 170 .. 179
+[16:17:12.350]     INFO: Test took 36248ms.
+[16:17:12.426]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:17:12.426]     INFO:   dacScan step  from 180 .. 189
+[16:17:48.677]     INFO: Test took 36251ms.
+[16:17:48.752]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:17:48.752]     INFO:   dacScan step  from 190 .. 199
+[16:18:24.999]     INFO: Test took 36247ms.
+[16:18:25.074]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:18:25.074]     INFO:   dacScan step  from 200 .. 200
+[16:18:31.328]     INFO: Test took 6253ms.
+[16:18:31.342]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:18:51.137]     INFO: PixTestScurves::scurves() done 
+[16:18:51.137]     INFO: Vthrcomp mean:  45.21  36.80  38.70  31.94  29.74  52.54  54.12  39.30  42.25  39.30  39.93  40.95  39.25  43.33  44.68  39.39 
+[16:18:51.137]     INFO: Vthrcomp RMS:    0.73   0.87   1.06   0.80   0.73   1.21   1.28   0.98   0.99   1.03   1.01   0.95   1.20   0.87   0.87   1.05 
+[16:21:09.616]     INFO: ---> dac: Vcal name: scurveVcal ntrig: 50 dacrange: 0 .. 200 hits flags = 16 (plus default)
+[16:21:09.631]     INFO:   dacScan step  from 0 .. 9
+[16:21:45.869]     INFO: Test took 36238ms.
+[16:21:45.949]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:21:45.949]     INFO:   dacScan step  from 10 .. 19
+[16:22:22.198]     INFO: Test took 36249ms.
+[16:22:22.277]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:22:22.277]     INFO:   dacScan step  from 20 .. 29
+[16:22:58.525]     INFO: Test took 36248ms.
+[16:22:58.604]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:22:58.604]     INFO:   dacScan step  from 30 .. 39
+[16:23:36.977]     INFO: Test took 38373ms.
+[16:23:37.205]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:23:37.226]     INFO:   dacScan step  from 40 .. 49
+[16:24:34.259]     INFO: Test took 57033ms.
+[16:24:34.975]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:24:35.010]     INFO:   dacScan step  from 50 .. 59
+[16:25:36.351]     INFO: Test took 61341ms.
+[16:25:37.036]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:25:37.070]     INFO:   dacScan step  from 60 .. 69
+[16:26:37.984]     INFO: Test took 60914ms.
+[16:26:38.676]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:26:38.710]     INFO:   dacScan step  from 70 .. 79
+[16:27:39.631]     INFO: Test took 60921ms.
+[16:27:40.311]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:27:40.344]     INFO:   dacScan step  from 80 .. 89
+[16:28:41.267]     INFO: Test took 60923ms.
+[16:28:41.951]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:28:41.984]     INFO:   dacScan step  from 90 .. 99
+[16:29:42.899]     INFO: Test took 60915ms.
+[16:29:43.581]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:29:43.613]     INFO:   dacScan step  from 100 .. 109
+[16:30:44.533]     INFO: Test took 60920ms.
+[16:30:45.213]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:30:45.245]     INFO:   dacScan step  from 110 .. 119
+[16:31:46.213]     INFO: Test took 60967ms.
+[16:31:46.895]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:31:46.928]     INFO:   dacScan step  from 120 .. 129
+[16:32:47.924]     INFO: Test took 60996ms.
+[16:32:48.608]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:32:48.640]     INFO:   dacScan step  from 130 .. 139
+[16:33:49.680]     INFO: Test took 61040ms.
+[16:33:50.360]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:33:50.393]     INFO:   dacScan step  from 140 .. 149
+[16:34:52.079]     INFO: Test took 61686ms.
+[16:34:52.761]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:34:52.795]     INFO:   dacScan step  from 150 .. 159
+[16:35:53.718]     INFO: Test took 60923ms.
+[16:35:54.409]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:35:54.442]     INFO:   dacScan step  from 160 .. 169
+[16:36:55.372]     INFO: Test took 60930ms.
+[16:36:56.053]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:36:56.085]     INFO:   dacScan step  from 170 .. 179
+[16:37:57.023]     INFO: Test took 60938ms.
+[16:37:57.703]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:37:57.735]     INFO:   dacScan step  from 180 .. 189
+[16:38:58.661]     INFO: Test took 60926ms.
+[16:38:59.338]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:38:59.371]     INFO:   dacScan step  from 190 .. 199
+[16:40:00.296]     INFO: Test took 60925ms.
+[16:40:00.004]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:40:01.040]     INFO:   dacScan step  from 200 .. 200
+[16:40:09.749]     INFO: Test took 8709ms.
+[16:40:09.825]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[16:40:46.018]     INFO: PixTestScurves::scurves() done 
+[16:40:46.018]     INFO: Vcal mean:  39.96  40.00  39.96  40.03  40.11  40.04  40.02  39.99  40.17  40.07  40.02  40.07  39.98  40.11  40.07  40.00 
+[16:40:46.018]     INFO: Vcal RMS:    0.95   1.09   1.09   1.07   1.18   1.02   1.02   0.97   1.01   1.09   1.10   0.95   1.51   0.97   0.91   1.10 
+[16:41:49.592]    QUIET: Connection to board 38 closed.

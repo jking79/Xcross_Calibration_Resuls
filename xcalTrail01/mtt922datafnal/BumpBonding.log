@@ -1,0 +1,179 @@
+[17:02:25.621]     INFO: *** Welcome to pxar ***
+[17:02:25.621]     INFO: *** Today: 2015/03/26
+[17:02:25.621]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C0.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C1.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C2.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C3.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C4.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C5.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C6.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C7.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C8.dat
+[17:02:25.622]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C9.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C10.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C11.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C12.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C13.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C14.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/dacParameters_C15.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/tbmParameters_C0a.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/tbmParameters_C0b.dat
+[17:02:25.623]     INFO:       reading data/defaultParametersModulePSI46digV2/defaultMaskFile.dat
+[17:02:25.624]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C0.dat
+[17:02:25.629]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C1.dat
+[17:02:25.634]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C2.dat
+[17:02:25.638]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C3.dat
+[17:02:25.643]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C4.dat
+[17:02:25.648]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C5.dat
+[17:02:25.652]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C6.dat
+[17:02:25.657]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C7.dat
+[17:02:25.661]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C8.dat
+[17:02:25.666]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C9.dat
+[17:02:25.670]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C10.dat
+[17:02:25.675]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C11.dat
+[17:02:25.679]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C12.dat
+[17:02:25.684]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C13.dat
+[17:02:25.688]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C14.dat
+[17:02:25.693]     INFO:       reading data/defaultParametersModulePSI46digV2/trimParameters_C15.dat
+[17:02:25.697]     INFO:       reading data/defaultParametersModulePSI46digV2/tbParameters.dat
+[17:02:25.697]     INFO:         clk: 4
+[17:02:25.697]     INFO:         ctr: 4
+[17:02:25.697]     INFO:         sda: 19
+[17:02:25.697]     INFO:         tin: 9
+[17:02:25.697]     INFO:         level: 15
+[17:02:25.697]     INFO:         triggerdelay: 0
+[17:02:25.698]    QUIET: Instanciating API for pxar v1.8.4+16~g1e81fd4
+[17:02:25.698]     INFO: Log level: INFO
+[17:02:25.712]    QUIET: Connection to board DTB_WRMJGK opened.
+[17:02:25.716]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    38
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRMJGK
+MAC address: 40D855118026
+Hostname:    pixelDTB038
+Comment:     
+------------------------------------------------------
+[17:02:25.719]     INFO: RPC call hashes of host and DTB match: 413001178
+[17:02:27.283]     INFO: DUT info: 
+[17:02:27.283]     INFO: The DUT currently contains the following objects:
+[17:02:27.283]     INFO:  2 TBM Cores (2 ON)
+[17:02:27.283]     INFO: 	TBM Core alpha (0): 7 registers set
+[17:02:27.283]     INFO: 	TBM Core beta  (1): 7 registers set
+[17:02:27.283]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[17:02:27.283]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.283]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.284]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.284]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:02:27.888]     INFO:       reading data/defaultParametersModulePSI46digV2/phCalibrationFitTanH_C0.dat
+[17:02:27.888]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/defaultParametersModulePSI46digV2/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C0.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C1.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C2.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C3.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C4.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C5.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C6.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C7.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C8.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C9.dat
+[17:02:27.932]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C10.dat
+[17:02:27.933]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C11.dat
+[17:02:27.933]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C12.dat
+[17:02:27.933]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C13.dat
+[17:02:27.933]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C14.dat
+[17:02:27.933]     INFO:       reading data/defaultParametersModulePSI46digV2/readbackCal_C15.dat
+[17:02:27.933]     INFO:       reading data/defaultParametersModulePSI46digV2/phCalibrationFitTanH_C0.dat
+[17:02:27.933]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/defaultParametersModulePSI46digV2/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[17:02:27.956]     INFO:       reading data/defaultParametersModulePSI46digV2/phCalibrationFitTanH_C0.dat
+[17:02:27.957]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/defaultParametersModulePSI46digV2/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[17:02:31.016]     INFO: ######################################################################
+[17:02:31.017]     INFO: PixTestPretest::doTest()
+[17:02:31.017]     INFO: ######################################################################
+[17:02:31.019]     INFO:    ----------------------------------------------------------------------
+[17:02:31.019]     INFO:    PixTestPretest::programROC() 
+[17:02:31.019]     INFO:    ----------------------------------------------------------------------
+[17:02:49.042]     INFO: PixTestPretest::programROC() done: ROCs are all programmable
+[17:02:49.042]     INFO: IA differences per ROC:  19.3 19.3 16.1 19.3 20.9 19.3 20.1 17.7 19.3 18.5 19.3 20.9 20.9 19.3 21.7 17.7
+[17:02:49.244]     INFO:    ----------------------------------------------------------------------
+[17:02:49.244]     INFO:    PixTestPretest::setVana() target Ia = 24 mA/ROC
+[17:02:49.244]     INFO:    ----------------------------------------------------------------------
+[17:02:52.852]     INFO: PixTestPretest::setVana() done, Module Ia 387.5 mA = 24.2188 mA/ROC
+[17:02:52.876]     INFO:    ----------------------------------------------------------------------
+[17:02:52.876]     INFO:    PixTestPreTest::setTimings()
+[17:02:52.876]     INFO:    ----------------------------------------------------------------------
+[17:02:54.047]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:02:54.047]     INFO:    ----------------------------------------------------------------------
+[17:02:54.048]     INFO:    Default timings are good. No timing scan needed.
+[17:02:54.048]     INFO:    ----------------------------------------------------------------------
+[17:02:54.048]     INFO: Test took 1172 ms.
+[17:02:54.048]     INFO: PixTestPretest::setTimings() done.
+[17:02:54.077]     INFO:    ----------------------------------------------------------------------
+[17:02:54.077]     INFO:    PixTestPretest::findWorkingPixel()
+[17:02:54.077]     INFO:    ----------------------------------------------------------------------
+[17:03:01.118]     INFO: Test took 7036ms.
+[17:03:02.504]     INFO: Found working pixel in all ROCs: col/row = 12/22
+[17:03:02.631]     INFO:    ----------------------------------------------------------------------
+[17:03:02.631]     INFO:    PixTestPretest::setVthrCompCalDel()
+[17:03:02.632]     INFO:    ----------------------------------------------------------------------
+[17:03:09.660]     INFO: Test took 7022ms.
+[17:03:18.757]     INFO: PixTestPretest::setVthrCompCalDel() done
+[17:03:18.757]     INFO: CalDel:      119   132   130   139   143   109   123   118   115   112   114   140   122   121   114   131
+[17:03:18.757]     INFO: VthrComp:     51    51    51    51    51    51    51    51    51    51    51    51    51    51    51    51
+[17:03:18.801]     INFO: PixTestPretest::doTest() done, duration: 47 seconds
+[17:03:26.296]     INFO: ######################################################################
+[17:03:26.296]     INFO: PixTestAlive::doTest()
+[17:03:26.296]     INFO: ######################################################################
+[17:03:26.298]     INFO:    ----------------------------------------------------------------------
+[17:03:26.298]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[17:03:26.298]     INFO:    ----------------------------------------------------------------------
+[17:03:29.595]     INFO: Test took 3295ms.
+[17:03:29.624]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:03:29.895]     INFO: PixTestAlive::aliveTest() done
+[17:03:29.895]     INFO: number of dead pixels (per ROC):     0    0    0    0    2    0    0    0    0    0    1    0    2    0    0    0
+[17:03:29.967]     INFO:    ----------------------------------------------------------------------
+[17:03:29.967]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[17:03:29.967]     INFO:    ----------------------------------------------------------------------
+[17:03:32.566]     INFO: Test took 2596ms.
+[17:03:32.569]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:03:32.831]     INFO: PixTestAlive::maskTest() done
+[17:03:32.831]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[17:03:32.891]     INFO:    ----------------------------------------------------------------------
+[17:03:32.891]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[17:03:32.891]     INFO:    ----------------------------------------------------------------------
+[17:03:36.186]     INFO: Test took 3293ms.
+[17:03:36.214]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:03:36.489]     INFO: PixTestAlive::addressDecodingTest() done
+[17:03:36.489]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[17:03:36.529]     INFO: PixTestAlive::doTest() done, duration: 10 seconds
+[17:04:09.256]     INFO: ######################################################################
+[17:04:09.256]     INFO: PixTestBBMap::doTest() Ntrig = 5, VcalS = 250 (high range)
+[17:04:09.256]     INFO: ######################################################################
+[17:04:09.261]     INFO: ---> dac: VthrComp name: calSMap ntrig: 5 dacrange: 0 .. 149 hits flags = 2 (plus default)
+[17:04:09.288]     INFO:   dacScan step  from 0 .. 49
+[17:04:40.680]     INFO: Test took 31392ms.
+[17:04:40.834]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:04:40.853]     INFO:   dacScan step  from 50 .. 99
+[17:05:21.578]     INFO: Test took 40725ms.
+[17:05:22.064]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:05:22.190]     INFO:   dacScan step  from 100 .. 149
+[17:05:54.353]     INFO: Test took 32162ms.
+[17:05:54.492]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:06:17.456]     INFO: PixTestBBMap::doTest() done, duration: 128 seconds
+[17:06:17.456]     INFO: number of dead bumps (per ROC):     0    1    0    3    1    1    6    5    1    0    2    2    3    2    6    3
+[17:06:17.456]     INFO: separation cut       (per ROC):    98   76   70   69   66  105   89   72   77   82   97   83   81   79   72   76
+[17:07:06.699]    QUIET: Connection to board 38 closed.

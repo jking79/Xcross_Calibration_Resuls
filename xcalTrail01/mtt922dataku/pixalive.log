@@ -1,0 +1,129 @@
+[10:21:42.567]     INFO: *** Welcome to pxar ***
+[10:21:42.567]     INFO: *** Today: 2015/04/21
+[10:21:42.567]     INFO:       reading data/crosscalibrate/dacParameters_C0.dat
+[10:21:42.567]     INFO:       reading data/crosscalibrate/dacParameters_C1.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C2.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C3.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C4.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C5.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C6.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C7.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C8.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C9.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C10.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C11.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C12.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C13.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C14.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/dacParameters_C15.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/tbmParameters_C0a.dat
+[10:21:42.568]     INFO:       reading data/crosscalibrate/tbmParameters_C0b.dat
+[10:21:42.569]     INFO:       reading data/crosscalibrate/defaultMaskFile.dat
+[10:21:42.569]     INFO:       reading data/crosscalibrate/trimParameters_C0.dat
+[10:21:42.575]     INFO:       reading data/crosscalibrate/trimParameters_C1.dat
+[10:21:42.582]     INFO:       reading data/crosscalibrate/trimParameters_C2.dat
+[10:21:42.589]     INFO:       reading data/crosscalibrate/trimParameters_C3.dat
+[10:21:42.595]     INFO:       reading data/crosscalibrate/trimParameters_C4.dat
+[10:21:42.602]     INFO:       reading data/crosscalibrate/trimParameters_C5.dat
+[10:21:42.608]     INFO:       reading data/crosscalibrate/trimParameters_C6.dat
+[10:21:42.615]     INFO:       reading data/crosscalibrate/trimParameters_C7.dat
+[10:21:42.621]     INFO:       reading data/crosscalibrate/trimParameters_C8.dat
+[10:21:42.628]     INFO:       reading data/crosscalibrate/trimParameters_C9.dat
+[10:21:42.635]     INFO:       reading data/crosscalibrate/trimParameters_C10.dat
+[10:21:42.641]     INFO:       reading data/crosscalibrate/trimParameters_C11.dat
+[10:21:42.648]     INFO:       reading data/crosscalibrate/trimParameters_C12.dat
+[10:21:42.654]     INFO:       reading data/crosscalibrate/trimParameters_C13.dat
+[10:21:42.661]     INFO:       reading data/crosscalibrate/trimParameters_C14.dat
+[10:21:42.668]     INFO:       reading data/crosscalibrate/trimParameters_C15.dat
+[10:21:42.674]     INFO:       reading data/crosscalibrate/tbParameters.dat
+[10:21:42.674]     INFO:         clk: 4
+[10:21:42.674]     INFO:         ctr: 4
+[10:21:42.674]     INFO:         sda: 19
+[10:21:42.675]     INFO:         tin: 9
+[10:21:42.675]     INFO:         level: 15
+[10:21:42.675]     INFO:         triggerdelay: 0
+[10:21:42.675]    QUIET: Instanciating API for pxar crosscalibrate
+[10:21:42.675]     INFO: Log level: INFO
+[10:21:42.688]    QUIET: Connection to board DTB_WRPRHI opened.
+[10:21:42.692]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[10:21:42.696]     INFO: RPC call hashes of host and DTB match: 413001178
+[10:21:44.310]     INFO: DUT info: 
+[10:21:44.310]     INFO: The DUT currently contains the following objects:
+[10:21:44.310]     INFO:  2 TBM Cores (2 ON)
+[10:21:44.310]     INFO: 	TBM Core alpha (0): 7 registers set
+[10:21:44.310]     INFO: 	TBM Core beta  (1): 7 registers set
+[10:21:44.310]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[10:21:44.310]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.310]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[10:21:44.919]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH_C0.dat
+[10:21:44.919]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C0.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C1.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C2.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C3.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C4.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C5.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C6.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C7.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C8.dat
+[10:21:44.972]     INFO:       reading data/crosscalibrate/readbackCal_C9.dat
+[10:21:44.973]     INFO:       reading data/crosscalibrate/readbackCal_C10.dat
+[10:21:44.973]     INFO:       reading data/crosscalibrate/readbackCal_C11.dat
+[10:21:44.973]     INFO:       reading data/crosscalibrate/readbackCal_C12.dat
+[10:21:44.973]     INFO:       reading data/crosscalibrate/readbackCal_C13.dat
+[10:21:44.973]     INFO:       reading data/crosscalibrate/readbackCal_C14.dat
+[10:21:44.973]     INFO:       reading data/crosscalibrate/readbackCal_C15.dat
+[10:21:44.973]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH_C0.dat
+[10:21:44.973]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[10:21:45.019]     INFO:       reading data/crosscalibrate/phCalibrationFitTanH_C0.dat
+[10:21:45.019]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L952> cannot open data/crosscalibrate/phCalibrationFitTanH_C0.dat for reading PH calibration constants
+[10:21:48.741]     INFO: ######################################################################
+[10:21:48.741]     INFO: PixTestAlive::doTest()
+[10:21:48.741]     INFO: ######################################################################
+[10:21:48.743]     INFO:    ----------------------------------------------------------------------
+[10:21:48.743]     INFO:    PixTestAlive::aliveTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[10:21:48.743]     INFO:    ----------------------------------------------------------------------
+[10:21:52.364]     INFO: Test took 3619ms.
+[10:21:52.405]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[10:21:52.680]     INFO: PixTestAlive::aliveTest() done
+[10:21:52.680]     INFO: number of dead pixels (per ROC):     0    0    0    0    2    0    0    0    0    0    1    0    2    0    0    0
+[10:21:52.744]     INFO:    ----------------------------------------------------------------------
+[10:21:52.744]     INFO:    PixTestAlive::maskTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[10:21:52.744]     INFO:    ----------------------------------------------------------------------
+[10:21:55.513]     INFO: Test took 2767ms.
+[10:21:55.517]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[10:21:55.766]     INFO: PixTestAlive::maskTest() done
+[10:21:55.766]     INFO: number of mask-defect pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[10:21:55.823]     INFO:    ----------------------------------------------------------------------
+[10:21:55.823]     INFO:    PixTestAlive::addressDecodingTest() ntrig = 10, vcal = 200 (ctrlreg = 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0)
+[10:21:55.823]     INFO:    ----------------------------------------------------------------------
+[10:21:59.444]     INFO: Test took 3618ms.
+[10:21:59.484]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[10:21:59.770]     INFO: PixTestAlive::addressDecodingTest() done
+[10:21:59.770]     INFO: number of address-decoding pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+[10:21:59.799]     INFO: PixTestAlive::doTest() done, duration: 11 seconds
+[10:22:19.685]    QUIET: Connection to board 58 closed.
