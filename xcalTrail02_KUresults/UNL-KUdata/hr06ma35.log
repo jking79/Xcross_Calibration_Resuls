@@ -1,0 +1,844 @@
+[17:39:30.602]     INFO: *** Welcome to pxar ***
+[17:39:30.602]     INFO: *** Today: 2015/06/03
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C0.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C1.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C2.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C3.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C4.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C5.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C6.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C7.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C8.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C9.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C10.dat
+[17:39:30.602]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C11.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C12.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C13.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C14.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/dacParameters35_C15.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/tbmParameters_C0a.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/tbmParameters_C0b.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/defaultMaskFile.dat
+[17:39:30.603]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C0.dat
+[17:39:30.610]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C1.dat
+[17:39:30.617]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C2.dat
+[17:39:30.624]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C3.dat
+[17:39:30.631]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C4.dat
+[17:39:30.638]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C5.dat
+[17:39:30.645]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C6.dat
+[17:39:30.652]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C7.dat
+[17:39:30.659]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C8.dat
+[17:39:30.666]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C9.dat
+[17:39:30.673]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C10.dat
+[17:39:30.680]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C11.dat
+[17:39:30.686]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C12.dat
+[17:39:30.693]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C13.dat
+[17:39:30.700]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C14.dat
+[17:39:30.707]     INFO:       reading data/crosscalibrate_UNLconfig/trimParameters35_C15.dat
+[17:39:30.714]     INFO:       reading data/crosscalibrate_UNLconfig/tbParameters.dat
+[17:39:30.714]     INFO:         clk: 4
+[17:39:30.714]     INFO:         ctr: 4
+[17:39:30.714]     INFO:         sda: 19
+[17:39:30.714]     INFO:         tin: 9
+[17:39:30.714]     INFO:         level: 15
+[17:39:30.714]     INFO:         triggerdelay: 0
+[17:39:30.715]    QUIET: Instanciating API for pxar crosscalibrate_v1.1
+[17:39:30.715]     INFO: Log level: DEBUG
+[17:39:30.728]    QUIET: Connection to board DTB_WRPRHI opened.
+[17:39:30.731]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.0
+SW version:  4.0
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[17:39:30.735]     INFO: RPC call hashes of host and DTB match: 447413373
+[17:39:32.352]     INFO: DUT info: 
+[17:39:32.352]     INFO: The DUT currently contains the following objects:
+[17:39:32.352]     INFO:  2 TBM Cores (2 ON)
+[17:39:32.352]     INFO: 	TBM Core alpha (0): 7 registers set
+[17:39:32.352]     INFO: 	TBM Core beta  (1): 7 registers set
+[17:39:32.352]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[17:39:32.352]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.352]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.352]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.352]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.352]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   allpixels: checkbox(0)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   unmasked: checkbox(0)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[17:39:32.353]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   xnoisemaps: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 100
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 20
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 2
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 100
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/FIXME
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(1)
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: VthrComp
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 200
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 10
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   fastscan: checkbox(0)
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   tbmphasescan: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   rocdelayscan: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[17:39:32.354]    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 100
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[17:39:32.355]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[17:39:32.355]    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 32964608
+[17:39:32.355]    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0x1c61220
+[17:39:32.355]    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0x1b89650
+[17:39:32.355]    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7f95c5d94010
+[17:39:32.355]    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7f95cbfff510
+[17:39:32.355]    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 32972800 fPxarMemory = 0x7f95c5d94010
+[17:39:32.847]    DEBUG: <PixGui.cc/hvOn:L457> HV set On: 0x2222080
+[17:39:32.913]    DEBUG: <PixTestFactory.cc/PixTestFactory:L50> PixTestFactory::PixTestFactory()
+[17:39:32.913]    DEBUG: <PixTestBBMap.cc/init:L78> PixTestBBMap::init()
+[17:39:32.914]    DEBUG: <PixTestBBMap.cc/PixTestBBMap:L26> PixTestBBMap ctor(PixSetup &a, string, TGTab *)
+[17:39:32.920]    DEBUG: <PixTestBB2Map.cc/setParameter:L57> setting fTargetIa    = 24 mA/ROC
+[17:39:32.920]    DEBUG: <PixTestBB2Map.cc/init:L96> PixTestBB2Map::init()
+[17:39:32.920]    DEBUG: <PixTestBB2Map.cc/PixTestBB2Map:L28> PixTestBB2Map ctor(PixSetup &a, string, TGTab *)
+[17:39:32.933]    DEBUG: <PixTestDacDacScan.cc/init:L102> PixTestDacDacScan::init()
+[17:39:32.933]    DEBUG: <PixTestDacDacScan.cc/PixTestDacDacScan:L21> PixTestDacDacScan ctor(PixSetup &a, string, TGTab *)
+[17:39:32.980]    DEBUG: <PixTestHighRate.cc/setParameter:L67>   setting fParTriggerFrequency -> 20
+[17:39:32.980]    DEBUG: <PixTestHighRate.cc/init:L174> PixTestHighRate::init()
+[17:39:32.981]    DEBUG: <PixTestHighRate.cc/PixTestHighRate:L30> PixTestHighRate ctor(PixSetup &a, string, TGTab *)
+[17:39:32.981]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C0.dat
+[17:39:32.996]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C1.dat
+[17:39:33.013]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C2.dat
+[17:39:33.028]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C3.dat
+[17:39:33.043]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C4.dat
+[17:39:33.058]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C5.dat
+[17:39:33.073]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C6.dat
+[17:39:33.088]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C7.dat
+[17:39:33.103]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C8.dat
+[17:39:33.119]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C9.dat
+[17:39:33.134]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C10.dat
+[17:39:33.149]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C11.dat
+[17:39:33.164]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C12.dat
+[17:39:33.179]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C13.dat
+[17:39:33.194]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C14.dat
+[17:39:33.209]     INFO:       reading data/crosscalibrate_UNLconfig/phCalibrationFitErr35_C15.dat
+[17:39:33.246]    DEBUG: <PixTest.cc/setTestParameter:L607>  setting  ntrig to new value 10
+[17:39:33.246]    DEBUG: <PixTestPhOptimization.cc/setParameter:L36>   setting fParNtrig  ->10<- from sval = 10
+[17:39:33.246]    DEBUG: <PixTestPhOptimization.cc/setParameter:L41>   setting fSafetyMarginLow  ->20<- from sval = 20
+[17:39:33.246]    DEBUG: <PixTestPhOptimization.cc/setParameter:L47>   setting fVcalMax  ->100<- from sval = 100
+[17:39:33.246]    DEBUG: <PixTestPhOptimization.cc/setParameter:L52>   setting fQuantMax  ->0.98<- from sval = 0.98
+[17:39:33.252]    DEBUG: <PixTestAlive.cc/init:L76> PixTestAlive::init()
+[17:39:33.252]    DEBUG: <PixTestAlive.cc/PixTestAlive:L20> PixTestAlive ctor(PixSetup &a, string, TGTab *)
+[17:39:33.271]    DEBUG: <PixTestReadback.cc/setParameter:L172> fCalwVd set to 1
+[17:39:33.271]    DEBUG: <PixTestReadback.cc/init:L95> PixTestReadback::init()
+[17:39:33.271]    DEBUG: <PixTestReadback.cc/PixTestReadback:L22> PixTestReadback ctor(PixSetup &a, string, TGTab *)
+[17:39:33.271]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C0.dat
+[17:39:33.271]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C1.dat
+[17:39:33.271]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C2.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C3.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C4.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C5.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C6.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C7.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C8.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C9.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C10.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C11.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C12.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C13.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C14.dat
+[17:39:33.272]     INFO:       reading data/crosscalibrate_UNLconfig/readbackCal_C15.dat
+[17:39:33.287]    DEBUG: <PixTestTiming.cc/setParameter:L46> fFastScan: 0
+[17:39:33.287]    DEBUG: <PixTestTiming.cc/setParameter:L51> PixTestTiming::PixTest() targetclk = 4
+[17:39:33.287]    DEBUG: <PixTestTiming.cc/setParameter:L55> PixTestTiming::PixTest() ntrig = 10
+[17:39:33.287]    DEBUG: <PixTestTiming.cc/init:L65> PixTestTiming::init()
+[17:39:33.305]    DEBUG: <PixTestXray.cc/init:L132> PixTestXray::init()
+[17:39:33.306]    DEBUG: <PixTestXray.cc/PixTestXray:L26> PixTestXray ctor(PixSetup &a, string, TGTab *)
+[17:39:43.469]     INFO: ######################################################################
+[17:39:43.469]     INFO: PixTestHighRate::doTest()
+[17:39:43.469]     INFO: ######################################################################
+[17:39:43.469]     INFO:    ----------------------------------------------------------------------
+[17:39:43.469]     INFO:    PixTestHighRate::calDelScan() ntrig = 10, vcal = 200
+[17:39:43.469]     INFO:    ----------------------------------------------------------------------
+[17:39:44.551]     INFO: Test took 1078ms.
+[17:39:44.555]     INFO:       reading data/crosscalibrate_UNLconfig/defaultMaskFile.dat
+[17:39:44.557]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:39:48.292]     INFO: Test took 3734ms.
+[17:39:48.631]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1016415
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C0
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C1
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C2
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C3
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C4
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C5
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C6
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C7
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C8
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C9
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C10
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C11
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C12
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C13
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C14
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step0_C15
+[17:39:48.631]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:39:48.705]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:39:52.478]     INFO: Test took 3773ms.
+[17:39:52.822]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1021172
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C0
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C1
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C2
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C3
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C4
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C5
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C6
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C7
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C8
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C9
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C10
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C11
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C12
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C13
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C14
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step1_C15
+[17:39:52.822]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:39:52.895]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:39:56.724]     INFO: Test took 3829ms.
+[17:39:57.066]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:39:57.066]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1023890
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C0
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C1
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C2
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C3
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C4
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C5
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C6
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C7
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C8
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C9
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C10
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C11
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C12
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C13
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C14
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step2_C15
+[17:39:57.067]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:39:57.141]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:00.944]     INFO: Test took 3803ms.
+[17:40:01.293]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1025236
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C0
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C1
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C2
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C3
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C4
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C5
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C6
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C7
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C8
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C9
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C10
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C11
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C12
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C13
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C14
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step3_C15
+[17:40:01.293]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:01.368]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:05.180]     INFO: Test took 3812ms.
+[17:40:05.526]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1026620
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C0
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C1
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C2
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C3
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C4
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C5
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C6
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C7
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C8
+[17:40:05.526]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C9
+[17:40:05.527]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C10
+[17:40:05.527]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C11
+[17:40:05.527]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C12
+[17:40:05.527]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C13
+[17:40:05.527]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C14
+[17:40:05.527]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step4_C15
+[17:40:05.527]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:05.601]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:09.421]     INFO: Test took 3820ms.
+[17:40:09.768]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:09.768]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1026221
+[17:40:09.768]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C0
+[17:40:09.768]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C1
+[17:40:09.768]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C2
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C3
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C4
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C5
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C6
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C7
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C8
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C9
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C10
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C11
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C12
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C13
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C14
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step5_C15
+[17:40:09.769]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:09.842]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:13.665]     INFO: Test took 3823ms.
+[17:40:14.013]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:14.013]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1025187
+[17:40:14.013]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C0
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C1
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C2
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C3
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C4
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C5
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C6
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C7
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C8
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C9
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C10
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C11
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C12
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C13
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C14
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step6_C15
+[17:40:14.014]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:14.087]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:17.904]     INFO: Test took 3817ms.
+[17:40:18.255]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1028508
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C0
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C1
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C2
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C3
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C4
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C5
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C6
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C7
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C8
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C9
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C10
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C11
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C12
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C13
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C14
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step7_C15
+[17:40:18.255]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:18.329]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:22.158]     INFO: Test took 3829ms.
+[17:40:22.509]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1028015
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C0
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C1
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C2
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C3
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C4
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C5
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C6
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C7
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C8
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C9
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C10
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C11
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C12
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C13
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C14
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step8_C15
+[17:40:22.509]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:22.584]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:26.406]     INFO: Test took 3821ms.
+[17:40:26.756]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1027305
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C0
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C1
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C2
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C3
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C4
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C5
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C6
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C7
+[17:40:26.756]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C8
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C9
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C10
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C11
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C12
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C13
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C14
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step9_C15
+[17:40:26.757]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:26.830]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:30.651]     INFO: Test took 3821ms.
+[17:40:31.002]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1027263
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C0
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C1
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C2
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C3
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C4
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C5
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C6
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C7
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C8
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C9
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C10
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C11
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C12
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C13
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C14
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step10_C15
+[17:40:31.002]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:31.075]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:34.891]     INFO: Test took 3816ms.
+[17:40:35.241]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:35.241]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1027121
+[17:40:35.241]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C0
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C1
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C2
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C3
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C4
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C5
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C6
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C7
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C8
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C9
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C10
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C11
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C12
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C13
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C14
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step11_C15
+[17:40:35.242]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:35.315]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:39.132]     INFO: Test took 3816ms.
+[17:40:39.483]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1028434
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C0
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C1
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C2
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C3
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C4
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C5
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C6
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C7
+[17:40:39.483]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C8
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C9
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C10
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C11
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C12
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C13
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C14
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step12_C15
+[17:40:39.484]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:39.556]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:43.364]     INFO: Test took 3807ms.
+[17:40:43.713]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1027345
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C0
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C1
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C2
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C3
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C4
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C5
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C6
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C7
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C8
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C9
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C10
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C11
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C12
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C13
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C14
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step13_C15
+[17:40:43.713]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:43.786]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:47.607]     INFO: Test took 3821ms.
+[17:40:47.957]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1026812
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C0
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C1
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C2
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C3
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C4
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C5
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C6
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C7
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C8
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C9
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C10
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C11
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C12
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C13
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C14
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step14_C15
+[17:40:47.957]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:48.030]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:51.828]     INFO: Test took 3798ms.
+[17:40:52.176]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1026447
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C0
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C1
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C2
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C3
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C4
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C5
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C6
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C7
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C8
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C9
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C10
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C11
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C12
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C13
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C14
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step15_C15
+[17:40:52.176]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:52.248]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:40:56.053]     INFO: Test took 3804ms.
+[17:40:56.400]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1026288
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C0
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C1
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C2
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C3
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C4
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C5
+[17:40:56.400]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C6
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C7
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C8
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C9
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C10
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C11
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C12
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C13
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C14
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step16_C15
+[17:40:56.401]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:40:56.473]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:41:00.270]     INFO: Test took 3797ms.
+[17:41:00.618]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1027355
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C0
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C1
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C2
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C3
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C4
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C5
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C6
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C7
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C8
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C9
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C10
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C11
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C12
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C13
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C14
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step17_C15
+[17:41:00.618]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:41:00.690]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:41:04.444]     INFO: Test took 3753ms.
+[17:41:04.789]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1024297
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C0
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C1
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C2
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C3
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C4
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C5
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C6
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C7
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C8
+[17:41:04.789]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C9
+[17:41:04.790]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C10
+[17:41:04.790]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C11
+[17:41:04.790]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C12
+[17:41:04.790]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C13
+[17:41:04.790]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C14
+[17:41:04.790]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step18_C15
+[17:41:04.790]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:41:04.862]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:41:08.461]     INFO: Test took 3599ms.
+[17:41:08.792]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:41:08.792]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 1016099
+[17:41:08.792]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C0
+[17:41:08.792]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C1
+[17:41:08.792]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C2
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C3
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C4
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C5
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C6
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C7
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C8
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C9
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C10
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C11
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C12
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C13
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C14
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist HR_xeff_CalDelScan_step19_C15
+[17:41:08.793]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  0: caldel = 139 eff = 0.999327
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  1: caldel = 141 eff = 0.998005
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  2: caldel = 130 eff = 0.994399
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  3: caldel = 152 eff = 0.991298
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  4: caldel = 154 eff = 0.988438
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  5: caldel = 119 eff = 0.985649
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  6: caldel = 145 eff = 0.983798
+[17:41:09.091]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  7: caldel = 117 eff = 0.993822
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  8: caldel = 127 eff = 0.994928
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc  9: caldel = 128 eff = 0.987284
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc 10: caldel = 127 eff = 0.989591
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc 11: caldel = 150 eff = 0.989351
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc 12: caldel = 124 eff = 0.987668
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc 13: caldel = 136 eff = 0.994399
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc 14: caldel = 132 eff = 0.998293
+[17:41:09.092]    DEBUG: <PixTestHighRate.cc/doCalDelScan:L397> roc 15: caldel = 127 eff = 0.999231
+[17:41:09.131]     INFO:    ----------------------------------------------------------------------
+[17:41:09.131]     INFO:    PixTestHighRate::xPixelAlive() ntrig = 50, vcal = 200
+[17:41:09.131]     INFO:    ----------------------------------------------------------------------
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L425>  old set: clk: 4
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L425>  old set: ctr: 4
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L425>  old set: sda: 19
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L425>  old set: tin: 9
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L425>  old set: level: 15
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L425>  old set: triggerdelay: 0
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L441>  setting: clk: 4
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L441>  setting: ctr: 4
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L441>  setting: sda: 19
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L441>  setting: tin: 9
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L441>  setting: level: 15
+[17:41:09.131]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L441>  setting: triggerdelay: 100
+[17:41:09.163]     INFO:       reading data/crosscalibrate_UNLconfig/defaultMaskFile.dat
+[17:41:09.164]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[17:41:26.775]     INFO: Test took 17611ms.
+[17:41:30.145]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 4818245
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C0
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C1
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C2
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C3
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C4
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C5
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C6
+[17:41:30.145]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C7
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C8
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C9
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C10
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C11
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C12
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C13
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C14
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist highRate_C15
+[17:41:30.146]    DEBUG: <PixTest.cc/efficiencyMaps:L396> booking xray maps for unmasked detector
+[17:41:30.678]     INFO: number of dead pixels (per ROC):     0    0    0    0    0    0    0    0    0    0    1    0    2    0    0    0
+[17:41:30.678]     INFO: number of red-efficiency pixels:    69  321  875 1436 1809 2084 2292  901  809 1830 1695 1585 1800  924  316  115
+[17:41:30.678]     INFO: number of X-ray hits detected:    38803 146195 248595 372259 413171 461228 481372 233419 234503 440339 394536 392066 408787 266916 156636 62863
+[17:41:30.678]     INFO: number of triggers sent (total per ROC):  208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000 208000
+[17:41:30.678]     INFO: number of Vcal hits detected:  207928 207657 206876 206107 205432 204986 204336 206607 206891 205356 205718 205790 205351 206746 207658 207874
+[17:41:30.678]     INFO: Vcal hit fiducial efficiency (%):  100.0 99.8 99.5 99.2 98.9 98.5 98.4 99.4 99.5 98.8 98.9 99.1 98.9 99.5 99.8 99.9
+[17:41:30.678]     INFO: Vcal hit overall efficiency (%):  100.0 99.8 99.5 99.1 98.8 98.6 98.2 99.3 99.5 98.7 98.9 98.9 98.7 99.4 99.8 99.9
+[17:41:30.678]     INFO: X-ray hit rate [MHz/cm2]:  11.4 42.9 72.9 109.1 121.1 135.2 141.1 68.4 68.7 129.1 115.6 114.9 119.8 78.2 45.9 18.4
+[17:41:30.678]     INFO: PixTestHighRate::doXPixelAlive() done
+[17:41:30.726]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L560>  resetting: clk: 4
+[17:41:30.726]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L560>  resetting: ctr: 4
+[17:41:30.726]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L560>  resetting: sda: 19
+[17:41:30.726]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L560>  resetting: tin: 9
+[17:41:30.726]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L560>  resetting: level: 15
+[17:41:30.726]    DEBUG: <PixTestHighRate.cc/doXPixelAlive:L560>  resetting: triggerdelay: 0
+[17:41:30.726]     INFO: PixTest::       pg_setup set to default.
+[17:41:30.726]     INFO:    ----------------------------------------------------------------------
+[17:41:30.726]     INFO:    PixTestHighRate::runDaq() running for 2 seconds
+[17:41:30.726]     INFO:    ----------------------------------------------------------------------
+[17:41:30.754]     INFO:       reading data/crosscalibrate_UNLconfig/defaultMaskFile.dat
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L740>  old set: clk: 4
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L740>  old set: ctr: 4
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L740>  old set: sda: 19
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L740>  old set: tin: 9
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L740>  old set: level: 15
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L740>  old set: triggerdelay: 0
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L756>  setting: clk: 4
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L756>  setting: ctr: 4
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L756>  setting: sda: 19
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L756>  setting: tin: 9
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L756>  setting: level: 15
+[17:41:30.754]    DEBUG: <PixTestHighRate.cc/doRunDaq:L756>  setting: triggerdelay: 100
+[17:41:31.729]     INFO: PixTestHighRate::doHitMap start TriggerLoop with trigger frequency 20 kHz, period 2011 and duration 2 seconds
+[17:41:33.731]     INFO: data taking finished, elapsed time: 2 seconds.
+[17:41:35.327]    DEBUG: <PixTestHighRate.cc/fillMap:L858> Processing Data: 39802 events with 907906 pixels
+[17:41:35.332]     INFO: PixTest::       pg_setup set to default.
+[17:41:35.350]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C0_V0
+[17:41:35.350]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C1_V0
+[17:41:35.350]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C2_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C3_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C4_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C5_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C6_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C7_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C8_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C9_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C10_V0
+[17:41:35.351]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C11_V0
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C12_V0
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C13_V0
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C14_V0
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L774> analyzing hitMap_daqbbtest_C15_V0
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L786>  resetting: clk: 4
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L786>  resetting: ctr: 4
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L786>  resetting: sda: 19
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L786>  resetting: tin: 9
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L786>  resetting: level: 15
+[17:41:35.352]    DEBUG: <PixTestHighRate.cc/doRunDaq:L786>  resetting: triggerdelay: 0
+[17:41:35.352]     INFO: Pixels without X-ray hits (per ROC):  2325   813   599    85    79   154    64   800   444    62   190   129    72   470   732  1923 
+[17:41:35.352]     INFO: PixTestHighRate::doRunDaq() done
+[17:41:35.352]     INFO: PixTestHighRate::doTest() done 
+[17:43:03.653]    DEBUG: <PixGui.cc/handleButtons:L393> PixGui::exit called
+[17:43:03.653]    DEBUG: <PixTestBBMap.cc/~PixTestBBMap:L96> PixTestBBMap dtor
+[17:43:03.653]    DEBUG: <PixTestBB2Map.cc/~PixTestBB2Map:L114> PixTestBB2Map dtor
+[17:43:03.653]    DEBUG: <PixTestDacDacScan.cc/~PixTestDacDacScan:L135> PixTestDacDacScan dtor
+[17:43:03.653]    DEBUG: <PixTestDacScan.cc/~PixTestDacScan:L128> PixTestDacScan dtor
+[17:43:03.653]    DEBUG: <PixTestGainPedestal.cc/~PixTestGainPedestal:L121> PixTestGainPedestal dtor
+[17:43:03.653]    DEBUG: <PixTestHighRate.cc/~PixTestHighRate:L221> PixTestHighRate dtor
+[17:43:03.745]    DEBUG: <PixTestIV.cc/~PixTestIV:L96> PixTestIV dtor
+[17:43:03.745]    DEBUG: <PixTestAlive.cc/~PixTestAlive:L108> PixTestAlive dtor
+[17:43:03.745]    DEBUG: <PixTestPretest.cc/~PixTestPretest:L133> PixTestPretest dtor
+[17:43:03.745]    DEBUG: <PixTestReadback.cc/~PixTestReadback:L89> PixTestReadback dtor, saving tree ... 
+[17:43:03.745]    DEBUG: <PixTestScurves.cc/~PixTestScurves:L127> PixTestScurves dtor
+[17:43:03.745]    DEBUG: <PixTestTiming.cc/~PixTestTiming:L88> PixTestTiming dtor
+[17:43:03.745]    DEBUG: <PixTestTrim.cc/~PixTestTrim:L103> PixTestTrim dtor
+[17:43:03.746]    DEBUG: <PixTestXray.cc/~PixTestXray:L215> PixTestXray dtor
+[17:43:03.749]    QUIET: Connection to board 58 closed.
+[17:43:03.750]    DEBUG: <PixMonitor.cc/dumpSummaries:L34> PixMonitor::dumpSummaries
