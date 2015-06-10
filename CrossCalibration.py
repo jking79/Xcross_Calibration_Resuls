@@ -11,8 +11,10 @@ gStyle.SetOptStat("n")
 gStyle.SetCanvasColor(kWhite)
 
 parser = OptionParser()
-parser.add_option("-f", "--files", dest="files", default="mtt922datafnal/CrossCalibration.root,mtt922data/CrossCalibration.root,./mtt922dataUNL/crosscalibrate.root,./mtt922datapurdue/crosscalibrate_2.root", help="List of input files (file1.root,file2.root)")
-parser.add_option("-l", "--legend", dest="legend", default="FNAL,KU,UNL,Purdue", help="Legend label for each file (file1,file2)")
+parser.add_option("-f", "--files", dest="files", default="crosscalibrate_KU.root,crosscalibrate_UNL.root", help="List of input files (file1.root,file2.root)")
+##"mtt922datafnal/CrossCalibration.root,mtt922data/CrossCalibration.root,./mtt922dataUNL/crosscalibrate.root,./mtt922datapurdue/crosscalibrate_2.root"
+parser.add_option("-l", "--legend", dest="legend", default="KU,UNL", help="Legend label for each file (file1,file2)")
+##default="FNAL,KU,UNL,Purdue"
 parser.add_option("-c", "--colors", dest="colors", default="1,2,4,7,3,6,5,9,8", help="Set the histogram colors for each input file (1,2,4)")
 parser.add_option("-o", "--outputdir", dest="outputdir", default="CrossCalibration", help="Output directory for all the PNG files")
 parser.add_option("-s", "--select", dest="select", default="", help="Compare only plots that match the regular expression (Pretest*)")
@@ -144,12 +146,11 @@ for dir in filelist[0].GetListOfKeys():
             if not CompareHist: continue
             select = re.search(options.select,hist)
             veto = re.search(options.veto,hist)
-            if options.select!="" and select is None: continue
+            if options.select!="" and SXselect is None: continue
             if options.veto!="" and veto is not None: continue
             histtype = histkey.GetClassName()
             if histtype.find("TH1")!=-1: CompareTH1(hist, filelist)
-            if histtype.find("TH2")!=-1:
-                CompareTH2(hist, filelist)
+            if histtype.find("TH2")!=-1: CompareTH2(hist, filelist)
                 #if options.log is not True: CompareTH2dumb(hist, filelist)
 
 print "Done!"
