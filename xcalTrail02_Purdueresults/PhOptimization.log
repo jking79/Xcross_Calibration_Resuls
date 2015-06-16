@@ -1,0 +1,1002 @@
+[15:28:31.041]     INFO: *** Welcome to pxar ***
+[15:28:31.041]     INFO: *** Today: 2015/06/12
+[15:28:31.041]     INFO:       reading crosscalibrate/dacParameters35_C0.dat
+[15:28:31.041]     INFO:       reading crosscalibrate/dacParameters35_C1.dat
+[15:28:31.041]     INFO:       reading crosscalibrate/dacParameters35_C2.dat
+[15:28:31.041]     INFO:       reading crosscalibrate/dacParameters35_C3.dat
+[15:28:31.041]     INFO:       reading crosscalibrate/dacParameters35_C4.dat
+[15:28:31.041]     INFO:       reading crosscalibrate/dacParameters35_C5.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C6.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C7.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C8.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C9.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C10.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C11.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C12.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C13.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C14.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/dacParameters35_C15.dat
+[15:28:31.042]     INFO:       reading crosscalibrate/tbmParameters_C0a.dat
+[15:28:31.043]     INFO:       reading crosscalibrate/tbmParameters_C0b.dat
+[15:28:31.043]     INFO:       reading crosscalibrate/defaultMaskFile.dat
+[15:28:31.043]     INFO:       reading crosscalibrate/trimParameters35_C0.dat
+[15:28:31.050]     INFO:       reading crosscalibrate/trimParameters35_C1.dat
+[15:28:31.055]     INFO:       reading crosscalibrate/trimParameters35_C2.dat
+[15:28:31.059]     INFO:       reading crosscalibrate/trimParameters35_C3.dat
+[15:28:31.064]     INFO:       reading crosscalibrate/trimParameters35_C4.dat
+[15:28:31.068]     INFO:       reading crosscalibrate/trimParameters35_C5.dat
+[15:28:31.073]     INFO:       reading crosscalibrate/trimParameters35_C6.dat
+[15:28:31.077]     INFO:       reading crosscalibrate/trimParameters35_C7.dat
+[15:28:31.082]     INFO:       reading crosscalibrate/trimParameters35_C8.dat
+[15:28:31.086]     INFO:       reading crosscalibrate/trimParameters35_C9.dat
+[15:28:31.091]     INFO:       reading crosscalibrate/trimParameters35_C10.dat
+[15:28:31.096]     INFO:       reading crosscalibrate/trimParameters35_C11.dat
+[15:28:31.100]     INFO:       reading crosscalibrate/trimParameters35_C12.dat
+[15:28:31.104]     INFO:       reading crosscalibrate/trimParameters35_C13.dat
+[15:28:31.109]     INFO:       reading crosscalibrate/trimParameters35_C14.dat
+[15:28:31.113]     INFO:       reading crosscalibrate/trimParameters35_C15.dat
+[15:28:31.118]     INFO:       reading crosscalibrate/tbParameters.dat
+[15:28:31.118]     INFO:         clk: 4
+[15:28:31.118]     INFO:         ctr: 4
+[15:28:31.118]     INFO:         sda: 19
+[15:28:31.118]     INFO:         tin: 9
+[15:28:31.118]     INFO:         level: 15
+[15:28:31.118]     INFO:         triggerdelay: 0
+[15:28:31.118]    QUIET: Instanciating API for pxar crosscalibrate_v1.1
+[15:28:31.118]     INFO: Log level: DEBUG
+[15:28:31.128]     INFO: Connected DTBs:
+[15:28:31.128]     INFO: 0: DTB_WRMZH8 on USB
+[15:28:31.141]     INFO: BID = 53
+[15:28:31.142]     INFO: 1: DTB_WRMPSF on USB
+[15:28:31.156]     INFO: BID = 45
+[15:28:31.157]     INFO: Please choose DTB (0-1): 
+[15:30:40.928]    QUIET: Connection to board DTB_WRMZH8 opened.
+[15:30:40.932]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    53
+HW version:  DTB1.2
+FW version:  4.0
+SW version:  4.0
+USB id:      DTB_WRMZH8
+MAC address: 40D855118035
+Hostname:    pixelDTB053
+Comment:     
+------------------------------------------------------
+[15:30:40.935]     INFO: RPC call hashes of host and DTB match: 447413373
+[15:30:42.505]     INFO: DUT info: 
+[15:30:42.505]     INFO: The DUT currently contains the following objects:
+[15:30:42.505]     INFO:  2 TBM Cores (2 ON)
+[15:30:42.505]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:30:42.505]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:30:42.506]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[15:30:42.506]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 6: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 10: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.506]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   allpixels: checkbox(0)
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   unmasked: checkbox(0)
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[15:30:42.507]    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   xnoisemaps: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 100
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 20
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 2
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 20
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/FIXME
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[15:30:42.508]    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(1)
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: VthrComp
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 200
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 10
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   fastscan: checkbox(0)
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   tbmphasescan: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   rocdelayscan: button
+[15:30:42.509]    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 100
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[15:30:42.510]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[15:30:42.510]    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 28614656
+[15:30:42.510]    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0x2287fb0
+[15:30:42.510]    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0x2214500
+[15:30:42.510]    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7f5cc5d94010
+[15:30:42.510]    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7f5ccbfff510
+[15:30:42.510]    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 28700672 fPxarMemory = 0x7f5cc5d94010
+[15:30:42.981]    DEBUG: <PixGui.cc/hvOn:L457> HV set On: 0x2857040
+[15:30:43.037]    DEBUG: <PixTestFactory.cc/PixTestFactory:L50> PixTestFactory::PixTestFactory()
+[15:30:43.037]    DEBUG: <PixTestBBMap.cc/init:L78> PixTestBBMap::init()
+[15:30:43.038]    DEBUG: <PixTestBBMap.cc/PixTestBBMap:L26> PixTestBBMap ctor(PixSetup &a, string, TGTab *)
+[15:30:43.046]    DEBUG: <PixTestBB2Map.cc/setParameter:L57> setting fTargetIa    = 24 mA/ROC
+[15:30:43.046]    DEBUG: <PixTestBB2Map.cc/init:L96> PixTestBB2Map::init()
+[15:30:43.046]    DEBUG: <PixTestBB2Map.cc/PixTestBB2Map:L28> PixTestBB2Map ctor(PixSetup &a, string, TGTab *)
+[15:30:43.053]    DEBUG: <PixTestDacDacScan.cc/init:L102> PixTestDacDacScan::init()
+[15:30:43.053]    DEBUG: <PixTestDacDacScan.cc/PixTestDacDacScan:L21> PixTestDacDacScan ctor(PixSetup &a, string, TGTab *)
+[15:30:43.076]    DEBUG: <PixTestHighRate.cc/setParameter:L67>   setting fParTriggerFrequency -> 20
+[15:30:43.076]    DEBUG: <PixTestHighRate.cc/init:L174> PixTestHighRate::init()
+[15:30:43.076]    DEBUG: <PixTestHighRate.cc/PixTestHighRate:L30> PixTestHighRate ctor(PixSetup &a, string, TGTab *)
+[15:30:43.076]     INFO:       reading crosscalibrate/phCalibrationFitErr35_C0.dat
+[15:30:43.076]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L953> cannot open crosscalibrate/phCalibrationFitErr35_C0.dat for reading PH calibration constants
+[15:30:43.092]    DEBUG: <PixTest.cc/setTestParameter:L607>  setting  ntrig to new value 10
+[15:30:43.092]    DEBUG: <PixTestPhOptimization.cc/setParameter:L36>   setting fParNtrig  ->10<- from sval = 10
+[15:30:43.092]    DEBUG: <PixTestPhOptimization.cc/setParameter:L41>   setting fSafetyMarginLow  ->20<- from sval = 20
+[15:30:43.092]    DEBUG: <PixTestPhOptimization.cc/setParameter:L47>   setting fVcalMax  ->100<- from sval = 100
+[15:30:43.092]    DEBUG: <PixTestPhOptimization.cc/setParameter:L52>   setting fQuantMax  ->0.98<- from sval = 0.98
+[15:30:43.098]    DEBUG: <PixTestAlive.cc/init:L76> PixTestAlive::init()
+[15:30:43.098]    DEBUG: <PixTestAlive.cc/PixTestAlive:L20> PixTestAlive ctor(PixSetup &a, string, TGTab *)
+[15:30:43.108]    DEBUG: <PixTestReadback.cc/setParameter:L172> fCalwVd set to 1
+[15:30:43.108]    DEBUG: <PixTestReadback.cc/init:L95> PixTestReadback::init()
+[15:30:43.108]    DEBUG: <PixTestReadback.cc/PixTestReadback:L22> PixTestReadback ctor(PixSetup &a, string, TGTab *)
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C0.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C1.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C2.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C3.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C4.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C5.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C6.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C7.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C8.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C9.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C10.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C11.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C12.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C13.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C14.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/readbackCal_C15.dat
+[15:30:43.108]     INFO:       reading crosscalibrate/phCalibrationFitErr35_C0.dat
+[15:30:43.108]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L953> cannot open crosscalibrate/phCalibrationFitErr35_C0.dat for reading PH calibration constants
+[15:30:43.117]    DEBUG: <PixTestTiming.cc/setParameter:L46> fFastScan: 0
+[15:30:43.117]    DEBUG: <PixTestTiming.cc/setParameter:L51> PixTestTiming::PixTest() targetclk = 4
+[15:30:43.117]    DEBUG: <PixTestTiming.cc/setParameter:L55> PixTestTiming::PixTest() ntrig = 10
+[15:30:43.117]    DEBUG: <PixTestTiming.cc/init:L65> PixTestTiming::init()
+[15:30:43.126]    DEBUG: <PixTestXray.cc/init:L132> PixTestXray::init()
+[15:30:43.126]    DEBUG: <PixTestXray.cc/PixTestXray:L26> PixTestXray ctor(PixSetup &a, string, TGTab *)
+[15:30:43.126]     INFO:       reading crosscalibrate/phCalibrationFitErr35_C0.dat
+[15:30:43.126]    ERROR: <ConfigParameters.cc/readGainPedestalParameters:L953> cannot open crosscalibrate/phCalibrationFitErr35_C0.dat for reading PH calibration constants
+[15:31:09.733]     INFO: ######################################################################
+[15:31:09.733]     INFO: PixTestPhOptimization::doTest() Ntrig = 10
+[15:31:09.733]     INFO: ######################################################################
+[15:31:09.735]    DEBUG: <PixTest.cc/efficiencyMaps:L369>       attempt #0
+[15:31:18.447]     INFO: Test took 8712ms.
+[15:31:18.476]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L380>  eff result size = 66557
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C0
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C1
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C2
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C3
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C4
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C5
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C6
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C7
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C8
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C9
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C10
+[15:31:18.476]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C11
+[15:31:18.477]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C12
+[15:31:18.477]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C13
+[15:31:18.477]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C14
+[15:31:18.477]    DEBUG: <PixTest.cc/efficiencyMaps:L386> Create hist PixelAlive_C15
+[15:31:18.482]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L223> Pixel [10, 0, 76] has eff 0/10
+[15:31:18.482]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L227> bad Pixel found and blacklisted: [10, 0, 76]
+[15:31:18.482]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L223> Pixel [12, 36, 46] has eff 0/10
+[15:31:18.482]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L227> bad Pixel found and blacklisted: [12, 36, 46]
+[15:31:18.482]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L223> Pixel [12, 37, 46] has eff 0/10
+[15:31:18.482]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L227> bad Pixel found and blacklisted: [12, 37, 46]
+[15:31:18.487]    DEBUG: <PixTestPhOptimization.cc/BlacklistPixels:L235> Number of bad pixels found: 3
+[15:31:18.487]    DEBUG: <PixTestPhOptimization.cc/doTest:L122> **********Ph range will be optimised on the whole ROC***********
+[15:31:18.487]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L273> ROC type is psi46digv2
+[15:31:18.676]    DEBUG: <PixTest.cc/phMaps:L308>       attempt #0
+[15:31:27.371]     INFO: Test took 8695ms.
+[15:31:27.446]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L319>  eff result size = 66557
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C0
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C1
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C2
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C3
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C4
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C5
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C6
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C7
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C8
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C9
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C10
+[15:31:27.446]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C11
+[15:31:27.447]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C12
+[15:31:27.447]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C13
+[15:31:27.447]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C14
+[15:31:27.447]    DEBUG: <PixTest.cc/phMaps:L327> Create hist maxphmap_C15
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 188.57
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [3 ,6] phvalue 188
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 193.718
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [3 ,15] phvalue 193
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 195.176
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [6 ,7] phvalue 196
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 196.302
+[15:31:27.451]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [4 ,5] phvalue 196
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 188.064
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [4 ,5] phvalue 188
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 191.712
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [6 ,6] phvalue 192
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 199.129
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [3 ,5] phvalue 199
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 184.646
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [3 ,15] phvalue 184
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 188.059
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [3 ,6] phvalue 188
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 202.97
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [3 ,8] phvalue 203
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 186.975
+[15:31:27.452]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [4 ,5] phvalue 187
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 183.834
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [4 ,41] phvalue 183
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 184.71
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [4 ,5] phvalue 185
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 199.217
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [3 ,6] phvalue 199
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 194.217
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [4 ,5] phvalue 195
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L342> maxph quantile 196.2
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMaxPhPixel:L366> Max pixel is [4 ,5] phvalue 196
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L423> ROC type is psi46digv2
+[15:31:27.453]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L444> init_phScale=90, flag_minPh = 0, minph = 0
+[15:31:27.461]    DEBUG: <PixTest.cc/phMaps:L308>       attempt #0
+[15:31:36.068]     INFO: Test took 8607ms.
+[15:31:36.146]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L319>  eff result size = 66557
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C0
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C1
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C2
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C3
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C4
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C5
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C6
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C7
+[15:31:36.146]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C8
+[15:31:36.147]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C9
+[15:31:36.147]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C10
+[15:31:36.147]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C11
+[15:31:36.147]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C12
+[15:31:36.147]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C13
+[15:31:36.147]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C14
+[15:31:36.147]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C15
+[15:31:36.150]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L451> result size 0
+
+[15:31:36.151]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L444> init_phScale=95, flag_minPh = 1, minph = 8
+[15:31:36.157]    DEBUG: <PixTest.cc/phMaps:L308>       attempt #0
+[15:31:44.814]     INFO: Test took 8657ms.
+[15:31:44.890]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:31:44.890]    DEBUG: <PixTest.cc/phMaps:L319>  eff result size = 66557
+[15:31:44.890]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C0
+[15:31:44.890]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C1
+[15:31:44.890]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C2
+[15:31:44.890]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C3
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C4
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C5
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C6
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C7
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C8
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C9
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C10
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C11
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C12
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C13
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C14
+[15:31:44.891]    DEBUG: <PixTest.cc/phMaps:L327> Create hist minphmap_C15
+[15:31:44.894]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L451> result size 0
+
+[15:31:44.895]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L478> done. init_phScale=100, flag_minPh = 2, minph = 14minph_roc = 14
+[15:31:44.895]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 21.8244
+[15:31:44.895]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [4 ,14] phvalue 21
+[15:31:44.895]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 36.3692
+[15:31:44.895]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [4 ,42] phvalue 36
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 40.7287
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,12] phvalue 41
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 64.4278
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,26] phvalue 65
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 51.987
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,26] phvalue 52
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 43.9847
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,62] phvalue 44
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 45.5398
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [4 ,59] phvalue 46
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 22.2198
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,14] phvalue 23
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 44.5885
+[15:31:44.896]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [4 ,49] phvalue 44
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 46.9929
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [10 ,24] phvalue 47
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 26.7082
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,42] phvalue 27
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 55.8793
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [8 ,68] phvalue 56
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 41.4109
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,49] phvalue 42
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 34.1613
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [29 ,62] phvalue 34
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 22.2715
+[15:31:44.897]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,49] phvalue 23
+[15:31:44.898]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L496> minph quantile 0.02 41.1005
+[15:31:44.898]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L519> Min pixel is [3 ,43] phvalue 41
+[15:31:44.900]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 4, 14, 0 0
+[15:31:44.900]     INFO: The DUT currently contains the following objects:
+[15:31:44.900]     INFO:  2 TBM Cores (2 ON)
+[15:31:44.900]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:44.900]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:44.900]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:44.900]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:44.900]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.152]     INFO: Test took 1252ms.
+[15:31:46.153]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:46.153]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 4, 42, 1 1
+[15:31:46.153]     INFO: The DUT currently contains the following objects:
+[15:31:46.153]     INFO:  2 TBM Cores (2 ON)
+[15:31:46.153]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:46.153]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:46.153]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:46.153]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.153]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.154]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.154]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.154]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.154]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.154]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.154]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:46.154]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.404]     INFO: Test took 1250ms.
+[15:31:47.405]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:47.405]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 12, 2 2
+[15:31:47.405]     INFO: The DUT currently contains the following objects:
+[15:31:47.405]     INFO:  2 TBM Cores (2 ON)
+[15:31:47.405]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:47.405]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:47.405]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:47.405]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:47.405]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.658]     INFO: Test took 1253ms.
+[15:31:48.659]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:48.660]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 26, 3 3
+[15:31:48.660]     INFO: The DUT currently contains the following objects:
+[15:31:48.660]     INFO:  2 TBM Cores (2 ON)
+[15:31:48.660]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:48.660]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:48.660]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:48.660]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.660]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.661]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:48.661]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.909]     INFO: Test took 1248ms.
+[15:31:49.910]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:49.910]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 26, 4 4
+[15:31:49.910]     INFO: The DUT currently contains the following objects:
+[15:31:49.910]     INFO:  2 TBM Cores (2 ON)
+[15:31:49.910]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:49.910]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:49.910]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:49.910]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.910]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.910]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.910]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.910]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.910]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.910]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:49.911]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.163]     INFO: Test took 1252ms.
+[15:31:51.165]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:51.165]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 62, 5 5
+[15:31:51.165]     INFO: The DUT currently contains the following objects:
+[15:31:51.165]     INFO:  2 TBM Cores (2 ON)
+[15:31:51.165]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:51.165]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:51.165]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:51.165]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.165]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.166]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.166]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.166]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.166]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.166]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.166]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:51.166]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.418]     INFO: Test took 1252ms.
+[15:31:52.419]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:52.419]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 4, 59, 6 6
+[15:31:52.419]     INFO: The DUT currently contains the following objects:
+[15:31:52.419]     INFO:  2 TBM Cores (2 ON)
+[15:31:52.419]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:52.419]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:52.419]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:52.419]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.419]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.419]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:52.420]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.672]     INFO: Test took 1252ms.
+[15:31:53.673]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:53.673]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 14, 7 7
+[15:31:53.673]     INFO: The DUT currently contains the following objects:
+[15:31:53.673]     INFO:  2 TBM Cores (2 ON)
+[15:31:53.673]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:53.673]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:53.673]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:53.673]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:53.674]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.926]     INFO: Test took 1252ms.
+[15:31:54.927]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:54.927]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 4, 49, 8 8
+[15:31:54.927]     INFO: The DUT currently contains the following objects:
+[15:31:54.927]     INFO:  2 TBM Cores (2 ON)
+[15:31:54.927]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:54.927]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:54.927]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:54.927]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.927]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.927]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.927]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.927]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.927]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.927]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.927]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:54.928]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.171]     INFO: Test took 1243ms.
+[15:31:56.172]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:56.172]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 10, 24, 9 9
+[15:31:56.172]     INFO: The DUT currently contains the following objects:
+[15:31:56.172]     INFO:  2 TBM Cores (2 ON)
+[15:31:56.172]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:56.172]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:56.172]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:56.172]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:56.172]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.422]     INFO: Test took 1250ms.
+[15:31:57.423]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:57.423]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 42, 10 10
+[15:31:57.423]     INFO: The DUT currently contains the following objects:
+[15:31:57.423]     INFO:  2 TBM Cores (2 ON)
+[15:31:57.423]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:57.423]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:57.423]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:57.423]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:57.423]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.675]     INFO: Test took 1252ms.
+[15:31:58.677]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:58.677]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 8, 68, 11 11
+[15:31:58.677]     INFO: The DUT currently contains the following objects:
+[15:31:58.677]     INFO:  2 TBM Cores (2 ON)
+[15:31:58.677]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:58.677]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:58.677]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:58.677]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.677]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.678]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.678]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.678]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.678]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:58.678]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.928]     INFO: Test took 1250ms.
+[15:31:59.929]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:31:59.930]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 49, 12 12
+[15:31:59.930]     INFO: The DUT currently contains the following objects:
+[15:31:59.930]     INFO:  2 TBM Cores (2 ON)
+[15:31:59.930]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:31:59.930]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:31:59.930]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:31:59.930]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.930]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.931]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:31:59.931]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.180]     INFO: Test took 1249ms.
+[15:32:01.181]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:32:01.181]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 29, 62, 13 13
+[15:32:01.182]     INFO: The DUT currently contains the following objects:
+[15:32:01.182]     INFO:  2 TBM Cores (2 ON)
+[15:32:01.182]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:32:01.182]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:32:01.182]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:32:01.182]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:01.182]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.427]     INFO: Test took 1245ms.
+[15:32:02.428]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:32:02.428]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 49, 14 14
+[15:32:02.428]     INFO: The DUT currently contains the following objects:
+[15:32:02.428]     INFO:  2 TBM Cores (2 ON)
+[15:32:02.428]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:32:02.428]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:32:02.428]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:32:02.428]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.428]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:02.429]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.681]     INFO: Test took 1252ms.
+[15:32:03.682]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:32:03.682]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L585> enabling pixels 3, 43, 15 15
+[15:32:03.682]     INFO: The DUT currently contains the following objects:
+[15:32:03.682]     INFO:  2 TBM Cores (2 ON)
+[15:32:03.682]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:32:03.682]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:32:03.682]     INFO: 16 ROCs (1 ON) with 4160 pixelConfigs
+[15:32:03.682]     INFO: 	ROC 0: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.682]     INFO: 	ROC 1: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.682]     INFO: 	ROC 2: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.682]     INFO: 	ROC 3: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.682]     INFO: 	ROC 4: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.682]     INFO: 	ROC 5: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 6: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 7: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 8: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 9: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 10: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 11: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 12: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 13: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 14: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:03.683]     INFO: 	ROC 15: 21 DACs set, Pixels: 4159 masked, 1 active.
+[15:32:04.934]     INFO: Test took 1251ms.
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/GetMinPhPixel:L605> size of results 256
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 33 on ROC0
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 32 on ROC1
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 31 on ROC2
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 34 on ROC3
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 30 on ROC4
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 32 on ROC5
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 32 on ROC6
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 31 on ROC7
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 35 on ROC8
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 32 on ROC9
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 32 on ROC10
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 32 on ROC11
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 34 on ROC12
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 31 on ROC13
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 32 on ROC14
+[15:32:04.936]    DEBUG: <PixTestPhOptimization.cc/doTest:L130> vcal min 33 on ROC15
+[15:32:04.940]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:45:36.059]     INFO: Test took 811119ms.
+[15:45:37.838]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:06.540]     INFO: Test took 808702ms.
+[15:59:08.431]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.431]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip0
+[15:59:08.431]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.432]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip1
+[15:59:08.432]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.432]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip2
+[15:59:08.432]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.432]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip3
+[15:59:08.432]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.433]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip4
+[15:59:08.433]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.433]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip5
+[15:59:08.433]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.433]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip6
+[15:59:08.433]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.434]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip7
+[15:59:08.434]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.434]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip8
+[15:59:08.434]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.434]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip9
+[15:59:08.434]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.435]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip10
+[15:59:08.435]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.435]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip11
+[15:59:08.435]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.435]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip12
+[15:59:08.435]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.436]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip13
+[15:59:08.436]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.436]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip14
+[15:59:08.436]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L920> before assigning th2_sol to vector component
+[15:59:08.437]    DEBUG: <PixTestPhOptimization.cc/optimiseOnMapsNew:L927> after assigning th2_sol to vector component, chip15
+[15:59:08.437]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.443]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.449]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.456]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.462]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.468]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.475]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.481]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.487]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.493]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.500]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.506]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.512]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.518]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.525]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.531]     INFO: safety margin for low PH: adding 0, margin is now 20
+[15:59:08.538]     INFO: safety margin for low PH: adding 1, margin is now 21
+[15:59:08.544]    DEBUG: <PixTestPhOptimization.cc/doTest:L170> optimisation done
+[15:59:08.591]     INFO: write dac parameters into crosscalibrate/dacParameters35_C0.dat
+[15:59:08.592]     INFO: write dac parameters into crosscalibrate/dacParameters35_C1.dat
+[15:59:08.592]     INFO: write dac parameters into crosscalibrate/dacParameters35_C2.dat
+[15:59:08.592]     INFO: write dac parameters into crosscalibrate/dacParameters35_C3.dat
+[15:59:08.592]     INFO: write dac parameters into crosscalibrate/dacParameters35_C4.dat
+[15:59:08.592]     INFO: write dac parameters into crosscalibrate/dacParameters35_C5.dat
+[15:59:08.593]     INFO: write dac parameters into crosscalibrate/dacParameters35_C6.dat
+[15:59:08.593]     INFO: write dac parameters into crosscalibrate/dacParameters35_C7.dat
+[15:59:08.593]     INFO: write dac parameters into crosscalibrate/dacParameters35_C8.dat
+[15:59:08.593]     INFO: write dac parameters into crosscalibrate/dacParameters35_C9.dat
+[15:59:08.593]     INFO: write dac parameters into crosscalibrate/dacParameters35_C10.dat
+[15:59:08.594]     INFO: write dac parameters into crosscalibrate/dacParameters35_C11.dat
+[15:59:08.594]     INFO: write dac parameters into crosscalibrate/dacParameters35_C12.dat
+[15:59:08.594]     INFO: write dac parameters into crosscalibrate/dacParameters35_C13.dat
+[15:59:08.594]     INFO: write dac parameters into crosscalibrate/dacParameters35_C14.dat
+[15:59:08.594]     INFO: write dac parameters into crosscalibrate/dacParameters35_C15.dat
+[15:59:17.309]     INFO: Test took 8711ms.
+[15:59:26.170]     INFO: Test took 8570ms.
+[15:59:35.173]     INFO: Test took 8710ms.
+[15:59:35.471]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:36.537]     INFO: Test took 1066ms.
+[15:59:36.541]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:37.789]     INFO: Test took 1248ms.
+[15:59:37.793]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:39.046]     INFO: Test took 1253ms.
+[15:59:39.050]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:40.304]     INFO: Test took 1254ms.
+[15:59:40.307]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:41.557]     INFO: Test took 1250ms.
+[15:59:41.561]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:42.814]     INFO: Test took 1253ms.
+[15:59:42.818]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:44.072]     INFO: Test took 1254ms.
+[15:59:44.076]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:45.330]     INFO: Test took 1254ms.
+[15:59:45.334]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:46.587]     INFO: Test took 1253ms.
+[15:59:46.591]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:47.844]     INFO: Test took 1253ms.
+[15:59:47.848]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:49.098]     INFO: Test took 1250ms.
+[15:59:49.102]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:50.355]     INFO: Test took 1253ms.
+[15:59:50.359]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:51.613]     INFO: Test took 1254ms.
+[15:59:51.617]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:52.863]     INFO: Test took 1247ms.
+[15:59:52.867]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:54.121]     INFO: Test took 1255ms.
+[15:59:54.125]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:55.379]     INFO: Test took 1254ms.
+[15:59:55.383]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:56.636]     INFO: Test took 1254ms.
+[15:59:56.640]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:57.893]     INFO: Test took 1253ms.
+[15:59:57.897]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[15:59:59.149]     INFO: Test took 1252ms.
+[15:59:59.153]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:00.407]     INFO: Test took 1254ms.
+[16:00:00.410]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:01.664]     INFO: Test took 1254ms.
+[16:00:01.668]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:02.921]     INFO: Test took 1253ms.
+[16:00:02.925]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:04.174]     INFO: Test took 1249ms.
+[16:00:04.179]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:05.432]     INFO: Test took 1254ms.
+[16:00:05.436]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:06.690]     INFO: Test took 1254ms.
+[16:00:06.693]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:07.947]     INFO: Test took 1254ms.
+[16:00:07.951]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:09.208]     INFO: Test took 1257ms.
+[16:00:09.212]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:10.466]     INFO: Test took 1254ms.
+[16:00:10.470]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:11.724]     INFO: Test took 1255ms.
+[16:00:11.728]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:12.981]     INFO: Test took 1254ms.
+[16:00:12.985]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:14.239]     INFO: Test took 1254ms.
+[16:00:14.243]     INFO: Not all ROCs have their pixels configured the same way. Running in FLAG_FORCE_SERIAL mode.
+[16:00:15.496]     INFO: Test took 1253ms.
+[16:00:24.261]     INFO: PixTestPhOptimization::doTest() done, duration: 1754 seconds
+[16:00:24.261]     INFO: PH scale (per ROC):    63  60  61  53  54  55  54  60  55  59  64  55  62  66  67  59
+[16:00:24.261]     INFO: PH offset (per ROC):  176 188 198 215 202 194 196 175 195 204 183 201 193 192 184 193
+[16:07:21.470]    DEBUG: <PixGui.cc/handleButtons:L393> PixGui::exit called
+[16:07:21.470]    DEBUG: <PixTestBBMap.cc/~PixTestBBMap:L96> PixTestBBMap dtor
+[16:07:21.470]    DEBUG: <PixTestBB2Map.cc/~PixTestBB2Map:L114> PixTestBB2Map dtor
+[16:07:21.470]    DEBUG: <PixTestDacDacScan.cc/~PixTestDacDacScan:L135> PixTestDacDacScan dtor
+[16:07:21.471]    DEBUG: <PixTestDacScan.cc/~PixTestDacScan:L128> PixTestDacScan dtor
+[16:07:21.471]    DEBUG: <PixTestGainPedestal.cc/~PixTestGainPedestal:L121> PixTestGainPedestal dtor
+[16:07:21.471]    DEBUG: <PixTestHighRate.cc/~PixTestHighRate:L221> PixTestHighRate dtor
+[16:07:21.471]    DEBUG: <PixTestIV.cc/~PixTestIV:L96> PixTestIV dtor
+[16:07:21.667]    DEBUG: <PixTestAlive.cc/~PixTestAlive:L108> PixTestAlive dtor
+[16:07:21.667]    DEBUG: <PixTestPretest.cc/~PixTestPretest:L133> PixTestPretest dtor
+[16:07:21.667]    DEBUG: <PixTestReadback.cc/~PixTestReadback:L89> PixTestReadback dtor, saving tree ... 
+[16:07:21.667]    DEBUG: <PixTestScurves.cc/~PixTestScurves:L127> PixTestScurves dtor
+[16:07:21.667]    DEBUG: <PixTestTiming.cc/~PixTestTiming:L88> PixTestTiming dtor
+[16:07:21.667]    DEBUG: <PixTestTrim.cc/~PixTestTrim:L103> PixTestTrim dtor
+[16:07:21.667]    DEBUG: <PixTestXray.cc/~PixTestXray:L215> PixTestXray dtor
+[16:07:21.670]    QUIET: Connection to board 53 closed.
+[16:07:21.670]    DEBUG: <PixMonitor.cc/dumpSummaries:L34> PixMonitor::dumpSummaries
