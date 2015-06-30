@@ -1,0 +1,370 @@
+[14:00:45.866]     INFO: *** Welcome to pxar ***
+[14:00:45.866]     INFO: *** Today: 2015/06/24
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C0.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C1.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C2.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C3.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C4.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C5.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C6.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C7.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C8.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C9.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C10.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C11.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C12.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C13.dat
+[14:00:45.867]     INFO:       reading data/n00601/dacParameters35_C14.dat
+[14:00:45.868]     INFO:       reading data/n00601/dacParameters35_C15.dat
+[14:00:45.868]     INFO:       reading data/n00601/tbmParameters_C0a.dat
+[14:00:45.868]     INFO:       reading data/n00601/tbmParameters_C0b.dat
+[14:00:45.868]     INFO:       reading data/n00601/defaultMaskFile.dat
+[14:00:45.868]     INFO: MASKED Roc 6 col/row: 38 65
+[14:00:45.868]     INFO: MASKED Roc 6 col/row: 49 51
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 0 0
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 0 2
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 0 3
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 1 0
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 1 2
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 1 3
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 2 0
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 2 1
+[14:00:45.868]     INFO: MASKED Roc 10 col/row: 2 2
+[14:00:45.868]     INFO:       reading data/n00601/trimParameters35_C0.dat
+[14:00:45.875]     INFO:       reading data/n00601/trimParameters35_C1.dat
+[14:00:45.882]     INFO:       reading data/n00601/trimParameters35_C2.dat
+[14:00:45.888]     INFO:       reading data/n00601/trimParameters35_C3.dat
+[14:00:45.895]     INFO:       reading data/n00601/trimParameters35_C4.dat
+[14:00:45.901]     INFO:       reading data/n00601/trimParameters35_C5.dat
+[14:00:45.908]     INFO:   masking Roc 6 col/row: 38 65
+[14:00:45.908]     INFO:   masking Roc 6 col/row: 49 51
+[14:00:45.908]     INFO:       reading data/n00601/trimParameters35_C6.dat
+[14:00:45.915]     INFO:       reading data/n00601/trimParameters35_C7.dat
+[14:00:45.921]     INFO:       reading data/n00601/trimParameters35_C8.dat
+[14:00:45.928]     INFO:       reading data/n00601/trimParameters35_C9.dat
+[14:00:45.934]     INFO:   masking Roc 10 col/row: 0 0
+[14:00:45.934]     INFO:   masking Roc 10 col/row: 0 2
+[14:00:45.934]     INFO:   masking Roc 10 col/row: 0 3
+[14:00:45.934]     INFO:   masking Roc 10 col/row: 1 0
+[14:00:45.934]     INFO:   masking Roc 10 col/row: 1 2
+[14:00:45.934]     INFO:   masking Roc 10 col/row: 1 3
+[14:00:45.934]     INFO:   masking Roc 10 col/row: 2 0
+[14:00:45.935]     INFO:   masking Roc 10 col/row: 2 1
+[14:00:45.935]     INFO:   masking Roc 10 col/row: 2 2
+[14:00:45.935]     INFO:       reading data/n00601/trimParameters35_C10.dat
+[14:00:45.941]     INFO:       reading data/n00601/trimParameters35_C11.dat
+[14:00:45.948]     INFO:       reading data/n00601/trimParameters35_C12.dat
+[14:00:45.954]     INFO:       reading data/n00601/trimParameters35_C13.dat
+[14:00:45.961]     INFO:       reading data/n00601/trimParameters35_C14.dat
+[14:00:45.967]     INFO:       reading data/n00601/trimParameters35_C15.dat
+[14:00:45.974]     INFO:       reading data/n00601/tbParameters.dat
+[14:00:45.974]     INFO:         clk: 4
+[14:00:45.974]     INFO:         ctr: 4
+[14:00:45.974]     INFO:         sda: 19
+[14:00:45.974]     INFO:         tin: 9
+[14:00:45.974]     INFO:         level: 15
+[14:00:45.974]     INFO:         triggerdelay: 0
+[14:00:45.974]    QUIET: Instanciating API for pxar help-60-gbe6a24f
+[14:00:45.974]     INFO: Log level: INFO
+[14:00:45.988]    QUIET: Connection to board DTB_WRPRHI opened.
+[14:00:45.991]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[14:00:45.995]     INFO: RPC call hashes of host and DTB match: 413001178
+[14:00:47.605]     INFO: DUT info: 
+[14:00:47.605]     INFO: The DUT currently contains the following objects:
+[14:00:47.605]     INFO:  2 TBM Cores (2 ON)
+[14:00:47.605]     INFO: 	TBM Core alpha (0): 7 registers set
+[14:00:47.605]     INFO: 	TBM Core beta  (1): 7 registers set
+[14:00:47.605]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[14:00:47.605]     INFO: 	ROC 0: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 1: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 2: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 3: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 4: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 5: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 6: 21 DACs set, Pixels: 2 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 7: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 8: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 9: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 10: 21 DACs set, Pixels: 9 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 11: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 12: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 13: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 14: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:47.605]     INFO: 	ROC 15: 21 DACs set, Pixels: 0 masked, 4160 active.
+[14:00:48.215]     INFO:       reading data/n00601/phCalibrationFitErr35_C0.dat
+[14:00:48.233]     INFO:       reading data/n00601/phCalibrationFitErr35_C1.dat
+[14:00:48.249]     INFO:       reading data/n00601/phCalibrationFitErr35_C2.dat
+[14:00:48.265]     INFO:       reading data/n00601/phCalibrationFitErr35_C3.dat
+[14:00:48.281]     INFO:       reading data/n00601/phCalibrationFitErr35_C4.dat
+[14:00:48.298]     INFO:       reading data/n00601/phCalibrationFitErr35_C5.dat
+[14:00:48.313]     INFO:       reading data/n00601/phCalibrationFitErr35_C6.dat
+[14:00:48.329]     INFO:       reading data/n00601/phCalibrationFitErr35_C7.dat
+[14:00:48.345]     INFO:       reading data/n00601/phCalibrationFitErr35_C8.dat
+[14:00:48.362]     INFO:       reading data/n00601/phCalibrationFitErr35_C9.dat
+[14:00:48.378]     INFO:       reading data/n00601/phCalibrationFitErr35_C10.dat
+[14:00:48.394]     INFO:       reading data/n00601/phCalibrationFitErr35_C11.dat
+[14:00:48.410]     INFO:       reading data/n00601/phCalibrationFitErr35_C12.dat
+[14:00:48.426]     INFO:       reading data/n00601/phCalibrationFitErr35_C13.dat
+[14:00:48.441]     INFO:       reading data/n00601/phCalibrationFitErr35_C14.dat
+[14:00:48.457]     INFO:       reading data/n00601/phCalibrationFitErr35_C15.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C0.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C1.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C2.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C3.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C4.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C5.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C6.dat
+[14:00:48.516]     INFO:       reading data/n00601/readbackCal_C7.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C8.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C9.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C10.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C11.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C12.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C13.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C14.dat
+[14:00:48.517]     INFO:       reading data/n00601/readbackCal_C15.dat
+[14:01:05.598]     INFO: ######################################################################
+[14:01:05.598]     INFO: PixTestXray::doTest()
+[14:01:05.598]     INFO: ######################################################################
+[14:01:05.598]     INFO:    ----------------------------------------------------------------------
+[14:01:05.598]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 120
+[14:01:05.598]     INFO:    ----------------------------------------------------------------------
+[14:01:05.600]     INFO:       reading data/n00601/defaultMaskFile.dat
+[14:01:05.600]     INFO: ROC 6 masking pixel 38/65
+[14:01:05.600]     INFO: ROC 6 masking pixel 49/51
+[14:01:05.600]     INFO: ROC 10 masking pixel 0/0
+[14:01:05.600]     INFO: ROC 10 masking pixel 0/2
+[14:01:05.600]     INFO: ROC 10 masking pixel 0/3
+[14:01:05.600]     INFO: ROC 10 masking pixel 1/0
+[14:01:05.600]     INFO: ROC 10 masking pixel 1/2
+[14:01:05.600]     INFO: ROC 10 masking pixel 1/3
+[14:01:05.600]     INFO: ROC 10 masking pixel 2/0
+[14:01:05.600]     INFO: ROC 10 masking pixel 2/1
+[14:01:05.600]     INFO: ROC 10 masking pixel 2/2
+[14:01:05.600]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[14:01:06.579]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[14:01:07.790]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 120 seconds,  fEventsMax = 12000000
+[14:01:24.916]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[14:01:44.138]     INFO: Resuming triggers.
+[14:02:01.270]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[14:02:05.871]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (12) != Token Chain Length (8)
+[14:02:05.871]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (30) !=  TBM ID (31)
+[14:02:05.871]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:02:05.871]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:02:05.871]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:02:05.871]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:02:05.871]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:02:05.871]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[14:02:05.871]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[14:02:05.871]  WARNING: ROC 4: Readback start marker after 31 readouts!
+[14:02:21.140]     INFO: Resuming triggers.
+[14:02:38.272]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[14:02:58.320]     INFO: Resuming triggers.
+[14:03:15.451]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[14:03:35.615]     INFO: Resuming triggers.
+[14:03:52.744]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[14:04:10.881]     INFO: Resuming triggers.
+[14:04:28.012]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[14:04:46.904]     INFO: Resuming triggers.
+[14:05:04.033]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[14:05:23.785]     INFO: Resuming triggers.
+[14:05:23.894]     INFO: data taking finished, elapsed time: 120 seconds.
+[14:05:24.248]     INFO: PixTest::       pg_setup set to default.
+[14:05:24.289]     INFO: PixTestXray::doPhRun() done
+[14:05:24.289]     INFO: PixTestXray::doTest() done 
+[14:06:46.318]     INFO: ######################################################################
+[14:06:46.318]     INFO: PixTestXray::doTest()
+[14:06:46.318]     INFO: ######################################################################
+[14:06:46.318]     INFO:    ----------------------------------------------------------------------
+[14:06:46.318]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 120
+[14:06:46.318]     INFO:    ----------------------------------------------------------------------
+[14:06:46.344]     INFO:       reading data/n00601/defaultMaskFile.dat
+[14:06:46.344]     INFO: ROC 6 masking pixel 38/65
+[14:06:46.344]     INFO: ROC 6 masking pixel 49/51
+[14:06:46.344]     INFO: ROC 10 masking pixel 0/0
+[14:06:46.344]     INFO: ROC 10 masking pixel 0/2
+[14:06:46.344]     INFO: ROC 10 masking pixel 0/3
+[14:06:46.344]     INFO: ROC 10 masking pixel 1/0
+[14:06:46.344]     INFO: ROC 10 masking pixel 1/2
+[14:06:46.344]     INFO: ROC 10 masking pixel 1/3
+[14:06:46.344]     INFO: ROC 10 masking pixel 2/0
+[14:06:46.344]     INFO: ROC 10 masking pixel 2/1
+[14:06:46.344]     INFO: ROC 10 masking pixel 2/2
+[14:06:46.344]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[14:06:47.331]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[14:06:48.507]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 120 seconds,  fEventsMax = 12000000
+[14:07:05.646]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[14:07:24.068]     INFO: Resuming triggers.
+[14:07:41.211]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[14:07:45.467]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[14:07:45.467]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (144) !=  TBM ID (184)
+[14:07:45.467]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (12) != Token Chain Length (8)
+[14:07:45.467]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (185) !=  TBM ID (145)
+[14:07:45.467]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:07:45.467]  WARNING: ROC 0: Readback start marker after 32 readouts!
+[14:07:45.467]  WARNING: ROC 1: Readback start marker after 32 readouts!
+[14:07:45.467]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[14:07:45.467]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[14:07:45.467]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[14:07:59.571]     INFO: Resuming triggers.
+[14:08:16.711]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[14:08:36.567]     INFO: Resuming triggers.
+[14:08:53.706]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[14:09:13.555]     INFO: Resuming triggers.
+[14:09:30.695]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[14:09:49.079]     INFO: Resuming triggers.
+[14:10:06.217]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[14:10:24.588]     INFO: Resuming triggers.
+[14:10:41.726]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[14:11:01.551]     INFO: Resuming triggers.
+[14:11:01.595]     INFO: data taking finished, elapsed time: 120 seconds.
+[14:11:01.861]     INFO: PixTest::       pg_setup set to default.
+[14:11:01.884]     INFO: PixTestXray::doPhRun() done
+[14:11:01.884]     INFO: PixTestXray::doTest() done 
+[14:13:27.758]     INFO: ######################################################################
+[14:13:27.758]     INFO: PixTestXray::doTest()
+[14:13:27.758]     INFO: ######################################################################
+[14:13:27.758]     INFO:    ----------------------------------------------------------------------
+[14:13:27.758]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 120
+[14:13:27.758]     INFO:    ----------------------------------------------------------------------
+[14:13:27.782]     INFO:       reading data/n00601/defaultMaskFile.dat
+[14:13:27.782]     INFO: ROC 6 masking pixel 38/65
+[14:13:27.782]     INFO: ROC 6 masking pixel 49/51
+[14:13:27.782]     INFO: ROC 10 masking pixel 0/0
+[14:13:27.782]     INFO: ROC 10 masking pixel 0/2
+[14:13:27.782]     INFO: ROC 10 masking pixel 0/3
+[14:13:27.782]     INFO: ROC 10 masking pixel 1/0
+[14:13:27.782]     INFO: ROC 10 masking pixel 1/2
+[14:13:27.782]     INFO: ROC 10 masking pixel 1/3
+[14:13:27.782]     INFO: ROC 10 masking pixel 2/0
+[14:13:27.782]     INFO: ROC 10 masking pixel 2/1
+[14:13:27.782]     INFO: ROC 10 masking pixel 2/2
+[14:13:27.782]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[14:13:28.754]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[14:13:29.931]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 120 seconds,  fEventsMax = 12000000
+[14:13:47.057]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[14:14:05.513]     INFO: Resuming triggers.
+[14:14:22.642]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[14:14:27.236]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (119) !=  TBM ID (165)
+[14:14:27.236]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (166) !=  TBM ID (120)
+[14:14:42.576]     INFO: Resuming triggers.
+[14:14:59.707]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[14:15:18.053]     INFO: Resuming triggers.
+[14:15:35.184]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[14:15:52.471]     INFO: Resuming triggers.
+[14:16:09.602]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[14:16:27.932]     INFO: Resuming triggers.
+[14:16:45.062]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[14:17:04.919]     INFO: Resuming triggers.
+[14:17:22.050]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[14:17:41.925]     INFO: Resuming triggers.
+[14:17:42.034]     INFO: data taking finished, elapsed time: 120 seconds.
+[14:17:42.390]     INFO: PixTest::       pg_setup set to default.
+[14:17:42.416]     INFO: PixTestXray::doPhRun() done
+[14:17:42.416]     INFO: PixTestXray::doTest() done 
+[14:20:21.550]     INFO: ######################################################################
+[14:20:21.550]     INFO: PixTestXray::doTest()
+[14:20:21.550]     INFO: ######################################################################
+[14:20:21.550]     INFO:    ----------------------------------------------------------------------
+[14:20:21.550]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 120
+[14:20:21.550]     INFO:    ----------------------------------------------------------------------
+[14:20:21.575]     INFO:       reading data/n00601/defaultMaskFile.dat
+[14:20:21.575]     INFO: ROC 6 masking pixel 38/65
+[14:20:21.575]     INFO: ROC 6 masking pixel 49/51
+[14:20:21.575]     INFO: ROC 10 masking pixel 0/0
+[14:20:21.575]     INFO: ROC 10 masking pixel 0/2
+[14:20:21.575]     INFO: ROC 10 masking pixel 0/3
+[14:20:21.575]     INFO: ROC 10 masking pixel 1/0
+[14:20:21.575]     INFO: ROC 10 masking pixel 1/2
+[14:20:21.575]     INFO: ROC 10 masking pixel 1/3
+[14:20:21.575]     INFO: ROC 10 masking pixel 2/0
+[14:20:21.575]     INFO: ROC 10 masking pixel 2/1
+[14:20:21.575]     INFO: ROC 10 masking pixel 2/2
+[14:20:21.575]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[14:20:22.547]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[14:20:23.723]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 120 seconds,  fEventsMax = 12000000
+[14:20:40.849]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[14:20:59.313]     INFO: Resuming triggers.
+[14:21:16.443]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[14:21:20.761]  WARNING: ROC 7: Readback start marker after 1 readouts!
+[14:21:20.761]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (10) != Token Chain Length (8)
+[14:21:20.761]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (113) !=  TBM ID (64)
+[14:21:20.761]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[14:21:20.761]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (65) !=  TBM ID (114)
+[14:21:20.761]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:21:20.761]  WARNING: ROC 7: Readback start marker after 14 readouts!
+[14:21:35.133]     INFO: Resuming triggers.
+[14:21:52.262]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[14:22:11.013]     INFO: Resuming triggers.
+[14:22:28.158]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[14:22:46.785]     INFO: Resuming triggers.
+[14:23:03.932]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[14:23:22.547]     INFO: Resuming triggers.
+[14:23:39.718]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[14:23:59.631]     INFO: Resuming triggers.
+[14:24:16.765]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[14:24:36.656]     INFO: Resuming triggers.
+[14:24:36.694]     INFO: data taking finished, elapsed time: 120 seconds.
+[14:24:36.994]     INFO: PixTest::       pg_setup set to default.
+[14:24:37.018]     INFO: PixTestXray::doPhRun() done
+[14:24:37.018]     INFO: PixTestXray::doTest() done 
+[14:26:30.670]     INFO: ######################################################################
+[14:26:30.670]     INFO: PixTestXray::doTest()
+[14:26:30.670]     INFO: ######################################################################
+[14:26:30.670]     INFO:    ----------------------------------------------------------------------
+[14:26:30.670]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 120
+[14:26:30.670]     INFO:    ----------------------------------------------------------------------
+[14:26:30.695]     INFO:       reading data/n00601/defaultMaskFile.dat
+[14:26:30.696]     INFO: ROC 6 masking pixel 38/65
+[14:26:30.696]     INFO: ROC 6 masking pixel 49/51
+[14:26:30.696]     INFO: ROC 10 masking pixel 0/0
+[14:26:30.696]     INFO: ROC 10 masking pixel 0/2
+[14:26:30.696]     INFO: ROC 10 masking pixel 0/3
+[14:26:30.696]     INFO: ROC 10 masking pixel 1/0
+[14:26:30.696]     INFO: ROC 10 masking pixel 1/2
+[14:26:30.696]     INFO: ROC 10 masking pixel 1/3
+[14:26:30.696]     INFO: ROC 10 masking pixel 2/0
+[14:26:30.696]     INFO: ROC 10 masking pixel 2/1
+[14:26:30.696]     INFO: ROC 10 masking pixel 2/2
+[14:26:30.696]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[14:26:31.668]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[14:26:32.844]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 120 seconds,  fEventsMax = 12000000
+[14:26:49.969]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[14:27:09.570]     INFO: Resuming triggers.
+[14:27:26.778]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[14:27:31.265]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[14:27:31.265]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (180) !=  TBM ID (170)
+[14:27:31.265]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (16) != Token Chain Length (8)
+[14:27:31.265]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (171) !=  TBM ID (181)
+[14:27:31.265]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[14:27:31.265]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[14:27:31.265]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[14:27:31.265]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[14:27:31.265]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[14:27:31.265]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[14:27:31.265]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[14:27:31.265]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[14:27:46.051]     INFO: Resuming triggers.
+[14:28:03.182]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[14:28:22.371]     INFO: Resuming triggers.
+[14:28:39.503]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[14:28:59.661]     INFO: Resuming triggers.
+[14:29:16.885]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[14:29:37.155]     INFO: Resuming triggers.
+[14:29:54.319]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[14:30:14.207]     INFO: Resuming triggers.
+[14:30:31.249]     INFO: data taking finished, elapsed time: 120 seconds.
+[14:30:50.631]     INFO: PixTest::       pg_setup set to default.
+[14:30:50.659]     INFO: PixTestXray::doPhRun() done
+[14:30:50.659]     INFO: PixTestXray::doTest() done 
+[14:31:31.920]    QUIET: Connection to board 58 closed.

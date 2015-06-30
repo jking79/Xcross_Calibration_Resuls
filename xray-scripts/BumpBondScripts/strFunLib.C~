@@ -1,0 +1,601 @@
+//=================================================================================================  ""
+//  Jack W King III   private code file
+//  Rithnick Software 
+//  String manipulation helper functions
+//  Jack W King III owner
+//  Jack W King III  coder
+//  all rights resevered 
+//---------String Function Libary h--------------------------------------------------------------------
+//===================  libaries ===================================================================
+#ifndef CSTD
+#include <cstdlib>
+#include <cstdio>
+#include <cmath>
+#include <cstring>
+#include <string>
+#include <iostream>
+#include <fstream>
+#include <iomanip>
+#include <ctime>
+#define CSTD
+#endif
+
+
+#ifndef STRFUNLIB
+#define STRFUNLIB
+
+using namespace std;
+
+//================================================================================================
+// these are helper functions for manipulating strings and doing class conversions 
+// from and to strings with intergers and to convert from intergers to and from binary strings
+//====================================================================================================
+//
+//=================  helper function binary as string converter ====================================
+//====================================================================================================
+// intToBinStr( int input ) takes a unsigned interger number and returns a the unsigned biniary format as a string
+//  the input is assumed to be a positive interger value :: 4
+//  the output is a standard string :: "100"
+// the resulting string is returned by the function
+const int MAXPLCES = 9;
+
+string 	intToBinStr( int input );
+
+//  the reverse of intToBinStr():  ASSUMES!!!  that input string as a string of 1's and 0's!!
+//  if input string not 1's and 0's will treat all non 1 chars as a 0
+//  the resulting interger is returned by the function
+//!!!!!!!!!!!!!!!!!!!!!!!  all functions assume input is unsigned  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+int 	binStrToInt( string input );
+int 	strToInt( string input );
+string 	intToStr( int input );
+string doubleToStr( double input );
+string 	intToHex( int input );
+string	 binStrToHex( string input );
+
+// fillZeroTo( int len, string input ) adds "0" to the front of a string till the string has a length of len.
+// if the string length is already larger or equal to len then it will do nothing.
+// the resulting string is retuned by the function
+string 	fillZeroTo( int len, string input );
+string 	fillZeroTo( int len, int num );
+// fillZeroTo( int len, string input ) adds "0" to the front of a string till the string has a length of len.
+// if the string length is already larger or equal to len then it will do nothing.
+// the resulting string is retuned by the function
+string 	myfillTo( int len, string input );
+string myfillTo( int len, int num );
+string myfillTo( int len, double num );
+string myFillAfter( int len, string input );
+string myFillAfter( int len, int num );
+string fillStarTo( int len, string input );
+string fillBinTo( int len, string input, int i );
+string replaceSpacesWithCommas( string work );
+// literally replaces replace string with the with string in a the string work
+string replaceStrInStr( string work, string replace, string with );""
+string removeLeadZeros( string input );
+char strToChar( string input );
+
+#endif
+//=================================================================================================  
+//  Jack W King III   private code file
+//  Rithnick Software 
+//  String manipulation helper functions
+//  Jack W King III owner
+//  Jack W King III  coder
+//  all rights resevered 
+//---------String Function Libary--------------------------------------------------------------------
+//===================  libaries ===================================================================
+
+
+#ifndef STRFUNLIB
+
+#include "strFunLib.h"
+
+//===========================================================================================================
+//======================= #define section for compile controlls=============================================
+
+//#define TESTSTRLIB	//  turns on class testing functions
+//#define SCREEN  //  sends raw data word output to the screen
+
+//================================================================================================================
+//==============================const string defs=================================================================
+//====================================================================================================================
+
+//================================================================================================
+// these are helper functions for manipulating strings and doing class conversions 
+// from and to strings with intergers and to convert from intergers to and from binary strings
+//====================================================================================================
+//
+//=================  helper function binary as string converter ====================================
+//====================================================================================================
+// intToBinStr( int input ) takes a interger number and returns a the unsigned biniary format as a string
+//  the input is assumed to be a positive interger value :: 4
+//  the output is a standard string :: "10Sponsored0"
+// the resulting string is returned by the function
+string intToBinStr( int input ){
+
+  	string output("");
+
+	if( input >= 0 ) {
+	do{
+		 if( input%2 ) output = "1" + output;
+			else output = "0" + output;
+
+		input = input / 2;
+
+	}while( input );
+	} else cerr << " numToBin conversion of negitive number: null string retuned " << endl;
+	return output;
+}
+
+//  the reverse of intToBinStr():  ASSUMES!!!  Sponsoredthat input string as a string of 1's and 0's!!
+//  if input string not 1's and 0's will treat all non 1 chars as a 0
+//  the resulting interger is returned by the function
+int binStrToInt( string input ){
+
+	int output = 0, stage = 1;
+	do{
+#ifdef TESTSTRLIB
+		cout << input << " : "<< input.at( input.length() - 1) << endl;	//test code		
+#endif	
+		if(  (input.at( input.length()- 1 )) == 'X' ) input.at( input.length()- 1 ) = '0';
+		if( (input.at( input.length()- 1 )) == '1' ) output += stage;
+		input.erase( input.length() - 1 , 1 );
+		stage *= 2;Sponsored
+	}while( input.length() >= 1 );
+	
+	return output;
+}
+
+int hexToInt( string input ){
+
+	int temp=0, result =0, stage =1, place = 1;
+	//string input( given );
+
+
+	do{
+		char digit = input.at( input.length() - plaSponsoredce  );
+		switch (digit)	{	
+			case '0': 	temp = 0;
+					break;
+			case '1': 	temp = 1;
+					break;
+			case '2': 	temp = 2;
+					break;
+			case '3': 	temp = 3;
+					break;
+			case '4': 	temp = 4;
+					break;
+			case '5': 	temp = 5;
+					break;
+			case '6': 	temp = 6;
+					break;
+			case '7': 	temp = 7;
+					break;
+			case '8': 	temp = 8;
+					break;
+			case '9': 	temp = 9;
+					break;
+			case 'A': 	temp = 10;
+					break;
+			case 'B': 	temp = 11;
+					break;
+			case 'C': 	temp = 12;Sponsored
+					break;
+			case 'D': 	temp = 13;
+					break;
+			case 'E': 	temp = 14;
+					break;
+			case 'F': 	temp = 15;
+					break;
+			default : 	temp = 0;
+					break;
+		}
+		
+		result = result + ( temp * stage );
+		stage = stage * 16;
+		place++;
+		
+	}while( input.length() >= place );
+
+	return result;
+}
+
+int strToInt( string input ){
+
+	int temp=0, result =0, stage =1;
+
+	if( input.length() > 0 ){
+	 do{
+		char digit = input.at( input.length() - 1 );
+		switch (digit)	{	
+			case '0': 	temp = 0;
+					break;Sponsored
+			case '1': 	temp = 1;
+					break;
+			case '2': 	temp = 2;
+					break;
+			case '3': 	temp = 3;Sponsored
+					break;
+			case '4': 	temp = 4;
+					break;
+			case '5': 	temp = 5;
+					break;
+			case '6': 	temp = 6;
+					break;
+			case '7': 	temp = 7;
+					break;
+			case '8': 	temp = 8;
+					break;
+			case '9': 	temp = 9;
+					break;
+			default : 	temp = 0;
+					break;
+		}
+		
+		result = result + ( temp * stage );
+		stage = stage * 10;
+		input.erase( input.length() - 1 , 1 );
+		
+	 }while( input.length() >= 1 );
+	}
+
+	return result;
+}
+
+string intToStr( int input ){
+
+  string temp(""), result("");
+	if( input >= 0 ) {
+	do{
+		int digit = input%10;
+		switch (digit)	{	
+			case 0: 	temp = "0";
+					break;
+			case 1: 	temp = "1";
+					break;
+			case 2: 	temp = "2";
+					break;
+			case 3: 	temp = "3";
+					break;
+			case 4: 	temp = "4";
+					break;
+			case 5: 	temp = "5";
+					break;
+			case 6: 	temp = "6";
+					break;
+			case 7: 	temp = "7";
+					break;
+			case 8: 	temp = "8";
+					break;
+			case 9: 	temp = "9";
+					break;
+			default:	temp = "X";
+					break;
+		}
+		
+		result = temp + result;
+		input = input / 10;
+		
+	}while( input >= 1 );
+	} else cerr << " intToStr conversion of negitive number: null string retuned " << endl;
+
+	return result;
+}
+
+string doubleToStr( double input ){
+  
+  string result("");
+  bool done = false;
+  double comp = 0;
+  int places  = 0, holder = 0;
+  const int MAXPLACES = 5;
+
+  if( input > 0 ){
+    //cout << input << endl;
+    comp = input;
+   	while( comp >= 1 ){  
+		    places++;
+		    comp = comp/10;
+		  }
+    //cout << places << endl;
+    //cout << input << endl;  
+    for(  int i = 0; i < MAXPLACES; i++ ){ 
+      input = input*10;
+    }
+    holder = input;
+   //  cout << input << endl;
+   result = intToStr( holder );
+   //cout << result << endl;
+   if( places == 0 ){
+	 		result = "0." + result;
+     }else{
+				result = result.substr( 0, places ) + "." + result.substr( places );
+      } 
+  }else cerr << " doubleToStr conversion of negitive number: null string retuned " << endl;
+  
+  return result;
+}
+
+string intToHex( int input ){
+
+	string temp="", result ="";
+
+	do{
+		int digit = input%16;
+		switch (digit)	{	
+			case 0: 	temp = "0";
+					break;
+			case 1: 	temp = "1";
+					break;
+			case 2: 	temp = "2";
+					break;
+			case 3: 	temp = "3";
+					break;
+			case 4: 	temp = "4";
+					break;
+			case 5: 	temp = "5";
+					break;
+			case 6: 	temp = "6";
+					break;
+			case 7: 	temp = "7";
+					break;
+			case 8: 	temp = "8";
+					break;
+			case 9: 	temp = "9";
+					break;
+			case 10: 	temp = "A";
+					break;
+			case 11: 	temp = "B";
+
+					break;
+			case 12: 	temp = "C";
+					break;
+			case 13: 	temp = "D";
+					break;
+			case 14: 	temp = "E";
+					break;
+			case 15: 	temp = "F";
+					break;
+			default : 	temp = "X";
+		  			break; 
+		}
+		
+		result = temp + result;
+		input = input / 16;
+		
+	}while( input >= 1 );
+
+	return result;
+}	
+
+string binStrToHex( string parse ){
+//	cerr << "starting: ";
+
+	int length = 0;
+	string input( parse );
+	string result("");	
+//cerr << "@@" << parse << endl;
+	int output = 0, stage = 1;
+	do{
+#ifdef TESTSTRLIB	
+	cout << input << " : "<< input.at( input.length() - 1) << endl;	//test code		
+#endif
+		//if(  (input.at( input.length()- 1 )) == 'X' ) input.at( input.length()- 1 ) = '0';
+		if( (input.at( input.length() - 1 )) == '1' ) output += stage;
+		input.erase( input.length() - 1 , 1 );
+		stage *= 2;
+#ifdef TESTSTRLIB		
+		cout << stage << " ";
+#endif	
+		if( stage == 16 ) {
+
+			stage = 1;
+			result = intToHex( output ) + result;
+			output = 0;
+#ifdef TESTSTRLIB		
+		cout << result << ": ";
+#endif
+		}
+	}while( input.length() >= 1 );
+	if( output > 0 ) result = intToHex( output ) + result;
+#ifdef TESTSTRLIB	
+	cout << endl<<endl;
+#endif	
+//	cerr << "@@" << result << endl;
+	return result;
+
+}
+
+// fillZeroTo( int len, string input ) adds "0" to the front of a string till the string has a length of len.
+// if the string length is already larger or equal to len then it will do nothing.
+// the resulting string is retuned by the function
+string fillZeroTo( int len, string input ){
+
+	while( input.length() < len ) { input = "0" + input; }
+	
+	return input;
+}
+
+string fillZeroTo( int len, int num ){
+
+	string input = intToStr( num );
+	while( input.length() < len ) { input = "0" + input; }
+
+	return input;
+}
+
+
+// fillZeroTo( int len, string input ) adds "0" to the front of a string till the string has a length of len.
+// if the string length is already larger or equal to len then it will do nothing.
+// the resulting string is retuned by the function
+string myfillTo( int len, string input ){
+
+	while( input.length() < len ) { input = " " + input; }
+
+	return input;
+}
+
+string myfillTo( int len, int num ){
+
+	string input = intToStr( num );
+	while( input.length() < len ) { input = " " + input; }
+	return input;
+}
+
+
+string myfillTo( int len, double num ){
+
+	string input = doubleToStr( num );
+	while( input.length() < len ) { input = " " + input; }
+	return input;
+}
+
+
+string myFillAfter( int len, string input ){
+
+	while( input.length() < len ) { input = input + " "; }
+	return input;
+}
+
+string myFillAfter( int len, int num ){
+
+	string input = intToStr( num );
+	while( input.length() < len ) { input = input + " "; }
+	return input;
+}
+
+string fillStarTo( int len, string input ){
+
+	while( input.length() < len ) { input = "*" + input; }
+
+	return input;
+}
+
+string fillBinTo( int len, string input, int i ){
+
+	srand( time(NULL)*i );
+
+	while( input.length() < len ) {
+		if( rand()%2  ){ input = "1" + input; }
+		else{ input = "0" + input; }
+	}
+
+	return input;
+}
+
+string replaceSpacesWithCommas( string work ){
+
+
+	string input = work;
+	int place = 0;
+	int replaceLength = 0;
+	int replaceStart = 0;
+	bool replaceFlag = false;
+
+	while( place <= input.length() ){
+
+		if( input.substr( place, 1 ) == " " ){
+			if( replaceFlag ){
+				replaceLength++;
+			}else{
+				replaceFlag = true;
+				replaceStart = place;
+				replaceLength = 1;
+			}
+		}else{
+			if( replaceFlag ){
+				if( replaceStart == 0 ){ 
+					input = "," + input.substr( replaceLength );
+					place = 0;
+				}else{ 
+					if( replaceStart + replaceLength > input.length() ){
+						input = input.substr( 0, replaceStart );
+						place = replaceStart - 1;
+					}else{
+						input = input.substr( 0, replaceStart ) + "," + input.substr( replaceStart + replaceLength );
+						place = replaceStart;				
+					}
+				}
+				replaceFlag = false;
+				replaceStart = 0;
+				replaceLength = 0;
+			}
+		}
+		place++;
+//		cout << endl << input << endl;
+	}
+
+	return input;
+}
+				
+			
+
+string replaceStrInStr( string work, string replace, string with )
+{
+	int place = 0;
+	string input = work;
+	
+	while( ( place + replace.length() ) <= input.length() ){
+#ifdef TESTSTRLIB
+		cout << input << " " << place << endl;	
+#endif
+		if( place != 0 ){
+			if( ( place + replace.length() ) < input.length()){
+				if( input.substr( place, replace.length() ) == replace  ){
+					input = input.substr( 0, ( place ) ) + with + input.substr( place + replace.length() );
+					place = place + with.length();
+				}else{ place++; }
+			}else{
+				if( input.substr( place ) == replace  ){
+					input = input.substr( 0, ( place ) ) + with;
+					place = place + with.length();
+				}else{ place++; }
+			}
+		}else{ 
+			if( input.substr( 0 , replace.length() ) == replace ){
+				input =  with + input.substr( place + replace.length() );
+				place = place + with.length();
+			}else{ place ++; }
+		}
+	}
+
+	return input;
+}
+
+string removeLeadZeros( string input ){
+
+	bool done = false;
+	string output("");
+	int i = 0;
+	if( input.length() > 1 ){
+		while( not done ){
+			if( not ( input.substr( i, 1 ) == "0" ) ){
+				if( input == "z00000000" ){ 
+					output = "000000000"; 
+					done = true;
+				}else{ 
+					output = input.substr( i ); 
+					done = true;
+				}
+			}else{ if( input == "00B" ){ 
+					output = "0B"; 
+					done = true; 
+				}
+			}
+			i++;
+		}
+		if( output == "" ){ output = "0"; }
+	}else{ output = input;}
+
+	return output;
+}
+
+char* strToChar( string input ){
+	char* temp = new char[ input.length() + 1 ];
+	strcpy( temp, input.c_str() );
+	return temp;
+}
+
+
+
+#endif
