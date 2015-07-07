@@ -1,0 +1,50 @@
+25,26d24
+< AllPixels           checkbox(0)
+< Unmasked            checkbox(0)
+57,67d54
+< -- DAQ
+< delayTBM            checkbox
+< filltree            checkbox
+< trgfrequency(khz)   100
+< maskHotPixels       button
+< trgnumber           5
+< iterations          10
+< rundaqtrg           button
+< daqseconds          600
+< rundaqseconds       button
+< 
+125c112
+< runseconds          600
+---
+> runseconds          100
+141c128
+< Ntrig               50
+---
+> Ntrig               5
+143,146d129
+< xNoiseMaps          button
+< DacLo               0
+< DacHi               100
+< Dacs/Step           20
+150c133
+< triggerdelay        40
+---
+> triggerdelay        100
+161,163d143
+< tbmphasescan        button
+< rocdelayscan        button
+< timingtest          button
+164a145,157
+> timingtest          button
+> 
+> -- DAQ
+> delayTBM            checkbox
+> filltree            checkbox
+> trgfrequency(khz)   100
+> maskHotPixels       button
+> trgnumber           5
+> iterations          10
+> rundaqtrg           button
+> daqseconds          120
+> rundaqseconds       button
+> 
