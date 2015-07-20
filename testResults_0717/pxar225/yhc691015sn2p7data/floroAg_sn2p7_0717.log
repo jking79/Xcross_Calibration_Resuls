@@ -1,0 +1,110 @@
+[16:34:32.048]     INFO: *** Welcome to pxar ***
+[16:34:32.048]     INFO: *** Today: 2015/07/17
+[16:34:32.048]     INFO: readRocDacs: data/yhc691015sn2p7/dacParameters35_C0.dat .. data/yhc691015sn2p7/dacParameters35_C15.dat
+[16:34:32.049]     INFO: readTbmDacs: data/yhc691015sn2p7/tbmParameters_C0a.dat .. data/yhc691015sn2p7/tbmParameters_C0b.dat
+[16:34:32.049]     INFO: readMaskFile: data/yhc691015sn2p7/defaultMaskFile.dat
+[16:34:32.049]     INFO: MASKED Roc 10 col/row: 31 52
+[16:34:32.049]     INFO: MASKED Roc 11 col/row: 39 70
+[16:34:32.049]     INFO: MASKED Roc 12 col/row: 40 60
+[16:34:32.049]     INFO: readTrimFile: data/yhc691015sn2p7/trimParameters35_C0.dat .. data/yhc691015sn2p7/trimParameters35_C15.dat
+[16:34:32.114]     INFO:   masking Roc 10 col/row: 31 52
+[16:34:32.121]     INFO:   masking Roc 11 col/row: 39 70
+[16:34:32.128]     INFO:   masking Roc 12 col/row: 40 60
+[16:34:32.153]     INFO:         clk: 4
+[16:34:32.153]     INFO:         ctr: 4
+[16:34:32.153]     INFO:         sda: 19
+[16:34:32.153]     INFO:         tin: 9
+[16:34:32.153]     INFO:         level: 15
+[16:34:32.153]     INFO:         triggerdelay: 0
+[16:34:32.154]    QUIET: Instanciating API for pxar v2.2.4+89~gda28660
+[16:34:32.154]     INFO: Log level: INFO
+[16:34:32.167]    QUIET: Connection to board DTB_WRPRHI opened.
+[16:34:32.170]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.2
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[16:34:32.174]     INFO: RPC call hashes of host and DTB match: 447413373
+[16:34:33.769]     INFO: DUT info: 
+[16:34:33.769]     INFO: The DUT currently contains the following objects:
+[16:34:33.769]     INFO:  2 TBM Cores tbm08b (2 ON)
+[16:34:33.769]     INFO: 	TBM Core alpha (0): 7 registers set
+[16:34:33.769]     INFO: 	TBM Core beta  (1): 7 registers set
+[16:34:33.769]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[16:34:33.769]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 10: 19 DACs set, Pixels: 1 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 11: 19 DACs set, Pixels: 1 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 12: 19 DACs set, Pixels: 1 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:33.769]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[16:34:34.353]     INFO: PixTestCmd::init()
+[16:34:34.368]     INFO: readGainPedestalParameters data/yhc691015sn2p7/phCalibrationFitErr35_C0.dat .. data/yhc691015sn2p7/phCalibrationFitErr35_C15.dat
+[16:34:34.674]     INFO: readReadbackCal: data/yhc691015sn2p7/readbackCal_C0.dat .. data/yhc691015sn2p7/readbackCal_C15.dat
+[16:34:37.170]     INFO: ######################################################################
+[16:34:37.170]     INFO: PixTestXray::doTest()
+[16:34:37.170]     INFO: ######################################################################
+[16:34:37.170]     INFO:    ----------------------------------------------------------------------
+[16:34:37.170]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 240
+[16:34:37.170]     INFO:    ----------------------------------------------------------------------
+[16:34:37.172]     INFO: ROC 10 masking pixel 31/52
+[16:34:37.172]     INFO: ROC 11 masking pixel 39/70
+[16:34:37.172]     INFO: ROC 12 masking pixel 40/60
+[16:34:38.145]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 240 seconds,  fEventsMax = 24000000
+[16:34:55.260]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[16:35:19.252]     INFO: Resuming triggers.
+[16:35:36.368]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[16:35:41.049]    ERROR: <datapipe.cc/CheckEventValidity:L437> Channel 1 Number of ROCs (1) != Token Chain Length (8)
+[16:35:41.049]    ERROR: <datapipe.cc/CheckEventID:L420> Channel 1 Event ID mismatch:  local ID (11) !=  TBM ID (248)
+[16:35:41.049]    ERROR: <datapipe.cc/CheckEventValidity:L437> Channel 1 Number of ROCs (3) != Token Chain Length (8)
+[16:35:41.049]    ERROR: <datapipe.cc/CheckEventID:L420> Channel 1 Event ID mismatch:  local ID (249) !=  TBM ID (12)
+[16:35:41.049]  WARNING: Channel 1 ROC 3: Readback start marker after 15 readouts!
+[16:35:41.049]  WARNING: Channel 1 ROC 4: Readback start marker after 15 readouts!
+[16:35:41.049]  WARNING: Channel 1 ROC 5: Readback start marker after 15 readouts!
+[16:35:41.049]  WARNING: Channel 1 ROC 6: Readback start marker after 15 readouts!
+[16:35:41.049]  WARNING: Channel 1 ROC 7: Readback start marker after 15 readouts!
+[16:35:56.457]     INFO: Resuming triggers.
+[16:36:13.573]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[16:36:33.625]     INFO: Resuming triggers.
+[16:36:50.741]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[16:37:09.513]     INFO: Resuming triggers.
+[16:37:26.629]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[16:37:46.552]     INFO: Resuming triggers.
+[16:38:03.669]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[16:38:21.360]     INFO: Resuming triggers.
+[16:38:38.476]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[16:38:58.476]     INFO: Resuming triggers.
+[16:39:15.593]     INFO: run duration 136 seconds, buffer almost full (81%), pausing triggers.
+[16:39:34.530]     INFO: Resuming triggers.
+[16:39:51.646]     INFO: run duration 153 seconds, buffer almost full (81%), pausing triggers.
+[16:40:10.618]     INFO: Resuming triggers.
+[16:40:27.734]     INFO: run duration 171 seconds, buffer almost full (81%), pausing triggers.
+[16:40:47.882]     INFO: Resuming triggers.
+[16:41:04.999]     INFO: run duration 188 seconds, buffer almost full (81%), pausing triggers.
+[16:41:25.177]     INFO: Resuming triggers.
+[16:41:42.293]     INFO: run duration 205 seconds, buffer almost full (81%), pausing triggers.
+[16:42:01.302]     INFO: Resuming triggers.
+[16:42:18.419]     INFO: run duration 222 seconds, buffer almost full (81%), pausing triggers.
+[16:42:37.286]     INFO: Resuming triggers.
+[16:42:54.403]     INFO: run duration 239 seconds, buffer almost full (81%), pausing triggers.
+[16:43:14.434]     INFO: Resuming triggers.
+[16:43:14.923]     INFO: data taking finished, elapsed time: 240 seconds.
+[16:43:15.712]     INFO: PixTest::       pg_setup set to default.
+[16:43:15.742]     INFO: PixTestXray::doPhRun() done
+[16:43:15.742]     INFO: PixTestXray::doTest() done 
+[16:43:54.169]    QUIET: Connection to board 58 closed.

@@ -1,0 +1,235 @@
+[15:28:19.721]     INFO: *** Welcome to pxar ***
+[15:28:19.721]     INFO: *** Today: 2015/07/17
+[15:28:19.721]     INFO: readRocDacs: data/yhc691015sn2p7/dacParameters35_C0.dat .. data/yhc691015sn2p7/dacParameters35_C15.dat
+[15:28:19.722]     INFO: readTbmDacs: data/yhc691015sn2p7/tbmParameters_C0a.dat .. data/yhc691015sn2p7/tbmParameters_C0b.dat
+[15:28:19.722]     INFO: readMaskFile: data/yhc691015sn2p7/defaultMaskFile.dat
+[15:28:19.722]     INFO: MASKED Roc 10 col/row: 31 52
+[15:28:19.722]     INFO: MASKED Roc 11 col/row: 39 70
+[15:28:19.722]     INFO: MASKED Roc 12 col/row: 40 60
+[15:28:19.722]     INFO: readTrimFile: data/yhc691015sn2p7/trimParameters35_C0.dat .. data/yhc691015sn2p7/trimParameters35_C15.dat
+[15:28:19.787]     INFO:   masking Roc 10 col/row: 31 52
+[15:28:19.794]     INFO:   masking Roc 11 col/row: 39 70
+[15:28:19.801]     INFO:   masking Roc 12 col/row: 40 60
+[15:28:19.827]     INFO:         clk: 4
+[15:28:19.827]     INFO:         ctr: 4
+[15:28:19.827]     INFO:         sda: 19
+[15:28:19.827]     INFO:         tin: 9
+[15:28:19.827]     INFO:         level: 15
+[15:28:19.827]     INFO:         triggerdelay: 0
+[15:28:19.827]    QUIET: Instanciating API for pxar v2.2.4+89~gda28660
+[15:28:19.827]     INFO: Log level: INFO
+[15:28:19.840]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:28:19.844]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.2
+SW version:  4.2
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:28:19.847]     INFO: RPC call hashes of host and DTB match: 447413373
+[15:28:21.442]     INFO: DUT info: 
+[15:28:21.442]     INFO: The DUT currently contains the following objects:
+[15:28:21.442]     INFO:  2 TBM Cores tbm08b (2 ON)
+[15:28:21.442]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:28:21.442]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:28:21.442]     INFO: 16 ROCs psi46digv21respin (16 ON) with 4160 pixelConfigs
+[15:28:21.442]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.442]     INFO: 	ROC 10: 19 DACs set, Pixels: 1 masked, 0 active.
+[15:28:21.443]     INFO: 	ROC 11: 19 DACs set, Pixels: 1 masked, 0 active.
+[15:28:21.443]     INFO: 	ROC 12: 19 DACs set, Pixels: 1 masked, 0 active.
+[15:28:21.443]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.443]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:21.443]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[15:28:22.036]     INFO: PixTestCmd::init()
+[15:28:22.047]     INFO: readGainPedestalParameters data/yhc691015sn2p7/phCalibrationFitErr35_C0.dat .. data/yhc691015sn2p7/phCalibrationFitErr35_C15.dat
+[15:28:22.355]     INFO: readReadbackCal: data/yhc691015sn2p7/readbackCal_C0.dat .. data/yhc691015sn2p7/readbackCal_C15.dat
+[15:28:47.505]     INFO: PixTestDaq::doTest() start.
+[15:28:47.507]     INFO:    ----------------------------------------------------------------------
+[15:28:47.507]     INFO:    PixTestDaq::doDaqRun() start.
+[15:28:47.507]     INFO:    ----------------------------------------------------------------------
+[15:28:47.512]     INFO: ROC 10 masking pixel 31/52
+[15:28:47.512]     INFO: ROC 11 masking pixel 39/70
+[15:28:47.512]     INFO: ROC 12 masking pixel 40/60
+[15:28:47.512]     INFO: PixTestDaq:: Number of masked pixels:
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 0
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 1
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 2
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 3
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 4
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 5
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 6
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 7
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 8
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 9
+[15:28:47.512]     INFO: PixTestDaq::    1 - ROC 10
+[15:28:47.512]     INFO: PixTestDaq::    1 - ROC 11
+[15:28:47.512]     INFO: PixTestDaq::    1 - ROC 12
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 13
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 14
+[15:28:47.512]     INFO: PixTestDaq::    0 - ROC 15
+[15:28:47.513]     INFO: PG set to have trigger frequency = 100 kHz
+[15:28:48.477]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 240 seconds
+[15:29:05.378]     INFO: Elapsed time: 16 seconds.
+[15:29:05.378]     INFO: Buffer almost full, pausing triggers.
+[15:29:24.311]     INFO: events read:1665199, pixels seen:19994, hist entries:  701
+[15:29:24.321]     INFO: Resuming triggers for 224 seconds.
+[15:29:41.223]     INFO: Elapsed time: 33 seconds.
+[15:29:41.223]     INFO: Buffer almost full, pausing triggers.
+[15:29:46.117]    ERROR: <datapipe.cc/CheckEventValidity:L437> Channel 1 Number of ROCs (6) != Token Chain Length (8)
+[15:29:46.120]  WARNING: Channel 1 ROC 7: Readback start marker after 15 readouts!
+[15:30:01.131]     INFO: events read:1665159, pixels seen:19868, hist entries: 1392
+[15:30:01.141]     INFO: Resuming triggers for 207 seconds.
+[15:30:18.044]     INFO: Elapsed time: 50 seconds.
+[15:30:18.044]     INFO: Buffer almost full, pausing triggers.
+[15:30:37.945]     INFO: events read:1665157, pixels seen:19991, hist entries: 2103
+[15:30:37.955]     INFO: Resuming triggers for 190 seconds.
+[15:30:54.860]     INFO: Elapsed time: 67 seconds.
+[15:30:54.860]     INFO: Buffer almost full, pausing triggers.
+[15:31:14.712]     INFO: events read:1665231, pixels seen:19938, hist entries: 2799
+[15:31:14.722]     INFO: Resuming triggers for 173 seconds.
+[15:31:31.625]     INFO: Elapsed time: 84 seconds.
+[15:31:31.625]     INFO: Buffer almost full, pausing triggers.
+[15:31:50.471]     INFO: events read:1665171, pixels seen:19880, hist entries: 3494
+[15:31:50.481]     INFO: Resuming triggers for 156 seconds.
+[15:32:07.384]     INFO: Elapsed time: 101 seconds.
+[15:32:07.384]     INFO: Buffer almost full, pausing triggers.
+[15:32:26.110]     INFO: events read:1665195, pixels seen:20083, hist entries: 4160
+[15:32:26.120]     INFO: Resuming triggers for 139 seconds.
+[15:32:43.023]     INFO: Elapsed time: 118 seconds.
+[15:32:43.023]     INFO: Buffer almost full, pausing triggers.
+[15:33:02.975]     INFO: events read:1665147, pixels seen:20086, hist entries: 4867
+[15:33:02.985]     INFO: Resuming triggers for 122 seconds.
+[15:33:19.889]     INFO: Elapsed time: 135 seconds.
+[15:33:19.889]     INFO: Buffer almost full, pausing triggers.
+[15:33:38.727]     INFO: events read:1665244, pixels seen:19819, hist entries: 5544
+[15:33:38.738]     INFO: Resuming triggers for 105 seconds.
+[15:33:55.641]     INFO: Elapsed time: 152 seconds.
+[15:33:55.641]     INFO: Buffer almost full, pausing triggers.
+[15:34:15.590]     INFO: events read:1665221, pixels seen:19906, hist entries: 6266
+[15:34:15.600]     INFO: Resuming triggers for 88 seconds.
+[15:34:32.503]     INFO: Elapsed time: 169 seconds.
+[15:34:32.503]     INFO: Buffer almost full, pausing triggers.
+[15:34:51.064]     INFO: events read:1665144, pixels seen:19801, hist entries: 7011
+[15:34:51.074]     INFO: Resuming triggers for 71 seconds.
+[15:35:07.978]     INFO: Elapsed time: 185 seconds.
+[15:35:07.978]     INFO: Buffer almost full, pausing triggers.
+[15:35:27.776]     INFO: events read:1665208, pixels seen:19881, hist entries: 7732
+[15:35:27.787]     INFO: Resuming triggers for 55 seconds.
+[15:35:44.689]     INFO: Elapsed time: 202 seconds.
+[15:35:44.689]     INFO: Buffer almost full, pausing triggers.
+[15:36:03.244]     INFO: events read:1665134, pixels seen:19998, hist entries: 8442
+[15:36:03.254]     INFO: Resuming triggers for 38 seconds.
+[15:36:20.158]     INFO: Elapsed time: 219 seconds.
+[15:36:20.158]     INFO: Buffer almost full, pausing triggers.
+[15:36:39.909]     INFO: events read:1665255, pixels seen:19689, hist entries: 9127
+[15:36:39.919]     INFO: Resuming triggers for 21 seconds.
+[15:36:56.823]     INFO: Elapsed time: 236 seconds.
+[15:36:56.823]     INFO: Buffer almost full, pausing triggers.
+[15:37:14.178]     INFO: events read:1665205, pixels seen:19953, hist entries: 9886
+[15:37:14.188]     INFO: Resuming triggers for 4 seconds.
+[15:37:17.542]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[15:37:21.768]     INFO: events read:330323, pixels seen:3970, hist entries: 10026
+[15:37:21.811]     INFO: PixTest::       pg_setup set to default.
+[15:37:21.811]     INFO: PixTestDaq::doDaqRun() done
+[15:37:21.811]     INFO: PixTestDaq::doTest() done
+[15:43:40.969]     INFO: PixTestDaq::doTest() start.
+[15:43:40.989]     INFO:    ----------------------------------------------------------------------
+[15:43:40.989]     INFO:    PixTestDaq::doDaqRun() start.
+[15:43:40.989]     INFO:    ----------------------------------------------------------------------
+[15:43:40.989]     INFO: ROC 10 masking pixel 31/52
+[15:43:40.989]     INFO: ROC 11 masking pixel 39/70
+[15:43:40.989]     INFO: ROC 12 masking pixel 40/60
+[15:43:40.989]     INFO: PixTestDaq:: Number of masked pixels:
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 0
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 1
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 2
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 3
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 4
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 5
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 6
+[15:43:40.989]     INFO: PixTestDaq::    0 - ROC 7
+[15:43:40.990]     INFO: PixTestDaq::    0 - ROC 8
+[15:43:40.990]     INFO: PixTestDaq::    0 - ROC 9
+[15:43:40.990]     INFO: PixTestDaq::    1 - ROC 10
+[15:43:40.990]     INFO: PixTestDaq::    1 - ROC 11
+[15:43:40.990]     INFO: PixTestDaq::    1 - ROC 12
+[15:43:40.990]     INFO: PixTestDaq::    0 - ROC 13
+[15:43:40.990]     INFO: PixTestDaq::    0 - ROC 14
+[15:43:40.990]     INFO: PixTestDaq::    0 - ROC 15
+[15:43:40.990]     INFO: PG set to have trigger frequency = 100 kHz
+[15:43:41.948]     INFO: PixTestDaq:: start TriggerLoop with period 405 and duration 240 seconds
+[15:43:58.849]     INFO: Elapsed time: 16 seconds.
+[15:43:58.849]     INFO: Buffer almost full, pausing triggers.
+[15:44:17.439]     INFO: events read:1665121, pixels seen:20052, hist entries: 10778
+[15:44:17.450]     INFO: Resuming triggers for 224 seconds.
+[15:44:34.353]     INFO: Elapsed time: 33 seconds.
+[15:44:34.353]     INFO: Buffer almost full, pausing triggers.
+[15:44:54.161]     INFO: events read:1665220, pixels seen:19926, hist entries: 11456
+[15:44:54.171]     INFO: Resuming triggers for 207 seconds.
+[15:45:11.074]     INFO: Elapsed time: 50 seconds.
+[15:45:11.074]     INFO: Buffer almost full, pausing triggers.
+[15:45:30.919]     INFO: events read:1665193, pixels seen:19794, hist entries: 12190
+[15:45:30.929]     INFO: Resuming triggers for 190 seconds.
+[15:45:47.831]     INFO: Elapsed time: 67 seconds.
+[15:45:47.831]     INFO: Buffer almost full, pausing triggers.
+[15:46:07.546]     INFO: events read:1665108, pixels seen:20041, hist entries: 12894
+[15:46:07.556]     INFO: Resuming triggers for 173 seconds.
+[15:46:24.459]     INFO: Elapsed time: 84 seconds.
+[15:46:24.459]     INFO: Buffer almost full, pausing triggers.
+[15:46:43.221]     INFO: events read:1665220, pixels seen:19853, hist entries: 13646
+[15:46:43.231]     INFO: Resuming triggers for 156 seconds.
+[15:47:00.134]     INFO: Elapsed time: 101 seconds.
+[15:47:00.134]     INFO: Buffer almost full, pausing triggers.
+[15:47:19.971]     INFO: events read:1665114, pixels seen:19904, hist entries: 14367
+[15:47:19.981]     INFO: Resuming triggers for 139 seconds.
+[15:47:36.883]     INFO: Elapsed time: 118 seconds.
+[15:47:36.883]     INFO: Buffer almost full, pausing triggers.
+[15:47:56.583]     INFO: events read:1665147, pixels seen:20156, hist entries: 15135
+[15:47:56.593]     INFO: Resuming triggers for 122 seconds.
+[15:48:13.496]     INFO: Elapsed time: 135 seconds.
+[15:48:13.496]     INFO: Buffer almost full, pausing triggers.
+[15:48:33.466]     INFO: events read:1665239, pixels seen:19811, hist entries: 15835
+[15:48:33.476]     INFO: Resuming triggers for 105 seconds.
+[15:48:50.379]     INFO: Elapsed time: 152 seconds.
+[15:48:50.379]     INFO: Buffer almost full, pausing triggers.
+[15:49:09.187]     INFO: events read:1665185, pixels seen:20037, hist entries: 16536
+[15:49:09.197]     INFO: Resuming triggers for 88 seconds.
+[15:49:26.100]     INFO: Elapsed time: 169 seconds.
+[15:49:26.100]     INFO: Buffer almost full, pausing triggers.
+[15:49:45.853]     INFO: events read:1665171, pixels seen:19946, hist entries: 17256
+[15:49:45.863]     INFO: Resuming triggers for 71 seconds.
+[15:50:02.765]     INFO: Elapsed time: 185 seconds.
+[15:50:02.765]     INFO: Buffer almost full, pausing triggers.
+[15:50:22.682]     INFO: events read:1665145, pixels seen:20032, hist entries: 17929
+[15:50:22.693]     INFO: Resuming triggers for 55 seconds.
+[15:50:39.595]     INFO: Elapsed time: 202 seconds.
+[15:50:39.595]     INFO: Buffer almost full, pausing triggers.
+[15:50:59.374]     INFO: events read:1665147, pixels seen:19970, hist entries: 18652
+[15:50:59.385]     INFO: Resuming triggers for 38 seconds.
+[15:51:16.287]     INFO: Elapsed time: 219 seconds.
+[15:51:16.287]     INFO: Buffer almost full, pausing triggers.
+[15:51:35.960]     INFO: events read:1665134, pixels seen:20205, hist entries: 19405
+[15:51:35.970]     INFO: Resuming triggers for 21 seconds.
+[15:51:52.873]     INFO: Elapsed time: 236 seconds.
+[15:51:52.873]     INFO: Buffer almost full, pausing triggers.
+[15:52:12.825]     INFO: events read:1665226, pixels seen:20032, hist entries: 20133
+[15:52:12.835]     INFO: Resuming triggers for 4 seconds.
+[15:52:16.199]     INFO: PixTestDaq:: total time reached - DAQ stopped.
+[15:52:20.140]     INFO: events read:331334, pixels seen:3975, hist entries: 20282
+[15:52:20.200]     INFO: PixTest::       pg_setup set to default.
+[15:52:20.200]     INFO: PixTestDaq::doDaqRun() done
+[15:52:20.200]     INFO: PixTestDaq::doTest() done
+[16:10:38.518]    QUIET: Connection to board 58 closed.

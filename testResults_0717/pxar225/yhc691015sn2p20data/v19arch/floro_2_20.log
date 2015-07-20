@@ -1,0 +1,1492 @@
+[13:10:21.823]     INFO: *** Welcome to pxar ***
+[13:10:21.823]     INFO: *** Today: 2015/07/09
+[13:10:21.823]     INFO: readRocDacs: data/yhc691015sn2p20/dacParameters_C0.dat .. data/yhc691015sn2p20/dacParameters_C15.dat
+[13:10:21.824]     INFO: readTbmDacs: data/yhc691015sn2p20/tbmParameters_C0a.dat .. data/yhc691015sn2p20/tbmParameters_C0b.dat
+[13:10:21.824]     INFO: readMaskFile: data/yhc691015sn2p20/defaultMaskFile.dat
+[13:10:21.824]     INFO: MASKED Roc 4 col/row: 43 74
+[13:10:21.824]     INFO: MASKED Roc 5 col/row: 43 42
+[13:10:21.824]     INFO: MASKED Roc 6 col/row: 43 54
+[13:10:21.824]     INFO: MASKED Roc 14 col/row: 42 47
+[13:10:21.824]     INFO: readTrimFile: data/yhc691015sn2p20/trimParameters_C0.dat .. data/yhc691015sn2p20/trimParameters_C15.dat
+[13:10:21.850]     INFO:   masking Roc 4 col/row: 43 74
+[13:10:21.857]     INFO:   masking Roc 5 col/row: 43 42
+[13:10:21.864]     INFO:   masking Roc 6 col/row: 43 54
+[13:10:21.914]     INFO:   masking Roc 14 col/row: 42 47
+[13:10:21.927]     INFO:         clk: 4
+[13:10:21.927]     INFO:         ctr: 4
+[13:10:21.927]     INFO:         sda: 19
+[13:10:21.927]     INFO:         tin: 9
+[13:10:21.927]     INFO:         level: 15
+[13:10:21.927]     INFO:         triggerdelay: 0
+[13:10:21.928]    QUIET: Instanciating API for pxar v2.2.4+89~gda28660
+[13:10:21.928]     INFO: Log level: DEBUG
+[13:10:21.941]    QUIET: Connection to board DTB_WRPRHI opened.
+[13:10:21.944]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  4.0
+SW version:  4.0
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[13:10:21.948]     INFO: RPC call hashes of host and DTB match: 447413373
+[13:10:23.552]     INFO: DUT info: 
+[13:10:23.552]     INFO: The DUT currently contains the following objects:
+[13:10:23.552]     INFO:  2 TBM Cores tbm08b (2 ON)
+[13:10:23.552]     INFO: 	TBM Core alpha (0): 7 registers set
+[13:10:23.552]     INFO: 	TBM Core beta  (1): 7 registers set
+[13:10:23.552]     INFO: 16 ROCs psi46digv2.1 (16 ON) with 4160 pixelConfigs
+[13:10:23.552]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 4: 19 DACs set, Pixels: 1 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 5: 19 DACs set, Pixels: 1 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 6: 19 DACs set, Pixels: 1 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 14: 19 DACs set, Pixels: 1 masked, 0 active.
+[13:10:23.552]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 0 active.
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB3<-
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[13:10:23.552]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Cmd<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DAQ<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   trgnumber: 5
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 10
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqtrg: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   daqseconds: 5
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqseconds: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   allpixels: checkbox(0)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   unmasked: checkbox(0)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   xnoisemaps: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 100
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 10
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 5
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 100
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/FIXME
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[13:10:23.553]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(1)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpoutputfile: checkbox(0)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: VCal
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 5
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 65
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 10
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   fastscan: checkbox(0)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   tbmphasescan: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   rocdelayscan: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 240
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[13:10:23.554]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[13:10:23.554]    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 34570240
+[13:10:23.554]    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0x29b2f50
+[13:10:23.554]    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0x28da2b0
+[13:10:23.555]    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7fd50dd94010
+[13:10:23.555]    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7fd513fff510
+[13:10:23.555]    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 34578432 fPxarMemory = 0x7fd50dd94010
+[13:10:24.046]    DEBUG: <PixGui.cc/hvOn:L457> HV set On: 0x2f67e30
+[13:10:24.107]    DEBUG: <PixTestFactory.cc/PixTestFactory:L52> PixTestFactory::PixTestFactory()
+[13:10:24.107]    DEBUG: <PixTestBBMap.cc/init:L79> PixTestBBMap::init()
+[13:10:24.108]    DEBUG: <PixTestBBMap.cc/PixTestBBMap:L27> PixTestBBMap ctor(PixSetup &a, string, TGTab *)
+[13:10:24.114]    DEBUG: <PixTestBB2Map.cc/setParameter:L58> setting fTargetIa    = 24 mA/ROC
+[13:10:24.114]    DEBUG: <PixTestBB2Map.cc/init:L97> PixTestBB2Map::init()
+[13:10:24.114]    DEBUG: <PixTestBB2Map.cc/PixTestBB2Map:L29> PixTestBB2Map ctor(PixSetup &a, string, TGTab *)
+[13:10:24.125]    DEBUG: <PixTestBB3Map.cc/init:L81> PixTestBB3Map::init()
+[13:10:24.125]    DEBUG: <PixTestBB3Map.cc/PixTestBB3Map:L29> PixTestBB3Map ctor(PixSetup &a, string, TGTab *)
+[13:10:24.136]     INFO: PixTestCmd::init()
+[13:10:24.146]    DEBUG: <PixTestDaq.cc/init:L43> PixTestDaq::init()
+[13:10:24.146]    DEBUG: <PixTestDaq.cc/PixTestDaq:L21> PixTestDaq ctor(PixSetup &a, string, TGTab *)
+[13:10:24.146]     INFO: readGainPedestalParameters data/yhc691015sn2p20/phCalibrationFitErr_C0.dat .. data/yhc691015sn2p20/phCalibrationFitErr_C15.dat
+[13:10:24.403]    DEBUG: <PixTestDacDacScan.cc/init:L103> PixTestDacDacScan::init()
+[13:10:24.403]    DEBUG: <PixTestDacDacScan.cc/PixTestDacDacScan:L22> PixTestDacDacScan ctor(PixSetup &a, string, TGTab *)
+[13:10:24.423]    DEBUG: <PixTestHighRate.cc/setParameter:L68>   setting fParTriggerFrequency -> 20
+[13:10:24.423]    DEBUG: <PixTestHighRate.cc/init:L175> PixTestHighRate::init()
+[13:10:24.423]    DEBUG: <PixTestHighRate.cc/PixTestHighRate:L31> PixTestHighRate ctor(PixSetup &a, string, TGTab *)
+[13:10:24.446]    DEBUG: <PixTest.cc/setTestParameter:L569>  setting  ntrig to new value 10
+[13:10:24.446]    DEBUG: <PixTestPhOptimization.cc/setParameter:L37>   setting fParNtrig  ->10<- from sval = 10
+[13:10:24.446]    DEBUG: <PixTestPhOptimization.cc/setParameter:L42>   setting fSafetyMarginLow  ->20<- from sval = 20
+[13:10:24.446]    DEBUG: <PixTestPhOptimization.cc/setParameter:L48>   setting fVcalMax  ->100<- from sval = 100
+[13:10:24.446]    DEBUG: <PixTestPhOptimization.cc/setParameter:L53>   setting fQuantMax  ->0.98<- from sval = 0.98
+[13:10:24.452]    DEBUG: <PixTestAlive.cc/init:L77> PixTestAlive::init()
+[13:10:24.452]    DEBUG: <PixTestAlive.cc/PixTestAlive:L21> PixTestAlive ctor(PixSetup &a, string, TGTab *)
+[13:10:24.466]    DEBUG: <PixTestReadback.cc/setParameter:L172> fCalwVd set to 1
+[13:10:24.466]    DEBUG: <PixTestReadback.cc/init:L95> PixTestReadback::init()
+[13:10:24.467]    DEBUG: <PixTestReadback.cc/PixTestReadback:L22> PixTestReadback ctor(PixSetup &a, string, TGTab *)
+[13:10:24.467]     INFO: readReadbackCal: data/yhc691015sn2p20/readbackCal_C0.dat .. data/yhc691015sn2p20/readbackCal_C15.dat
+[13:10:24.477]    DEBUG: <PixTestScurves.cc/setParameter:L92> set fOutputFilename = 
+[13:10:24.484]    DEBUG: <PixTestTiming.cc/setParameter:L46> fFastScan: 0
+[13:10:24.485]    DEBUG: <PixTestTiming.cc/setParameter:L51> PixTestTiming::PixTest() targetclk = 4
+[13:10:24.485]    DEBUG: <PixTestTiming.cc/setParameter:L55> PixTestTiming::PixTest() ntrig = 10
+[13:10:24.485]    DEBUG: <PixTestTiming.cc/init:L65> PixTestTiming::init()
+[13:10:24.504]    DEBUG: <PixTestXray.cc/init:L134> PixTestXray::init()
+[13:10:24.504]    DEBUG: <PixTestXray.cc/PixTestXray:L28> PixTestXray ctor(PixSetup &a, string, TGTab *)
+[13:10:29.170]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 2 -> runseconds to value 200
+[13:10:33.650]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 1 -> source to value In
+[13:10:35.066]     INFO: ######################################################################
+[13:10:35.066]     INFO: PixTestXray::doTest()
+[13:10:35.066]     INFO: ######################################################################
+[13:10:35.066]     INFO:    ----------------------------------------------------------------------
+[13:10:35.066]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 200
+[13:10:35.066]     INFO:    ----------------------------------------------------------------------
+[13:10:35.068]     INFO: ROC 4 masking pixel 43/74
+[13:10:35.068]     INFO: ROC 5 masking pixel 43/42
+[13:10:35.068]     INFO: ROC 6 masking pixel 43/54
+[13:10:35.068]     INFO: ROC 14 masking pixel 42/47
+[13:10:36.041]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 200 seconds,  fEventsMax = 20000000
+[13:10:53.164]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[13:10:53.167]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:10:58.858]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:10:58.858]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:10:58.858]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:10:58.858]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:10:59.982]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:10:59.982]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (2) != Token Chain Length (8)
+[13:10:59.982]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (12) !=  TBM ID (171)
+[13:10:59.982]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:10:59.982]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (12)
+[13:10:59.982]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[13:10:59.982]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:10:59.982]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:11:01.108]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:11:01.108]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:11:01.108]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:01.108]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:11:01.108]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:01.108]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:01.108]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:02.790]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (233) !=  TBM ID (234)
+[13:11:02.790]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:11:02.790]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (233) !=  TBM ID (234)
+[13:11:02.790]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:02.790]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:11:02.790]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:11:02.790]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:11:02.790]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:11:02.790]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:11:02.790]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:02.790]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:02.791]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:02.791]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:11:02.791]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:11:02.791]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:11:02.791]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:11:02.791]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:11:02.791]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:11:10.538]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:11:10.538]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:11:10.538]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (99) !=  TBM ID (171)
+[13:11:10.538]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:11:10.538]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (99)
+[13:11:10.538]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:11:10.538]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:10.539]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:10.539]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:10.539]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:10.539]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:11:11.128]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:11:11.128]  WARNING: ROC 4: Readback start marker after 9 readouts!
+[13:11:11.128]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:11:11.128]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:11.128]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:11.128]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:11.128]  WARNING: ROC 4: Readback start marker after 7 readouts!
+[13:11:11.833]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687097 events.
+[13:11:11.853]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687097, pixels seen in all events: 7993
+[13:11:11.893]     INFO: Resuming triggers.
+[13:11:29.032]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[13:11:29.049]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:11:33.696]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (203) !=  TBM ID (204)
+[13:11:33.696]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:33.696]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:33.696]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:11:33.696]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:11:33.696]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:11:33.696]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:11:33.696]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:11:33.696]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:11:35.304]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:11:35.305]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:36.522]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:11:36.522]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:11:36.522]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:36.522]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:36.522]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:36.522]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:11:36.522]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:11:36.522]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:38.941]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:11:38.941]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:11:38.941]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:38.941]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:38.941]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:11:38.941]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:11:49.124]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686956 events.
+[13:11:49.144]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686956, pixels seen in all events: 8026
+[13:11:49.177]     INFO: Resuming triggers.
+[13:12:06.316]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[13:12:06.333]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:12:10.826]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:12:10.826]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:12:10.826]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:12:10.826]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:10.826]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:10.826]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:10.826]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:12:10.826]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:12:10.826]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:12.037]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:12:12.037]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:12:12.037]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:12.037]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:12.037]  WARNING: ROC 4: Readback start marker after 32 readouts!
+[13:12:12.037]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:12:12.037]  WARNING: ROC 4: Readback start marker after 32 readouts!
+[13:12:13.259]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:12:13.259]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:12:13.259]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:13.259]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:13.259]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:13.259]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:13.259]  WARNING: ROC 1: Readback start marker after 32 readouts!
+[13:12:22.839]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:12:22.839]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:12:22.843]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:22.843]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:22.843]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:22.843]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:12:22.843]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:26.418]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687042 events.
+[13:12:26.438]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687042, pixels seen in all events: 8111
+[13:12:26.470]     INFO: Resuming triggers.
+[13:12:43.609]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[13:12:43.627]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:12:44.031]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (3) != Token Chain Length (8)
+[13:12:44.031]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:12:44.031]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (100) !=  TBM ID (171)
+[13:12:44.031]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (2) != Token Chain Length (8)
+[13:12:44.031]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (100)
+[13:12:44.031]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[13:12:44.031]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:12:44.031]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:12:44.032]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:12:44.645]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:12:44.645]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:12:44.645]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:44.645]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:12:44.645]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:12:44.645]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:13:03.688]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686956 events.
+[13:13:03.708]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686956, pixels seen in all events: 7882
+[13:13:03.741]     INFO: Resuming triggers.
+[13:13:20.865]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[13:13:20.883]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:13:25.864]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:13:25.864]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:13:25.864]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:13:25.864]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:13:25.864]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:13:25.864]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:13:26.473]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (103) !=  TBM ID (253)
+[13:13:26.473]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (103) !=  TBM ID (104)
+[13:13:26.473]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (254) !=  TBM ID (104)
+[13:13:26.473]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:13:26.473]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:13:26.473]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:13:26.473]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:13:26.473]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:13:26.473]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:13:26.473]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:13:26.473]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:13:40.960]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686944 events.
+[13:13:40.980]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686944, pixels seen in all events: 7949
+[13:13:41.013]     INFO: Resuming triggers.
+[13:13:58.137]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[13:13:58.155]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:13:59.467]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:13:59.467]  WARNING: ROC 3: Readback start marker after 3 readouts!
+[13:13:59.467]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:13:59.468]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:13:59.468]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:13:59.468]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:13:59.468]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:13:59.468]  WARNING: ROC 3: Readback start marker after 13 readouts!
+[13:14:00.622]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:14:00.622]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:14:00.622]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:14:00.622]  WARNING: ROC 5: Readback start marker after 9 readouts!
+[13:14:00.622]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:14:00.622]  WARNING: ROC 4: Readback start marker after 1 readouts!
+[13:14:00.622]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:14:00.622]  WARNING: ROC 0: Readback start marker after 1 readouts!
+[13:14:00.622]  WARNING: ROC 5: Readback start marker after 7 readouts!
+[13:14:00.622]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[13:14:00.623]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:14:17.206]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686957 events.
+[13:14:17.227]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686957, pixels seen in all events: 7968
+[13:14:17.261]     INFO: Resuming triggers.
+[13:14:34.385]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[13:14:34.403]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:14:40.710]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (198) !=  TBM ID (199)
+[13:14:40.711]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (198) !=  TBM ID (199)
+[13:14:40.711]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:14:40.711]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:14:49.070]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:14:49.070]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:14:49.070]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:14:49.070]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:14:49.070]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:14:49.070]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:14:49.679]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (3) != Token Chain Length (8)
+[13:14:49.679]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:14:49.679]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:14:49.679]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:14:49.679]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:14:49.679]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:14:49.679]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:14:49.679]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:14:49.679]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:14:49.679]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[13:14:54.456]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686993 events.
+[13:14:54.484]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686993, pixels seen in all events: 8081
+[13:14:54.515]     INFO: Resuming triggers.
+[13:15:11.639]     INFO: run duration 136 seconds, buffer almost full (81%), pausing triggers.
+[13:15:11.658]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:15:11.979]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:15:11.979]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:15:11.979]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:11.979]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:11.979]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:11.979]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:12.581]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:15:12.581]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:15:12.581]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:12.581]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:12.581]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:12.581]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:14.400]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:15:14.400]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:15:14.400]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:14.400]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:14.400]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:24.597]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (2) != Token Chain Length (8)
+[13:15:24.597]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:15:24.597]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (232) !=  TBM ID (175)
+[13:15:24.597]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:15:24.597]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (176) !=  TBM ID (232)
+[13:15:24.597]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:24.597]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:24.597]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:24.597]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[13:15:24.597]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:15:24.597]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:15:24.597]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:15:24.597]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:15:24.597]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:31.713]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687033 events.
+[13:15:31.733]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687033, pixels seen in all events: 7893
+[13:15:31.766]     INFO: Resuming triggers.
+[13:15:48.890]     INFO: run duration 154 seconds, buffer almost full (81%), pausing triggers.
+[13:15:48.908]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:15:50.528]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:15:50.528]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:15:50.528]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (183) !=  TBM ID (175)
+[13:15:50.528]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (2) != Token Chain Length (8)
+[13:15:50.528]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (176) !=  TBM ID (183)
+[13:15:50.528]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:50.528]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:15:50.528]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:15:50.528]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[13:15:50.528]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:15:50.528]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:15:50.528]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:15:50.528]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:15:50.528]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:01.933]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:16:01.933]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:16:01.933]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:16:01.933]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:01.933]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:16:01.933]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:16:01.933]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:16:01.933]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:01.933]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:16:05.578]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (177) !=  TBM ID (178)
+[13:16:05.578]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (177) !=  TBM ID (178)
+[13:16:05.578]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:16:05.578]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:08.966]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687018 events.
+[13:16:08.986]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687018, pixels seen in all events: 7964
+[13:16:09.018]     INFO: Resuming triggers.
+[13:16:26.142]     INFO: run duration 171 seconds, buffer almost full (81%), pausing triggers.
+[13:16:26.159]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:16:35.028]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:16:35.028]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:16:35.028]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (137) !=  TBM ID (171)
+[13:16:35.028]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:16:35.028]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (137)
+[13:16:35.028]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:35.028]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:16:35.028]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:35.028]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:16:35.634]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:16:35.634]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:35.634]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:16:35.638]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[13:16:35.638]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:16:38.069]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:16:38.069]  WARNING: ROC 0: Readback start marker after 7 readouts!
+[13:16:38.069]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:16:38.069]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:16:38.069]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:38.069]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:16:38.069]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:16:38.069]  WARNING: ROC 0: Readback start marker after 9 readouts!
+[13:16:46.288]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686947 events.
+[13:16:46.308]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686947, pixels seen in all events: 8033
+[13:16:46.337]     INFO: Resuming triggers.
+[13:17:03.461]     INFO: run duration 188 seconds, buffer almost full (81%), pausing triggers.
+[13:17:03.479]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:17:03.872]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:17:03.873]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:17:03.873]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (161) !=  TBM ID (162)
+[13:17:03.873]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:17:03.873]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:17:23.556]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686981 events.
+[13:17:23.575]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686981, pixels seen in all events: 7982
+[13:17:23.604]     INFO: Resuming triggers.
+[13:17:35.293]     INFO: data taking finished, elapsed time: 200 seconds.
+[13:17:35.488]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:17:49.192]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1151520 events.
+[13:17:49.206]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1151520, pixels seen in all events: 5361
+[13:17:49.232]     INFO: PixTest::       pg_setup set to default.
+[13:17:49.262]     INFO: PixTestXray::doPhRun() done
+[13:17:49.262]     INFO: PixTestXray::doTest() done 
+[13:20:22.131]    DEBUG: <PixTest.cc/moduleMap:L962> moduleMap histname: what
+[13:20:22.131]    DEBUG: <PixTest.cc/moduleMap:L972> h1->GetName() = hMap_In_C13_V0 -> hMap_In_mod
+[13:21:04.810]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 1 -> source to value Cu
+[13:21:35.674]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 1 -> source to value Cu
+[13:21:37.914]     INFO: ######################################################################
+[13:21:37.914]     INFO: PixTestXray::doTest()
+[13:21:37.915]     INFO: ######################################################################
+[13:21:37.915]     INFO:    ----------------------------------------------------------------------
+[13:21:37.915]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 200
+[13:21:37.915]     INFO:    ----------------------------------------------------------------------
+[13:21:38.044]     INFO: ROC 4 masking pixel 43/74
+[13:21:38.044]     INFO: ROC 5 masking pixel 43/42
+[13:21:38.044]     INFO: ROC 6 masking pixel 43/54
+[13:21:38.044]     INFO: ROC 14 masking pixel 42/47
+[13:21:38.044]    DEBUG: <PixTestXray.cc/doPhRun:L270> booking new histograms as source name has changed
+[13:21:39.007]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 200 seconds,  fEventsMax = 20000000
+[13:21:56.133]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[13:21:56.259]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:21:59.342]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:21:59.342]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:21:59.342]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:21:59.342]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:21:59.342]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:21:59.342]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:13.194]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (80) !=  TBM ID (81)
+[13:22:13.194]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (80) !=  TBM ID (81)
+[13:22:13.194]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:22:13.194]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:22:13.195]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:22:13.195]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:22:15.449]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687277 events.
+[13:22:15.465]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687277, pixels seen in all events: 5383
+[13:22:15.497]     INFO: Resuming triggers.
+[13:22:32.623]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[13:22:32.643]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:22:37.668]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:22:37.668]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:22:37.668]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:37.668]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:37.668]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:37.668]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:22:37.668]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:38.256]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:22:38.256]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:22:38.256]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:38.256]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:38.256]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:38.257]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:39.426]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:22:39.427]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:22:39.427]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:39.427]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:22:39.427]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:39.427]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:22:39.427]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:22:51.712]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687157 events.
+[13:22:51.728]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687157, pixels seen in all events: 5430
+[13:22:51.762]     INFO: Resuming triggers.
+[13:23:08.889]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[13:23:08.911]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:23:26.851]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (2) !=  TBM ID (15)
+[13:23:26.851]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:23:26.851]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (2) !=  TBM ID (53)
+[13:23:26.851]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:23:26.851]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (16) !=  TBM ID (3)
+[13:23:26.851]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (54) !=  TBM ID (3)
+[13:23:26.851]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:23:26.851]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:23:26.851]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:23:26.852]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:23:29.042]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687265 events.
+[13:23:29.057]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687265, pixels seen in all events: 5426
+[13:23:29.092]     INFO: Resuming triggers.
+[13:23:46.234]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[13:23:46.257]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:23:52.459]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:23:52.459]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:23:52.459]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:23:52.459]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:24:06.281]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687236 events.
+[13:24:06.296]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687236, pixels seen in all events: 5428
+[13:24:06.329]     INFO: Resuming triggers.
+[13:24:23.456]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[13:24:23.478]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:24:29.443]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:24:29.443]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:24:29.443]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:24:29.443]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:24:29.443]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:24:29.443]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:24:29.443]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:24:42.649]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (185) !=  TBM ID (186)
+[13:24:42.649]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (185) !=  TBM ID (186)
+[13:24:42.649]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:24:42.649]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:24:42.650]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:24:42.650]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:24:42.650]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:24:42.650]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:24:42.650]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:24:43.545]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687216 events.
+[13:24:43.561]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687216, pixels seen in all events: 5468
+[13:24:43.596]     INFO: Resuming triggers.
+[13:25:00.723]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[13:25:00.746]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:25:03.519]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (111) !=  TBM ID (112)
+[13:25:03.519]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (111) !=  TBM ID (112)
+[13:25:03.519]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:25:03.519]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:25:03.519]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:25:03.519]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:25:03.519]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:25:03.519]  WARNING: ROC 0: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 4: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 0: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 1: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 2: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 3: Readback start marker after 31 readouts!
+[13:25:03.519]  WARNING: ROC 4: Readback start marker after 31 readouts!
+[13:25:11.291]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:25:11.291]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:25:20.841]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687253 events.
+[13:25:20.856]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687253, pixels seen in all events: 5427
+[13:25:20.891]     INFO: Resuming triggers.
+[13:25:38.032]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[13:25:38.055]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:25:46.906]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:25:46.906]  WARNING: ROC 5: Readback start marker after 9 readouts!
+[13:25:46.906]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:25:46.906]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:25:46.906]  WARNING: ROC 5: Readback start marker after 7 readouts!
+[13:25:46.906]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[13:25:46.906]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[13:25:46.906]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:25:47.514]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:25:47.514]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (2) != Token Chain Length (8)
+[13:25:47.514]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (133) !=  TBM ID (171)
+[13:25:47.514]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:25:47.514]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (133)
+[13:25:47.514]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[13:25:47.514]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:25:47.514]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:25:48.727]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:25:48.727]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:25:48.731]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:25:48.731]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:25:48.731]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:25:48.731]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:25:58.123]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687163 events.
+[13:25:58.138]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687163, pixels seen in all events: 5453
+[13:25:58.173]     INFO: Resuming triggers.
+[13:26:15.299]     INFO: run duration 136 seconds, buffer almost full (81%), pausing triggers.
+[13:26:15.323]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:26:34.443]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687215 events.
+[13:26:34.458]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687215, pixels seen in all events: 5454
+[13:26:34.493]     INFO: Resuming triggers.
+[13:26:51.620]     INFO: run duration 154 seconds, buffer almost full (81%), pausing triggers.
+[13:26:51.644]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:26:55.182]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:26:55.182]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:26:55.182]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:26:55.182]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:26:55.182]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:26:55.182]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:26:56.390]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:26:56.390]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:26:56.390]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (216) !=  TBM ID (217)
+[13:26:56.390]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:26:56.390]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:27:05.969]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:27:05.969]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:27:05.969]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (222) !=  TBM ID (175)
+[13:27:05.969]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:27:05.970]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:27:05.970]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:27:05.970]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (176) !=  TBM ID (222)
+[13:27:05.970]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:27:05.970]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:27:05.970]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:27:05.970]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:27:11.681]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687204 events.
+[13:27:11.696]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687204, pixels seen in all events: 5496
+[13:27:11.731]     INFO: Resuming triggers.
+[13:27:28.857]     INFO: run duration 171 seconds, buffer almost full (81%), pausing triggers.
+[13:27:28.882]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:27:43.697]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:27:43.697]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:27:43.697]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:27:43.697]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:27:43.697]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:27:43.697]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:27:49.028]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687192 events.
+[13:27:49.044]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687192, pixels seen in all events: 5385
+[13:27:49.084]     INFO: Resuming triggers.
+[13:28:06.211]     INFO: run duration 188 seconds, buffer almost full (81%), pausing triggers.
+[13:28:06.237]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:28:26.280]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687255 events.
+[13:28:26.296]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687255, pixels seen in all events: 5442
+[13:28:26.335]     INFO: Resuming triggers.
+[13:28:38.013]     INFO: data taking finished, elapsed time: 200 seconds.
+[13:28:38.207]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:28:51.089]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1150350 events.
+[13:28:51.100]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1150350, pixels seen in all events: 3670
+[13:28:51.136]     INFO: PixTest::       pg_setup set to default.
+[13:28:51.159]     INFO: PixTestXray::doPhRun() done
+[13:28:51.159]     INFO: PixTestXray::doTest() done 
+[13:34:15.115]    DEBUG: <PixTest.cc/moduleMap:L962> moduleMap histname: what
+[13:34:15.115]    DEBUG: <PixTest.cc/moduleMap:L972> h1->GetName() = hMap_Cu_C12_V0 -> hMap_Cu_mod
+[13:35:52.307]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 4 -> vthrcompmin to value 0
+[13:39:25.859]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 1 -> source to value Ag
+[13:40:42.371]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 1 -> source to value Ag
+[13:40:45.571]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 1 -> source to value Ag
+[13:40:57.659]     INFO: ######################################################################
+[13:40:57.659]     INFO: PixTestXray::doTest()
+[13:40:57.659]     INFO: ######################################################################
+[13:40:57.659]     INFO:    ----------------------------------------------------------------------
+[13:40:57.659]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 200
+[13:40:57.659]     INFO:    ----------------------------------------------------------------------
+[13:40:57.677]     INFO: ROC 4 masking pixel 43/74
+[13:40:57.677]     INFO: ROC 5 masking pixel 43/42
+[13:40:57.677]     INFO: ROC 6 masking pixel 43/54
+[13:40:57.677]     INFO: ROC 14 masking pixel 42/47
+[13:40:57.677]    DEBUG: <PixTestXray.cc/doPhRun:L270> booking new histograms as source name has changed
+[13:40:58.640]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 200 seconds,  fEventsMax = 20000000
+[13:41:15.762]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[13:41:15.782]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:41:16.259]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:41:16.259]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:41:16.259]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:41:16.259]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:41:26.120]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:41:26.120]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:41:26.120]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:41:26.120]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:41:26.120]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:41:26.120]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:41:26.120]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:41:35.175]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686932 events.
+[13:41:35.195]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686932, pixels seen in all events: 9098
+[13:41:35.234]     INFO: Resuming triggers.
+[13:41:52.357]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[13:41:52.380]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:41:56.042]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:41:56.043]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:41:56.043]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:41:56.043]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:41:56.645]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:41:56.645]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:41:56.645]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:41:56.645]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:41:56.645]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:41:56.645]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:41:56.645]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:08.656]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:42:08.657]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:42:08.657]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:08.657]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:08.657]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:08.657]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:12.434]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686896 events.
+[13:42:12.454]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686896, pixels seen in all events: 9177
+[13:42:12.493]     INFO: Resuming triggers.
+[13:42:29.616]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[13:42:29.639]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:42:35.314]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:42:35.314]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:42:35.315]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:35.315]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:35.315]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:35.315]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:42:35.315]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:37.133]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:42:37.133]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:42:37.133]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:37.133]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:42:47.320]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:42:47.320]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:42:47.320]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:47.321]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:47.929]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:42:47.929]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (3) != Token Chain Length (8)
+[13:42:47.929]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (92) !=  TBM ID (171)
+[13:42:47.929]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:42:47.929]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (92)
+[13:42:47.929]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:47.929]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:42:47.929]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:47.929]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:42:47.929]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:42:47.929]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:42:47.929]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:42:47.929]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:42:49.691]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686923 events.
+[13:42:49.710]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686923, pixels seen in all events: 9022
+[13:42:49.750]     INFO: Resuming triggers.
+[13:43:06.873]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[13:43:06.895]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:43:07.448]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:43:07.448]  WARNING: ROC 2: Readback start marker after 6 readouts!
+[13:43:07.448]  WARNING: ROC 4: Readback start marker after 6 readouts!
+[13:43:07.448]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:43:07.448]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:43:07.448]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:43:07.448]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:43:07.448]  WARNING: ROC 2: Readback start marker after 10 readouts!
+[13:43:07.448]  WARNING: ROC 4: Readback start marker after 10 readouts!
+[13:43:07.448]  WARNING: ROC 5: Readback start marker after 32 readouts!
+[13:43:26.989]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686921 events.
+[13:43:27.009]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686921, pixels seen in all events: 9136
+[13:43:27.047]     INFO: Resuming triggers.
+[13:43:44.186]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[13:43:44.209]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:43:52.302]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:43:52.302]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:43:52.302]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:43:52.302]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:43:52.302]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:43:52.302]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:44:01.829]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:44:01.829]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (3) != Token Chain Length (8)
+[13:44:01.829]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (93) !=  TBM ID (171)
+[13:44:01.829]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:44:01.829]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:44:01.829]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (93)
+[13:44:01.829]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:44:01.829]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:44:01.829]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:44:01.829]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:44:01.829]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:44:01.829]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:44:01.829]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:44:02.943]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686931 events.
+[13:44:02.964]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686931, pixels seen in all events: 9317
+[13:44:03.002]     INFO: Resuming triggers.
+[13:44:20.125]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[13:44:20.147]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:44:27.788]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:44:27.788]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:44:27.788]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (137) !=  TBM ID (175)
+[13:44:27.788]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (2) != Token Chain Length (8)
+[13:44:27.788]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (176) !=  TBM ID (137)
+[13:44:27.788]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:44:27.788]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:44:27.788]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:44:27.788]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[13:44:27.788]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:44:27.788]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:44:27.788]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:44:27.788]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:44:27.788]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:44:39.181]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:44:39.181]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:44:39.181]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:44:39.181]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:44:39.181]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:44:39.181]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:44:39.181]  WARNING: ROC 4: Readback start marker after 31 readouts!
+[13:44:39.181]  WARNING: ROC 5: Readback start marker after 31 readouts!
+[13:44:39.181]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:44:40.194]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686861 events.
+[13:44:40.214]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686861, pixels seen in all events: 9137
+[13:44:40.253]     INFO: Resuming triggers.
+[13:44:57.377]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[13:44:57.400]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:45:00.639]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:00.639]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:00.639]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:00.639]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:00.639]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:00.639]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:01.248]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:01.248]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:01.248]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:01.248]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:01.248]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:01.248]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:10.222]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:45:10.222]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:45:10.223]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:10.223]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:10.831]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (3) != Token Chain Length (8)
+[13:45:10.831]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:10.831]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (173) !=  TBM ID (175)
+[13:45:10.832]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:45:10.832]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (176) !=  TBM ID (173)
+[13:45:10.832]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:10.832]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:10.832]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:10.832]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:45:10.832]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:45:10.832]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:45:10.832]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:17.467]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686934 events.
+[13:45:17.487]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686934, pixels seen in all events: 9129
+[13:45:17.526]     INFO: Resuming triggers.
+[13:45:34.649]     INFO: run duration 136 seconds, buffer almost full (81%), pausing triggers.
+[13:45:34.673]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:45:41.906]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:41.906]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:41.906]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:41.906]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:41.906]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:41.906]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:54.580]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:45:54.580]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:45:54.580]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:54.580]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:45:54.580]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:54.580]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:45:54.580]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:45:54.850]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686846 events.
+[13:45:54.870]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686846, pixels seen in all events: 9306
+[13:45:54.911]     INFO: Resuming triggers.
+[13:46:12.035]     INFO: run duration 154 seconds, buffer almost full (81%), pausing triggers.
+[13:46:12.061]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:46:17.047]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:46:17.047]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:46:17.047]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:46:17.047]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:46:17.047]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:46:17.664]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:46:17.664]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:46:17.664]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:46:17.664]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:46:17.664]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:46:17.664]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:46:17.664]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:46:17.664]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:46:32.261]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686948 events.
+[13:46:32.281]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686948, pixels seen in all events: 9166
+[13:46:32.331]     INFO: Resuming triggers.
+[13:46:49.454]     INFO: run duration 171 seconds, buffer almost full (81%), pausing triggers.
+[13:46:49.479]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:46:54.339]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:46:54.339]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:46:54.339]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (58) !=  TBM ID (175)
+[13:46:54.339]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:46:54.339]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (176) !=  TBM ID (58)
+[13:46:54.339]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:46:54.339]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:46:54.339]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:46:54.339]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:46:54.339]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:46:54.339]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:47:09.625]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686844 events.
+[13:47:09.645]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686844, pixels seen in all events: 9161
+[13:47:09.686]     INFO: Resuming triggers.
+[13:47:26.809]     INFO: run duration 188 seconds, buffer almost full (81%), pausing triggers.
+[13:47:26.835]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:47:32.290]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:47:32.290]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:47:32.290]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:47:32.290]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:47:32.290]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:47:32.290]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:47:34.112]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:47:34.112]  WARNING: ROC 2: Readback start marker after 8 readouts!
+[13:47:34.112]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:47:34.112]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:47:34.112]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:47:34.112]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:47:34.112]  WARNING: ROC 2: Readback start marker after 8 readouts!
+[13:47:45.505]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:47:45.505]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:47:45.505]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:47:45.505]  WARNING: ROC 5: Readback start marker after 9 readouts!
+[13:47:45.505]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:47:45.505]  WARNING: ROC 4: Readback start marker after 1 readouts!
+[13:47:45.505]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:47:45.505]  WARNING: ROC 4: Readback start marker after 1 readouts!
+[13:47:45.505]  WARNING: ROC 5: Readback start marker after 7 readouts!
+[13:47:45.505]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[13:47:45.505]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[13:47:45.505]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:47:46.934]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1686883 events.
+[13:47:46.954]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1686883, pixels seen in all events: 9174
+[13:47:46.996]     INFO: Resuming triggers.
+[13:47:58.724]     INFO: data taking finished, elapsed time: 200 seconds.
+[13:47:58.918]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:48:03.624]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (153) !=  TBM ID (154)
+[13:48:03.624]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (153) !=  TBM ID (154)
+[13:48:03.624]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:48:03.624]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:48:03.625]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:48:03.625]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:48:03.625]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:48:03.625]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:48:03.625]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:48:09.564]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:48:12.683]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1155436 events.
+[13:48:12.696]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1155436, pixels seen in all events: 6250
+[13:48:12.736]     INFO: PixTest::       pg_setup set to default.
+[13:48:12.777]     INFO: PixTestXray::doPhRun() done
+[13:48:12.777]     INFO: PixTestXray::doTest() done 
+[13:52:11.091]    DEBUG: <PixTab.cc/setParameter:L392> xxxPressed():  ID = 1 -> source to value Sn
+[13:52:22.155]     INFO: ######################################################################
+[13:52:22.155]     INFO: PixTestXray::doTest()
+[13:52:22.155]     INFO: ######################################################################
+[13:52:22.155]     INFO:    ----------------------------------------------------------------------
+[13:52:22.155]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 200
+[13:52:22.155]     INFO:    ----------------------------------------------------------------------
+[13:52:22.193]     INFO: ROC 4 masking pixel 43/74
+[13:52:22.193]     INFO: ROC 5 masking pixel 43/42
+[13:52:22.193]     INFO: ROC 6 masking pixel 43/54
+[13:52:22.193]     INFO: ROC 14 masking pixel 42/47
+[13:52:22.193]    DEBUG: <PixTestXray.cc/doPhRun:L270> booking new histograms as source name has changed
+[13:52:23.156]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 200 seconds,  fEventsMax = 20000000
+[13:52:40.282]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[13:52:40.320]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:52:59.543]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687278 events.
+[13:52:59.558]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687278, pixels seen in all events: 5109
+[13:52:59.597]     INFO: Resuming triggers.
+[13:53:16.724]     INFO: run duration 34 seconds, buffer almost full (81%), pausing triggers.
+[13:53:16.747]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:53:21.448]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (4) != Token Chain Length (8)
+[13:53:21.448]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (2) != Token Chain Length (8)
+[13:53:21.448]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (181) !=  TBM ID (171)
+[13:53:21.448]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:53:21.448]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (172) !=  TBM ID (181)
+[13:53:21.448]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[13:53:21.448]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:53:21.448]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:53:36.288]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687256 events.
+[13:53:36.304]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687256, pixels seen in all events: 5190
+[13:53:36.342]     INFO: Resuming triggers.
+[13:53:53.469]     INFO: run duration 51 seconds, buffer almost full (81%), pausing triggers.
+[13:53:53.490]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:53:58.045]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (28) !=  TBM ID (29)
+[13:53:58.045]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (28) !=  TBM ID (29)
+[13:53:58.045]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:53:58.046]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:54:12.629]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687276 events.
+[13:54:12.645]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687276, pixels seen in all events: 5309
+[13:54:12.683]     INFO: Resuming triggers.
+[13:54:29.809]     INFO: run duration 68 seconds, buffer almost full (81%), pausing triggers.
+[13:54:29.831]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:54:29.913]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:54:29.913]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:54:29.913]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:54:29.913]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:54:29.913]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:54:29.913]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:54:42.516]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:54:42.516]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:54:42.516]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:54:42.516]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:54:42.516]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:54:42.516]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:54:44.940]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:54:44.940]  WARNING: ROC 0: Readback start marker after 14 readouts!
+[13:54:44.940]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:54:44.940]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:54:44.940]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:54:44.940]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:54:44.940]  WARNING: ROC 0: Readback start marker after 2 readouts!
+[13:54:49.879]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687180 events.
+[13:54:49.894]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687180, pixels seen in all events: 5290
+[13:54:49.932]     INFO: Resuming triggers.
+[13:55:07.059]     INFO: run duration 85 seconds, buffer almost full (81%), pausing triggers.
+[13:55:07.081]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:55:27.175]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687179 events.
+[13:55:27.190]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687179, pixels seen in all events: 5302
+[13:55:27.230]     INFO: Resuming triggers.
+[13:55:44.373]     INFO: run duration 102 seconds, buffer almost full (81%), pausing triggers.
+[13:55:44.396]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:55:47.255]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:55:47.255]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:55:47.255]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:55:47.255]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:55:47.255]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:55:47.255]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:55:47.255]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[13:55:47.255]  WARNING: ROC 4: Readback start marker after 32 readouts!
+[13:56:00.467]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (1) != Token Chain Length (8)
+[13:56:00.467]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:56:00.467]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:56:00.467]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:56:02.283]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (138) !=  TBM ID (139)
+[13:56:02.283]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:56:02.283]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (138) !=  TBM ID (139)
+[13:56:02.283]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:56:02.283]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:56:04.432]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687420 events.
+[13:56:04.447]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687420, pixels seen in all events: 5238
+[13:56:04.483]     INFO: Resuming triggers.
+[13:56:21.624]     INFO: run duration 119 seconds, buffer almost full (81%), pausing triggers.
+[13:56:21.647]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:56:34.548]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (236) !=  TBM ID (239)
+[13:56:34.548]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (236) !=  TBM ID (238)
+[13:56:34.548]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:56:34.548]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (240) !=  TBM ID (237)
+[13:56:34.548]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (239) !=  TBM ID (237)
+[13:56:34.548]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:56:40.764]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687203 events.
+[13:56:40.779]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687203, pixels seen in all events: 5223
+[13:56:40.819]     INFO: Resuming triggers.
+[13:56:57.945]     INFO: run duration 136 seconds, buffer almost full (81%), pausing triggers.
+[13:56:57.968]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:56:58.080]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:56:58.080]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:56:58.080]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:56:58.080]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:56:58.080]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:56:58.080]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:57:11.900]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (65) !=  TBM ID (66)
+[13:57:11.900]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (65) !=  TBM ID (66)
+[13:57:11.900]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:57:11.900]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:57:18.014]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687215 events.
+[13:57:18.030]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687215, pixels seen in all events: 5365
+[13:57:18.071]     INFO: Resuming triggers.
+[13:57:35.197]     INFO: run duration 154 seconds, buffer almost full (81%), pausing triggers.
+[13:57:35.222]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:57:38.817]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:57:38.817]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:57:38.817]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:57:38.817]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:57:38.817]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:57:38.817]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:57:55.276]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687167 events.
+[13:57:55.292]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687167, pixels seen in all events: 5223
+[13:57:55.332]     INFO: Resuming triggers.
+[13:58:12.458]     INFO: run duration 171 seconds, buffer almost full (81%), pausing triggers.
+[13:58:12.483]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:58:27.327]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:58:27.327]  WARNING: ROC 4: Readback start marker after 3 readouts!
+[13:58:27.327]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:58:27.327]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:58:27.327]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:58:27.327]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:58:27.327]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:58:27.327]  WARNING: ROC 4: Readback start marker after 13 readouts!
+[13:58:29.752]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (0) != Token Chain Length (8)
+[13:58:29.752]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:58:29.752]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (186) !=  TBM ID (187)
+[13:58:29.753]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:58:29.753]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:58:30.354]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (128) !=  TBM ID (129)
+[13:58:30.354]    ERROR: <datapipe.cc/CheckEventID:L420>    Event ID mismatch:  local ID (128) !=  TBM ID (129)
+[13:58:30.354]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 0: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 1: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 2: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 3: Readback start marker after 15 readouts!
+[13:58:30.354]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[13:58:32.597]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687142 events.
+[13:58:32.614]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687142, pixels seen in all events: 6351
+[13:58:32.654]     INFO: Resuming triggers.
+[13:58:49.779]     INFO: run duration 188 seconds, buffer almost full (81%), pausing triggers.
+[13:58:49.803]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:59:01.732]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (6) != Token Chain Length (8)
+[13:59:01.732]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (5) != Token Chain Length (8)
+[13:59:01.732]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[13:59:01.732]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:59:01.732]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[13:59:01.732]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:59:01.732]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:59:09.842]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1687016 events.
+[13:59:09.861]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1687016, pixels seen in all events: 7786
+[13:59:09.901]     INFO: Resuming triggers.
+[13:59:21.580]     INFO: data taking finished, elapsed time: 200 seconds.
+[13:59:21.774]    DEBUG: <PixTestXray.cc/processData:L739> Getting Event Buffer
+[13:59:29.211]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:59:29.211]    ERROR: <datapipe.cc/CheckEventValidity:L437> Number of ROCs (7) != Token Chain Length (8)
+[13:59:29.211]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:59:29.211]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[13:59:35.477]    DEBUG: <PixTestXray.cc/processData:L757> Processing Data: 1150498 events.
+[13:59:35.490]    DEBUG: <PixTestXray.cc/processData:L808>  # events read: 1150498, pixels seen in all events: 5319
+[13:59:35.527]     INFO: PixTest::       pg_setup set to default.
+[13:59:35.561]     INFO: PixTestXray::doPhRun() done
+[13:59:35.561]     INFO: PixTestXray::doTest() done 
+[14:02:15.171]    DEBUG: <PixTest.cc/moduleMap:L962> moduleMap histname: what
+[14:02:15.171]    DEBUG: <PixTest.cc/moduleMap:L972> h1->GetName() = hMap_Sn_C12_V0 -> hMap_Sn_mod
+[14:02:20.515]    DEBUG: <PixGui.cc/handleButtons:L393> PixGui::exit called
+[14:02:20.515]    DEBUG: <PixTestBBMap.cc/~PixTestBBMap:L97> PixTestBBMap dtor
+[14:02:20.515]    DEBUG: <PixTestBB2Map.cc/~PixTestBB2Map:L115> PixTestBB2Map dtor
+[14:02:20.515]    DEBUG: <PixTestBB3Map.cc/~PixTestBB3Map:L99> PixTestBB3Map dtor
+[14:02:20.515]    DEBUG: <PixTestCmd.cc/~PixTestCmd:L74> PixTestCmd dtor
+[14:02:20.516]    DEBUG: <PixTestDaq.cc/~PixTestDaq:L36> PixTestDaq dtor
+[14:02:20.516]    DEBUG: <PixTestDacDacScan.cc/~PixTestDacDacScan:L136> PixTestDacDacScan dtor
+[14:02:20.516]    DEBUG: <PixTestDacScan.cc/~PixTestDacScan:L129> PixTestDacScan dtor
+[14:02:20.516]    DEBUG: <PixTestGainPedestal.cc/~PixTestGainPedestal:L121> PixTestGainPedestal dtor
+[14:02:20.516]    DEBUG: <PixTestHighRate.cc/~PixTestHighRate:L222> PixTestHighRate dtor
+[14:02:20.516]    DEBUG: <PixTestIV.cc/~PixTestIV:L96> PixTestIV dtor
+[14:02:20.516]    DEBUG: <PixTestAlive.cc/~PixTestAlive:L109> PixTestAlive dtor
+[14:02:20.516]    DEBUG: <PixTestPretest.cc/~PixTestPretest:L134> PixTestPretest dtor
+[14:02:20.516]    DEBUG: <PixTestReadback.cc/~PixTestReadback:L89> PixTestReadback dtor, saving tree ... 
+[14:02:20.516]    DEBUG: <PixTestScurves.cc/~PixTestScurves:L141> PixTestScurves dtor
+[14:02:20.516]    DEBUG: <PixTestTiming.cc/~PixTestTiming:L88> PixTestTiming dtor
+[14:02:20.516]    DEBUG: <PixTestTrim.cc/~PixTestTrim:L104> PixTestTrim dtor
+[14:02:20.517]    DEBUG: <PixTestXray.cc/~PixTestXray:L217> PixTestXray dtor
+[14:02:21.072]    QUIET: Connection to board 58 closed.
+[14:02:21.073]    DEBUG: <PixMonitor.cc/dumpSummaries:L34> PixMonitor::dumpSummaries
