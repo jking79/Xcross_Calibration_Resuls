@@ -1,0 +1,35 @@
+2,3c2,3
+<   2 vana       79 
+<   3 vsh        100
+---
+>   2 vana       78 
+>   3 vsh        30 
+5,6c5,6
+<   7 vwllpr     60 
+<   9 vwllsh     60 
+---
+>   7 vwllpr     150
+>   9 vwllsh     150
+8,16c8,13
+<  11 vtrim      149
+<  12 vthrcomp   111
+<  13 vibias_bus 1  
+<  14 vbias_sf   6  
+<  15 voffsetop  85 
+<  17 phoffset   195
+<  18 vion       128
+<  19 vcomp_adc  100
+<  20 phscale    57 
+---
+>  11 vtrim      113
+>  12 vthrcomp   103
+>  13 vibias_bus 30 
+>  17 phoffset   0  
+>  19 vcomp_adc  50 
+>  20 phscale    0  
+19c16
+<  26 caldel     98 
+---
+>  26 caldel     100
+21a19
+> 255 readback   0  

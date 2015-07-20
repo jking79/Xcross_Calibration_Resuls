@@ -1,0 +1,128 @@
+[09:26:44.427]     INFO: *** Welcome to pxar ***
+[09:26:44.427]     INFO: *** Today: 2015/07/08
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C0.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C1.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C2.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C3.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C4.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C5.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C6.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C7.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C8.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C9.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C10.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C11.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C12.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C13.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C14.dat
+[09:26:44.428]     INFO:       reading data/yhc691015sn3p2/dacParameters35_C15.dat
+[09:26:44.429]     INFO:       reading data/yhc691015sn3p2/tbmParameters_C0a.dat
+[09:26:44.429]     INFO:       reading data/yhc691015sn3p2/tbmParameters_C0b.dat
+[09:26:44.429]     INFO:       reading data/yhc691015sn3p2/defaultMaskFile.dat
+[09:26:44.429]     INFO: MASKED Roc 2 col/row: 45 43
+[09:26:44.429]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C0.dat
+[09:26:44.435]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C1.dat
+[09:26:44.442]     INFO:   masking Roc 2 col/row: 45 43
+[09:26:44.442]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C2.dat
+[09:26:44.449]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C3.dat
+[09:26:44.455]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C4.dat
+[09:26:44.462]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C5.dat
+[09:26:44.468]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C6.dat
+[09:26:44.475]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C7.dat
+[09:26:44.481]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C8.dat
+[09:26:44.488]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C9.dat
+[09:26:44.494]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C10.dat
+[09:26:44.501]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C11.dat
+[09:26:44.507]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C12.dat
+[09:26:44.514]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C13.dat
+[09:26:44.520]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C14.dat
+[09:26:44.527]     INFO:       reading data/yhc691015sn3p2/trimParameters35_C15.dat
+[09:26:44.533]     INFO:       reading data/yhc691015sn3p2/tbParameters.dat
+[09:26:44.533]     INFO:         clk: 4
+[09:26:44.533]     INFO:         ctr: 4
+[09:26:44.533]     INFO:         sda: 19
+[09:26:44.533]     INFO:         tin: 9
+[09:26:44.533]     INFO:         level: 15
+[09:26:44.533]     INFO:         triggerdelay: 0
+[09:26:44.534]    QUIET: Instanciating API for pxar v1.9.0
+[09:26:44.534]     INFO: Log level: INFO
+[09:26:44.547]    QUIET: Connection to board DTB_WRPRHI opened.
+[09:26:44.550]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[09:26:44.554]     INFO: RPC call hashes of host and DTB match: 413001178
+[09:26:46.227]     INFO: DUT info: 
+[09:26:46.227]     INFO: The DUT currently contains the following objects:
+[09:26:46.227]     INFO:  2 TBM Cores (2 ON)
+[09:26:46.227]     INFO: 	TBM Core alpha (0): 7 registers set
+[09:26:46.227]     INFO: 	TBM Core beta  (1): 7 registers set
+[09:26:46.227]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[09:26:46.227]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 2: 19 DACs set, Pixels: 1 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.227]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 4160 active.
+[09:26:46.792]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C0.dat
+[09:26:46.809]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C1.dat
+[09:26:46.824]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C2.dat
+[09:26:46.839]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C3.dat
+[09:26:46.854]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C4.dat
+[09:26:46.870]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C5.dat
+[09:26:46.885]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C6.dat
+[09:26:46.900]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C7.dat
+[09:26:46.916]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C8.dat
+[09:26:46.932]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C9.dat
+[09:26:46.947]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C10.dat
+[09:26:46.963]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C11.dat
+[09:26:46.978]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C12.dat
+[09:26:46.993]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C13.dat
+[09:26:47.009]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C14.dat
+[09:26:47.024]     INFO:       reading data/yhc691015sn3p2/phCalibrationFitErr35_C15.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C0.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C1.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C2.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C3.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C4.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C5.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C6.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C7.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C8.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C9.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C10.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C11.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C12.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C13.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C14.dat
+[09:26:47.103]     INFO:       reading data/yhc691015sn3p2/readbackCal_C15.dat
+[09:26:47.722]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:48.726]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:49.730]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:50.734]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:51.738]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:52.742]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:53.745]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:55.371]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:56.375]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:57.380]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:58.385]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:26:59.388]    ERROR: <PixMonitorFrame.cc/Update:L121> analog current reading unphysical
+[09:27:00.057]    QUIET: Connection to board 58 closed.

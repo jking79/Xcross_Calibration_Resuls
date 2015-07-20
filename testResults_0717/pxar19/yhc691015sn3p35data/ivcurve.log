@@ -1,0 +1,648 @@
+[13:53:30.055]     INFO: *** Welcome to pxar ***
+[13:53:30.055]     INFO: *** Today: 2015/07/08
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C0.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C1.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C2.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C3.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C4.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C5.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C6.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C7.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C8.dat
+[13:53:30.055]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C9.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C10.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C11.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C12.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C13.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C14.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/dacParameters35_C15.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/tbmParameters_C0a.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/tbmParameters_C0b.dat
+[13:53:30.056]     INFO:       reading data/yhc691015sn3p35/defaultMaskFile.dat
+[13:53:30.056]     INFO: MASKED Roc 1 col/row: 33 41
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 48 1
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 48 2
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 48 3
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 49 0
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 49 1
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 49 2
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 49 3
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 49 4
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 49 5
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 50 0
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 50 1
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 50 2
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 50 4
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 50 5
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 50 6
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 0
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 1
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 2
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 3
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 4
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 5
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 6
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 7
+[13:53:30.056]     INFO: MASKED Roc 7 col/row: 51 8
+[13:53:30.056]     INFO: MASKED Roc 10 col/row: 49 18
+[13:53:30.056]     INFO: MASKED Roc 11 col/row: 50 45
+[13:53:30.057]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C0.dat
+[13:53:30.063]     INFO:   masking Roc 1 col/row: 33 41
+[13:53:30.063]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C1.dat
+[13:53:30.070]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C2.dat
+[13:53:30.076]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C3.dat
+[13:53:30.083]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C4.dat
+[13:53:30.089]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C5.dat
+[13:53:30.096]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C6.dat
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 48 1
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 48 2
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 48 3
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 49 0
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 49 1
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 49 2
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 49 3
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 49 4
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 49 5
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 50 0
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 50 1
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 50 2
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 50 4
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 50 5
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 50 6
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 0
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 1
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 2
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 3
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 4
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 5
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 6
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 7
+[13:53:30.103]     INFO:   masking Roc 7 col/row: 51 8
+[13:53:30.103]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C7.dat
+[13:53:30.110]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C8.dat
+[13:53:30.116]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C9.dat
+[13:53:30.123]     INFO:   masking Roc 10 col/row: 49 18
+[13:53:30.123]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C10.dat
+[13:53:30.129]     INFO:   masking Roc 11 col/row: 50 45
+[13:53:30.129]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C11.dat
+[13:53:30.136]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C12.dat
+[13:53:30.142]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C13.dat
+[13:53:30.148]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C14.dat
+[13:53:30.155]     INFO:       reading data/yhc691015sn3p35/trimParameters35_C15.dat
+[13:53:30.161]     INFO:       reading data/yhc691015sn3p35/tbParameters.dat
+[13:53:30.162]     INFO:         clk: 4
+[13:53:30.162]     INFO:         ctr: 4
+[13:53:30.162]     INFO:         sda: 19
+[13:53:30.162]     INFO:         tin: 9
+[13:53:30.162]     INFO:         level: 15
+[13:53:30.162]     INFO:         triggerdelay: 0
+[13:53:30.162]    QUIET: Instanciating API for pxar v1.9.0
+[13:53:30.162]     INFO: Log level: DEBUG
+[13:53:30.175]    QUIET: Connection to board DTB_WRPRHI opened.
+[13:53:30.178]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[13:53:30.182]     INFO: RPC call hashes of host and DTB match: 413001178
+[13:53:31.791]     INFO: DUT info: 
+[13:53:31.791]     INFO: The DUT currently contains the following objects:
+[13:53:31.791]     INFO:  2 TBM Cores (2 ON)
+[13:53:31.791]     INFO: 	TBM Core alpha (0): 7 registers set
+[13:53:31.791]     INFO: 	TBM Core beta  (1): 7 registers set
+[13:53:31.791]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[13:53:31.791]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 1: 19 DACs set, Pixels: 1 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 7: 19 DACs set, Pixels: 24 masked, 4160 active.
+[13:53:31.791]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.792]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.792]     INFO: 	ROC 10: 19 DACs set, Pixels: 1 masked, 4160 active.
+[13:53:31.792]     INFO: 	ROC 11: 19 DACs set, Pixels: 1 masked, 4160 active.
+[13:53:31.792]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.792]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.792]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.792]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 4160 active.
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB<-
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 250
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->BB2<-
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   vcals: 222
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   plwidth: 35
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DAQ<-
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   trgnumber: 5
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 10
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqtrg: button
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   daqseconds: 120
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaqseconds: button
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacDacScan<-
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1: caldel
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1lo: 0
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dac1hi: 255
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2: vthrcomp
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2lo: 0
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dac2hi: 255
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->DacScan<-
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   phmap: checkbox(1)
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: vcal
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 255
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->GainPedestal<-
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   showfits: checkbox(0)
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   extended: checkbox(0)
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   dumphists: checkbox(0)
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   measure: button
+[13:53:31.792]    DEBUG: <PixTestParameters.cc/dump:L107>   fit: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   save: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->HighRate<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   caldelscan: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   xpixelalive: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   rundaq: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 20
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 5
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   triggerdelay: 100
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->IV<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   port: /dev/FIXME
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestart: 0
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestop: 600
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   voltagestep: 5
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   delay: 1
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   compliance(ua): 100
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PhOptimization<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   safetymarginlow: 20
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   saturationvcal: 100
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   quantilesaturation: 0.98
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->PixelAlive<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 200
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   alivetest: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   masktest: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   addressdecodingtest: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Pretest<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   programroc: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   targetia: 24
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   iterations: 100
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   settimings: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   findworkingpixel: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   setvthrcompcaldel: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   pix: 11,20
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 250
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   deltavthrcomp: 50
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   fraccaldel: 0.5
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 5
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   savedacs: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Readback<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   calibratevd: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateva: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   calibrateia: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   readbackvbg: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedvbg: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalvd: checkbox(1)
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   usecalva: checkbox(0)
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   getcalibratedia: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   setvana: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Scurves<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   adjustvcal: checkbox(1)
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpall: checkbox(0)
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   dumpproblematic: checkbox(0)
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 50
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   dac: VthrComp
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   daclo: 0
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   dachi: 200
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   dacs/step: 10
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   scurves: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Timing<-
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   fastscan: checkbox(0)
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   targetclk: 4
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   clocksdascan: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   phasescan: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   levelscan: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   saveparameters: button
+[13:53:31.793]    DEBUG: <PixTestParameters.cc/dump:L107>   timingtest: button
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Trim<-
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   trim: button
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   ntrig: 10
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   vcal: 35
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   trimbits: button
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L104> PixTestParameters: ->Xray<-
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   maskhotpixels: button
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   savemaskfile: checkbox(0)
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   maskfilename: default
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   source: Ag
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   phrun: button
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   runseconds: 100
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   trgfrequency(khz): 100
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   ratescan: button
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmin: 10
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   vthrcompmax: 80
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   stepseconds: 5
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   delaytbm: checkbox
+[13:53:31.794]    DEBUG: <PixTestParameters.cc/dump:L107>   filltree: checkbox
+[13:53:31.794]    DEBUG: <PixSetup.cc/init:L81> PixSetup init start; getCurrentRSS() = 34385920
+[13:53:31.794]    DEBUG: <PixSetup.cc/init:L87> fPixTestParameters = 0xc8a0e0
+[13:53:31.794]    DEBUG: <PixSetup.cc/init:L88>  fConfigParameters = 0xa14880
+[13:53:31.794]    DEBUG: <PixSetup.cc/init:L89>        fPxarMemory = 0x7f5111d94010
+[13:53:31.794]    DEBUG: <PixSetup.cc/init:L90>         fPxarMemHi = 0x7f5117fff510
+[13:53:31.794]    DEBUG: <PixSetup.cc/init:L106> PixSetup init done;  getCurrentRSS() = 34394112 fPxarMemory = 0x7f5111d94010
+[13:53:32.284]    DEBUG: <PixGui.cc/hvOn:L457> HV set On: 0x10abba0
+[13:53:32.343]    DEBUG: <PixTestFactory.cc/PixTestFactory:L50> PixTestFactory::PixTestFactory()
+[13:53:32.344]    DEBUG: <PixTestBBMap.cc/init:L78> PixTestBBMap::init()
+[13:53:32.344]    DEBUG: <PixTestBBMap.cc/PixTestBBMap:L26> PixTestBBMap ctor(PixSetup &a, string, TGTab *)
+[13:53:32.350]    DEBUG: <PixTestBB2Map.cc/setParameter:L57> setting fTargetIa    = 24 mA/ROC
+[13:53:32.350]    DEBUG: <PixTestBB2Map.cc/init:L96> PixTestBB2Map::init()
+[13:53:32.350]    DEBUG: <PixTestBB2Map.cc/PixTestBB2Map:L28> PixTestBB2Map ctor(PixSetup &a, string, TGTab *)
+[13:53:32.361]    DEBUG: <PixTestDaq.cc/init:L43> PixTestDaq::init()
+[13:53:32.361]    DEBUG: <PixTestDaq.cc/PixTestDaq:L21> PixTestDaq ctor(PixSetup &a, string, TGTab *)
+[13:53:32.361]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C0.dat
+[13:53:32.378]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C1.dat
+[13:53:32.394]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C2.dat
+[13:53:32.410]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C3.dat
+[13:53:32.425]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C4.dat
+[13:53:32.441]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C5.dat
+[13:53:32.456]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C6.dat
+[13:53:32.472]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C7.dat
+[13:53:32.487]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C8.dat
+[13:53:32.503]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C9.dat
+[13:53:32.519]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C10.dat
+[13:53:32.534]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C11.dat
+[13:53:32.549]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C12.dat
+[13:53:32.565]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C13.dat
+[13:53:32.580]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C14.dat
+[13:53:32.596]     INFO:       reading data/yhc691015sn3p35/phCalibrationFitErr35_C15.dat
+[13:53:32.619]    DEBUG: <PixTestDacDacScan.cc/init:L102> PixTestDacDacScan::init()
+[13:53:32.619]    DEBUG: <PixTestDacDacScan.cc/PixTestDacDacScan:L21> PixTestDacDacScan ctor(PixSetup &a, string, TGTab *)
+[13:53:32.643]    DEBUG: <PixTestHighRate.cc/setParameter:L66>   setting fParTriggerFrequency -> 20
+[13:53:32.643]    DEBUG: <PixTestHighRate.cc/init:L156> PixTestHighRate::init()
+[13:53:32.643]    DEBUG: <PixTestHighRate.cc/PixTestHighRate:L29> PixTestHighRate ctor(PixSetup &a, string, TGTab *)
+[13:53:32.665]    DEBUG: <PixTest.cc/setTestParameter:L577>  setting  ntrig to new value 10
+[13:53:32.665]    DEBUG: <PixTestPhOptimization.cc/setParameter:L36>   setting fParNtrig  ->10<- from sval = 10
+[13:53:32.665]    DEBUG: <PixTestPhOptimization.cc/setParameter:L41>   setting fSafetyMarginLow  ->20<- from sval = 20
+[13:53:32.665]    DEBUG: <PixTestPhOptimization.cc/setParameter:L47>   setting fVcalMax  ->100<- from sval = 100
+[13:53:32.666]    DEBUG: <PixTestPhOptimization.cc/setParameter:L52>   setting fQuantMax  ->0.98<- from sval = 0.98
+[13:53:32.672]    DEBUG: <PixTestAlive.cc/init:L76> PixTestAlive::init()
+[13:53:32.672]    DEBUG: <PixTestAlive.cc/PixTestAlive:L20> PixTestAlive ctor(PixSetup &a, string, TGTab *)
+[13:53:32.692]    DEBUG: <PixTestReadback.cc/setParameter:L184> fCalwVd set to 1
+[13:53:32.692]    DEBUG: <PixTestReadback.cc/init:L96> PixTestReadback::init()
+[13:53:32.692]    DEBUG: <PixTestReadback.cc/PixTestReadback:L22> PixTestReadback ctor(PixSetup &a, string, TGTab *)
+[13:53:32.692]     INFO:       reading data/yhc691015sn3p35/readbackCal_C0.dat
+[13:53:32.692]     INFO:       reading data/yhc691015sn3p35/readbackCal_C1.dat
+[13:53:32.692]     INFO:       reading data/yhc691015sn3p35/readbackCal_C2.dat
+[13:53:32.692]     INFO:       reading data/yhc691015sn3p35/readbackCal_C3.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C4.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C5.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C6.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C7.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C8.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C9.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C10.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C11.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C12.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C13.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C14.dat
+[13:53:32.693]     INFO:       reading data/yhc691015sn3p35/readbackCal_C15.dat
+[13:53:32.708]    DEBUG: <PixTestTiming.cc/setParameter:L45> fFastScan: 0
+[13:53:32.708]    DEBUG: <PixTestTiming.cc/setParameter:L50> PixTestTiming::PixTest() targetclk = 4
+[13:53:32.708]    DEBUG: <PixTestTiming.cc/setParameter:L54> PixTestTiming::PixTest() ntrig = 10
+[13:53:32.708]    DEBUG: <PixTestTiming.cc/init:L64> PixTestTiming::init()
+[13:53:32.724]    DEBUG: <PixTestXray.cc/init:L132> PixTestXray::init()
+[13:53:32.725]    DEBUG: <PixTestXray.cc/PixTestXray:L26> PixTestXray ctor(PixSetup &a, string, TGTab *)
+[13:53:41.044]    DEBUG: <PixTab.cc/setParameter:L387> xxxPressed():  ID = 0 -> port to value /dev/ttyS0
+[13:53:44.238]     INFO: Starting IV curve measurement...
+[13:53:44.238]     INFO: Make sure the Keithley2410 is using the following RS232 settings:
+[13:53:44.238]     INFO: 	|Baud Rate: 57600
+[13:53:44.238]     INFO: 	|Bits: 8
+[13:53:44.238]     INFO: 	|Parity: ODD
+[13:53:44.238]     INFO: 	|Terminator: <CR>+<LF>
+[13:53:44.238]     INFO: 	|Control Flow: XON-XOFF
+[13:53:44.238]     INFO: [RS232] Opening com port: /dev/ttyS0 with baud: 57600
+[13:53:44.239]    DEBUG: <hvsupply.keithley2410.cc/HVSupply:L42> Opened COM port to Keithley 2410
+[13:53:44.239]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "*RST"
+[13:53:44.259]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":ROUT:TERM REAR"
+[13:53:44.279]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":OUTP:SMOD NORM"
+[13:53:44.299]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SYST:AZER ON"
+[13:53:44.319]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SOUR:FUNC VOLT"
+[13:53:44.339]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SOUR:VOLT:MODE FIXED"
+[13:53:44.359]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:FUNC 'CURR:DC'"
+[13:53:44.379]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":FUNC:CONC ON"
+[13:53:44.400]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:NPLC 10"
+[13:53:44.420]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":FORM:ELEM VOLT,CURR"
+[13:53:44.440]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":CURR:PROT:LEV 0.0001"
+[13:53:44.460]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SOUR:DEL 1"
+[13:53:44.480]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL 0"
+[13:53:44.500]    DEBUG: <hvsupply.keithley2410.cc/hvOn:L70> Turning KEITHLEY 2410 on
+[13:53:44.500]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":OUTP:STAT ON"
+[13:53:44.520]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":OUTP:STAT?"
+[13:53:44.780]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "1"
+[13:53:44.780]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -0"
+[13:53:44.800]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:47.826]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "+0.000000E+00,-2.429411E-08"
+[13:53:47.826]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:47.846]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:47.846]     INFO: V = -0.000000 (meas:   +0.00) I = -2.43e-02 uA 2015-07-08 18:53:47.846463000Z
+[13:53:47.900]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -5"
+[13:53:47.921]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:49.442]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-5.000000E+00,-3.247252E-07"
+[13:53:49.442]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:49.462]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:49.471]     INFO: V = -5.000000 (meas:   -5.00) I = -3.25e-01 uA 2015-07-08 18:53:49.462666000Z
+[13:53:49.488]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -10"
+[13:53:49.509]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:51.033]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.000000E+01,-5.648816E-07"
+[13:53:51.033]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:51.053]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:51.053]     INFO: V = -10.000000 (meas:  -10.00) I = -5.65e-01 uA 2015-07-08 18:53:51.053863001Z
+[13:53:51.079]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -15"
+[13:53:51.099]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:52.625]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.500000E+01,-6.705631E-07"
+[13:53:52.625]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:52.645]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:52.645]     INFO: V = -15.000000 (meas:  -15.00) I = -6.71e-01 uA 2015-07-08 18:53:52.645507000Z
+[13:53:52.665]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -20"
+[13:53:52.685]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:54.214]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-2.000000E+01,-7.341217E-07"
+[13:53:54.214]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:54.235]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:54.235]     INFO: V = -20.000000 (meas:  -20.00) I = -7.34e-01 uA 2015-07-08 18:53:54.235077000Z
+[13:53:54.255]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -25"
+[13:53:54.275]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:55.806]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-2.500000E+01,-7.737858E-07"
+[13:53:55.806]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:55.826]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:55.826]     INFO: V = -25.000000 (meas:  -25.00) I = -7.74e-01 uA 2015-07-08 18:53:55.826684000Z
+[13:53:55.846]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -30"
+[13:53:55.866]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:57.388]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-3.000000E+01,-8.307226E-07"
+[13:53:57.388]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:57.408]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:57.408]     INFO: V = -30.000000 (meas:  -30.00) I = -8.31e-01 uA 2015-07-08 18:53:57.408581000Z
+[13:53:57.429]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -35"
+[13:53:57.449]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:53:58.972]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-3.500000E+01,-8.904362E-07"
+[13:53:58.972]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:53:58.992]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:53:58.992]     INFO: V = -35.000000 (meas:  -35.00) I = -8.90e-01 uA 2015-07-08 18:53:58.992516000Z
+[13:53:59.012]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -40"
+[13:53:59.032]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:00.555]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-4.000000E+01,-9.362860E-07"
+[13:54:00.555]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:00.575]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:00.575]     INFO: V = -40.000000 (meas:  -40.00) I = -9.36e-01 uA 2015-07-08 18:54:00.575223000Z
+[13:54:00.594]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -45"
+[13:54:00.614]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:02.143]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-4.500000E+01,-9.366277E-07"
+[13:54:02.143]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:02.163]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:02.163]     INFO: V = -45.000000 (meas:  -45.00) I = -9.37e-01 uA 2015-07-08 18:54:02.163855001Z
+[13:54:02.184]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -50"
+[13:54:02.204]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:03.730]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-5.000000E+01,-1.049951E-06"
+[13:54:03.730]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:03.750]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:03.750]     INFO: V = -50.000000 (meas:  -50.00) I = -1.05e+00 uA 2015-07-08 18:54:03.750950000Z
+[13:54:03.770]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -55"
+[13:54:03.790]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:08.330]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-5.500000E+01,-1.047940E-06"
+[13:54:08.330]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:08.350]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:08.350]     INFO: V = -55.000000 (meas:  -55.00) I = -1.05e+00 uA 2015-07-08 18:54:08.350485001Z
+[13:54:08.370]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -60"
+[13:54:08.390]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:09.912]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-6.000000E+01,-1.108245E-06"
+[13:54:09.912]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:09.932]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:09.933]     INFO: V = -60.000000 (meas:  -60.00) I = -1.11e+00 uA 2015-07-08 18:54:09.933003000Z
+[13:54:09.946]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -65"
+[13:54:09.966]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:11.489]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-6.500000E+01,-1.835492E-06"
+[13:54:11.489]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:11.509]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:11.509]     INFO: V = -65.000000 (meas:  -65.00) I = -1.84e+00 uA 2015-07-08 18:54:11.509818001Z
+[13:54:11.529]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -70"
+[13:54:11.549]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:13.080]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-7.000000E+01,-2.604627E-06"
+[13:54:13.080]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:13.100]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:13.100]     INFO: V = -70.000000 (meas:  -70.00) I = -2.60e+00 uA 2015-07-08 18:54:13.100243000Z
+[13:54:13.120]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -75"
+[13:54:13.140]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:14.671]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-7.500000E+01,-3.684598E-06"
+[13:54:14.671]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:14.691]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:14.691]     INFO: V = -75.000000 (meas:  -75.00) I = -3.68e+00 uA 2015-07-08 18:54:14.691572000Z
+[13:54:14.710]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -80"
+[13:54:14.730]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:16.252]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-8.000000E+01,-4.537644E-06"
+[13:54:16.252]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:16.272]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:16.272]     INFO: V = -80.000000 (meas:  -80.00) I = -4.54e+00 uA 2015-07-08 18:54:16.272762001Z
+[13:54:16.292]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -85"
+[13:54:16.312]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:17.835]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-8.500000E+01,-5.191134E-06"
+[13:54:17.835]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:17.855]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:17.855]     INFO: V = -85.000000 (meas:  -85.00) I = -5.19e+00 uA 2015-07-08 18:54:17.855166000Z
+[13:54:17.875]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -90"
+[13:54:17.895]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:19.422]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-9.000000E+01,-5.900362E-06"
+[13:54:19.422]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:19.443]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:19.443]     INFO: V = -90.000000 (meas:  -90.00) I = -5.90e+00 uA 2015-07-08 18:54:19.443044000Z
+[13:54:19.462]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -95"
+[13:54:19.482]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:21.005]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-9.500000E+01,-6.586597E-06"
+[13:54:21.005]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:21.025]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:21.025]     INFO: V = -95.000000 (meas:  -95.00) I = -6.59e+00 uA 2015-07-08 18:54:21.025533000Z
+[13:54:21.045]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -100"
+[13:54:21.065]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:22.593]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.000000E+02,-7.338049E-06"
+[13:54:22.593]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:22.613]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:22.613]     INFO: V = -100.000000 (meas: -100.00) I = -7.34e+00 uA 2015-07-08 18:54:22.613247000Z
+[13:54:22.632]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -105"
+[13:54:22.652]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:24.175]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.050000E+02,-8.138826E-06"
+[13:54:24.175]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:24.195]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:24.195]     INFO: V = -105.000000 (meas: -105.00) I = -8.14e+00 uA 2015-07-08 18:54:24.195221000Z
+[13:54:24.216]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -110"
+[13:54:24.236]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:25.767]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.100000E+02,-8.967559E-06"
+[13:54:25.767]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:25.787]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:25.787]     INFO: V = -110.000000 (meas: -110.00) I = -8.97e+00 uA 2015-07-08 18:54:25.787585001Z
+[13:54:25.808]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -115"
+[13:54:25.828]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:27.351]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.150000E+02,-9.935655E-06"
+[13:54:27.351]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:27.371]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:27.371]     INFO: V = -115.000000 (meas: -115.00) I = -9.94e+00 uA 2015-07-08 18:54:27.371226000Z
+[13:54:27.390]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -120"
+[13:54:27.410]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:30.438]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.200000E+02,-1.093176E-05"
+[13:54:30.438]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:30.458]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:30.458]     INFO: V = -120.000000 (meas: -120.00) I = -1.09e+01 uA 2015-07-08 18:54:30.458428001Z
+[13:54:30.478]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -125"
+[13:54:30.498]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:32.025]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.250000E+02,-1.193546E-05"
+[13:54:32.025]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:32.045]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:32.046]     INFO: V = -125.000000 (meas: -125.00) I = -1.19e+01 uA 2015-07-08 18:54:32.046027000Z
+[13:54:32.066]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -130"
+[13:54:32.086]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:33.618]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.300000E+02,-1.311905E-05"
+[13:54:33.618]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:33.638]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:33.638]     INFO: V = -130.000000 (meas: -130.00) I = -1.31e+01 uA 2015-07-08 18:54:33.638193001Z
+[13:54:33.658]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -135"
+[13:54:33.678]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:35.209]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.350000E+02,-1.438935E-05"
+[13:54:35.209]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:35.229]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:35.229]     INFO: V = -135.000000 (meas: -135.00) I = -1.44e+01 uA 2015-07-08 18:54:35.229417000Z
+[13:54:35.249]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -140"
+[13:54:35.269]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:36.792]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.400000E+02,-1.566905E-05"
+[13:54:36.792]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:36.812]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:36.812]     INFO: V = -140.000000 (meas: -140.00) I = -1.57e+01 uA 2015-07-08 18:54:36.812886000Z
+[13:54:36.832]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -145"
+[13:54:36.852]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:38.384]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.450000E+02,-1.706035E-05"
+[13:54:38.384]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:38.404]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:38.404]     INFO: V = -145.000000 (meas: -145.00) I = -1.71e+01 uA 2015-07-08 18:54:38.404262000Z
+[13:54:38.425]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -150"
+[13:54:38.445]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:39.975]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.500000E+02,-1.863953E-05"
+[13:54:39.975]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:39.995]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:39.995]     INFO: V = -150.000000 (meas: -150.00) I = -1.86e+01 uA 2015-07-08 18:54:39.995952000Z
+[13:54:40.015]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -155"
+[13:54:40.035]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:41.566]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.550000E+02,-2.042297E-05"
+[13:54:41.566]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:41.587]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:41.587]     INFO: V = -155.000000 (meas: -155.00) I = -2.04e+01 uA 2015-07-08 18:54:41.587146000Z
+[13:54:41.607]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -160"
+[13:54:41.627]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:43.154]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.600000E+02,-2.236427E-05"
+[13:54:43.154]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:43.174]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:43.175]     INFO: V = -160.000000 (meas: -160.00) I = -2.24e+01 uA 2015-07-08 18:54:43.174992001Z
+[13:54:43.195]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -165"
+[13:54:43.215]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:44.746]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.650000E+02,-2.448505E-05"
+[13:54:44.746]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:44.767]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:44.767]     INFO: V = -165.000000 (meas: -165.00) I = -2.45e+01 uA 2015-07-08 18:54:44.767108000Z
+[13:54:44.787]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -170"
+[13:54:44.807]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:46.330]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.700000E+02,-2.678759E-05"
+[13:54:46.330]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:46.350]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:46.350]     INFO: V = -170.000000 (meas: -170.00) I = -2.68e+01 uA 2015-07-08 18:54:46.350610001Z
+[13:54:46.370]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -175"
+[13:54:46.390]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:47.918]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.750000E+02,-2.959981E-05"
+[13:54:47.918]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:47.938]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:47.938]     INFO: V = -175.000000 (meas: -175.00) I = -2.96e+01 uA 2015-07-08 18:54:47.938635000Z
+[13:54:47.959]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -180"
+[13:54:47.979]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:49.510]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.800000E+02,-3.313439E-05"
+[13:54:49.510]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:49.531]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:49.531]     INFO: V = -180.000000 (meas: -180.00) I = -3.31e+01 uA 2015-07-08 18:54:49.531104000Z
+[13:54:49.550]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -185"
+[13:54:49.570]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:51.099]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.850000E+02,-3.944774E-05"
+[13:54:51.099]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:51.119]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:51.119]     INFO: V = -185.000000 (meas: -185.00) I = -3.94e+01 uA 2015-07-08 18:54:51.119308000Z
+[13:54:51.139]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -190"
+[13:54:51.159]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:52.690]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.900000E+02,-4.987299E-05"
+[13:54:52.690]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:52.710]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:52.710]     INFO: V = -190.000000 (meas: -190.00) I = -4.99e+01 uA 2015-07-08 18:54:52.710917000Z
+[13:54:52.732]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -195"
+[13:54:52.752]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:54.283]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-1.950000E+02,-6.465397E-05"
+[13:54:54.283]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:54.303]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:54.303]     INFO: V = -195.000000 (meas: -195.00) I = -6.47e+01 uA 2015-07-08 18:54:54.303218001Z
+[13:54:54.324]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -200"
+[13:54:54.344]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:55.874]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-2.000000E+02,-8.673900E-05"
+[13:54:55.874]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:55.895]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:55.895]     INFO: V = -200.000000 (meas: -200.00) I = -8.67e+01 uA 2015-07-08 18:54:55.895054000Z
+[13:54:55.916]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : "SOUR:VOLT:IMM:AMPL -205"
+[13:54:55.936]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":READ?"
+[13:54:57.467]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "-2.050000E+02,-9.999811E-05"
+[13:54:57.467]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SENS:CURR:PROT:TRIP?"
+[13:54:57.487]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "1"
+[13:54:57.487]    DEBUG: <hvsupply.keithley2410.cc/hvOff:L86> Turning Keithley 2410 off
+[13:54:57.487]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":OUTP:STAT OFF"
+[13:54:57.507]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":OUTP:STAT?"
+[13:54:57.527]    DEBUG: <rs232.cc/readData:L340> [RS232] Received Data : "0"
+[13:54:57.527]     INFO: V = -205.000000 (meas: -205.00) I = -1.00e+02 uA 2015-07-08 18:54:57.527760000Z
+[13:54:57.547]    DEBUG: <rs232.cc/writeData:L263> [RS232] Sending Data : ":SYST:LOC"
+[13:54:57.567]  WARNING: Sweep Aborted on Compliance!
+[13:54:57.578]     INFO: PixTestIV::doTest() done 
+[13:55:30.524]    DEBUG: <PixGui.cc/handleButtons:L393> PixGui::exit called
+[13:55:30.524]    DEBUG: <PixTestBBMap.cc/~PixTestBBMap:L96> PixTestBBMap dtor
+[13:55:30.525]    DEBUG: <PixTestBB2Map.cc/~PixTestBB2Map:L114> PixTestBB2Map dtor
+[13:55:30.525]    DEBUG: <PixTestDaq.cc/~PixTestDaq:L36> PixTestDaq dtor
+[13:55:30.525]    DEBUG: <PixTestDacDacScan.cc/~PixTestDacDacScan:L135> PixTestDacDacScan dtor
+[13:55:30.525]    DEBUG: <PixTestDacScan.cc/~PixTestDacScan:L115> PixTestDacScan dtor
+[13:55:30.525]    DEBUG: <PixTestGainPedestal.cc/~PixTestGainPedestal:L121> PixTestGainPedestal dtor
+[13:55:30.525]    DEBUG: <PixTestHighRate.cc/~PixTestHighRate:L203> PixTestHighRate dtor
+[13:55:30.525]    DEBUG: <PixTestIV.cc/~PixTestIV:L96> PixTestIV dtor
+[13:55:30.561]    DEBUG: <PixTestAlive.cc/~PixTestAlive:L108> PixTestAlive dtor
+[13:55:30.561]    DEBUG: <PixTestPretest.cc/~PixTestPretest:L133> PixTestPretest dtor
+[13:55:30.561]    DEBUG: <PixTestReadback.cc/~PixTestReadback:L89> PixTestReadback dtor, saving tree ... 
+[13:55:30.562]    DEBUG: <PixTestScurves.cc/~PixTestScurves:L127> PixTestScurves dtor
+[13:55:30.562]    DEBUG: <PixTestTiming.cc/~PixTestTiming:L87> PixTestTiming dtor
+[13:55:30.562]    DEBUG: <PixTestTrim.cc/~PixTestTrim:L103> PixTestTrim dtor
+[13:55:30.562]    DEBUG: <PixTestXray.cc/~PixTestXray:L215> PixTestXray dtor
+[13:55:30.565]    QUIET: Connection to board 58 closed.
+[13:55:30.565]    DEBUG: <PixMonitor.cc/dumpSummaries:L34> PixMonitor::dumpSummaries
