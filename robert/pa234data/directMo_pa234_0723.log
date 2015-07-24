@@ -1,0 +1,232 @@
+[15:02:21.894]     INFO: *** Welcome to pxar ***
+[15:02:21.894]     INFO: *** Today: 2015/07/23
+[15:02:21.894]     INFO:       reading data/pa234/dacParameters35_C0.dat
+[15:02:21.894]     INFO:       reading data/pa234/dacParameters35_C1.dat
+[15:02:21.894]     INFO:       reading data/pa234/dacParameters35_C2.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C3.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C4.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C5.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C6.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C7.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C8.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C9.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C10.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C11.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C12.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C13.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C14.dat
+[15:02:21.895]     INFO:       reading data/pa234/dacParameters35_C15.dat
+[15:02:21.895]     INFO:       reading data/pa234/tbmParameters_C0a.dat
+[15:02:21.895]     INFO:       reading data/pa234/tbmParameters_C0b.dat
+[15:02:21.896]     INFO:       reading data/pa234/defaultMaskFile.dat
+[15:02:21.896]     INFO: MASKED Roc 3 col/row: 18 67
+[15:02:21.896]     INFO: MASKED Roc 3 col/row: 42 69
+[15:02:21.896]     INFO: MASKED Roc 7 col/row: 29 36
+[15:02:21.896]     INFO: MASKED Roc 8 col/row: 41 23
+[15:02:21.896]     INFO: MASKED Roc 8 col/row: 41 40
+[15:02:21.896]     INFO: MASKED Roc 15 col/row: 33 70
+[15:02:21.896]     INFO:       reading data/pa234/trimParameters35_C0.dat
+[15:02:21.903]     INFO:       reading data/pa234/trimParameters35_C1.dat
+[15:02:21.911]     INFO:       reading data/pa234/trimParameters35_C2.dat
+[15:02:21.918]     INFO:   masking Roc 3 col/row: 18 67
+[15:02:21.918]     INFO:   masking Roc 3 col/row: 42 69
+[15:02:21.919]     INFO:       reading data/pa234/trimParameters35_C3.dat
+[15:02:21.926]     INFO:       reading data/pa234/trimParameters35_C4.dat
+[15:02:21.933]     INFO:       reading data/pa234/trimParameters35_C5.dat
+[15:02:21.941]     INFO:       reading data/pa234/trimParameters35_C6.dat
+[15:02:21.948]     INFO:   masking Roc 7 col/row: 29 36
+[15:02:21.948]     INFO:       reading data/pa234/trimParameters35_C7.dat
+[15:02:21.956]     INFO:   masking Roc 8 col/row: 41 23
+[15:02:21.956]     INFO:   masking Roc 8 col/row: 41 40
+[15:02:21.956]     INFO:       reading data/pa234/trimParameters35_C8.dat
+[15:02:21.964]     INFO:       reading data/pa234/trimParameters35_C9.dat
+[15:02:21.971]     INFO:       reading data/pa234/trimParameters35_C10.dat
+[15:02:21.978]     INFO:       reading data/pa234/trimParameters35_C11.dat
+[15:02:21.986]     INFO:       reading data/pa234/trimParameters35_C12.dat
+[15:02:21.993]     INFO:       reading data/pa234/trimParameters35_C13.dat
+[15:02:22.000]     INFO:       reading data/pa234/trimParameters35_C14.dat
+[15:02:22.008]     INFO:   masking Roc 15 col/row: 33 70
+[15:02:22.008]     INFO:       reading data/pa234/trimParameters35_C15.dat
+[15:02:22.015]     INFO:       reading data/pa234/tbParameters.dat
+[15:02:22.015]     INFO:         clk: 4
+[15:02:22.015]     INFO:         ctr: 4
+[15:02:22.015]     INFO:         sda: 19
+[15:02:22.015]     INFO:         tin: 9
+[15:02:22.015]     INFO:         level: 9
+[15:02:22.015]     INFO:         triggerdelay: 0
+[15:02:22.016]    QUIET: Instanciating API for pxar v1.9.0
+[15:02:22.016]     INFO: Log level: INFO
+[15:02:22.029]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:02:22.032]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:02:22.035]     INFO: RPC call hashes of host and DTB match: 413001178
+[15:02:23.645]     INFO: DUT info: 
+[15:02:23.645]     INFO: The DUT currently contains the following objects:
+[15:02:23.645]     INFO:  2 TBM Cores (2 ON)
+[15:02:23.645]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:02:23.645]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:02:23.645]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[15:02:23.645]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 3: 19 DACs set, Pixels: 2 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 7: 19 DACs set, Pixels: 1 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 8: 19 DACs set, Pixels: 2 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:02:23.645]     INFO: 	ROC 15: 19 DACs set, Pixels: 1 masked, 4160 active.
+[15:02:24.213]     INFO:       reading data/pa234/phCalibrationFitErr35_C0.dat
+[15:02:24.229]     INFO:       reading data/pa234/phCalibrationFitErr35_C1.dat
+[15:02:24.245]     INFO:       reading data/pa234/phCalibrationFitErr35_C2.dat
+[15:02:24.260]     INFO:       reading data/pa234/phCalibrationFitErr35_C3.dat
+[15:02:24.275]     INFO:       reading data/pa234/phCalibrationFitErr35_C4.dat
+[15:02:24.291]     INFO:       reading data/pa234/phCalibrationFitErr35_C5.dat
+[15:02:24.306]     INFO:       reading data/pa234/phCalibrationFitErr35_C6.dat
+[15:02:24.322]     INFO:       reading data/pa234/phCalibrationFitErr35_C7.dat
+[15:02:24.337]     INFO:       reading data/pa234/phCalibrationFitErr35_C8.dat
+[15:02:24.353]     INFO:       reading data/pa234/phCalibrationFitErr35_C9.dat
+[15:02:24.368]     INFO:       reading data/pa234/phCalibrationFitErr35_C10.dat
+[15:02:24.384]     INFO:       reading data/pa234/phCalibrationFitErr35_C11.dat
+[15:02:24.399]     INFO:       reading data/pa234/phCalibrationFitErr35_C12.dat
+[15:02:24.414]     INFO:       reading data/pa234/phCalibrationFitErr35_C13.dat
+[15:02:24.429]     INFO:       reading data/pa234/phCalibrationFitErr35_C14.dat
+[15:02:24.444]     INFO:       reading data/pa234/phCalibrationFitErr35_C15.dat
+[15:02:24.525]     INFO:       reading data/pa234/readbackCal_C0.dat
+[15:02:24.525]     INFO:       reading data/pa234/readbackCal_C1.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C2.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C3.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C4.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C5.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C6.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C7.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C8.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C9.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C10.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C11.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C12.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C13.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C14.dat
+[15:02:24.526]     INFO:       reading data/pa234/readbackCal_C15.dat
+[15:03:09.320]     INFO: ######################################################################
+[15:03:09.320]     INFO: PixTestXray::doTest()
+[15:03:09.320]     INFO: ######################################################################
+[15:03:09.320]     INFO:    ----------------------------------------------------------------------
+[15:03:09.320]     INFO:    PixTestXray::doPhRun() fParRunSeconds = 240
+[15:03:09.320]     INFO:    ----------------------------------------------------------------------
+[15:03:09.322]     INFO:       reading data/pa234/defaultMaskFile.dat
+[15:03:09.322]     INFO: ROC 3 masking pixel 18/67
+[15:03:09.322]     INFO: ROC 3 masking pixel 42/69
+[15:03:09.322]     INFO: ROC 7 masking pixel 29/36
+[15:03:09.322]     INFO: ROC 8 masking pixel 41/23
+[15:03:09.322]     INFO: ROC 8 masking pixel 41/40
+[15:03:09.322]     INFO: ROC 15 masking pixel 33/70
+[15:03:09.322]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[15:03:10.300]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[15:03:11.480]     INFO: PixTestXray::doPhRun start TriggerLoop with trigger frequency 100 kHz, period 405 and duration 240 seconds,  fEventsMax = 24000000
+[15:03:20.232]     INFO: run duration 8 seconds, buffer almost full (81%), pausing triggers.
+[15:03:31.200]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:03:33.657]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:03:51.385]     INFO: Resuming triggers.
+[15:04:00.145]     INFO: run duration 17 seconds, buffer almost full (81%), pausing triggers.
+[15:04:03.867]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:04:03.867]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (71) !=  TBM ID (0)
+[15:04:03.867]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:04:03.867]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (1) !=  TBM ID (71)
+[15:04:03.867]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:03.867]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:05.131]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[15:04:05.131]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (90) !=  TBM ID (212)
+[15:04:05.131]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (4) != Token Chain Length (8)
+[15:04:05.131]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (213) !=  TBM ID (90)
+[15:04:05.132]  WARNING: ROC 0: Readback start marker after 17 readouts!
+[15:04:05.132]  WARNING: ROC 1: Readback start marker after 17 readouts!
+[15:04:05.132]  WARNING: ROC 2: Readback start marker after 17 readouts!
+[15:04:05.132]  WARNING: ROC 3: Readback start marker after 17 readouts!
+[15:04:05.132]  WARNING: ROC 4: Readback start marker after 15 readouts!
+[15:04:05.132]  WARNING: ROC 5: Readback start marker after 15 readouts!
+[15:04:05.132]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:04:05.132]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:04:32.690]     INFO: Resuming triggers.
+[15:04:41.449]     INFO: run duration 26 seconds, buffer almost full (81%), pausing triggers.
+[15:05:13.713]     INFO: Resuming triggers.
+[15:05:22.501]     INFO: run duration 35 seconds, buffer almost full (81%), pausing triggers.
+[15:05:33.459]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:05:54.781]     INFO: Resuming triggers.
+[15:06:03.534]     INFO: run duration 43 seconds, buffer almost full (81%), pausing triggers.
+[15:06:35.887]     INFO: Resuming triggers.
+[15:06:44.641]     INFO: run duration 52 seconds, buffer almost full (81%), pausing triggers.
+[15:06:47.864]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:07:16.959]     INFO: Resuming triggers.
+[15:07:25.721]     INFO: run duration 61 seconds, buffer almost full (81%), pausing triggers.
+[15:07:58.171]     INFO: Resuming triggers.
+[15:08:06.964]     INFO: run duration 70 seconds, buffer almost full (81%), pausing triggers.
+[15:08:39.280]     INFO: Resuming triggers.
+[15:08:48.033]     INFO: run duration 78 seconds, buffer almost full (81%), pausing triggers.
+[15:09:20.181]     INFO: Resuming triggers.
+[15:09:28.939]     INFO: run duration 87 seconds, buffer almost full (81%), pausing triggers.
+[15:10:00.208]     INFO: Resuming triggers.
+[15:10:08.966]     INFO: run duration 96 seconds, buffer almost full (81%), pausing triggers.
+[15:10:41.263]     INFO: Resuming triggers.
+[15:10:50.016]     INFO: run duration 105 seconds, buffer almost full (81%), pausing triggers.
+[15:11:22.145]     INFO: Resuming triggers.
+[15:11:30.894]     INFO: run duration 113 seconds, buffer almost full (81%), pausing triggers.
+[15:11:39.550]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:12:03.096]     INFO: Resuming triggers.
+[15:12:11.830]     INFO: run duration 122 seconds, buffer almost full (81%), pausing triggers.
+[15:12:44.146]     INFO: Resuming triggers.
+[15:12:52.889]     INFO: run duration 131 seconds, buffer almost full (81%), pausing triggers.
+[15:13:25.312]     INFO: Resuming triggers.
+[15:13:34.065]     INFO: run duration 140 seconds, buffer almost full (81%), pausing triggers.
+[15:14:05.875]     INFO: Resuming triggers.
+[15:14:14.624]     INFO: run duration 148 seconds, buffer almost full (81%), pausing triggers.
+[15:14:47.052]     INFO: Resuming triggers.
+[15:14:55.795]     INFO: run duration 157 seconds, buffer almost full (81%), pausing triggers.
+[15:15:08.752]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:15:28.405]     INFO: Resuming triggers.
+[15:15:37.147]     INFO: run duration 166 seconds, buffer almost full (81%), pausing triggers.
+[15:16:09.756]     INFO: Resuming triggers.
+[15:16:18.492]     INFO: run duration 175 seconds, buffer almost full (81%), pausing triggers.
+[15:16:51.572]     INFO: Resuming triggers.
+[15:17:00.322]     INFO: run duration 183 seconds, buffer almost full (81%), pausing triggers.
+[15:17:33.109]     INFO: Resuming triggers.
+[15:17:41.856]     INFO: run duration 192 seconds, buffer almost full (81%), pausing triggers.
+[15:17:42.569]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:17:53.601]  WARNING: ROC 6: Readback start marker after 32 readouts!
+[15:18:14.447]     INFO: Resuming triggers.
+[15:18:23.201]     INFO: run duration 201 seconds, buffer almost full (81%), pausing triggers.
+[15:18:55.005]     INFO: Resuming triggers.
+[15:19:03.755]     INFO: run duration 210 seconds, buffer almost full (81%), pausing triggers.
+[15:19:35.222]     INFO: Resuming triggers.
+[15:19:43.980]     INFO: run duration 218 seconds, buffer almost full (81%), pausing triggers.
+[15:20:14.585]     INFO: Resuming triggers.
+[15:20:23.338]     INFO: run duration 227 seconds, buffer almost full (81%), pausing triggers.
+[15:20:34.660]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:20:34.660]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (8) !=  TBM ID (0)
+[15:20:34.660]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (0) != Token Chain Length (8)
+[15:20:34.660]    ERROR: <datapipe.cc/CheckEventID:L127>    Event ID mismatch:  local ID (1) !=  TBM ID (8)
+[15:20:34.660]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:20:34.660]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:20:54.902]     INFO: Resuming triggers.
+[15:21:03.650]     INFO: run duration 236 seconds, buffer almost full (81%), pausing triggers.
+[15:21:33.956]     INFO: Resuming triggers.
+[15:21:37.651]     INFO: data taking finished, elapsed time: 240 seconds.
+[15:21:51.178]     INFO: PixTest::       pg_setup set to default.
+[15:21:51.213]     INFO: PixTestXray::doPhRun() done
+[15:21:51.213]     INFO: PixTestXray::doTest() done 
+[15:24:59.168]    QUIET: Connection to board 58 closed.

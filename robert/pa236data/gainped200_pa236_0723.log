@@ -1,0 +1,187 @@
+[16:28:55.765]     INFO: *** Welcome to pxar ***
+[16:28:55.765]     INFO: *** Today: 2015/07/23
+[16:28:55.765]     INFO:       reading data/pa236/dacParameters35_C0.dat
+[16:28:55.765]     INFO:       reading data/pa236/dacParameters35_C1.dat
+[16:28:55.765]     INFO:       reading data/pa236/dacParameters35_C2.dat
+[16:28:55.765]     INFO:       reading data/pa236/dacParameters35_C3.dat
+[16:28:55.765]     INFO:       reading data/pa236/dacParameters35_C4.dat
+[16:28:55.765]     INFO:       reading data/pa236/dacParameters35_C5.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C6.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C7.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C8.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C9.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C10.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C11.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C12.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C13.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C14.dat
+[16:28:55.766]     INFO:       reading data/pa236/dacParameters35_C15.dat
+[16:28:55.766]     INFO:       reading data/pa236/tbmParameters_C0a.dat
+[16:28:55.766]     INFO:       reading data/pa236/tbmParameters_C0b.dat
+[16:28:55.766]     INFO:       reading data/pa236/defaultMaskFile.dat
+[16:28:55.766]     INFO: MASKED Roc 2 col/row: 8 0
+[16:28:55.766]     INFO:       reading data/pa236/trimParameters35_C0.dat
+[16:28:55.773]     INFO:       reading data/pa236/trimParameters35_C1.dat
+[16:28:55.780]     INFO:   masking Roc 2 col/row: 8 0
+[16:28:55.780]     INFO:       reading data/pa236/trimParameters35_C2.dat
+[16:28:55.786]     INFO:       reading data/pa236/trimParameters35_C3.dat
+[16:28:55.793]     INFO:       reading data/pa236/trimParameters35_C4.dat
+[16:28:55.799]     INFO:       reading data/pa236/trimParameters35_C5.dat
+[16:28:55.806]     INFO:       reading data/pa236/trimParameters35_C6.dat
+[16:28:55.812]     INFO:       reading data/pa236/trimParameters35_C7.dat
+[16:28:55.818]     INFO:       reading data/pa236/trimParameters35_C8.dat
+[16:28:55.825]     INFO:       reading data/pa236/trimParameters35_C9.dat
+[16:28:55.831]     INFO:       reading data/pa236/trimParameters35_C10.dat
+[16:28:55.838]     INFO:       reading data/pa236/trimParameters35_C11.dat
+[16:28:55.844]     INFO:       reading data/pa236/trimParameters35_C12.dat
+[16:28:55.851]     INFO:       reading data/pa236/trimParameters35_C13.dat
+[16:28:55.857]     INFO:       reading data/pa236/trimParameters35_C14.dat
+[16:28:55.864]     INFO:       reading data/pa236/trimParameters35_C15.dat
+[16:28:55.870]     INFO:       reading data/pa236/tbParameters.dat
+[16:28:55.870]     INFO:         clk: 4
+[16:28:55.870]     INFO:         ctr: 4
+[16:28:55.870]     INFO:         sda: 19
+[16:28:55.870]     INFO:         tin: 9
+[16:28:55.870]     INFO:         level: 15
+[16:28:55.870]     INFO:         triggerdelay: 0
+[16:28:55.870]    QUIET: Instanciating API for pxar v1.9.0
+[16:28:55.870]     INFO: Log level: INFO
+[16:28:55.884]    QUIET: Connection to board DTB_WRPRHI opened.
+[16:28:55.887]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[16:28:55.891]     INFO: RPC call hashes of host and DTB match: 413001178
+[16:28:57.501]     INFO: DUT info: 
+[16:28:57.501]     INFO: The DUT currently contains the following objects:
+[16:28:57.501]     INFO:  2 TBM Cores (2 ON)
+[16:28:57.501]     INFO: 	TBM Core alpha (0): 7 registers set
+[16:28:57.501]     INFO: 	TBM Core beta  (1): 7 registers set
+[16:28:57.501]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[16:28:57.501]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 2: 19 DACs set, Pixels: 1 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:57.501]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:28:58.074]     INFO:       reading data/pa236/phCalibrationFitErr35_C0.dat
+[16:28:58.091]     INFO:       reading data/pa236/phCalibrationFitErr35_C1.dat
+[16:28:58.106]     INFO:       reading data/pa236/phCalibrationFitErr35_C2.dat
+[16:28:58.122]     INFO:       reading data/pa236/phCalibrationFitErr35_C3.dat
+[16:28:58.137]     INFO:       reading data/pa236/phCalibrationFitErr35_C4.dat
+[16:28:58.154]     INFO:       reading data/pa236/phCalibrationFitErr35_C5.dat
+[16:28:58.170]     INFO:       reading data/pa236/phCalibrationFitErr35_C6.dat
+[16:28:58.185]     INFO:       reading data/pa236/phCalibrationFitErr35_C7.dat
+[16:28:58.201]     INFO:       reading data/pa236/phCalibrationFitErr35_C8.dat
+[16:28:58.217]     INFO:       reading data/pa236/phCalibrationFitErr35_C9.dat
+[16:28:58.233]     INFO:       reading data/pa236/phCalibrationFitErr35_C10.dat
+[16:28:58.248]     INFO:       reading data/pa236/phCalibrationFitErr35_C11.dat
+[16:28:58.263]     INFO:       reading data/pa236/phCalibrationFitErr35_C12.dat
+[16:28:58.279]     INFO:       reading data/pa236/phCalibrationFitErr35_C13.dat
+[16:28:58.294]     INFO:       reading data/pa236/phCalibrationFitErr35_C14.dat
+[16:28:58.309]     INFO:       reading data/pa236/phCalibrationFitErr35_C15.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C0.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C1.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C2.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C3.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C4.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C5.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C6.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C7.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C8.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C9.dat
+[16:28:58.394]     INFO:       reading data/pa236/readbackCal_C10.dat
+[16:28:58.395]     INFO:       reading data/pa236/readbackCal_C11.dat
+[16:28:58.395]     INFO:       reading data/pa236/readbackCal_C12.dat
+[16:28:58.395]     INFO:       reading data/pa236/readbackCal_C13.dat
+[16:28:58.395]     INFO:       reading data/pa236/readbackCal_C14.dat
+[16:28:58.395]     INFO:       reading data/pa236/readbackCal_C15.dat
+[16:29:01.587]     INFO: ######################################################################
+[16:29:01.587]     INFO: PixTestGainPedestal::doTest() ntrig = 10
+[16:29:01.587]     INFO: ######################################################################
+[16:29:01.587]     INFO: Measure
+[16:29:01.623]     INFO: scanning low vcal = 10
+[16:29:05.559]     INFO: Test took 3936ms.
+[16:29:05.565]     INFO: scanning low vcal = 20
+[16:29:09.489]     INFO: Test took 3924ms.
+[16:29:09.495]     INFO: scanning low vcal = 30
+[16:29:13.440]     INFO: Test took 3945ms.
+[16:29:13.448]     INFO: scanning low vcal = 40
+[16:29:17.929]     INFO: Test took 4481ms.
+[16:29:18.075]     INFO: scanning low vcal = 50
+[16:29:22.621]     INFO: Test took 4546ms.
+[16:29:22.787]     INFO: scanning low vcal = 60
+[16:29:27.332]     INFO: Test took 4545ms.
+[16:29:27.493]     INFO: scanning low vcal = 70
+[16:29:32.039]     INFO: Test took 4546ms.
+[16:29:32.202]     INFO: scanning low vcal = 80
+[16:29:36.750]     INFO: Test took 4548ms.
+[16:29:36.915]     INFO: scanning low vcal = 90
+[16:29:41.471]     INFO: Test took 4556ms.
+[16:29:41.637]     INFO: scanning low vcal = 100
+[16:29:46.183]     INFO: Test took 4546ms.
+[16:29:46.348]     INFO: scanning low vcal = 110
+[16:29:50.896]     INFO: Test took 4548ms.
+[16:29:51.059]     INFO: scanning low vcal = 120
+[16:29:55.614]     INFO: Test took 4555ms.
+[16:29:55.778]     INFO: scanning low vcal = 130
+[16:30:00.330]     INFO: Test took 4552ms.
+[16:30:00.495]     INFO: scanning low vcal = 140
+[16:30:05.145]     INFO: Test took 4650ms.
+[16:30:05.310]     INFO: scanning low vcal = 150
+[16:30:09.858]     INFO: Test took 4548ms.
+[16:30:10.020]     INFO: scanning low vcal = 160
+[16:30:14.563]     INFO: Test took 4543ms.
+[16:30:14.728]     INFO: scanning low vcal = 170
+[16:30:19.273]     INFO: Test took 4545ms.
+[16:30:19.442]     INFO: scanning low vcal = 180
+[16:30:23.984]     INFO: Test took 4542ms.
+[16:30:24.148]     INFO: scanning low vcal = 190
+[16:30:28.689]     INFO: Test took 4541ms.
+[16:30:28.853]     INFO: scanning low vcal = 200
+[16:30:33.397]     INFO: Test took 4544ms.
+[16:30:33.563]     INFO: scanning low vcal = 210
+[16:30:38.104]     INFO: Test took 4541ms.
+[16:30:38.271]     INFO: scanning low vcal = 220
+[16:30:42.816]     INFO: Test took 4545ms.
+[16:30:42.980]     INFO: scanning low vcal = 230
+[16:30:47.524]     INFO: Test took 4544ms.
+[16:30:47.688]     INFO: scanning low vcal = 240
+[16:30:52.232]     INFO: Test took 4544ms.
+[16:30:52.396]     INFO: scanning low vcal = 250
+[16:30:56.944]     INFO: Test took 4548ms.
+[16:30:57.111]     INFO: scanning high vcal = 30 (= 210 in low range)
+[16:31:01.656]     INFO: Test took 4545ms.
+[16:31:01.821]     INFO: scanning high vcal = 50 (= 350 in low range)
+[16:31:06.367]     INFO: Test took 4545ms.
+[16:31:06.531]     INFO: scanning high vcal = 70 (= 490 in low range)
+[16:31:11.075]     INFO: Test took 4543ms.
+[16:31:11.242]     INFO: scanning high vcal = 90 (= 630 in low range)
+[16:31:15.799]     INFO: Test took 4557ms.
+[16:31:15.965]     INFO: scanning high vcal = 200 (= 1400 in low range)
+[16:31:20.511]     INFO: Test took 4546ms.
+[16:31:21.552]     INFO: PixTestGainPedestal::measure() done 
+[16:31:21.552]     INFO: Fit
+[16:32:23.627]     INFO: PixTestGainPedestal::fit() done
+[16:32:23.627]     INFO: non-linearity mean:  0.956 0.956 0.962 0.957 0.958 0.959 0.960 0.958 0.960 0.968 0.958 0.954 0.958 0.955 0.961 0.958
+[16:32:23.627]     INFO: non-linearity RMS:   0.009 0.007 0.006 0.007 0.007 0.006 0.007 0.006 0.006 0.004 0.006 0.008 0.005 0.006 0.005 0.006
+[16:32:23.627]     INFO: Save
+[16:32:24.105]     INFO: PixTestGainPedestal::doTest() done, duration: 202 seconds
+[16:32:40.968]    QUIET: Connection to board 58 closed.

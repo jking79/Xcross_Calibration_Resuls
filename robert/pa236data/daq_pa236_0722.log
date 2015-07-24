@@ -1,0 +1,116 @@
+[17:22:55.189]     INFO: *** Welcome to pxar ***
+[17:22:55.189]     INFO: *** Today: 2015/07/22
+[17:22:55.189]     INFO:       reading data/pa236/dacParameters35_C0.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C1.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C2.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C3.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C4.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C5.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C6.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C7.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C8.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C9.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C10.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C11.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C12.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C13.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C14.dat
+[17:22:55.190]     INFO:       reading data/pa236/dacParameters35_C15.dat
+[17:22:55.190]     INFO:       reading data/pa236/tbmParameters_C0a.dat
+[17:22:55.190]     INFO:       reading data/pa236/tbmParameters_C0b.dat
+[17:22:55.191]     INFO:       reading data/pa236/defaultMaskFile.dat
+[17:22:55.191]     INFO: MASKED Roc 2 col/row: 8 0
+[17:22:55.191]     INFO:       reading data/pa236/trimParameters35_C0.dat
+[17:22:55.197]     INFO:       reading data/pa236/trimParameters35_C1.dat
+[17:22:55.204]     INFO:   masking Roc 2 col/row: 8 0
+[17:22:55.204]     INFO:       reading data/pa236/trimParameters35_C2.dat
+[17:22:55.211]     INFO:       reading data/pa236/trimParameters35_C3.dat
+[17:22:55.217]     INFO:       reading data/pa236/trimParameters35_C4.dat
+[17:22:55.224]     INFO:       reading data/pa236/trimParameters35_C5.dat
+[17:22:55.230]     INFO:       reading data/pa236/trimParameters35_C6.dat
+[17:22:55.237]     INFO:       reading data/pa236/trimParameters35_C7.dat
+[17:22:55.243]     INFO:       reading data/pa236/trimParameters35_C8.dat
+[17:22:55.250]     INFO:       reading data/pa236/trimParameters35_C9.dat
+[17:22:55.256]     INFO:       reading data/pa236/trimParameters35_C10.dat
+[17:22:55.262]     INFO:       reading data/pa236/trimParameters35_C11.dat
+[17:22:55.269]     INFO:       reading data/pa236/trimParameters35_C12.dat
+[17:22:55.275]     INFO:       reading data/pa236/trimParameters35_C13.dat
+[17:22:55.282]     INFO:       reading data/pa236/trimParameters35_C14.dat
+[17:22:55.288]     INFO:       reading data/pa236/trimParameters35_C15.dat
+[17:22:55.295]     INFO:       reading data/pa236/tbParameters.dat
+[17:22:55.295]     INFO:         clk: 4
+[17:22:55.295]     INFO:         ctr: 4
+[17:22:55.295]     INFO:         sda: 19
+[17:22:55.295]     INFO:         tin: 9
+[17:22:55.295]     INFO:         level: 15
+[17:22:55.295]     INFO:         triggerdelay: 0
+[17:22:55.295]    QUIET: Instanciating API for pxar v1.9.0
+[17:22:55.295]     INFO: Log level: INFO
+[17:22:55.308]    QUIET: Connection to board DTB_WRPRHI opened.
+[17:22:55.312]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[17:22:55.315]     INFO: RPC call hashes of host and DTB match: 413001178
+[17:22:56.925]     INFO: DUT info: 
+[17:22:56.925]     INFO: The DUT currently contains the following objects:
+[17:22:56.925]     INFO:  2 TBM Cores (2 ON)
+[17:22:56.925]     INFO: 	TBM Core alpha (0): 7 registers set
+[17:22:56.925]     INFO: 	TBM Core beta  (1): 7 registers set
+[17:22:56.925]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[17:22:56.925]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 2: 19 DACs set, Pixels: 1 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:56.925]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 4160 active.
+[17:22:57.493]     INFO:       reading data/pa236/phCalibrationFitErr35_C0.dat
+[17:22:57.510]     INFO:       reading data/pa236/phCalibrationFitErr35_C1.dat
+[17:22:57.525]     INFO:       reading data/pa236/phCalibrationFitErr35_C2.dat
+[17:22:57.541]     INFO:       reading data/pa236/phCalibrationFitErr35_C3.dat
+[17:22:57.556]     INFO:       reading data/pa236/phCalibrationFitErr35_C4.dat
+[17:22:57.571]     INFO:       reading data/pa236/phCalibrationFitErr35_C5.dat
+[17:22:57.587]     INFO:       reading data/pa236/phCalibrationFitErr35_C6.dat
+[17:22:57.602]     INFO:       reading data/pa236/phCalibrationFitErr35_C7.dat
+[17:22:57.617]     INFO:       reading data/pa236/phCalibrationFitErr35_C8.dat
+[17:22:57.633]     INFO:       reading data/pa236/phCalibrationFitErr35_C9.dat
+[17:22:57.648]     INFO:       reading data/pa236/phCalibrationFitErr35_C10.dat
+[17:22:57.663]     INFO:       reading data/pa236/phCalibrationFitErr35_C11.dat
+[17:22:57.678]     INFO:       reading data/pa236/phCalibrationFitErr35_C12.dat
+[17:22:57.693]     INFO:       reading data/pa236/phCalibrationFitErr35_C13.dat
+[17:22:57.708]     INFO:       reading data/pa236/phCalibrationFitErr35_C14.dat
+[17:22:57.723]     INFO:       reading data/pa236/phCalibrationFitErr35_C15.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C0.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C1.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C2.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C3.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C4.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C5.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C6.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C7.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C8.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C9.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C10.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C11.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C12.dat
+[17:22:57.805]     INFO:       reading data/pa236/readbackCal_C13.dat
+[17:22:57.806]     INFO:       reading data/pa236/readbackCal_C14.dat
+[17:22:57.806]     INFO:       reading data/pa236/readbackCal_C15.dat
+[17:23:39.843]    QUIET: Connection to board 58 closed.
