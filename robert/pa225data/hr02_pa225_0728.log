@@ -1,0 +1,260 @@
+[15:51:04.310]     INFO: *** Welcome to pxar ***
+[15:51:04.311]     INFO: *** Today: 2015/07/28
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C0.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C1.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C2.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C3.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C4.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C5.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C6.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C7.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C8.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C9.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C10.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C11.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C12.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C13.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C14.dat
+[15:51:04.311]     INFO:       reading data/pa225//dacParameters35_C15.dat
+[15:51:04.312]     INFO:       reading data/pa225//tbmParameters_C0a.dat
+[15:51:04.312]     INFO:       reading data/pa225//tbmParameters_C0b.dat
+[15:51:04.312]     INFO:       reading data/pa225//defaultMaskFile.dat
+[15:51:04.312]     INFO:       reading data/pa225//trimParameters35_C0.dat
+[15:51:04.318]     INFO:       reading data/pa225//trimParameters35_C1.dat
+[15:51:04.325]     INFO:       reading data/pa225//trimParameters35_C2.dat
+[15:51:04.332]     INFO:       reading data/pa225//trimParameters35_C3.dat
+[15:51:04.338]     INFO:       reading data/pa225//trimParameters35_C4.dat
+[15:51:04.345]     INFO:       reading data/pa225//trimParameters35_C5.dat
+[15:51:04.351]     INFO:       reading data/pa225//trimParameters35_C6.dat
+[15:51:04.358]     INFO:       reading data/pa225//trimParameters35_C7.dat
+[15:51:04.364]     INFO:       reading data/pa225//trimParameters35_C8.dat
+[15:51:04.371]     INFO:       reading data/pa225//trimParameters35_C9.dat
+[15:51:04.377]     INFO:       reading data/pa225//trimParameters35_C10.dat
+[15:51:04.384]     INFO:       reading data/pa225//trimParameters35_C11.dat
+[15:51:04.390]     INFO:       reading data/pa225//trimParameters35_C12.dat
+[15:51:04.397]     INFO:       reading data/pa225//trimParameters35_C13.dat
+[15:51:04.403]     INFO:       reading data/pa225//trimParameters35_C14.dat
+[15:51:04.410]     INFO:       reading data/pa225//trimParameters35_C15.dat
+[15:51:04.417]     INFO:       reading data/pa225//tbParameters.dat
+[15:51:04.417]     INFO:         clk: 4
+[15:51:04.417]     INFO:         ctr: 4
+[15:51:04.417]     INFO:         sda: 19
+[15:51:04.417]     INFO:         tin: 9
+[15:51:04.417]     INFO:         level: 15
+[15:51:04.417]     INFO:         triggerdelay: 0
+[15:51:04.417]    QUIET: Instanciating API for pxar v1.9.0
+[15:51:04.417]     INFO: Log level: INFO
+[15:51:04.430]    QUIET: Connection to board DTB_WRPRHI opened.
+[15:51:04.435]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[15:51:04.438]     INFO: RPC call hashes of host and DTB match: 413001178
+[15:51:06.048]     INFO: DUT info: 
+[15:51:06.048]     INFO: The DUT currently contains the following objects:
+[15:51:06.048]     INFO:  2 TBM Cores (2 ON)
+[15:51:06.048]     INFO: 	TBM Core alpha (0): 7 registers set
+[15:51:06.048]     INFO: 	TBM Core beta  (1): 7 registers set
+[15:51:06.048]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[15:51:06.048]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.048]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 4160 active.
+[15:51:06.615]     INFO:       reading data/pa225//phCalibrationFitErr35_C0.dat
+[15:51:06.631]     INFO:       reading data/pa225//phCalibrationFitErr35_C1.dat
+[15:51:06.646]     INFO:       reading data/pa225//phCalibrationFitErr35_C2.dat
+[15:51:06.662]     INFO:       reading data/pa225//phCalibrationFitErr35_C3.dat
+[15:51:06.677]     INFO:       reading data/pa225//phCalibrationFitErr35_C4.dat
+[15:51:06.692]     INFO:       reading data/pa225//phCalibrationFitErr35_C5.dat
+[15:51:06.708]     INFO:       reading data/pa225//phCalibrationFitErr35_C6.dat
+[15:51:06.723]     INFO:       reading data/pa225//phCalibrationFitErr35_C7.dat
+[15:51:06.738]     INFO:       reading data/pa225//phCalibrationFitErr35_C8.dat
+[15:51:06.755]     INFO:       reading data/pa225//phCalibrationFitErr35_C9.dat
+[15:51:06.770]     INFO:       reading data/pa225//phCalibrationFitErr35_C10.dat
+[15:51:06.785]     INFO:       reading data/pa225//phCalibrationFitErr35_C11.dat
+[15:51:06.801]     INFO:       reading data/pa225//phCalibrationFitErr35_C12.dat
+[15:51:06.816]     INFO:       reading data/pa225//phCalibrationFitErr35_C13.dat
+[15:51:06.831]     INFO:       reading data/pa225//phCalibrationFitErr35_C14.dat
+[15:51:06.846]     INFO:       reading data/pa225//phCalibrationFitErr35_C15.dat
+[15:51:06.924]     INFO:       reading data/pa225//readbackCal_C0.dat
+[15:51:06.924]     INFO:       reading data/pa225//readbackCal_C1.dat
+[15:51:06.924]     INFO:       reading data/pa225//readbackCal_C2.dat
+[15:51:06.924]     INFO:       reading data/pa225//readbackCal_C3.dat
+[15:51:06.924]     INFO:       reading data/pa225//readbackCal_C4.dat
+[15:51:06.924]     INFO:       reading data/pa225//readbackCal_C5.dat
+[15:51:06.924]     INFO:       reading data/pa225//readbackCal_C6.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C7.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C8.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C9.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C10.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C11.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C12.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C13.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C14.dat
+[15:51:06.925]     INFO:       reading data/pa225//readbackCal_C15.dat
+[15:51:12.834]     INFO: ######################################################################
+[15:51:12.834]     INFO: PixTestHighRate::doTest()
+[15:51:12.834]     INFO: ######################################################################
+[15:51:12.834]     INFO:    ----------------------------------------------------------------------
+[15:51:12.834]     INFO:    PixTestHighRate::calDelScan() ntrig = 10, vcal = 200
+[15:51:12.834]     INFO:    ----------------------------------------------------------------------
+[15:51:13.915]     INFO: Test took 1077ms.
+[15:51:13.918]     INFO:       reading data/pa225//defaultMaskFile.dat
+[15:51:13.918]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[15:51:18.082]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[15:51:20.969]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:20.969]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:51:20.969]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:51:21.104]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:21.104]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:51:21.104]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:51:21.422]     INFO: Test took 3136ms.
+[15:51:21.566]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:24.518]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:24.518]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:51:24.518]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:51:24.854]     INFO: Test took 3252ms.
+[15:51:25.004]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:28.305]     INFO: Test took 3264ms.
+[15:51:28.457]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:31.383]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:31.383]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:51:31.383]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:51:31.789]     INFO: Test took 3295ms.
+[15:51:31.940]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:35.293]     INFO: Test took 3315ms.
+[15:51:35.445]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:38.760]     INFO: Test took 3278ms.
+[15:51:38.911]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:40.793]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:40.793]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:51:40.793]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:51:42.216]     INFO: Test took 3267ms.
+[15:51:42.368]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:45.658]     INFO: Test took 3253ms.
+[15:51:45.810]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:48.250]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:48.250]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:51:48.250]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:51:48.351]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:48.351]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:51:48.351]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:51:49.132]     INFO: Test took 3284ms.
+[15:51:49.284]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:51.985]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:51.985]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:51:51.985]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:51:52.580]     INFO: Test took 3258ms.
+[15:51:52.733]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:56.045]     INFO: Test took 3275ms.
+[15:51:56.198]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:51:58.692]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:51:58.692]  WARNING: ROC 6: Readback start marker after 31 readouts!
+[15:51:58.692]  WARNING: ROC 7: Readback start marker after 31 readouts!
+[15:51:59.525]     INFO: Test took 3290ms.
+[15:51:59.678]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:01.884]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:01.884]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:01.884]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:02.755]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:02.755]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:02.755]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:02.976]     INFO: Test took 3260ms.
+[15:52:03.128]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:06.203]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:06.203]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:06.203]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:06.424]     INFO: Test took 3259ms.
+[15:52:06.575]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:09.876]     INFO: Test took 3263ms.
+[15:52:10.028]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:11.985]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:11.986]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:11.986]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:12.008]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:12.008]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:12.008]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:12.838]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:12.839]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:12.839]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:13.344]     INFO: Test took 3278ms.
+[15:52:13.496]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:16.387]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:16.387]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:16.387]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:16.795]     INFO: Test took 3261ms.
+[15:52:16.946]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:20.239]     INFO: Test took 3255ms.
+[15:52:20.389]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:22.700]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:22.700]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:22.700]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:23.686]     INFO: Test took 3259ms.
+[15:52:23.837]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:26.046]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:26.046]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:26.046]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:27.039]     INFO: Test took 3164ms.
+[15:52:27.183]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:27.470]     INFO:    ----------------------------------------------------------------------
+[15:52:27.470]     INFO:    PixTestHighRate::xPixelAlive() ntrig = 10, vcal = 200
+[15:52:27.470]     INFO:    ----------------------------------------------------------------------
+[15:52:27.498]     INFO:       reading data/pa225//defaultMaskFile.dat
+[15:52:27.498]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[15:52:31.472]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[15:52:33.814]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:33.814]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:33.814]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:34.083]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:34.087]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:34.087]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:35.161]     INFO: Test took 3494ms.
+[15:52:35.314]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[15:52:35.566]     INFO: number of dead pixels (per ROC):     1    2    1    3    0    0    0    0    0    0    0    0    0    1    0    8
+[15:52:35.567]     INFO: number of red-efficiency pixels:     9   21   44   65   82   52   84   52   32   87   86   71   78   44   14   22
+[15:52:35.567]     INFO: number of X-ray hits detected:    6387 12078 21136 32053 33805 33038 33530 19059 21086 35889 36546 33425 34470 21250 12152 6386
+[15:52:35.567]     INFO: number of triggers sent (total per ROC):  41600 41600 41600 41600 41600 41600 41600 41600 41600 41600 41600 41600 41600 41600 41600 41600
+[15:52:35.567]     INFO: number of Vcal hits detected:  41582 41561 41547 41508 41517 41546 41515 41547 41563 41512 41511 41529 41514 41547 41586 41506
+[15:52:35.567]     INFO: Vcal hit fiducial efficiency (%):  100.0 100.0 99.9 99.9 99.8 99.9 99.8 99.9 99.9 99.8 99.8 99.8 99.8 99.9 100.0 100.0
+[15:52:35.567]     INFO: Vcal hit overall efficiency (%):  100.0 99.9 99.9 99.8 99.8 99.9 99.8 99.9 99.9 99.8 99.8 99.8 99.8 99.9 100.0 99.8
+[15:52:35.567]     INFO: X-ray hit rate [MHz/cm2]:  9.4 17.7 31.0 47.0 49.5 48.4 49.1 27.9 30.9 52.6 53.6 49.0 50.5 31.1 17.8 9.4
+[15:52:35.567]     INFO: PixTestHighRate::doXPixelAlive() done
+[15:52:35.606]     INFO: PixTest::       pg_setup set to default.
+[15:52:35.606]     INFO:    ----------------------------------------------------------------------
+[15:52:35.606]     INFO:    PixTestHighRate::runDaq() running for 5 seconds
+[15:52:35.606]     INFO:    ----------------------------------------------------------------------
+[15:52:35.623]     INFO:       reading data/pa225//defaultMaskFile.dat
+[15:52:35.623]  WARNING: Pattern generator does not contain a trigger signal. No data is expected from the DUT!
+[15:52:36.595]     INFO: IGNORE THE WARNING ABOVE (resetROC sent)!
+[15:52:37.772]     INFO: PixTestHighRate::doHitMap start TriggerLoop with trigger frequency 20 kHz, period 2011 and duration 5 seconds
+[15:52:42.776]     INFO: data taking finished, elapsed time: 5 seconds.
+[15:52:43.797]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:43.797]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:43.797]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:43.890]    ERROR: <datapipe.cc/DecodeDeser400:L294> Number of ROCs (6) != Token Chain Length (8)
+[15:52:43.890]  WARNING: ROC 6: Readback start marker after 15 readouts!
+[15:52:43.890]  WARNING: ROC 7: Readback start marker after 15 readouts!
+[15:52:45.176]     INFO: PixTest::       pg_setup set to default.
+[15:52:45.196]     INFO: Pixels without X-ray hits (per ROC):  1785   712   442    87    56    62    66   884   755    54    47   129    63   409   696  1837 
+[15:52:45.196]     INFO: PixTestHighRate::doRunDaq() done
+[15:52:45.196]     INFO: PixTestHighRate::doTest() done 
+[15:52:56.893]    QUIET: Connection to board 58 closed.

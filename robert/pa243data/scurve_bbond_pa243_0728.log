@@ -1,0 +1,173 @@
+[14:44:46.928]     INFO: *** Welcome to pxar ***
+[14:44:46.928]     INFO: *** Today: 2015/07/28
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C0.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C1.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C2.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C3.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C4.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C5.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C6.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C7.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C8.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C9.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C10.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C11.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C12.dat
+[14:44:46.928]     INFO:       reading data/pa243//dacParameters35_C13.dat
+[14:44:46.929]     INFO:       reading data/pa243//dacParameters35_C14.dat
+[14:44:46.929]     INFO:       reading data/pa243//dacParameters35_C15.dat
+[14:44:46.929]     INFO:       reading data/pa243//tbmParameters_C0a.dat
+[14:44:46.941]     INFO:       reading data/pa243//tbmParameters_C0b.dat
+[14:44:46.941]     INFO:       reading data/pa243//defaultMaskFile.dat
+[14:44:46.941]     INFO: MASKED Roc 0 col/row: 26 39
+[14:44:46.941]     INFO: MASKED Roc 1 col/row: 51 3
+[14:44:46.941]     INFO: MASKED Roc 1 col/row: 51 4
+[14:44:46.941]     INFO: MASKED Roc 1 col/row: 51 5
+[14:44:46.941]     INFO: MASKED Roc 4 col/row: 30 74
+[14:44:46.941]     INFO: MASKED Roc 8 col/row: 40 79
+[14:44:46.942]     INFO:   masking Roc 0 col/row: 26 39
+[14:44:46.942]     INFO:       reading data/pa243//trimParameters35_C0.dat
+[14:44:46.952]     INFO:   masking Roc 1 col/row: 51 3
+[14:44:46.952]     INFO:   masking Roc 1 col/row: 51 4
+[14:44:46.952]     INFO:   masking Roc 1 col/row: 51 5
+[14:44:46.952]     INFO:       reading data/pa243//trimParameters35_C1.dat
+[14:44:46.968]     INFO:       reading data/pa243//trimParameters35_C2.dat
+[14:44:46.975]     INFO:       reading data/pa243//trimParameters35_C3.dat
+[14:44:46.982]     INFO:   masking Roc 4 col/row: 30 74
+[14:44:46.982]     INFO:       reading data/pa243//trimParameters35_C4.dat
+[14:44:46.989]     INFO:       reading data/pa243//trimParameters35_C5.dat
+[14:44:46.996]     INFO:       reading data/pa243//trimParameters35_C6.dat
+[14:44:47.003]     INFO:       reading data/pa243//trimParameters35_C7.dat
+[14:44:47.010]     INFO:   masking Roc 8 col/row: 40 79
+[14:44:47.010]     INFO:       reading data/pa243//trimParameters35_C8.dat
+[14:44:47.017]     INFO:       reading data/pa243//trimParameters35_C9.dat
+[14:44:47.024]     INFO:       reading data/pa243//trimParameters35_C10.dat
+[14:44:47.031]     INFO:       reading data/pa243//trimParameters35_C11.dat
+[14:44:47.042]     INFO:       reading data/pa243//trimParameters35_C12.dat
+[14:44:47.048]     INFO:       reading data/pa243//trimParameters35_C13.dat
+[14:44:47.059]     INFO:       reading data/pa243//trimParameters35_C14.dat
+[14:44:47.066]     INFO:       reading data/pa243//trimParameters35_C15.dat
+[14:44:47.073]     INFO:       reading data/pa243//tbParameters.dat
+[14:44:47.073]     INFO:         clk: 4
+[14:44:47.073]     INFO:         ctr: 4
+[14:44:47.073]     INFO:         sda: 19
+[14:44:47.073]     INFO:         tin: 9
+[14:44:47.073]     INFO:         level: 15
+[14:44:47.073]     INFO:         triggerdelay: 0
+[14:44:47.073]    QUIET: Instanciating API for pxar v1.9.0
+[14:44:47.073]     INFO: Log level: INFO
+[14:44:47.103]    QUIET: Connection to board DTB_WRPRHI opened.
+[14:44:47.106]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[14:44:47.114]     INFO: RPC call hashes of host and DTB match: 413001178
+[14:44:48.724]     INFO: DUT info: 
+[14:44:48.724]     INFO: The DUT currently contains the following objects:
+[14:44:48.724]     INFO:  2 TBM Cores (2 ON)
+[14:44:48.724]     INFO: 	TBM Core alpha (0): 7 registers set
+[14:44:48.724]     INFO: 	TBM Core beta  (1): 7 registers set
+[14:44:48.724]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[14:44:48.724]     INFO: 	ROC 0: 19 DACs set, Pixels: 1 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 1: 19 DACs set, Pixels: 3 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 4: 19 DACs set, Pixels: 1 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.724]     INFO: 	ROC 8: 19 DACs set, Pixels: 1 masked, 4160 active.
+[14:44:48.725]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.725]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.725]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.725]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.725]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.725]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:48.725]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 4160 active.
+[14:44:49.419]     INFO:       reading data/pa243//phCalibrationFitErr35_C0.dat
+[14:44:49.435]     INFO:       reading data/pa243//phCalibrationFitErr35_C1.dat
+[14:44:49.451]     INFO:       reading data/pa243//phCalibrationFitErr35_C2.dat
+[14:44:49.466]     INFO:       reading data/pa243//phCalibrationFitErr35_C3.dat
+[14:44:49.481]     INFO:       reading data/pa243//phCalibrationFitErr35_C4.dat
+[14:44:49.497]     INFO:       reading data/pa243//phCalibrationFitErr35_C5.dat
+[14:44:49.512]     INFO:       reading data/pa243//phCalibrationFitErr35_C6.dat
+[14:44:49.528]     INFO:       reading data/pa243//phCalibrationFitErr35_C7.dat
+[14:44:49.543]     INFO:       reading data/pa243//phCalibrationFitErr35_C8.dat
+[14:44:49.560]     INFO:       reading data/pa243//phCalibrationFitErr35_C9.dat
+[14:44:49.575]     INFO:       reading data/pa243//phCalibrationFitErr35_C10.dat
+[14:44:49.590]     INFO:       reading data/pa243//phCalibrationFitErr35_C11.dat
+[14:44:49.606]     INFO:       reading data/pa243//phCalibrationFitErr35_C12.dat
+[14:44:49.621]     INFO:       reading data/pa243//phCalibrationFitErr35_C13.dat
+[14:44:49.636]     INFO:       reading data/pa243//phCalibrationFitErr35_C14.dat
+[14:44:49.651]     INFO:       reading data/pa243//phCalibrationFitErr35_C15.dat
+[14:44:49.730]     INFO:       reading data/pa243//readbackCal_C0.dat
+[14:44:49.737]     INFO:       reading data/pa243//readbackCal_C1.dat
+[14:44:49.746]     INFO:       reading data/pa243//readbackCal_C2.dat
+[14:44:49.751]     INFO:       reading data/pa243//readbackCal_C3.dat
+[14:44:49.755]     INFO:       reading data/pa243//readbackCal_C4.dat
+[14:44:49.755]     INFO:       reading data/pa243//readbackCal_C5.dat
+[14:44:49.756]     INFO:       reading data/pa243//readbackCal_C6.dat
+[14:44:49.756]     INFO:       reading data/pa243//readbackCal_C7.dat
+[14:44:49.758]     INFO:       reading data/pa243//readbackCal_C8.dat
+[14:44:49.765]     INFO:       reading data/pa243//readbackCal_C9.dat
+[14:44:49.766]     INFO:       reading data/pa243//readbackCal_C10.dat
+[14:44:49.766]     INFO:       reading data/pa243//readbackCal_C11.dat
+[14:44:49.770]     INFO:       reading data/pa243//readbackCal_C12.dat
+[14:44:49.770]     INFO:       reading data/pa243//readbackCal_C13.dat
+[14:44:49.774]     INFO:       reading data/pa243//readbackCal_C14.dat
+[14:44:49.777]     INFO:       reading data/pa243//readbackCal_C15.dat
+[14:44:55.706]     INFO: ######################################################################
+[14:44:55.706]     INFO: PixTestScurves::doTest() ntrig = 50
+[14:44:55.706]     INFO: ######################################################################
+[14:44:55.707]     INFO:    ----------------------------------------------------------------------
+[14:44:55.707]     INFO:    PixTestScurves::scurves(Vcal), ntrig = 50
+[14:44:55.707]     INFO:    ----------------------------------------------------------------------
+[14:44:55.707]     INFO: ---> dac: Vcal name: scurveVcal ntrig: 50 dacrange: 5 .. 65 hits flags = 16 (plus default)
+[14:44:55.740]     INFO:   dacScan step  from 5 .. 14
+[14:45:36.625]     INFO: Test took 40885ms.
+[14:45:36.803]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:45:36.803]     INFO:   dacScan step  from 15 .. 24
+[14:46:17.511]     INFO: Test took 40707ms.
+[14:46:17.688]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:46:17.688]     INFO:   dacScan step  from 25 .. 34
+[14:46:59.896]     INFO: Test took 42208ms.
+[14:47:00.226]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:47:00.261]     INFO:   dacScan step  from 35 .. 44
+[14:48:08.675]     INFO: Test took 68414ms.
+[14:48:10.019]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:48:10.112]     INFO:   dacScan step  from 45 .. 54
+[14:49:22.431]     INFO: Test took 72318ms.
+[14:49:23.806]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:49:23.898]     INFO:   dacScan step  from 55 .. 64
+[14:50:35.413]     INFO: Test took 71515ms.
+[14:50:36.775]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:50:36.866]     INFO:   dacScan step  from 65 .. 65
+[14:50:46.630]     INFO: Test took 9763ms.
+[14:50:46.766]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:51:16.920]     INFO: PixTestScurves::scurves() done 
+[14:51:16.920]     INFO: Vcal mean:  35.06  35.16  35.07  35.12  35.12  35.17  35.18  35.15  35.13  35.10  35.20  35.08  35.19  35.10  35.05  35.13 
+[14:51:16.920]     INFO: Vcal RMS:    1.06   1.22   1.00   0.87   1.02   0.91   0.85   1.42   1.07   0.85   0.91   0.91   0.90   0.82   1.04   0.93 
+[14:51:45.746]     INFO: ######################################################################
+[14:51:45.746]     INFO: PixTestBBMap::doTest() Ntrig = 5, VcalS = 250 (high range)
+[14:51:45.746]     INFO: ######################################################################
+[14:51:45.751]     INFO: ---> dac: VthrComp name: calSMap ntrig: 5 dacrange: 0 .. 149 hits flags = 2 (plus default)
+[14:51:45.778]     INFO:   dacScan step  from 0 .. 49
+[14:52:18.240]     INFO: Test took 32462ms.
+[14:52:18.377]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:52:18.378]     INFO:   dacScan step  from 50 .. 99
+[14:52:56.650]     INFO: Test took 38272ms.
+[14:52:57.187]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:52:57.377]     INFO:   dacScan step  from 100 .. 149
+[14:53:35.388]     INFO: Test took 38011ms.
+[14:53:35.852]     INFO: Fetched DAQ statistics. Counters are being reset now.
+[14:54:15.790]     INFO: PixTestBBMap::doTest() done, duration: 150 seconds
+[14:54:15.790]     INFO: number of dead bumps (per ROC):     0    0    0    0    0    1    0    2    0    0    1    0    0    1    0    0
+[14:54:15.790]     INFO: separation cut       (per ROC):    88   96   92   97   98   93   87   86   79   95   87  106   90   87  113   89
+[14:54:43.056]    QUIET: Connection to board 58 closed.

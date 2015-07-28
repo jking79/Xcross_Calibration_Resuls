@@ -1,0 +1,183 @@
+[16:24:44.005]     INFO: *** Welcome to pxar ***
+[16:24:44.005]     INFO: *** Today: 2015/07/27
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C0.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C1.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C2.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C3.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C4.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C5.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C6.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C7.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C8.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C9.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C10.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C11.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C12.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C13.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C14.dat
+[16:24:44.006]     INFO:       reading data/pa225/dacParameters35_C15.dat
+[16:24:44.007]     INFO:       reading data/pa225/tbmParameters_C0a.dat
+[16:24:44.007]     INFO:       reading data/pa225/tbmParameters_C0b.dat
+[16:24:44.007]     INFO:       reading data/pa225/defaultMaskFile.dat
+[16:24:44.007]     INFO:       reading data/pa225/trimParameters35_C0.dat
+[16:24:44.013]     INFO:       reading data/pa225/trimParameters35_C1.dat
+[16:24:44.020]     INFO:       reading data/pa225/trimParameters35_C2.dat
+[16:24:44.027]     INFO:       reading data/pa225/trimParameters35_C3.dat
+[16:24:44.033]     INFO:       reading data/pa225/trimParameters35_C4.dat
+[16:24:44.040]     INFO:       reading data/pa225/trimParameters35_C5.dat
+[16:24:44.046]     INFO:       reading data/pa225/trimParameters35_C6.dat
+[16:24:44.053]     INFO:       reading data/pa225/trimParameters35_C7.dat
+[16:24:44.059]     INFO:       reading data/pa225/trimParameters35_C8.dat
+[16:24:44.066]     INFO:       reading data/pa225/trimParameters35_C9.dat
+[16:24:44.073]     INFO:       reading data/pa225/trimParameters35_C10.dat
+[16:24:44.079]     INFO:       reading data/pa225/trimParameters35_C11.dat
+[16:24:44.086]     INFO:       reading data/pa225/trimParameters35_C12.dat
+[16:24:44.092]     INFO:       reading data/pa225/trimParameters35_C13.dat
+[16:24:44.099]     INFO:       reading data/pa225/trimParameters35_C14.dat
+[16:24:44.105]     INFO:       reading data/pa225/trimParameters35_C15.dat
+[16:24:44.112]     INFO:       reading data/pa225/tbParameters.dat
+[16:24:44.112]     INFO:         clk: 4
+[16:24:44.112]     INFO:         ctr: 4
+[16:24:44.112]     INFO:         sda: 19
+[16:24:44.112]     INFO:         tin: 9
+[16:24:44.112]     INFO:         level: 15
+[16:24:44.112]     INFO:         triggerdelay: 0
+[16:24:44.112]    QUIET: Instanciating API for pxar v1.9.0
+[16:24:44.112]     INFO: Log level: INFO
+[16:24:44.125]    QUIET: Connection to board DTB_WRPRHI opened.
+[16:24:44.129]     INFO: DTB startup information
+--- DTB info------------------------------------------
+Board id:    58
+HW version:  DTB1.2
+FW version:  3.2
+SW version:  3.6
+USB id:      DTB_WRPRHI
+MAC address: 40D85511803A
+Hostname:    pixelDTB058
+Comment:     
+------------------------------------------------------
+[16:24:44.151]     INFO: RPC call hashes of host and DTB match: 413001178
+[16:24:45.761]     INFO: DUT info: 
+[16:24:45.761]     INFO: The DUT currently contains the following objects:
+[16:24:45.761]     INFO:  2 TBM Cores (2 ON)
+[16:24:45.761]     INFO: 	TBM Core alpha (0): 7 registers set
+[16:24:45.761]     INFO: 	TBM Core beta  (1): 7 registers set
+[16:24:45.761]     INFO: 16 ROCs (16 ON) with 4160 pixelConfigs
+[16:24:45.761]     INFO: 	ROC 0: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 1: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 2: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 3: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 4: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 5: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 6: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 7: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 8: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 9: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 10: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 11: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 12: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 13: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 14: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:45.761]     INFO: 	ROC 15: 19 DACs set, Pixels: 0 masked, 4160 active.
+[16:24:46.329]     INFO:       reading data/pa225/phCalibrationFitErr35_C0.dat
+[16:24:46.347]     INFO:       reading data/pa225/phCalibrationFitErr35_C1.dat
+[16:24:46.362]     INFO:       reading data/pa225/phCalibrationFitErr35_C2.dat
+[16:24:46.378]     INFO:       reading data/pa225/phCalibrationFitErr35_C3.dat
+[16:24:46.393]     INFO:       reading data/pa225/phCalibrationFitErr35_C4.dat
+[16:24:46.408]     INFO:       reading data/pa225/phCalibrationFitErr35_C5.dat
+[16:24:46.423]     INFO:       reading data/pa225/phCalibrationFitErr35_C6.dat
+[16:24:46.439]     INFO:       reading data/pa225/phCalibrationFitErr35_C7.dat
+[16:24:46.454]     INFO:       reading data/pa225/phCalibrationFitErr35_C8.dat
+[16:24:46.469]     INFO:       reading data/pa225/phCalibrationFitErr35_C9.dat
+[16:24:46.485]     INFO:       reading data/pa225/phCalibrationFitErr35_C10.dat
+[16:24:46.500]     INFO:       reading data/pa225/phCalibrationFitErr35_C11.dat
+[16:24:46.515]     INFO:       reading data/pa225/phCalibrationFitErr35_C12.dat
+[16:24:46.530]     INFO:       reading data/pa225/phCalibrationFitErr35_C13.dat
+[16:24:46.545]     INFO:       reading data/pa225/phCalibrationFitErr35_C14.dat
+[16:24:46.560]     INFO:       reading data/pa225/phCalibrationFitErr35_C15.dat
+[16:24:46.645]     INFO:       reading data/pa225/readbackCal_C0.dat
+[16:24:46.645]     INFO:       reading data/pa225/readbackCal_C1.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C2.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C3.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C4.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C5.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C6.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C7.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C8.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C9.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C10.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C11.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C12.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C13.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C14.dat
+[16:24:46.646]     INFO:       reading data/pa225/readbackCal_C15.dat
+[16:24:50.989]     INFO: Starting IV curve measurement...
+[16:24:50.989]     INFO: Make sure the Keithley2410 is using the following RS232 settings:
+[16:24:50.990]     INFO: 	|Baud Rate: 57600
+[16:24:50.990]     INFO: 	|Bits: 8
+[16:24:50.990]     INFO: 	|Parity: ODD
+[16:24:50.990]     INFO: 	|Terminator: <CR>+<LF>
+[16:24:50.990]     INFO: 	|Control Flow: XON-XOFF
+[16:24:50.990]     INFO: [RS232] Opening com port: /dev/ttyS0 with baud: 57600
+[16:24:54.591]     INFO: V = -0.000000 (meas:   +0.00) I = -3.42e-01 uA 2015-07-27 21:24:54.591614000Z
+[16:24:56.177]     INFO: V = -5.000000 (meas:   -5.00) I = -9.48e-01 uA 2015-07-27 21:24:56.177676001Z
+[16:25:00.762]     INFO: V = -10.000000 (meas:  -10.00) I = -1.26e+00 uA 2015-07-27 21:25:00.762027000Z
+[16:25:02.338]     INFO: V = -15.000000 (meas:  -15.00) I = -1.50e+00 uA 2015-07-27 21:25:02.338673001Z
+[16:25:03.914]     INFO: V = -20.000000 (meas:  -20.00) I = -1.71e+00 uA 2015-07-27 21:25:03.914014000Z
+[16:25:05.489]     INFO: V = -25.000000 (meas:  -25.00) I = -1.89e+00 uA 2015-07-27 21:25:05.489846000Z
+[16:25:07.065]     INFO: V = -30.000000 (meas:  -30.00) I = -2.05e+00 uA 2015-07-27 21:25:07.065685001Z
+[16:25:08.642]     INFO: V = -35.000000 (meas:  -35.00) I = -2.21e+00 uA 2015-07-27 21:25:08.642083000Z
+[16:25:10.217]     INFO: V = -40.000000 (meas:  -40.00) I = -2.35e+00 uA 2015-07-27 21:25:10.217689000Z
+[16:25:11.794]     INFO: V = -45.000000 (meas:  -45.00) I = -2.49e+00 uA 2015-07-27 21:25:11.794083000Z
+[16:25:13.371]     INFO: V = -50.000000 (meas:  -50.00) I = -2.61e+00 uA 2015-07-27 21:25:13.371183000Z
+[16:25:14.947]     INFO: V = -55.000000 (meas:  -55.00) I = -2.74e+00 uA 2015-07-27 21:25:14.947036001Z
+[16:25:16.523]     INFO: V = -60.000000 (meas:  -60.00) I = -2.86e+00 uA 2015-07-27 21:25:16.523150000Z
+[16:25:18.099]     INFO: V = -65.000000 (meas:  -65.00) I = -2.97e+00 uA 2015-07-27 21:25:18.099625001Z
+[16:25:19.674]     INFO: V = -70.000000 (meas:  -70.00) I = -3.09e+00 uA 2015-07-27 21:25:19.674838000Z
+[16:25:21.251]     INFO: V = -75.000000 (meas:  -75.00) I = -3.21e+00 uA 2015-07-27 21:25:21.251863000Z
+[16:25:22.828]     INFO: V = -80.000000 (meas:  -80.00) I = -3.33e+00 uA 2015-07-27 21:25:22.828098000Z
+[16:25:24.404]     INFO: V = -85.000000 (meas:  -85.00) I = -3.44e+00 uA 2015-07-27 21:25:24.404819000Z
+[16:25:25.982]     INFO: V = -90.000000 (meas:  -90.00) I = -3.54e+00 uA 2015-07-27 21:25:25.982090000Z
+[16:25:27.558]     INFO: V = -95.000000 (meas:  -95.00) I = -3.65e+00 uA 2015-07-27 21:25:27.558598000Z
+[16:25:29.136]     INFO: V = -100.000000 (meas: -100.00) I = -3.77e+00 uA 2015-07-27 21:25:29.136367001Z
+[16:25:30.713]     INFO: V = -105.000000 (meas: -105.00) I = -3.89e+00 uA 2015-07-27 21:25:30.713084000Z
+[16:25:32.289]     INFO: V = -110.000000 (meas: -110.00) I = -4.00e+00 uA 2015-07-27 21:25:32.289298000Z
+[16:25:33.865]     INFO: V = -115.000000 (meas: -115.00) I = -4.12e+00 uA 2015-07-27 21:25:33.865779001Z
+[16:25:35.442]     INFO: V = -120.000000 (meas: -120.00) I = -4.24e+00 uA 2015-07-27 21:25:35.442365000Z
+[16:25:37.018]     INFO: V = -125.000000 (meas: -125.00) I = -4.36e+00 uA 2015-07-27 21:25:37.018302000Z
+[16:25:38.594]     INFO: V = -130.000000 (meas: -130.00) I = -4.48e+00 uA 2015-07-27 21:25:38.594928000Z
+[16:25:40.171]     INFO: V = -135.000000 (meas: -135.00) I = -4.60e+00 uA 2015-07-27 21:25:40.171562001Z
+[16:25:41.749]     INFO: V = -140.000000 (meas: -140.00) I = -4.72e+00 uA 2015-07-27 21:25:41.749036001Z
+[16:25:43.325]     INFO: V = -145.000000 (meas: -145.00) I = -4.84e+00 uA 2015-07-27 21:25:43.325636000Z
+[16:25:44.902]     INFO: V = -150.000000 (meas: -150.00) I = -4.96e+00 uA 2015-07-27 21:25:44.902320000Z
+[16:25:46.478]     INFO: V = -155.000000 (meas: -155.00) I = -5.09e+00 uA 2015-07-27 21:25:46.478923000Z
+[16:25:48.055]     INFO: V = -160.000000 (meas: -160.00) I = -5.21e+00 uA 2015-07-27 21:25:48.055582000Z
+[16:25:49.633]     INFO: V = -165.000000 (meas: -165.00) I = -5.34e+00 uA 2015-07-27 21:25:49.633100000Z
+[16:25:51.210]     INFO: V = -170.000000 (meas: -170.00) I = -5.47e+00 uA 2015-07-27 21:25:51.210442001Z
+[16:25:52.786]     INFO: V = -175.000000 (meas: -175.00) I = -5.59e+00 uA 2015-07-27 21:25:52.786376000Z
+[16:25:54.363]     INFO: V = -180.000000 (meas: -180.00) I = -5.72e+00 uA 2015-07-27 21:25:54.363159000Z
+[16:25:55.940]     INFO: V = -185.000000 (meas: -185.00) I = -5.86e+00 uA 2015-07-27 21:25:55.940004000Z
+[16:25:57.518]     INFO: V = -190.000000 (meas: -190.00) I = -5.99e+00 uA 2015-07-27 21:25:57.518249000Z
+[16:25:59.094]     INFO: V = -195.000000 (meas: -195.00) I = -6.13e+00 uA 2015-07-27 21:25:59.094522000Z
+[16:26:00.671]     INFO: V = -200.000000 (meas: -200.00) I = -6.30e+00 uA 2015-07-27 21:26:00.671954000Z
+[16:26:02.248]     INFO: V = -205.000000 (meas: -205.00) I = -6.72e+00 uA 2015-07-27 21:26:02.248618000Z
+[16:26:03.825]     INFO: V = -210.000000 (meas: -210.00) I = -7.63e+00 uA 2015-07-27 21:26:03.825914000Z
+[16:26:05.403]     INFO: V = -215.000000 (meas: -215.00) I = -8.86e+00 uA 2015-07-27 21:26:05.403699001Z
+[16:26:08.484]     INFO: V = -220.000000 (meas: -220.00) I = -1.17e+01 uA 2015-07-27 21:26:08.484512000Z
+[16:26:10.061]     INFO: V = -225.000000 (meas: -225.00) I = -1.49e+01 uA 2015-07-27 21:26:10.061752001Z
+[16:26:11.639]     INFO: V = -230.000000 (meas: -230.00) I = -1.88e+01 uA 2015-07-27 21:26:11.639319000Z
+[16:26:13.217]     INFO: V = -235.000000 (meas: -235.00) I = -2.36e+01 uA 2015-07-27 21:26:13.217362000Z
+[16:26:14.794]     INFO: V = -240.000000 (meas: -240.00) I = -2.92e+01 uA 2015-07-27 21:26:14.793976001Z
+[16:26:16.370]     INFO: V = -245.000000 (meas: -245.00) I = -3.48e+01 uA 2015-07-27 21:26:16.370654001Z
+[16:26:17.947]     INFO: V = -250.000000 (meas: -250.00) I = -4.08e+01 uA 2015-07-27 21:26:17.947245001Z
+[16:26:19.524]     INFO: V = -255.000000 (meas: -255.00) I = -4.81e+01 uA 2015-07-27 21:26:19.524631000Z
+[16:26:21.101]     INFO: V = -260.000000 (meas: -260.00) I = -5.59e+01 uA 2015-07-27 21:26:21.101888000Z
+[16:26:22.679]     INFO: V = -265.000000 (meas: -265.00) I = -6.13e+01 uA 2015-07-27 21:26:22.679812000Z
+[16:26:24.258]     INFO: V = -270.000000 (meas: -270.00) I = -7.05e+01 uA 2015-07-27 21:26:24.258745000Z
+[16:26:25.837]     INFO: V = -275.000000 (meas: -275.00) I = -7.82e+01 uA 2015-07-27 21:26:25.837583001Z
+[16:26:27.416]     INFO: V = -280.000000 (meas: -280.00) I = -8.88e+01 uA 2015-07-27 21:26:27.416731000Z
+[16:26:28.995]     INFO: V = -285.000000 (meas: -285.00) I = -9.76e+01 uA 2015-07-27 21:26:28.995212000Z
+[16:26:30.614]     INFO: V = -290.000000 (meas: -290.00) I = -1.00e+02 uA 2015-07-27 21:26:30.614050001Z
+[16:26:30.648]  WARNING: Sweep Aborted on Compliance!
+[16:26:30.660]     INFO: PixTestIV::doTest() done 
+[16:38:33.707]    QUIET: Connection to board 58 closed.
